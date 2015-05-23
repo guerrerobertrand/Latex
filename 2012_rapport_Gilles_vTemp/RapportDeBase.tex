@@ -1,0 +1,71 @@
+\documentclass[12pt,twoside, a4paper]{report}
+\usepackage[T1]{fontenc}
+%path [ansinew]{inputenc}
+\usepackage[francais]{babel}
+\usepackage{mathptmx}
+\usepackage[french]{minitoc}
+\usepackage[french, ruled, vlined]{algorithm2e}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{lscape}
+\usepackage[french]{algorithm2e} 
+\usepackage{natbib}
+\usepackage{here}
+\usepackage{float}
+\usepackage{hyperref}
+
+
+%\usepackage{m2rinfo}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[utf8x]{inputenc}
+\usepackage{geometry}
+%\usepackage[authoryear]{natbib}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,
+lmargin=3cm,rmargin=2cm,headsep=0cm}
+%\usepackage[normalem]{ulem}
+\usepackage[final]{pdfpages} 
+
+
+\makeglossary
+
+\begin{document}
+
+%\paragraph*{\pagenumbering{Roman}}
+\includepdf{page_gardeM2.pdf}
+\pagenumbering{roman} \setcounter{page}{1} 
+
+\include{Chapitres/Remerciements} 
+
+\renewcommand{\contentsname}{Sommaire} %dans le corps du document, avant la commande \tableofcontents .
+
+\include{Chapitres/tableMatiere}
+
+\pagenumbering{arabic} \setcounter{page}{1} 
+
+\include{Chapitres/Introduction}
+
+\include{Chapitres/Contexte}
+
+\include{Chapitres/EtatArt}
+
+\include{Chapitres/Methodologie}
+
+\include{Chapitres/Resultats}
+
+\include{Chapitres/Conclusion}
+
+\include{Chapitres/Glossaire}
+
+\include{Chapitres/Annexes}
+
+%\include{Chapitres/Bibliographie}
+
+\bibliographystyle{apalike-fr} % Le style est mis entre crochets.
+\bibliography{RapportBiblio}
+
+%\include{Chapitres/Sections/PrincipesGeneraux}
+
+
+
+\end{document}

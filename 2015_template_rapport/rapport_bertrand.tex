@@ -1,0 +1,176 @@
+\documentclass[french,12pt, a4paper,twoside,openright]{report}
+\usepackage[T1]{fontenc}
+\usepackage[french, ruled, vlined]{algorithm2e}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm,headsep=1cm}
+
+\makeglossary
+
+\begin{document}
+
+\title{Développement de web services 
+d’import de données pour la constitution automatique 
+de réseaux de transport multi-modaux}
+\author{Bertrand \textsc{GUERRERO}}
+\date{Le \today}
+
+
+\maketitle                      % Pour produire la page de titre.
+
+\strut\thispagestyle{empty}     % Je mets un truc invisible (\strut) sur la
+                                % page juste apres. On met les references ISBN
+                                % dans les bouquins. et j'indique que je ne souhaite
+                                % pas voir le numero de page (\this...{empty})
+\vfill                          % Je remplis avec du rien (\vfill}
+\pagebreak                      % Je change de page.
+
+\setcounter{page}{1}            % Je recommence la numerotation a un pour pas
+                                % decaler l'alternance droite/gauche et que
+                                % les pages impaires soient bien a droite.
+
+\tableofcontents
+
+\chapter*{Résumé}
+\addcontentsline{toc}{chapter}{Résumé}
+\chaptermark{Résumé}
+
+Voici l'introduction de mon rapport, elle est tr\`es jolie et tout et tout.
+Tu noteras que dans un rapport en \LaTeX{}, il n'y a que ce qui se trouve
+\textsc{avant} le \verb"\begin{document}" qui est d\'ependant de la machine
+utilis\'ee.
+
+En effet, le reste est du standard \LaTeX{} \`a peu pr\`es ind\'ependant de
+l'installation effectu\'ee. Par exemple, il est probable que sur ton site en
+Grande-Bretagne le fran\c{c}ais soit convenablement install\'e.
+
+De toutes fa\c{c}on tu t'en fiche, je pense que ton rapport sera en anglais.
+Pour ce faire, il suffit de virer le \verb"[french]" dans la premiere ligne,
+le \verb"\usepackage[T1]{fontenc}" et le \verb"babel". Apr\`es, tu te retrouves
+avec le standard am\'ericain. L\`a o\`u cela se corse c'est que si tu met du
+fran\c{c}ais, il risque de faire des fautes. Par exemple, avec les mod\`eles
+de c\'esure\footnote{coupure des mots en fin de ligne} am\'ericain, il tol\`ere
+une c\'esure entre le <<n>> et le <<c>> de <<donc>>. Si << et >> donnent des
+points d'interrogation bizarres, c'est que tu as vir\'e la ligne sur le
+\verb"fontenc".
+
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\chaptermark{Abstract}
+
+\part{\'Etude pr\'eliminaire}
+
+\chapter{On a commenc\'e}
+
+\section{Le commencement}
+
+C'est par l\`a qu'on a commenc\'e, comme d'habitude.
+
+\section{Juste apr\`es}
+
+Ben on a continu\'e de commencer. Mais plus fort.
+
+\section{Enfin}
+
+On a fini de commencer, ce qui fait qu'on \'etait \'epuis\'e. C'est harassant de
+devoir travailler des heures enti\`eres (oui, facilement deux depuis le d\'ebut).
+Et comme on s'emmerdait, on a pris le temps de lire des livres passionnant sur
+le sujet, alors on a mis une citation rigolote:
+
+\begin{quote}\small
+As promised in the first edition of this book, C++ has been evolving to meet
+the needs of its users. This evolution has been guided by the experience of
+users of widely varying backgrounds working in a great range of application
+areas. The C++ user-community has grown a hundredflod during the six years
+since the first edition of this book; many lessons have been learned, and
+many techniques have been discovered and/or validated by experience. Some of
+these experiences are reflected here.
+
+\hfill \textit{The C++ Programming Language}, Bjarne \textsc{Stroustrup}
+\end{quote}
+
+\chapter{On a \'etudi\'e pr\'eliminairement}
+
+Y fallait bien qu'on s'occupe.
+
+\section{Pr\'eliminaires \`a l'\'etude pr\'eliminaire}
+
+Ben, euh\ldots, dodo, p'tit dej' Kfet, re-dodo, mais en cours cette fois,
+pis ensuite manger-pas-bon-Eurest, pis c'est tout. On allait pas bosser
+non plus. Non mais.
+
+\section{Pr\'eliminaires \`a l'\'etude principale}
+
+Ben, pile poil pareil.
+
+\section{\'Etude pr\'eliminaire finale}
+
+Pfou\ldots{} Affreux. Tu peux pas t'imaginer. \c{C}a a demand\'e au moins
+dix minutes de boulot pour se souvenir ou on avait ranger le jeux de belote.
+
+\chapter{On a retenur de l'\'etude pr\'eliminaire qu'on a fait \`a la Kfet}
+
+\section{Le jeu de belote il est tout sale}
+
+Alors il faut en acheter un autre tout neuf pour qu'on puisse faire le difficile
+projet!
+
+\section{La Kfet elle ferme tr\`es t\^ot}
+
+Alors on pourra pas bosser beaucoup vu qu'on arrive a midi.
+
+\section{Eurest c'est pas bon}
+
+Alors on ira manger ailleurs autant qu'on pourra.
+
+\part{\'Etude principale}
+
+\chapter{Le premier sur l'\'etude principale}
+
+\chapter{Le second sur l'\'etude principale}
+
+\chapter{Le troisi\`eme sur la m\^eme chose}
+
+\part{Les projets d'avenir}
+
+\chapter{Extension de la Kfet \`a tout l'ESIEE}
+
+\chapter{Suppression des cours d\'ebiles}
+
+\chapter{Euthanasie des profs cons}
+
+\chapter{Euthanasie des administratifs cons}
+
+\section{Y sont nombreux en plus}
+
+\chapter*{Conclusion}
+\addcontentsline{toc}{chapter}{Conclusion}
+\chaptermark{Conclusion}
+
+Heureusement que le projet il durait pas plus longtemps parce que \c{c}a coute
+vachement cher de glander \`a la Kfet toute la journ\'ee.
+
+\part{Annexes}
+
+\appendix
+
+\chapter{R\'esultats chiffr\'es}
+
+\begin{tabular}{|l|r|r|r|}                                        \hline
+                      & D\'epenses     & Recettes   & Bilan    \\ \hline
+Caf\'e                & 3658,25 F      & 1,75 F     & -3656,50 \\ \hline
+Croissant             & 1548,12 F      & 0,00 F     & -1548,12 \\ \hline
+Beignet               &  925,30 F      & 8,25 F     &  -917,05 \\ \hline
+                                                                  \hline
+Total                 & 6131,67 F      & 10,00 F    & \textbf{-6121,67} \\ \hline
+\end{tabular}
+
+\chapter{R\'esultats humains}
+
+Ben je m'est beaucoup amus\'e. Pas vous?
+
+\end{document}

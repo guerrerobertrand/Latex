@@ -1,0 +1,29 @@
+\select@language {french}
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Introduction}{3}
+\contentsline {chapter}{\numberline {2}Contexte et probl\IeC {\'e}matique}{4}
+\contentsline {section}{\numberline {2.1}Principes g\IeC {\'e}n\IeC {\'e}raux}{4}
+\contentsline {section}{\numberline {2.2}Le logiciel SIEL}{4}
+\contentsline {section}{\numberline {2.3}Probl\IeC {\'e}matique du stage}{4}
+\contentsline {chapter}{\numberline {3}Etat de l'art}{5}
+\contentsline {section}{\numberline {3.1}Paludisme}{5}
+\contentsline {subsection}{\numberline {3.1.1}Facteurs de risque}{5}
+\contentsline {section}{\numberline {3.2}Cha\IeC {\^\i }ne de traitements existants}{5}
+\contentsline {subsection}{\numberline {3.2.1}Architecture / Langages informatiques utilis\IeC {\'e}s}{5}
+\contentsline {chapter}{\numberline {4}M\IeC {\'e}thodologie}{6}
+\contentsline {section}{\numberline {4.1}Sch\IeC {\'e}ma du cycle du paludisme}{6}
+\contentsline {section}{\numberline {4.2}Conceptualisation de la base de donn\IeC {\'e}es}{6}
+\contentsline {subsection}{\numberline {4.2.1}Mod\IeC {\`e}le conceptuel}{6}
+\contentsline {subsection}{\numberline {4.2.2}Mod\IeC {\`e}le relationel}{6}
+\contentsline {subsection}{\numberline {4.2.3}Mod\IeC {\`e}le physique / technique}{6}
+\contentsline {section}{\numberline {4.3}Cha\IeC {\^\i }ne de traitements}{6}
+\contentsline {subsection}{\numberline {4.3.1}Mod\IeC {\`e}le des donn\IeC {\'e}es}{6}
+\contentsline {subsection}{\numberline {4.3.2}Mod\IeC {\`e}le des traitements}{6}
+\contentsline {subsection}{\numberline {4.3.3}Choix architecture informatique}{6}
+\contentsline {chapter}{\numberline {5}R\IeC {\'e}sultats}{7}
+\contentsline {section}{\numberline {5.1}Test cha\IeC {\^\i }ne de traitements}{7}
+\contentsline {section}{\numberline {5.2}Discussion}{7}
+\contentsline {section}{\numberline {5.3}Perspectives}{7}
+\contentsline {chapter}{\numberline {6}Conclusion}{8}
+\contentsline {chapter}{\numberline {7}Glossaire et d\IeC {\'e}finitions{}}{9}
+\contentsline {chapter}{\numberline {8}Bibliographie}{10}

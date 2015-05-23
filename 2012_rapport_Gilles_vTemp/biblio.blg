@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: biblio.aux
+The style file: unsrt.bst
+Database file #1: biblio.bib.bib
+Warning--empty journal in ref1
+Warning--empty year in ref1
+Warning--empty journal in ref2
+Warning--empty year in ref2
+Warning--empty journal in ref3
+Warning--empty year in ref3
+Warning--empty author in ref5
+Warning--empty journal in ref5
+Warning--empty year in ref5
+Warning--empty author in ref6
+Warning--empty journal in ref6
+Warning--empty year in ref6
+Warning--empty author in ref8
+Warning--empty journal in ref8
+Warning--empty year in ref8
+Warning--empty journal in ref10
+Warning--empty author in ref11
+Warning--empty title in ref11
+Warning--empty journal in ref11
+Warning--empty year in ref11
+Warning--empty journal in ref12
+Warning--empty journal in ref13
+Warning--empty journal in ref14
+Name 3 in "Ermert, Volker AND Fink,Andreas H. AND Jones, Anne E, AND Morse, Andrew P." has a comma at the end for entry ref16
+while executing---line 944 of file unsrt.bst
+Name 3 in "Ermert, Volker AND Fink,Andreas H. AND Jones, Anne E, AND Morse, Andrew P." has a comma at the end for entry ref17
+while executing---line 944 of file unsrt.bst
+Warning--empty journal in ref19
+You've used 19 entries,
+            1791 wiz_defined-function locations,
+            521 strings with 7019 characters,
+and the built_in function-call counts, 4712 in all, are:
+= -- 333
+> -- 317
+< -- 9
++ -- 114
+- -- 95
+* -- 348
+:= -- 747
+add.period$ -- 48
+call.type$ -- 19
+change.case$ -- 18
+chr.to.int$ -- 0
+cite$ -- 43
+duplicate$ -- 226
+empty$ -- 375
+format.name$ -- 95
+if$ -- 1034
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 19
+newline$ -- 89
+num.names$ -- 15
+pop$ -- 94
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 145
+stack$ -- 0
+substring$ -- 183
+swap$ -- 72
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 24
+while$ -- 32
+width$ -- 21
+write$ -- 168
+(There were 2 error messages)

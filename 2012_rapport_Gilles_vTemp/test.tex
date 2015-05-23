@@ -1,0 +1,97 @@
+\documentclass[12pt,twoside,english,french]{report}
+
+\usepackage{lmodern}
+
+\renewcommand{\familydefault}{\rmdefault}
+
+\usepackage[T1]{fontenc}
+
+\usepackage[utf8x]{inputenc}
+
+\usepackage[a4paper]{geometry}
+
+%\geometry{verbose,tmargin=2.5cm,bmargin=3cm,lmargin=3cm,rmargin=2.5cm}
+
+%\setcounter{secnumdepth}{3}
+
+%\setcounter{tocdepth}{3}
+
+\usepackage{babel}
+
+%\addto\extrasfrench{%
+%	   \providecommand{\og}{\leavevmode\flqq~}%
+%
+% 	  \providecommand{\fg}{\ifdim\lastskip>\z@\unskip\fi~\frqq}%
+%
+%}
+
+\usepackage{setspace}
+
+\usepackage[authoryear]{natbib}
+
+\onehalfspacing
+
+
+
+\usepackage{breakurl}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+
+%% Because html converters don't know tabularnewline
+
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+
+\usepackage{enumitem}		% customizable list environments
+
+\newlength{\lyxlabelwidth}      % auxiliary length 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+
+%\usepackage[tight]{shorttoc}
+
+%\setlength{\parindent}{1.25cm}
+
+%\renewcommand{\thepart}{\arabic{part}}
+
+\makeatother
+
+\begin{document}
+%\paragraph*{\pagenumbering{Roman}}
+\pagenumbering{roman} \setcounter{page}{1} 
+
+\include{Chapitres/Remerciements} 
+
+\renewcommand{\contentsname}{Sommaire} %dans le corps du document, avant la commande \tableofcontents .
+
+\pagenumbering{arabic} \setcounter{page}{1} 
+
+\include{Chapitres/tableMatiere}
+
+\include{Chapitres/Introduction}
+
+\include{Chapitres/Contexte}
+
+\include{Chapitres/EtatArt}
+
+\include{Chapitres/Methodologie}
+
+\include{Chapitres/Resultats}
+
+\include{Chapitres/Conclusion}
+
+\include{Chapitres/Glossaire}
+
+\include{Chapitres/Bibliographie}
+
+
+
+
+%\include{Chapitres/Sections/PrincipesGeneraux}
+
+
+
+\end{document}

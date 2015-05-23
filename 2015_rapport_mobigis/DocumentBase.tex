@@ -1,0 +1,134 @@
+\documentclass[12pt,twoside,english,french]
+\author{Bertrand Guerrero}
+\usepackage{etex}
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=3.5cm,bmargin=3cm,lmargin=3cm,rmargin=2cm,headsep=1.75cm}
+%\setcounter{secnumdepth}{4}
+%\setcounter{tocdepth}{4}
+\usepackage[francais]{babel}
+\addto\extrasfrench{%
+   \providecommand{\og}{\leavevmode\flqq~}%
+   \providecommand{\fg}{\ifdim\lastskip>\z@\unskip\fi~\frqq}%
+}
+\usepackage[thinlines]{easymat}
+\usepackage{lscape}
+\usepackage{pslatex}
+\usepackage{txfonts}
+\usepackage{footnote}
+%\usepackage{mathptmx}
+\usepackage{setspace}
+\usepackage{natbib}
+\onehalfspacing
+\usepackage[unicode=true,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=true,pdfborder={0 0 0},backref=false,colorlinks=true, citecolor=Gray, linkcolor=blue, urlcolor=blue]
+ {hyperref}
+%\usepackage{numprint}
+\usepackage{breakurl}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{here}
+\usepackage{float}
+\usepackage[french, ruled, vlined]{algorithm2e}
+\graphicspath{{Images/}}
+\usepackage{caption}
+\usepackage{subcaption}
+\captionsetup{figurewithin=none}  
+\captionsetup{tablewithin=none}
+\usepackage{lettrine}
+\renewcommand{\LettrineFontHook}{\color[gray]{0.5}}
+\usepackage[svgnames]{xcolor}
+\xdefinecolor{DarkOliveGreen}{named}{DarkOliveGreen}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage[]{tocbibind}
+\usepackage{makeidx}
+\usepackage{textcomp}
+\usepackage[final]{pdfpages} 
+
+
+
+
+
+\makeatletter
+
+
+
+\makeindex
+\newenvironment{changemargin}[2]{\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{0pt}%
+\setlength{\rightmargin}{0pt}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{0pt plus 1pt}%
+\addtolength{\leftmargin}{#1}%
+\addtolength{\rightmargin}{#2}%
+}\item }{\end{list}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\usepackage{enumitem}		% customizable list environments
+\newlength{\lyxlabelwidth}      % auxiliary length 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\renewcommand{\thefigure}{\ifnum \c@chapter>\z@ \thechapter.\fi
+ \@arabic\c@figure}
+\@addtoreset{figure}{chapter}
+
+\renewcommand{\thetable}{\ifnum \c@chapter>\z@ \thechapter.\fi
+ \@arabic\c@table}
+\@addtoreset{table}{chapter}
+
+
+
+\makeatother
+
+\begin{document}
+
+%\paragraph*{\pagenumbering{Roman}}
+\includepdf{page_garde.pdf}
+
+\pagenumbering{roman} \setcounter{page}{1} 
+
+\include{Remerciements}
+
+\include{Abstract} 
+
+\renewcommand{\contentsname}{Sommaire} %dans le corps du document, avant la commande \tableofcontents .
+
+\include{Sommaire}
+
+\pagenumbering{arabic} \setcounter{page}{1} 
+
+\include{Introduction}
+
+\include{AnalyseConception}
+
+\include{Developpement}
+
+\include{Conclusion}
+
+\include{Glossaire}
+
+\include{Annexes}
+
+\include{Bibliographie}
+\nocite{*}
+\bibliographystyle{apalike-fr} % Le style est mis entre crochets.
+%\bibliography{RapportBiblio}
+
+%\include{Chapitres/Sections/PrincipesGeneraux}
+
+
+
+\end{document}

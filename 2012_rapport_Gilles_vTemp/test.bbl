@@ -1,0 +1,21 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
+
+\bibitem[Machault \emph{et~al.}, 2011]{ref4}
+\bgroup\fonteauteurs\bgroup Machault\egroup\egroup{}, V.,
+  \bgroup\fonteauteurs\bgroup Vignolles\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup BORCHI\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup Vounatsou\egroup\egroup{}, P.,
+  \bgroup\fonteauteurs\bgroup Pages\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup Briolant\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Lacaux\egroup\egroup{}, J.-P. et
+  \bgroup\fonteauteurs\bgroup Rogier\egroup\egroup{}, C. (2011).
+\newblock The use of remotely sensed environmental data in the study of
+  malaria.
+\newblock {\em Geospatial Health}, pages 151--168.
+
+\end{thebibliography}

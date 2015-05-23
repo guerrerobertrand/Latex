@@ -1,0 +1,28 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Introduction}{3}
+\contentsline {chapter}{\numberline {2}Contexte et probl\IeC {\'e}matique}{5}
+\contentsline {section}{\numberline {2.1}Principes g\IeC {\'e}n\IeC {\'e}raux}{5}
+\contentsline {section}{\numberline {2.2}Le logiciel SIEL}{5}
+\contentsline {section}{\numberline {2.3}Probl\IeC {\'e}matique du stage}{5}
+\contentsline {chapter}{\numberline {3}Etat de l'art}{6}
+\contentsline {section}{\numberline {3.1}Environnement-sant\IeC {\'e}}{6}
+\contentsline {subsection}{\numberline {3.1.1}D\IeC {\'e}finitions...}{6}
+\contentsline {subsection}{\numberline {3.1.2}Facteurs de risque Paludisme}{6}
+\contentsline {section}{\numberline {3.2}Approches logicielles existantes}{6}
+\contentsline {subsection}{\numberline {3.2.1}Architecture / Langages informatiques utilis\IeC {\'e}s}{6}
+\contentsline {chapter}{\numberline {4}M\IeC {\'e}thodologie}{7}
+\contentsline {section}{\numberline {4.1}Mod\IeC {\`e}le du cycle du paludisme}{7}
+\contentsline {section}{\numberline {4.2}Cha\IeC {\^\i }ne de traitements}{7}
+\contentsline {subsection}{\numberline {4.2.1}Mod\IeC {\`e}le des traitements}{7}
+\contentsline {subsection}{\numberline {4.2.2}Choix architecture informatique}{8}
+\contentsline {section}{\numberline {4.3}Conceptualisation de la base de donn\IeC {\'e}es}{8}
+\contentsline {subsection}{\numberline {4.3.1}Mod\IeC {\`e}le conceptuel}{8}
+\contentsline {subsection}{\numberline {4.3.2}Mod\IeC {\`e}le relationnel}{8}
+\contentsline {subsection}{\numberline {4.3.3}Mod\IeC {\`e}le physique / technique}{8}
+\contentsline {chapter}{\numberline {5}R\IeC {\'e}sultats}{9}
+\contentsline {section}{\numberline {5.1}Les cha\IeC {\^\i }nes de traitements}{9}
+\contentsline {section}{\numberline {5.2}Discussion}{9}
+\contentsline {section}{\numberline {5.3}Perspectives}{9}
+\contentsline {chapter}{\numberline {6}Conclusion}{10}
+\contentsline {chapter}{\numberline {7}Glossaire et d\IeC {\'e}finitions{}}{11}
+\contentsline {chapter}{\numberline {8}Bibliographie}{12}

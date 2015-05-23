@@ -1,0 +1,19 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
+
+\bibitem[Gaudart \emph{et~al.}, ]{ref1}
+\bgroup\fonteauteurs\bgroup Gaudart\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Dessay\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Touré\egroup\egroup{}, O.,
+  \bgroup\fonteauteurs\bgroup Fané\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Sabatier\egroup\egroup{}, P. et
+  \bgroup\fonteauteurs\bgroup Doumbo\egroup\egroup{}, O.
+\newblock Développement d'une méthodologie appliqué à l'évaluation du
+  risque palustre au mali.
+\newblock page~27.
+
+\end{thebibliography}

@@ -1,0 +1,56 @@
+\documentclass[12pt, a4paper]{report}
+\usepackage[T1]{fontenc}
+%\usepackage[ansinew]{inputenc}
+\usepackage[francais]{babel}
+\usepackage[french]{minitoc}
+\usepackage[french, ruled, vlined]{algorithm2e}
+\usepackage{graphicx}
+\usepackage{makeidx}
+%\usepackage{m2rinfo}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+%\usepackage[authoryear]{natbib}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm,headsep=1cm}
+%\usepackage[normalem]{ulem}
+
+
+\makeglossary
+
+\begin{document}
+%\paragraph*{\pagenumbering{Roman}}
+\pagenumbering{roman} \setcounter{page}{1} 
+
+\include{Chapitres/Remerciements} 
+
+\renewcommand{\contentsname}{Sommaire} %dans le corps du document, avant la commande \tableofcontents .
+
+\pagenumbering{arabic} \setcounter{page}{1} 
+
+\include{Chapitres/tableMatiere}
+
+\include{Chapitres/Introduction}
+
+\include{Chapitres/Contexte}
+
+\include{Chapitres/EtatArt}
+
+\include{Chapitres/Methodologie}
+
+\include{Chapitres/Resultats}
+
+\include{Chapitres/Conclusion}
+
+\include{Chapitres/Glossaire}
+
+\include{Chapitres/Bibliographie}
+
+
+
+
+%\include{Chapitres/Sections/PrincipesGeneraux}
+
+
+
+\end{document}

@@ -1,0 +1,141 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Contexte et probl\IeC {\'e}matique}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Principes g\IeC {\'e}n\IeC {\'e}raux}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Le logiciel SIEL}{3}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Architecture SIEL}{4}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}La cha\IeC {\^\i }ne de traitements du SIEL}{4}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Probl\IeC {\'e}matiques du stage}{4}{section.2.3}
+\contentsline {chapter}{\numberline {3}Contexte th\IeC {\'e}matique}{6}{chapter.3}
+\contentsline {section}{\numberline {3.1}Interaction environnement-sant\IeC {\'e}}{6}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}D\IeC {\'e}finitions}{6}{subsection.3.1.1}
+\contentsline {subsubsection}{Approche environnement-sant\IeC {\'e}}{6}{section*.3}
+\contentsline {subsubsection}{Paludisme}{6}{section*.4}
+\contentsline {subsubsection}{Vuln\IeC {\'e}rabilit\IeC {\'e}}{7}{section*.5}
+\contentsline {subsubsection}{Al\IeC {\'e}a}{7}{section*.6}
+\contentsline {subsubsection}{Risque}{7}{section*.7}
+\contentsline {subsubsection}{Facteur de risque}{7}{section*.8}
+\contentsline {subsubsection}{Indicateur}{8}{section*.9}
+\contentsline {subsubsection}{Carte de risque}{8}{section*.10}
+\contentsline {subsection}{\numberline {3.1.2}Facteurs de risque de transmission du paludisme}{8}{subsection.3.1.2}
+\contentsline {subsubsection}{Facteurs environnementaux}{8}{section*.11}
+\contentsline {subsubsection}{Explications}{9}{section*.12}
+\contentsline {paragraph}{Pr\IeC {\'e}cipitation:}{9}{section*.13}
+\contentsline {paragraph}{Temp\IeC {\'e}rature:}{9}{section*.14}
+\contentsline {paragraph}{Distance point eau}{9}{section*.15}
+\contentsline {paragraph}{Caract\IeC {\'e}ristiques du point eau}{9}{section*.16}
+\contentsline {paragraph}{Altitude}{9}{section*.17}
+\contentsline {paragraph}{Humidit\IeC {\'e} de l'air}{10}{section*.18}
+\contentsline {paragraph}{Humidit\IeC {\'e} du sol}{10}{section*.19}
+\contentsline {paragraph}{V\IeC {\'e}g\IeC {\'e}tation:}{10}{section*.20}
+\contentsline {subsubsection}{Facteurs biologiques = marqueur de risque}{10}{section*.21}
+\contentsline {paragraph}{\IeC {\'E}tat de sant\IeC {\'e} de la personne}{10}{section*.22}
+\contentsline {paragraph}{Densit\IeC {\'e} du vecteur}{10}{section*.23}
+\contentsline {paragraph}{Transmission Homme-Moustique}{10}{section*.24}
+\contentsline {paragraph}{Immunit\IeC {\'e}}{11}{section*.25}
+\contentsline {paragraph}{Age}{11}{section*.26}
+\contentsline {subsubsection}{Facteurs humains}{11}{section*.27}
+\contentsline {paragraph}{Urbanisation}{11}{section*.28}
+\contentsline {paragraph}{Agriculture / Irrigation}{11}{section*.29}
+\contentsline {paragraph}{Qualit\IeC {\'e} syst\IeC {\`e}me de sant\IeC {\'e}}{11}{section*.30}
+\contentsline {paragraph}{Croissance d\IeC {\'e}mographique / Facteurs socio-\IeC {\'e}conomiques}{11}{section*.31}
+\contentsline {subsubsection}{Alea et Vuln\IeC {\'e}rabilit\IeC {\'e} selon les facteurs}{12}{section*.32}
+\contentsline {section}{\numberline {3.2}Approches logicielles existantes}{13}{section.3.2}
+\contentsline {subsubsection}{Repast Simphony}{14}{section*.33}
+\contentsline {subsubsection}{Maxent}{14}{section*.34}
+\contentsline {subsubsection}{OpenModeller}{14}{section*.35}
+\contentsline {subsection}{\numberline {3.2.1}Cas d'utilisation concret dans le contexte environnement-sant\IeC {\'e}:}{14}{subsection.3.2.1}
+\contentsline {subsubsection}{Le projet SimMasto}{14}{section*.36}
+\contentsline {subsection}{\numberline {3.2.2}Conclusion}{15}{subsection.3.2.2}
+\contentsline {chapter}{\numberline {4}M\IeC {\'e}thodologie}{16}{chapter.4}
+\contentsline {section}{\numberline {4.1}Analyse}{16}{section.4.1}
+\contentsline {subsubsection}{Pr\IeC {\'e}cision mod\IeC {\`e}le conceptuel}{18}{section*.37}
+\contentsline {subsection}{\numberline {4.1.1}Donn\IeC {\'e}es disponibles}{18}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Mod\IeC {\`e}le simplifi\IeC {\'e}}{18}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Raisonnement}{20}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Description des donn\IeC {\'e}es et des traitements}{20}{subsection.4.2.1}
+\contentsline {paragraph}{1) Description globale de ce que fait un traitement}{21}{section*.38}
+\contentsline {paragraph}{2) Description des donn\IeC {\'e}es}{22}{section*.39}
+\contentsline {subsection}{\numberline {4.2.2}Les cat\IeC {\'e}gories de donn\IeC {\'e}es et de traitements}{23}{subsection.4.2.2}
+\contentsline {subsubsection}{Les cat\IeC {\'e}gories de donn\IeC {\'e}es}{23}{section*.40}
+\contentsline {subsubsection}{Les cat\IeC {\'e}gories de traitements}{23}{section*.41}
+\contentsline {subsection}{\numberline {4.2.3}Conceptualisation de la cha\IeC {\^\i }ne de traitements}{24}{subsection.4.2.3}
+\contentsline {subsubsection}{Description g\IeC {\'e}n\IeC {\'e}rale}{25}{section*.42}
+\contentsline {subsubsection}{Cha\IeC {\^\i }ne abstraite}{25}{section*.43}
+\contentsline {subsubsection}{Traitements \IeC {\'e}l\IeC {\'e}mentaires de la cha\IeC {\^\i }ne de traitements}{26}{section*.44}
+\contentsline {subsubsection}{Cha\IeC {\^\i }ne de traitements de plus en plus d\IeC {\'e}taill\IeC {\'e}es}{26}{section*.45}
+\contentsline {subsubsection}{Cha\IeC {\^\i }ne de traitements instanci\IeC {\'e}e}{27}{section*.46}
+\contentsline {section}{\numberline {4.3}Conception}{27}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Architecture informatique de la chaine de traitements et du logiciel ouvert}{28}{subsection.4.3.1}
+\contentsline {subsubsection}{Pr\IeC {\'e}sentation de l'outil vision "ferm\IeC {\'e}e" (bo\IeC {\^\i }te noire)}{28}{section*.47}
+\contentsline {subsubsection}{Pr\IeC {\'e}sentation du logiciel vision "ouvert" (bo\IeC {\^\i }te blanche)}{29}{section*.48}
+\contentsline {section}{\numberline {4.4}Op\IeC {\'e}rationalisation}{29}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Fonctionnement chaine de traitements "ferm\IeC {\'e}e"}{29}{subsection.4.4.1}
+\contentsline {paragraph}{Choix des fichiers d'entr\IeC {\'e}e\\\\}{29}{section*.49}
+\contentsline {paragraph}{Correspondance des couches\\\\}{30}{section*.50}
+\contentsline {paragraph}{Cr\IeC {\'e}ation d'une nouvelle base de donn\IeC {\'e}es spatiale\\\\}{30}{section*.51}
+\contentsline {paragraph}{Insertion des donn\IeC {\'e}es vectorielles dans la base de donn\IeC {\'e}es\\\\}{31}{section*.52}
+\contentsline {paragraph}{Nombre d'habitants\\\\}{31}{section*.53}
+\contentsline {paragraph}{Calcul densit\IeC {\'e} de population et taille pixel\\\\}{32}{section*.54}
+\contentsline {paragraph}{Calcul et affichage carte de vuln\IeC {\'e}rabilit\IeC {\'e}\\\\}{32}{section*.55}
+\contentsline {paragraph}{Suppression des surfaces aquatiques pollu\IeC {\'e}es\\\\}{33}{section*.56}
+\contentsline {paragraph}{Carte d'al\IeC {\'e}a\\\\}{33}{section*.57}
+\contentsline {subsection}{\numberline {4.4.2}Fonctionnement du logiciel "ouvert"}{35}{subsection.4.4.2}
+\contentsline {paragraph}{Choix emplacement des donn\IeC {\'e}es\\\\}{35}{section*.58}
+\contentsline {paragraph}{Information connexion base de donn\IeC {\'e}es\\\\}{35}{section*.59}
+\contentsline {paragraph}{Menu du logiciel\\\\}{36}{section*.60}
+\contentsline {paragraph}{Les traitements possibles\\\\}{36}{section*.61}
+\contentsline {paragraph}{Sp\IeC {\'e}cificit\IeC {\'e}s techniques du logiciel}{37}{section*.62}
+\contentsline {subparagraph}{M\IeC {\'e}moire\\\\}{37}{section*.63}
+\contentsline {subparagraph}{Affichage\\\\}{37}{section*.64}
+\contentsline {subparagraph}{Exporter des donn\IeC {\'e}es\\\\}{37}{section*.65}
+\contentsline {subparagraph}{Gestion des donn\IeC {\'e}es\\\\}{37}{section*.66}
+\contentsline {chapter}{\numberline {5}R\IeC {\'e}sultats}{39}{chapter.5}
+\contentsline {section}{\numberline {5.1}R\IeC {\'e}sultat}{39}{section.5.1}
+\contentsline {section}{\numberline {5.2}Validation des r\IeC {\'e}sultats}{39}{section.5.2}
+\contentsline {section}{\numberline {5.3}Difficult\IeC {\'e}s rencontr\IeC {\'e}s}{39}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Java}{39}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}PostgreSQL/PostGIS}{40}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}R}{40}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Perspectives}{41}{section.5.4}
+\contentsline {section}{\numberline {5.5}Conclusion}{42}{section.5.5}
+\contentsline {chapter}{\numberline {6}Discussion}{43}{chapter.6}
+\contentsline {chapter}{\numberline {7}Glossaire et d\IeC {\'e}finitions{}}{44}{chapter.7}
+\contentsline {chapter}{\numberline {8}Annexes}{45}{chapter.8}
+\contentsline {subsection}{\numberline {8.0.1}D\IeC {\'e}finitions, librairies et biblioth\IeC {\`e}ques utilis\IeC {\'e}es}{45}{subsection.8.0.1}
+\contentsline {subsubsection}{Traitement}{45}{section*.67}
+\contentsline {subsubsection}{Java}{45}{section*.68}
+\contentsline {subsubsection}{Eclipse}{45}{section*.69}
+\contentsline {subsubsection}{PostgreSQL}{45}{section*.70}
+\contentsline {subsubsection}{PostGIS}{46}{section*.71}
+\contentsline {subsubsection}{JDBC}{46}{section*.72}
+\contentsline {subsubsection}{R}{46}{section*.73}
+\contentsline {subsubsection}{RCaller}{46}{section*.74}
+\contentsline {subsubsection}{GDAL}{46}{section*.75}
+\contentsline {subsubsection}{Packages R}{46}{section*.76}
+\contentsline {subsection}{\numberline {8.0.2}Les traitements effectu\IeC {\'e}s}{48}{subsection.8.0.2}
+\contentsline {subsubsection}{Pr\IeC {\'e}-traitements}{48}{section*.77}
+\contentsline {subsubsection}{Modification du syst\IeC {\`e}me de coordonn\IeC {\'e}es}{48}{section*.78}
+\contentsline {subsubsection}{Transformation du format de fichier}{48}{section*.79}
+\contentsline {subsubsection}{Cr\IeC {\'e}ation base de donn\IeC {\'e}es}{49}{section*.80}
+\contentsline {subsubsection}{Initialisation de la base de donn\IeC {\'e}es aux fonctionnalit\IeC {\'e}s PostGIS}{49}{section*.81}
+\contentsline {subsubsection}{Traitements statistiques}{50}{section*.82}
+\contentsline {subsubsection}{Calcul de la surface totale d'une couche de donn\IeC {\'e}es}{50}{section*.83}
+\contentsline {subsubsection}{Calcul densit\IeC {\'e} de population et taille pixel}{50}{section*.84}
+\contentsline {subsubsection}{Traitements fichiers Vecteur}{50}{section*.85}
+\contentsline {subsubsection}{Insertion fichiers de forme dans une base de donn\IeC {\'e}es spatiale}{50}{section*.86}
+\contentsline {subsubsection}{Buffer}{51}{section*.87}
+\contentsline {subsubsection}{Union}{51}{section*.88}
+\contentsline {subsubsection}{Intersection}{51}{section*.89}
+\contentsline {subsubsection}{Diff\IeC {\'e}rence entre deux couches g\IeC {\'e}om\IeC {\'e}triques}{52}{section*.90}
+\contentsline {subsubsection}{Traitements fichiers raster}{52}{section*.91}
+\contentsline {subsubsection}{Rast\IeC {\'e}risation d'un fichier de forme}{52}{section*.92}
+\contentsline {subsubsection}{Emprise d'une couche}{52}{section*.93}
+\contentsline {subsubsection}{Chargement d'une donn\IeC {\'e}e raster dans R \IeC {\`a} partir d'une base de donn\IeC {\'e}es spatiale}{53}{section*.94}
+\contentsline {subsubsection}{Transformation d'une couche raster en points}{53}{section*.95}
+\contentsline {subsubsection}{Calcul densit\IeC {\'e} des points}{54}{section*.96}
+\contentsline {subsubsection}{Rast\IeC {\'e}riser une couche de points}{55}{section*.97}
+\contentsline {subsubsection}{Reclassification d'une couche raster}{55}{section*.98}
+\contentsline {subsubsection}{Post-traitements}{56}{section*.99}
+\contentsline {subsubsection}{Combinaison de plusieurs couches raster}{56}{section*.100}
+\contentsline {subsection}{\numberline {8.0.3}Configuration pr\IeC {\'e}requise pour l'utilisation des outils }{56}{subsection.8.0.3}

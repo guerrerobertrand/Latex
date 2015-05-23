@@ -1,0 +1,86 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: RapportDeBase.aux
+A level-1 auxiliary file: Chapitres/Remerciements.aux
+A level-1 auxiliary file: Chapitres/tableMatiere.aux
+A level-1 auxiliary file: Chapitres/Introduction.aux
+A level-1 auxiliary file: Chapitres/Contexte.aux
+A level-1 auxiliary file: Chapitres/EtatArt.aux
+A level-1 auxiliary file: Chapitres/Methodologie.aux
+A level-1 auxiliary file: Chapitres/Resultats.aux
+A level-1 auxiliary file: Chapitres/Conclusion.aux
+A level-1 auxiliary file: Chapitres/Glossaire.aux
+A level-1 auxiliary file: Chapitres/Annexes.aux
+The style file: apalike-fr.bst
+Database file #1: RapportBiblio.bib
+Repeated entry---line 23 of file RapportBiblio.bib
+ : @article{Ermert2011
+ :                    ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Ermert"
+Too many commas in name 1 of "Loireau Maud, Sghaier Mongi, Fétoui Mondher, Ouessar Mohamed, Taamallah Houcine, Ouled Belgacem Azaiez" for entry SIEL2012
+while executing---line 1134 of file apalike-fr.bst
+Too many commas in name 1 of "Loireau Maud, Sghaier Mongi, Fétoui Mondher, Ouessar Mohamed, Taamallah Houcine, Ouled Belgacem Azaiez" for entry SIEL2012
+while executing---line 1134 of file apalike-fr.bst
+Too many commas in name 1 of "Loireau Maud, Sghaier Mongi, Fétoui Mondher, Ouessar Mohamed, Taamallah Houcine, Ouled Belgacem Azaiez" for entry SIEL2012
+while executing---line 1134 of file apalike-fr.bst
+Too many commas in name 1 of "Loireau Maud, Sghaier Mongi, Fétoui Mondher, Ouessar Mohamed, Taamallah Houcine, Ouled Belgacem Azaiez" for entry SIEL2012
+while executing---line 1134 of file apalike-fr.bst
+Too many commas in name 1 of "Loireau Maud, Sghaier Mongi, Fétoui Mondher, Ouessar Mohamed, Taamallah Houcine, Ouled Belgacem Azaiez" for entry SIEL2012
+while executing---line 1134 of file apalike-fr.bst
+Too many commas in name 1 of "Loireau Maud, Sghaier Mongi, Fétoui Mondher, Ouessar Mohamed, Taamallah Houcine, Ouled Belgacem Azaiez" for entry SIEL2012
+while executing---line 1134 of file apalike-fr.bst
+Warning--empty school in ElKader2006
+Warning--empty institution in questquelepaludisme
+Warning--empty institution in Gaudart
+Warning--empty school in Lin2011
+Too many commas in name 1 of "Loireau Maud, Sghaier Mongi, Fétoui Mondher, Ouessar Mohamed, Taamallah Houcine, Ouled Belgacem Azaiez" for entry SIEL2012
+while executing---line 1215 of file apalike-fr.bst
+Too many commas in name 1 of "Loireau Maud, Sghaier Mongi, Fétoui Mondher, Ouessar Mohamed, Taamallah Houcine, Ouled Belgacem Azaiez" for entry SIEL2012
+while executing---line 1215 of file apalike-fr.bst
+Too many commas in name 1 of "Loireau Maud, Sghaier Mongi, Fétoui Mondher, Ouessar Mohamed, Taamallah Houcine, Ouled Belgacem Azaiez" for entry SIEL2012
+while executing---line 1215 of file apalike-fr.bst
+Warning--there's a number but no volume in Minakawa1999
+Warning--empty institution in afsset2006
+You've used 17 entries,
+            2038 wiz_defined-function locations,
+            619 strings with 8541 characters,
+and the built_in function-call counts, 7893 in all, are:
+= -- 823
+> -- 434
+< -- 12
++ -- 162
+- -- 160
+* -- 586
+:= -- 1707
+add.period$ -- 49
+call.type$ -- 17
+change.case$ -- 169
+chr.to.int$ -- 17
+cite$ -- 23
+duplicate$ -- 222
+empty$ -- 347
+format.name$ -- 177
+if$ -- 1486
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 7
+newline$ -- 91
+num.names$ -- 51
+pop$ -- 146
+preamble$ -- 1
+purify$ -- 165
+quote$ -- 0
+skip$ -- 182
+stack$ -- 0
+substring$ -- 465
+swap$ -- 26
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 102
+warning$ -- 6
+while$ -- 39
+width$ -- 0
+write$ -- 217
+(There were 10 error messages)

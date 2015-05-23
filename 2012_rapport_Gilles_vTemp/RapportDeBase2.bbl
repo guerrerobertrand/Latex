@@ -1,0 +1,366 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
+
+\bibitem[Abd-el Kader, 2006]{ElKader2006}
+Abd-el \bgroup\fonteauteurs\bgroup Kader\egroup\egroup{}, Y. (2006).
+\newblock {\em Conception et exploitation d’une base de métadonnées de
+  traitements informatiques, représentation opérationnelle des connaissances
+  d’expert}.
+\newblock Th\`ese de doctorat.
+
+\bibitem[Abeku \emph{et~al.}, 2004]{Abeku2004}
+\bgroup\fonteauteurs\bgroup Abeku\egroup\egroup{}, T.~A.,
+  \bgroup\fonteauteurs\bgroup Hay\egroup\egroup{}, S.~I.,
+  \bgroup\fonteauteurs\bgroup Ochola\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Langi\egroup\egroup{}, P.,
+  \bgroup\fonteauteurs\bgroup Beard\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Vlas\egroup\egroup{}, S. J.~d. et
+  \bgroup\fonteauteurs\bgroup Cox\egroup\egroup{}, J. (2004).
+\newblock Malaria epidemic early warning and detection in african highlands.
+\newblock {\em Trends in Parasitology}, 20.
+
+\bibitem[Adjuik \emph{et~al.}, 1998]{Adjuik1998}
+\bgroup\fonteauteurs\bgroup Adjuik\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Bagayoko\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Binka\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup Coetzee\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Cox\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Craig\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Deichman\egroup\egroup{}, U.,
+  \bgroup\fonteauteurs\bgroup deSavigny\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Fondjo\egroup\egroup{}, E.,
+  \bgroup\fonteauteurs\bgroup Fraser\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Gouws\egroup\egroup{}, E.,
+  \bgroup\fonteauteurs\bgroup Kleinschmidt\egroup\egroup{}, I.,
+  \bgroup\fonteauteurs\bgroup Lemardeley\egroup\egroup{}, P.,
+  \bgroup\fonteauteurs\bgroup Lengeler\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup leSueur\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Omumbo\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Snow\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Sharp\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Tanser\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup Teuscher\egroup\egroup{}, T. et
+  \bgroup\fonteauteurs\bgroup Touré\egroup\egroup{}, Y. (1998).
+\newblock Towards an atlas of malaria risk in africa.
+\newblock Rapport technique, MARA/ARM Collaboration.
+
+\bibitem[AFSSET, 2006]{afsset2006}
+\bgroup\fonteauteurs\bgroup AFSSET\egroup\egroup{} (2006).
+\newblock Santé et environnement : définitions et évolutions récentes.
+\newblock Rapport technique, Agence nationale de sécurité sanitaire, de
+  l'alimentation, de l'envrionnement et du travail.
+
+\bibitem[ANAES, 2002]{ANAES2012}
+\bgroup\fonteauteurs\bgroup ANAES\egroup\egroup{} (2002).
+\newblock Construction et utilsation des indicateurs dans le domaine de la
+  santé.
+\newblock Rapport technique, Agence Nationale d’Accréditation et
+  d’Évaluation en Santé.
+
+\bibitem[C.~Aschan-Leygonie, 2009]{Aschan2009}
+\bgroup\fonteauteurs\bgroup C.~Aschan-Leygonie\egroup\egroup{}, S.-M. (2009).
+\newblock Risque, vulnérabilité, résilience : comment les définir dans le
+  cadre d’une étude géographique sur la santé et la pollution
+  atmosphérique en milieu urbain.
+\newblock {\em Vulnérabilités sociétales, risques et environnement}, page~8.
+
+\bibitem[Connor \emph{et~al.}, 1998]{Connor1998}
+\bgroup\fonteauteurs\bgroup Connor\egroup\egroup{}, S.~J.,
+  \bgroup\fonteauteurs\bgroup Thomson\egroup\egroup{}, M.~C.,
+  \bgroup\fonteauteurs\bgroup Flasse\egroup\egroup{}, S.~P. et
+  \bgroup\fonteauteurs\bgroup Perryman\egroup\egroup{}, A.~H. (1998).
+\newblock Environmental inforamtion systems in malaria risk mapping and
+  epidemic forecasting.
+\newblock {\em Disaster}, 22(1)\string:\penalty500\relax 18.
+
+\bibitem[de~Savigny, 2010]{Savigny}
+de~\bgroup\fonteauteurs\bgroup Savigny\egroup\egroup{}, D. (2010).
+\newblock Le paludisme, le tsunami silencieux d’afrique.
+\newblock Rapport technique.
+
+\bibitem[Delannoy, 2010]{Java2010}
+\bgroup\fonteauteurs\bgroup Delannoy\egroup\egroup{}, C. (2010).
+\newblock {\em Programmer en Java}.
+\newblock Mayenne.
+
+\bibitem[Ermert \emph{et~al.}, 2011a]{Ermert2011}
+\bgroup\fonteauteurs\bgroup Ermert\egroup\egroup{}, V.,
+  \bgroup\fonteauteurs\bgroup Fink\egroup\egroup{}, A.~H.,
+  \bgroup\fonteauteurs\bgroup Jones\egroup\egroup{}, A.~E. et
+  \bgroup\fonteauteurs\bgroup Morse\egroup\egroup{}, A.~P. (2011a).
+\newblock Development of a new version of the liverpool malaria model. i.
+  refining the parameter settings and mathematical formulation of basic
+  processes based on a literature review.
+\newblock {\em Malaria Journal}, page~17.
+
+\bibitem[Ermert \emph{et~al.}, 2011b]{Ermert20111}
+\bgroup\fonteauteurs\bgroup Ermert\egroup\egroup{}, V.,
+  \bgroup\fonteauteurs\bgroup Fink\egroup\egroup{}, A.~H.,
+  \bgroup\fonteauteurs\bgroup Jones\egroup\egroup{}, A.~E. et
+  \bgroup\fonteauteurs\bgroup Morse\egroup\egroup{}, A.~P. (2011b).
+\newblock Development of a new version of the liverpool malaria model. ii.
+  calibration and validation for west africa.
+\newblock {\em Malaria Journal}.
+
+\bibitem[Faire reculer~le paludisme, 2010]{questquelepaludisme}
+Faire reculer~le \bgroup\fonteauteurs\bgroup paludisme\egroup\egroup{}, O. m.
+  d. l.~S. (2010).
+\newblock Qu'est-ce que le paludisme?
+\newblock Rapport technique.
+
+\bibitem[Gaudart \emph{et~al.}, 2005]{Gaudart}
+\bgroup\fonteauteurs\bgroup Gaudart\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Dessay\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Touré\egroup\egroup{}, O.,
+  \bgroup\fonteauteurs\bgroup Fané\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Sabatier\egroup\egroup{}, P. et
+  \bgroup\fonteauteurs\bgroup Doumbo\egroup\egroup{}, O. (2005).
+\newblock Développement d’une méthodologie appliquée à l’évaluation du
+  risque palustre, au mali.
+\newblock Rapport technique.
+
+\bibitem[Gaudart \emph{et~al.}, 2009]{Gaudart2009}
+\bgroup\fonteauteurs\bgroup Gaudart\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Touré\egroup\egroup{}, O.,
+  \bgroup\fonteauteurs\bgroup Dessay\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Dicko\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Ranque\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Forest\egroup\egroup{}, L.,
+  \bgroup\fonteauteurs\bgroup Demongeot\egroup\egroup{}, J. et
+  \bgroup\fonteauteurs\bgroup Doumbo\egroup\egroup{}, O.~K. (2009).
+\newblock Modelling malaria incidence with environmental dependency in a
+  locality of sudanese savannah area, mali.
+\newblock {\em Malaria Journal}.
+
+\bibitem[Graves \emph{et~al.}, 2009]{Graves2009}
+\bgroup\fonteauteurs\bgroup Graves\egroup\egroup{}, P.~M.,
+  \bgroup\fonteauteurs\bgroup Richards\egroup\egroup{}, F.~O.,
+  \bgroup\fonteauteurs\bgroup Ngondi\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Emerson\egroup\egroup{}, P.~M.,
+  \bgroup\fonteauteurs\bgroup Shargie\egroup\egroup{}, E.~B.,
+  \bgroup\fonteauteurs\bgroup Endeshaw\egroup\egroup{}, T.,
+  \bgroup\fonteauteurs\bgroup Ceccato\egroup\egroup{}, P.,
+  \bgroup\fonteauteurs\bgroup Ejigsemahu\egroup\egroup{}, Y.,
+  \bgroup\fonteauteurs\bgroup Mosher\egroup\egroup{}, A.~W.,
+  \bgroup\fonteauteurs\bgroup Hailemariam\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Zerihun\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Teferi\egroup\egroup{}, T.,
+  \bgroup\fonteauteurs\bgroup Ayele\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Mesele\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Yohannes\egroup\egroup{}, G.,
+  \bgroup\fonteauteurs\bgroup Tilahun\egroup\egroup{}, A. et
+  \bgroup\fonteauteurs\bgroup Gebrec\egroup\egroup{}, T. (2009).
+\newblock Individual, household and environmental risk factors for malaria
+  infection in amhara, oromia and snnp regions of ethiopia.
+\newblock {\em Elsevier}, page~10.
+
+\bibitem[Guthmann \emph{et~al.}, 2001]{Guthmann2001}
+\bgroup\fonteauteurs\bgroup Guthmann\egroup\egroup{}, J.-P.,
+  \bgroup\fonteauteurs\bgroup Hall\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Jaffar\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Palacios\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Lines\egroup\egroup{}, J. et
+  \bgroup\fonteauteurs\bgroup Llanos-Cuentas\egroup\egroup{}, A. (2001).
+\newblock Environmental risk factors for clinical malaria: a cose-control study
+  in the grau region of peru.
+\newblock {\em Transactions of the royal society of tropical medecine and
+  hygiene}, 95\string:\penalty500\relax 7.
+
+\bibitem[Herbreteau \emph{et~al.}, 2005]{Herbreteau2005}
+\bgroup\fonteauteurs\bgroup Herbreteau\egroup\egroup{}, V.,
+  \bgroup\fonteauteurs\bgroup Salem\egroup\egroup{}, G.,
+  \bgroup\fonteauteurs\bgroup Souris\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Hugot\egroup\egroup{}, J.-P. et
+  \bgroup\fonteauteurs\bgroup Gonzalez\egroup\egroup{}, J.-P. (2005).
+\newblock Sizing up human health through remote sensing: uses and misuses.
+\newblock {\em Parassitologia}, 47\string:\penalty500\relax 17.
+
+\bibitem[Hibler, 2005]{Hibler}
+\bgroup\fonteauteurs\bgroup Hibler\egroup\egroup{}, M. (2005).
+\newblock Le paludisme ne lâche pas prise.
+
+\bibitem[Kleinschmidt \emph{et~al.}, 2000]{Kleinschmidt2000}
+\bgroup\fonteauteurs\bgroup Kleinschmidt\egroup\egroup{}, I.,
+  \bgroup\fonteauteurs\bgroup Bagayoko\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Clarke\egroup\egroup{}, G.,
+  \bgroup\fonteauteurs\bgroup Craig\egroup\egroup{}, M. et
+  \bgroup\fonteauteurs\bgroup Sueur\egroup\egroup{}, D.~L. (2000).
+\newblock A spatial statisitical approach to malaria mapping.
+\newblock {\em International Journal of Epidemiology},
+  29\string:\penalty500\relax 7.
+
+\bibitem[Klinkenberg \emph{et~al.}, 2003]{Klinkenberg2003}
+\bgroup\fonteauteurs\bgroup Klinkenberg\egroup\egroup{}, E.,
+  \bgroup\fonteauteurs\bgroup Hoek\egroup\egroup{}, W. v.~d.,
+  \bgroup\fonteauteurs\bgroup Amerasinghe\egroup\egroup{}, F.~P.,
+  \bgroup\fonteauteurs\bgroup Jayasinghe\egroup\egroup{}, G.,
+  \bgroup\fonteauteurs\bgroup Mutuwatte\egroup\egroup{}, L. et
+  \bgroup\fonteauteurs\bgroup Gunawardena\egroup\egroup{}, D.~M. (2003).
+\newblock Malaria and land use: A spatial and temporal risk analysis in
+  southern sri lanka.
+\newblock Rapport technique, International Water Management Institute.
+
+\bibitem[Krefis \emph{et~al.}, 2011]{Krefis2011}
+\bgroup\fonteauteurs\bgroup Krefis\egroup\egroup{}, A.~C.,
+  \bgroup\fonteauteurs\bgroup Schwarz\egroup\egroup{}, N.~G.,
+  \bgroup\fonteauteurs\bgroup Nkrumah\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Acquah\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Loag\egroup\egroup{}, W.,
+  \bgroup\fonteauteurs\bgroup Oldeland\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Sarpong\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Adu-Sarkodie\egroup\egroup{}, Y.,
+  \bgroup\fonteauteurs\bgroup Ranft\egroup\egroup{}, U. et
+  \bgroup\fonteauteurs\bgroup May\egroup\egroup{}, J. (2011).
+\newblock Spatial analysis of land cover determinants of malaria incidence in
+  the ashanti region, ghana.
+\newblock {\em Plosone}, 6(3).
+
+\bibitem[Lin, 2011]{Lin2011}
+\bgroup\fonteauteurs\bgroup Lin\egroup\egroup{}, Y. (2011).
+\newblock {\em Méthodologie et composants pour la mise en oeuvre de workflows
+  scientifiques}.
+\newblock Th\`ese de doctorat.
+
+\bibitem[Loireau \emph{et~al.}, 2007]{Loireau2007}
+\bgroup\fonteauteurs\bgroup Loireau\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Sghaier\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Fétoui\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Ba\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Abdelrazik\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup d’Herbès\egroup\egroup{}, J.-M.,
+  \bgroup\fonteauteurs\bgroup Desconnets\egroup\egroup{}, J.-C.,
+  \bgroup\fonteauteurs\bgroup Leibovici\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Debard\egroup\egroup{}, S. et
+  \bgroup\fonteauteurs\bgroup Delaître\egroup\egroup{}, �. (2007).
+\newblock Système d’information sur l’environnement à l’échelle locale
+  (siel) pour évaluer le risque de désertification : situations comparées
+  circumsahariennes (réseau roselt).
+\newblock {\em Sécheresse}, pages 328--335.
+
+\bibitem[Loireau \emph{et~al.}, 2012]{SIEL2012}
+\bgroup\fonteauteurs\bgroup Loireau\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Sghaier\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Fétoui\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Ouessar\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Taamallah\egroup\egroup{}, H. et
+  \bgroup\fonteauteurs\bgroup Belgacem\egroup\egroup{}, A.~O. (2012).
+\newblock Guide utilisateur siel.
+
+\bibitem[Machault \emph{et~al.}, 2011]{Machault2011}
+\bgroup\fonteauteurs\bgroup Machault\egroup\egroup{}, V.,
+  \bgroup\fonteauteurs\bgroup Vignolles\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Borchi\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup Vounatsou\egroup\egroup{}, P.,
+  \bgroup\fonteauteurs\bgroup Pages\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup Briolant\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Lacaux\egroup\egroup{}, J.-P. et
+  \bgroup\fonteauteurs\bgroup Rogier\egroup\egroup{}, C. (2011).
+\newblock The use of remotely sensed environmental data in the study of
+  malaria.
+\newblock {\em Geospatial Health}, 5(2)\string:\penalty500\relax 151--168.
+
+\bibitem[Minakawa \emph{et~al.}, 1999]{Minakawa1999}
+\bgroup\fonteauteurs\bgroup Minakawa\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Mutero\egroup\egroup{}, C.~M.,
+  \bgroup\fonteauteurs\bgroup Githure\egroup\egroup{}, H.~I.,
+  \bgroup\fonteauteurs\bgroup Beier\egroup\egroup{}, J.~C. et
+  \bgroup\fonteauteurs\bgroup Yan\egroup\egroup{}, G. (1999).
+\newblock Spatial distribution and habitat characterization of anopheline
+  mosquito larvae in western kenya.
+\newblock {\em AMm. J. Trop. Med. Hyg}, (61(6)).
+
+\bibitem[Nord-pas-de Calais, 2010]{ORSN2010}
+Nord-pas-de \bgroup\fonteauteurs\bgroup Calais\egroup\egroup{}, O. R. d. l.~S.
+  (2010).
+\newblock Risques, catastrophes, cirses.
+\newblock Rapport technique, Observatoire Régional de la Santé
+  Nord-pas-de-Calais.
+
+\bibitem[Omumbo \emph{et~al.}, 2005]{Omumbo2005}
+\bgroup\fonteauteurs\bgroup Omumbo\egroup\egroup{}, J.~A.,
+  \bgroup\fonteauteurs\bgroup Hay\egroup\egroup{}, S.~I.,
+  \bgroup\fonteauteurs\bgroup Snow\egroup\egroup{}, R.~W.,
+  \bgroup\fonteauteurs\bgroup Tatem\egroup\egroup{}, A.~J. et
+  \bgroup\fonteauteurs\bgroup Rogers\egroup\egroup{}, D.~J. (2005).
+\newblock Modelling malaria risk in east africa at high-spatial resolution.
+\newblock {\em Tropical Medicine and International Health},
+  IO\string:\penalty500\relax 10.
+
+\bibitem[Peterson \emph{et~al.}, 2009]{Peterson2009}
+\bgroup\fonteauteurs\bgroup Peterson\egroup\egroup{}, I.,
+  \bgroup\fonteauteurs\bgroup Borrell\egroup\egroup{}, L.~N.,
+  \bgroup\fonteauteurs\bgroup El-Sadr\egroup\egroup{}, W. et
+  \bgroup\fonteauteurs\bgroup Teklehaimanot\egroup\egroup{}, A. (2009).
+\newblock Individual and household level factors associated with malaria
+  incidence in a highland region of ethiopia: A multilevel analysis.
+\newblock {\em Am. J. Trop. Med. Hyg}, 80(1)\string:\penalty500\relax 9.
+
+\bibitem[Picheral, 2001]{DictionnaireSante}
+\bgroup\fonteauteurs\bgroup Picheral\egroup\egroup{}, H. (2001).
+\newblock Dictionnaire raisonné de géographie de la santé.
+
+\bibitem[Protopopoff \emph{et~al.}, 2009]{Protopopoff2009}
+\bgroup\fonteauteurs\bgroup Protopopoff\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Bortel\egroup\egroup{}, W.~V.,
+  \bgroup\fonteauteurs\bgroup Speybroeck\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Geertruyden\egroup\egroup{}, J.-P.~V.,
+  \bgroup\fonteauteurs\bgroup Baza\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup D’Alessandro\egroup\egroup{}, U. et
+  \bgroup\fonteauteurs\bgroup Coosemans\egroup\egroup{}, M. (2009).
+\newblock Ranking malaria risk factors to guide malaria control efforts in
+  african highla.
+\newblock {\em PLoS ONE}, 4(11).
+
+\bibitem[Pullan \emph{et~al.}, 2010]{Pullan2010}
+\bgroup\fonteauteurs\bgroup Pullan\egroup\egroup{}, R.~L.,
+  \bgroup\fonteauteurs\bgroup Bukirwa\egroup\egroup{}, H.,
+  \bgroup\fonteauteurs\bgroup Staedke\egroup\egroup{}, S.~G.,
+  \bgroup\fonteauteurs\bgroup Snow\egroup\egroup{}, R.~W. et
+  \bgroup\fonteauteurs\bgroup Brooker\egroup\egroup{}, S. (2010).
+\newblock Plasmodium infection and its risk factors in eastern uganda.
+\newblock {\em Malaria Journal}, 9\string:\penalty500\relax 11.
+
+\bibitem[Safi \emph{et~al.}, 2010]{Safi2010}
+\bgroup\fonteauteurs\bgroup Safi\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Adimi\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup Soebiyanto\egroup\egroup{}, R. et
+  \bgroup\fonteauteurs\bgroup Kiang\egroup\egroup{}, R. (2010).
+\newblock Toward malaria risk prediction in afghanistan using remote sensing.
+\newblock {\em International Archives of the Photogrammetry, Remote Sensing and
+  Spatial Information Science}, XXXVIII\string:\penalty500\relax 4.
+
+\bibitem[Stefani \emph{et~al.}, 2011]{Stefani2011}
+\bgroup\fonteauteurs\bgroup Stefani\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Hanf\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Nacher\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Girod\egroup\egroup{}, R. et
+  \bgroup\fonteauteurs\bgroup Carme\egroup\egroup{}, B. (2011).
+\newblock Environmental, entomological, socioeconomic and behavioural risk
+  factors for malaria attacks in amerindian children of camopi, french guiana.
+\newblock {\em Malaria journal}, page~12.
+
+\bibitem[VITTOR \emph{et~al.}, 2006]{Vittor2006}
+\bgroup\fonteauteurs\bgroup VITTOR\egroup\egroup{}, A.~Y.,
+  \bgroup\fonteauteurs\bgroup GILMAN\egroup\egroup{}, R.~H.,
+  \bgroup\fonteauteurs\bgroup TIELSCH\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup GLASS\egroup\egroup{}, G.,
+  \bgroup\fonteauteurs\bgroup SHIELDS\egroup\egroup{}, T.,
+  \bgroup\fonteauteurs\bgroup LOZANO\egroup\egroup{}, W.~S.,
+  \bgroup\fonteauteurs\bgroup PINEDO-CANCINO\egroup\egroup{}, V. et
+  \bgroup\fonteauteurs\bgroup PATZ\egroup\egroup{}, J.~A. (2006).
+\newblock The effects of deforestation on the human-biting rate of anopheles
+  darlingin, the primary vector of falciparum malaria in the peruvian amazon
+  the effect of deforestation on the human-biting rate of anopheles darlingi,
+  the primary vector of falciparum malaria in the peruvian amazon.
+\newblock {\em Am. J. Trop. Med. Hyg}, 74(1)\string:\penalty500\relax 9.
+
+\bibitem[WHO, 2012]{WHO2012}
+\bgroup\fonteauteurs\bgroup WHO\egroup\egroup{} (2012).
+\newblock World malaria report 2011.
+\newblock Rapport technique, World Health Organization.
+
+\end{thebibliography}

@@ -1,0 +1,172 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
+
+\bibitem[Abd-el Kader, 2006]{ElKader2006}
+Abd-el \bgroup\fonteauteurs\bgroup Kader\egroup\egroup{}, Y. (2006).
+\newblock {\em Conception et exploitation d’une base de métadonnées de
+  traitements informatiques, représentation opérationnelle des connaissances
+  d’expert}.
+\newblock Th\`ese de doctorat.
+
+\bibitem[Adjuik \emph{et~al.}, 1998]{Adjuik1998}
+\bgroup\fonteauteurs\bgroup Adjuik\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Bagayoko\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Binka\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup Coetzee\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Cox\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Craig\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Deichman\egroup\egroup{}, U.,
+  \bgroup\fonteauteurs\bgroup deSavigny\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Fondjo\egroup\egroup{}, E.,
+  \bgroup\fonteauteurs\bgroup Fraser\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Gouws\egroup\egroup{}, E.,
+  \bgroup\fonteauteurs\bgroup Kleinschmidt\egroup\egroup{}, I.,
+  \bgroup\fonteauteurs\bgroup Lemardeley\egroup\egroup{}, P.,
+  \bgroup\fonteauteurs\bgroup Lengeler\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup leSueur\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Omumbo\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Snow\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Sharp\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Tanser\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup Teuscher\egroup\egroup{}, T. et
+  \bgroup\fonteauteurs\bgroup Touré\egroup\egroup{}, Y. (1998).
+\newblock Towards an atlas of malaria risk in africa.
+\newblock Rapport technique, MARA/ARM Collaboration.
+
+\bibitem[C.~Aschan-Leygonie, 2009]{Aschan2009}
+\bgroup\fonteauteurs\bgroup C.~Aschan-Leygonie\egroup\egroup{}, S.-M. (2009).
+\newblock Risque, vulnérabilité, résilience : comment les définir dans le
+  cadre d’une étude géographique sur la santé et la pollution
+  atmosphérique en milieu urbain.
+\newblock {\em Vulnérabilités sociétales, risques et environnement}, page~8.
+
+\bibitem[Ermert \emph{et~al.}, 2011]{Ermert2011}
+\bgroup\fonteauteurs\bgroup Ermert\egroup\egroup{}, V.,
+  \bgroup\fonteauteurs\bgroup Fink\egroup\egroup{}, A.~H.,
+  \bgroup\fonteauteurs\bgroup Jones\egroup\egroup{}, A.~E. et
+  \bgroup\fonteauteurs\bgroup Morse\egroup\egroup{}, A.~P. (2011).
+\newblock Development of a new version of the liverpool malaria model. i.
+  refining the parameter settings and mathematical formulation of basic
+  processes based on a literature review.
+\newblock {\em Malaria Journal}, page~17.
+
+\bibitem[Faire reculer~le paludisme, 2010]{questquelepaludisme}
+Faire reculer~le \bgroup\fonteauteurs\bgroup paludisme\egroup\egroup{}, O. m.
+  d. l.~S. (2010).
+\newblock Qu'est-ce que le paludisme?
+\newblock Rapport technique.
+
+\bibitem[Gaudart \emph{et~al.}, 2005]{Gaudart}
+\bgroup\fonteauteurs\bgroup Gaudart\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Dessay\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Touré\egroup\egroup{}, O.,
+  \bgroup\fonteauteurs\bgroup Fané\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Sabatier\egroup\egroup{}, P. et
+  \bgroup\fonteauteurs\bgroup Doumbo\egroup\egroup{}, O. (2005).
+\newblock Développement d’une méthodologie appliquée à l’évaluation du
+  risque palustre, au mali.
+\newblock Rapport technique.
+
+\bibitem[Krefis \emph{et~al.}, 2011]{Krefis2011}
+\bgroup\fonteauteurs\bgroup Krefis\egroup\egroup{}, A.~C.,
+  \bgroup\fonteauteurs\bgroup Schwarz\egroup\egroup{}, N.~G.,
+  \bgroup\fonteauteurs\bgroup Nkrumah\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Acquah\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Loag\egroup\egroup{}, W.,
+  \bgroup\fonteauteurs\bgroup Oldeland\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Sarpong\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Adu-Sarkodie\egroup\egroup{}, Y.,
+  \bgroup\fonteauteurs\bgroup Ranft\egroup\egroup{}, U. et
+  \bgroup\fonteauteurs\bgroup May\egroup\egroup{}, J. (2011).
+\newblock Spatial analysis of land cover determinants of malaria incidence in
+  the ashanti region, ghana.
+\newblock {\em Plosone}, 6(3).
+
+\bibitem[Lin, 2011]{Lin2011}
+\bgroup\fonteauteurs\bgroup Lin\egroup\egroup{}, Y. (2011).
+\newblock {\em Méthodologie et composants pour la mise en oeuvre de workflows
+  scientifiques}.
+\newblock Th\`ese de doctorat.
+
+\bibitem[Loireau \emph{et~al.}, 2007]{Loireau2007}
+\bgroup\fonteauteurs\bgroup Loireau\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Sghaier\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Fétoui\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Ba\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Abdelrazik\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup d’Herbès\egroup\egroup{}, J.-M.,
+  \bgroup\fonteauteurs\bgroup Desconnets\egroup\egroup{}, J.-C.,
+  \bgroup\fonteauteurs\bgroup Leibovici\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Debard\egroup\egroup{}, S. et
+  \bgroup\fonteauteurs\bgroup Delaitre\egroup\egroup{}, �. (2007).
+\newblock Système d’information sur l’environnement à l’échelle locale
+  (siel) pour évaluer le risque de désertification : situations comparées
+  circumsahariennes (réseau roselt).
+\newblock {\em Sécheresse}, pages 328--335.
+
+\bibitem[Loireau~Maud, 2012]{SIEL2012}
+\bgroup\fonteauteurs\bgroup Loireau~Maud\egroup\egroup{}, Sghaier~Mongi, F. M.
+  O. M. T. H. O. B.~A. (2012).
+\newblock Guide utilisateur siel.
+
+\bibitem[Machault \emph{et~al.}, 2011]{Machault2011}
+\bgroup\fonteauteurs\bgroup Machault\egroup\egroup{}, V.,
+  \bgroup\fonteauteurs\bgroup Vignolles\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Borchi\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup Vounatsou\egroup\egroup{}, P.,
+  \bgroup\fonteauteurs\bgroup Pages\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup Briolant\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Lacaux\egroup\egroup{}, J.-P. et
+  \bgroup\fonteauteurs\bgroup Rogier\egroup\egroup{}, C. (2011).
+\newblock The use of remotely sensed environmental data in the study of
+  malaria.
+\newblock {\em Geospatial Health}, 5(2)\string:\penalty500\relax 151--168.
+
+\bibitem[Minakawa \emph{et~al.}, 1999]{Minakawa1999}
+\bgroup\fonteauteurs\bgroup Minakawa\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Mutero\egroup\egroup{}, C.~M.,
+  \bgroup\fonteauteurs\bgroup Githure\egroup\egroup{}, H.~I.,
+  \bgroup\fonteauteurs\bgroup Beier\egroup\egroup{}, J.~C. et
+  \bgroup\fonteauteurs\bgroup Yan\egroup\egroup{}, G. (1999).
+\newblock Spatial distribution and habitat characterization of anopheline
+  mosquito larvae in western kenya.
+\newblock {\em AMm. J. Trop. Med. Hyg}, (61(6)).
+
+\bibitem[Organization, 2012]{WHO2012}
+\bgroup\fonteauteurs\bgroup Organization\egroup\egroup{}, W.~H. (2012).
+\newblock World malaria report 2011.
+\newblock Rapport technique, World Health Organization.
+
+\bibitem[Picheral, 2001]{DictionnaireSante}
+\bgroup\fonteauteurs\bgroup Picheral\egroup\egroup{}, H. (2001).
+\newblock Dictionnaire raisonné de géographie de la santé.
+
+\bibitem[Protopopoff \emph{et~al.}, 2009]{Protopopoff2009}
+\bgroup\fonteauteurs\bgroup Protopopoff\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Bortel\egroup\egroup{}, W.~V.,
+  \bgroup\fonteauteurs\bgroup Speybroeck\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Geertruyden\egroup\egroup{}, J.-P.~V.,
+  \bgroup\fonteauteurs\bgroup Baza\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup D’Alessandro\egroup\egroup{}, U. et
+  \bgroup\fonteauteurs\bgroup Coosemans\egroup\egroup{}, M. (2009).
+\newblock Ranking malaria risk factors to guide malaria control efforts in
+  african highla.
+\newblock {\em PLoS ONE}, 4(11).
+
+\bibitem[Santé, 2002]{ANAES2012}
+\bgroup\fonteauteurs\bgroup Santé\egroup\egroup{}, A. N. d. e. d.~e. (2002).
+\newblock Construction et utilsation des indicateurs dans le domaine de la
+  santé.
+\newblock Rapport technique, Agence Nationale d’Accréditation et
+  d’Évaluation en Santé.
+
+\bibitem[Santé, 2006]{afsset2006}
+\bgroup\fonteauteurs\bgroup Santé\egroup\egroup{}, A. N. d.~S. (2006).
+\newblock Santé et environnement : définitions et évolutions récentes.
+\newblock Rapport technique.
+
+\end{thebibliography}
