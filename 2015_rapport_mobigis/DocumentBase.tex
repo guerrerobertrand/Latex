@@ -1,15 +1,15 @@
-\documentclass[12pt,twoside,english,french]
+\documentclass[12pt,twoside]{StyleBertrand}
 \author{Bertrand Guerrero}
 \usepackage{etex}
 \usepackage{lmodern}
 \renewcommand{\familydefault}{\rmdefault}
+\usepackage[francais]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[utf8x]{inputenc}
 \usepackage[a4paper]{geometry}
 \geometry{verbose,tmargin=3.5cm,bmargin=3cm,lmargin=3cm,rmargin=2cm,headsep=1.75cm}
 %\setcounter{secnumdepth}{4}
 %\setcounter{tocdepth}{4}
-\usepackage[francais]{babel}
 \addto\extrasfrench{%
    \providecommand{\og}{\leavevmode\flqq~}%
    \providecommand{\fg}{\ifdim\lastskip>\z@\unskip\fi~\frqq}%
@@ -21,7 +21,7 @@
 \usepackage{footnote}
 %\usepackage{mathptmx}
 \usepackage{setspace}
-\usepackage{natbib}
+%\usepackage{natbib}
 \onehalfspacing
 \usepackage[unicode=true,
  bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
@@ -46,6 +46,7 @@
 \xdefinecolor{DarkOliveGreen}{named}{DarkOliveGreen}
 \usepackage{multirow}
 \usepackage{float}
+%\everymath{\color{DarkOliveGreen}}
 \usepackage{wrapfig}
 \usepackage[]{tocbibind}
 \usepackage{makeidx}
@@ -98,13 +99,18 @@
 %\paragraph*{\pagenumbering{Roman}}
 \includepdf{page_garde.pdf}
 
+
 \pagenumbering{roman} \setcounter{page}{1} 
 
 \include{Remerciements}
 
+\include{Resume} 
 \include{Abstract} 
 
 \renewcommand{\contentsname}{Sommaire} %dans le corps du document, avant la commande \tableofcontents .
+
+
+
 
 \include{Sommaire}
 
@@ -112,23 +118,22 @@
 
 \include{Introduction}
 
+\include{PresentationEntreprise} 
+
+\include{TravailRealise} 
+
 \include{AnalyseConception}
 
 \include{Developpement}
 
 \include{Conclusion}
 
+\include{Bilan} 
+
 \include{Glossaire}
 
 \include{Annexes}
 
 \include{Bibliographie}
-\nocite{*}
-\bibliographystyle{apalike-fr} % Le style est mis entre crochets.
-%\bibliography{RapportBiblio}
-
-%\include{Chapitres/Sections/PrincipesGeneraux}
-
-
 
 \end{document}

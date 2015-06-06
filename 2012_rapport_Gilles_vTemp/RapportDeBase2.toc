@@ -7,7 +7,7 @@
 \contentsline {subsection}{\numberline {2.2.1}Architecture SIEL}{4}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Les cha\IeC {\^\i }nes de traitements du SIEL}{5}{subsection.2.2.2}
 \contentsline {paragraph}{Description g\IeC {\'e}n\IeC {\'e}rale\\}{5}{section*.4}
-\contentsline {paragraph}{Cha\IeC {\^\i }ne de traitements abstraite\\}{5}{section*.6}
+\contentsline {paragraph}{Cha\IeC {\^\i }ne de traitements abstraite\\}{6}{section*.6}
 \contentsline {paragraph}{Cha\IeC {\^\i }ne de traitements abstraite avec traitements \IeC {\'e}l\IeC {\'e}mentaires\\}{7}{section*.8}
 \contentsline {section}{\numberline {2.3}Probl\IeC {\'e}matiques du stage}{10}{section.2.3}
 \contentsline {chapter}{\numberline {3}Etat de l'art sur le th\IeC {\`e}me environnement-sant\IeC {\'e}}{11}{chapter.3}
@@ -56,9 +56,9 @@
 \contentsline {subsubsection}{Pr\IeC {\'e}cision mod\IeC {\`e}le conceptuel}{26}{section*.48}
 \contentsline {subsection}{\numberline {4.1.1}Donn\IeC {\'e}es disponibles}{26}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Mod\IeC {\`e}le UML simplifi\IeC {\'e}}{27}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Raisonnement}{27}{section.4.2}
+\contentsline {section}{\numberline {4.2}Raisonnement}{28}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Description des donn\IeC {\'e}es et des traitements}{29}{subsection.4.2.1}
-\contentsline {paragraph}{1) Description globale de ce que fait un traitement\\}{29}{section*.51}
+\contentsline {paragraph}{1) Description globale de ce que fait un traitement\\}{30}{section*.51}
 \contentsline {paragraph}{2) Description des donn\IeC {\'e}es\\}{31}{section*.53}
 \contentsline {subsection}{\numberline {4.2.2}Les cat\IeC {\'e}gories de donn\IeC {\'e}es et de traitements}{32}{subsection.4.2.2}
 \contentsline {subsubsection}{Les cat\IeC {\'e}gories de donn\IeC {\'e}es}{32}{section*.55}
@@ -90,7 +90,7 @@
 \contentsline {paragraph}{Menu du logiciel\\\\}{48}{section*.94}
 \contentsline {paragraph}{Les traitements possibles\\\\}{48}{section*.96}
 \contentsline {paragraph}{Sp\IeC {\'e}cificit\IeC {\'e}s techniques du logiciel}{49}{section*.97}
-\contentsline {subparagraph}{M\IeC {\'e}moire\\\\}{49}{section*.98}
+\contentsline {subparagraph}{M\IeC {\'e}moire\\\\}{50}{section*.98}
 \contentsline {subparagraph}{Affichage\\\\}{50}{section*.99}
 \contentsline {subparagraph}{Exporter des donn\IeC {\'e}es\\\\}{50}{section*.100}
 \contentsline {subparagraph}{Gestion des donn\IeC {\'e}es\\\\}{50}{section*.101}
@@ -117,21 +117,21 @@
 \contentsline {subsubsection}{Modification du syst\IeC {\`e}me de coordonn\IeC {\'e}es}{71}{section*.113}
 \contentsline {subsubsection}{Cr\IeC {\'e}ation base de donn\IeC {\'e}es}{72}{section*.114}
 \contentsline {subsubsection}{Initialisation de la base de donn\IeC {\'e}es aux fonctionnalit\IeC {\'e}s PostGIS}{72}{section*.115}
-\contentsline {subsubsection}{Traitements}{72}{section*.116}
-\contentsline {subsubsection}{Transformation du format de fichier}{72}{section*.117}
+\contentsline {subsubsection}{Traitements}{73}{section*.116}
+\contentsline {subsubsection}{Transformation du format de fichier}{73}{section*.117}
 \contentsline {subsubsection}{Calcul de la surface totale d'une couche de donn\IeC {\'e}es}{73}{section*.118}
-\contentsline {subsubsection}{Calcul densit\IeC {\'e} de population et taille pixel}{73}{section*.119}
+\contentsline {subsubsection}{Calcul densit\IeC {\'e} de population et taille pixel}{74}{section*.119}
 \contentsline {subsubsection}{Insertion fichiers de forme dans une base de donn\IeC {\'e}es spatiale}{74}{section*.120}
-\contentsline {subsubsection}{Buffer}{74}{section*.121}
+\contentsline {subsubsection}{Buffer}{75}{section*.121}
 \contentsline {subsubsection}{Union}{75}{section*.122}
 \contentsline {subsubsection}{Intersection}{75}{section*.123}
 \contentsline {subsubsection}{Diff\IeC {\'e}rence entre deux couches g\IeC {\'e}om\IeC {\'e}triques}{76}{section*.124}
 \contentsline {subsubsection}{Rast\IeC {\'e}risation d'un fichier de forme}{76}{section*.125}
 \contentsline {subsubsection}{Emprise d'une couche}{77}{section*.126}
 \contentsline {subsubsection}{Chargement d'une donn\IeC {\'e}e raster dans R \IeC {\`a} partir d'une base de donn\IeC {\'e}es spatiale}{77}{section*.127}
-\contentsline {subsubsection}{Transformation d'une couche raster en points}{77}{section*.129}
+\contentsline {subsubsection}{Transformation d'une couche raster en points}{78}{section*.129}
 \contentsline {subsubsection}{Calcul densit\IeC {\'e} des points}{78}{section*.131}
-\contentsline {subsubsection}{Rast\IeC {\'e}riser une couche de points}{79}{section*.133}
+\contentsline {subsubsection}{Rast\IeC {\'e}riser une couche de points}{80}{section*.133}
 \contentsline {subsubsection}{Reclassification d'une couche raster}{80}{section*.134}
 \contentsline {subsubsection}{Post-traitements}{81}{section*.136}
 \contentsline {subsubsection}{Combinaison de plusieurs couches raster}{81}{section*.137}
