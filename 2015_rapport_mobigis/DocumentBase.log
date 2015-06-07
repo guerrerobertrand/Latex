@@ -1,14 +1,18 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.14)  4 JUN 2015 23:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.26)  7 JUN 2015 23:11
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **DocumentBase.tex
-(./DocumentBase.tex
-LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 78 languages loaded.
-(./StyleBertrand.cls
+(D:\BERT\Latex\2015_rapport_mobigis\DocumentBase.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
+, bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
+ian, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, icelandic, indonesian, interlingua, irish, italian,
+ kannada, kurmanji, latin, latvian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, ngerman
+-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, sloven
+ian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
+elsh, loaded.
+(D:\BERT\Latex\2015_rapport_mobigis\StyleBertrand.cls
 Document Class: StyleBertrand 2004/02/16 v1.4f Standard LaTeX document class
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/bk12.clo
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk12.clo"
 File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,12 +27,11 @@ File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count88
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/lm/lmodern.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -62,84 +65,79 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2014/03/24 3.9k The Babel package
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/babel-french/frenchb.ldf
-Language: frenchb 2014/04/18 v3.0c French support from the babel system
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2014/03/24 3.9k Babel common definitions
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\frenchb.ldf"
+Language: frenchb 2009/03/16 v2.3d French support from the babel system
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 )
-\l@acadian = a dialect from \language\l@french 
-\l@canadien = a dialect from \language\l@french 
-\FBcolonskip=\skip43
-\FBthinskip=\skip44
-\FB@interchartokenstateORI=\count90
-Package babel Info: Making : an active character on input line 371.
-Package babel Info: Making ; an active character on input line 372.
-Package babel Info: Making ! an active character on input line 373.
-Package babel Info: Making ? an active character on input line 374.
-\FBguillskip=\skip45
+Package babel Info: Making : an active character on input line 120.
+Package babel Info: Making ; an active character on input line 121.
+Package babel Info: Making ! an active character on input line 122.
+Package babel Info: Making ? an active character on input line 123.
 \FB@Mht=\dimen104
-\std@mcc=\count91
-\dec@mcc=\count92
-\listindentFB=\skip46
-\labelwidthFB=\skip47
-\leftmarginFB=\skip48
+\std@mcc=\count90
+\dec@mcc=\count91
 \parindentFFN=\dimen105
-))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/carlisle/scalefnt.sty)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+*************************************
+* Local config file frenchb.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\frenchb.cfg")))
+("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2014/04/30 v1.2b Input encoding file
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/utf8x.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
-))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucs.sty
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\ucs.sty"
 Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-global.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-global.def"
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
-\uc@secondtry=\count93
+\uc@secondtry=\count92
 \uc@combtoks=\toks17
 \uc@combtoksb=\toks18
 \uc@temptokena=\toks19
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count94
-\Gm@cntv=\count95
-\c@Gm@tempcnt=\count96
+\Gm@cnth=\count93
+\Gm@cntv=\count94
+\c@Gm@tempcnt=\count95
 \Gm@bindingoffset=\dimen106
 \Gm@wd@mp=\dimen107
 \Gm@odd@mp=\dimen108
@@ -149,16 +147,17 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen112
 \Gm@layoutvoffset=\dimen113
 \Gm@dimlist=\toks20
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/easy/easymat.sty
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")) ("C:\Program Files\MiKTeX 2.9\tex\latex\easy\easymat.st
+y"
 Document Style `easybmat' v0.4 <2001/06/13>.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/easy/easy.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\easy\easy.sty"
 Document Style `easy' v1.1 <2001/05/31>.
 Package: easy 2001/05/31 v1.1
-\@easy@level=\count97
-\@easy@ncol=\count98
-\@easy@nrow=\count99
-\@easy@cnt=\count100
+\@easy@level=\count96
+\@easy@ncol=\count97
+\@easy@nrow=\count98
+\@easy@cnt=\count99
 \@easy@boxviii=\box26
 \@easy@minxviii=\dimen114
 \@easy@minyviii=\dimen115
@@ -265,32 +264,30 @@ Package: easy 2001/05/31 v1.1
 Package: easymat 2001/05/31 v1.1
 \@mat@size@rule=\dimen208
 \@mat@size@dash=\dimen209
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/lscape.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count101
+\Gread@gobject=\count100
 )))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/pslatex/pslatex.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\pslatex\pslatex.sty"
 Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 65.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -324,8 +321,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/lmr/m/it --> OT1/ptm/m/it on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/lmr/bx/it --> OT1/ptm/m/it on input line 75.
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/txfonts.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\txfonts.sty"
 Package: txfonts 2008/01/22 v3.2.1
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -404,25 +400,23 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
 (Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
 LaTeX Info: Redefining \not on input line 1043.
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/mdwtools/footnote.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\mdwtools\footnote.sty"
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
 \fn@notes=\box34
 \fn@width=\dimen210
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/setspace/setspace.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -437,21 +431,19 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
-)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO)
 Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
 Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
@@ -459,32 +451,31 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen211
-\Hy@linkcounter=\count102
-\Hy@pagecounter=\count103
+\Hy@linkcounter=\count101
+\Hy@pagecounter=\count102
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count104
+\Hy@SavedSpaceFactor=\count103
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `unicode' set `true' on input line 4319.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/puenc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
 File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
-Package hyperref Info: Option `bookmarksnumbered' set `false' on input line 431
-9.
+Package hyperref Info: Option `bookmarksnumbered' set `false' on input line 4319.
 Package hyperref Info: Option `bookmarksopen' set `false' on input line 4319.
 Package hyperref Info: Option `breaklinks' set `true' on input line 4319.
 Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
@@ -495,15 +486,14 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count105
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+\c@Hy@tempcnt=\count104
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen212
-\Fld@menulength=\count106
+\Fld@menulength=\count105
 \Field@Width=\dimen213
 \Fld@charsize=\dimen214
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -515,76 +505,72 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count107
-\c@Item=\count108
-\c@Hfootnote=\count109
+\Hy@abspage=\count106
+\c@Item=\count107
+\c@Hfootnote=\count108
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count110
-\c@bookmark@seq@number=\count111
+\Fld@listcount=\count109
+\c@bookmark@seq@number=\count110
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
-\Hy@SectionHShift=\skip49
+\Hy@SectionHShift=\skip43
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/breakurl/breakurl.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\breakurl\breakurl.sty"
 Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/05/09 v2.6d package option processing (HA)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
 \XKV@toks=\toks21
 \XKV@tempa@toks=\toks22
-\XKV@depth=\count112
-File: xkeyval.tex 2014/05/09 v2.6d key=value parser (HA)
+\XKV@depth=\count111
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
 
 Package breakurl Warning: You are using breakurl while processing via pdflatex.
-
 (breakurl)                \burl will be just a synonym of \url.
 (breakurl)                 on input line 48.
 
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen215
 \Gin@req@width=\dimen216
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip50
-\bibsep=\skip51
+\bibhang=\skip44
+\bibsep=\skip45
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count113
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/here/here.sty)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/float/float.sty
+\c@NAT@ctr=\count112
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\here.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count114
+\c@float@type=\count113
 \float@exts=\toks23
 \float@box=\box35
 \@float@everytoks=\toks24
 \@floatcapt=\box36
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty"
 Package: algorithm2e 2013/01/06 v5.00 algorithms environments
-\c@AlgoLine=\count115
+\c@AlgoLine=\count114
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/xspace.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/relsize/relsize.sty
-Package: relsize 2013/03/29 ver 4.1
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
 )
 ********************************************************
 Package `algorithm2e' Release 5.0 -- january 06 2013 --
@@ -593,14 +579,14 @@ Package `algorithm2e' Release 5.0 -- january 06 2013 --
 subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 - Author: Christophe Fiorio (cfiorio@um2.fr)
 ********************************************************
-\skiptotal=\skip52
-\skiplinenumber=\skip53
-\skiprule=\skip54
-\skiphlne=\skip55
-\skiptext=\skip56
-\skiplength=\skip57
-\algomargin=\skip58
-\skipalgocfslide=\skip59
+\skiptotal=\skip46
+\skiplinenumber=\skip47
+\skiprule=\skip48
+\skiphlne=\skip49
+\skiptext=\skip50
+\skiplength=\skip51
+\algomargin=\skip52
+\skipalgocfslide=\skip53
 \algowidth=\dimen217
 \inoutsize=\dimen218
 \inoutindent=\dimen219
@@ -609,27 +595,27 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \interspacetitleboxruled=\dimen222
 \algocf@inoutbox=\box37
 \algocf@inputbox=\box38
-\AlCapSkip=\skip60
-\AlCapHSkip=\skip61
-\algoskipindent=\skip62
+\AlCapSkip=\skip54
+\AlCapHSkip=\skip55
+\algoskipindent=\skip56
 \algocf@nlbox=\box39
 \algocf@hangingbox=\box40
 \algocf@untilbox=\box41
-\algocf@skipuntil=\skip63
+\algocf@skipuntil=\skip57
 \algocf@capbox=\box42
-\algoheightruledefault=\skip64
-\algoheightrule=\skip65
-\algotitleheightruledefault=\skip66
-\algotitleheightrule=\skip67
-\c@algocfline=\count116
-\c@algocfproc=\count117
-\c@algocf=\count118
+\algoheightruledefault=\skip58
+\algoheightrule=\skip59
+\algotitleheightruledefault=\skip60
+\algotitleheightrule=\skip61
+\c@algocfline=\count115
+\c@algocfproc=\count116
+\c@algocf=\count117
 \algocf@algoframe=\box43
 \algocf@algobox=\box44
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen223
@@ -640,46 +626,51 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen228
 \caption@hangindent=\dimen229
 )
-\c@ContinuedFloat=\count119
+\c@ContinuedFloat=\count118
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/subcaption.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
-\c@subfigure=\count120
-\c@subtable=\count121
+\c@subfigure=\count119
+\c@subtable=\count120
 )
 Package caption Info: We need package `newfloat' on input line 41.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/newfloat.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\newfloat.sty"
 Package: newfloat 2013/05/11 v1.1-91 Defining new floating environments (AR)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/lettrine/lettrine.sty
-File: lettrine.sty 2013/03/14 v1.64 (Daniel Flipo)
-\c@DefaultLines=\count122
+("C:\Program Files\MiKTeX 2.9\tex\latex\lettrine\lettrine.sty"
+File: lettrine.sty 2015/02/16 v1.8 (Daniel Flipo)
+\c@DefaultLines=\count121
+\c@DefaultDepth=\count122
 \DefaultFindent=\dimen230
 \DefaultNindent=\dimen231
 \DefaultSlope=\dimen232
+\DiscardVskip=\dimen233
 \L@lbox=\box45
 \L@tbox=\box46
 \c@L@lines=\count123
-\L@Pindent=\dimen233
+\c@L@depth=\count124
 Normal \dimen register pool exhausted, switching to extended pool.
-\L@Findent=\dimen256
-\L@Nindent=\dimen257
-\L@lraise=\dimen258
-\L@first=\dimen259
-\L@next=\dimen260
-\L@slope=\dimen261
-\L@height=\dimen262
-\LettrineWidth=\dimen263
+\L@Pindent=\dimen256
+\L@Findent=\dimen257
+\L@Nindent=\dimen258
+\L@lraise=\dimen259
+\L@first=\dimen260
+\L@next=\dimen261
+\L@slope=\dimen262
+\L@height=\dimen263
+\L@novskip=\dimen264
+\LettrineWidth=\dimen265
+\LettrineHeight=\dimen266
+\LettrineDepth=\dimen267
 
 Loading lettrine.cfg
-(/usr/local/texlive/2014/texmf-dist/tex/latex/lettrine/lettrine.cfg))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\lettrine\lettrine.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -693,31 +684,30 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/svgnam.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\svgnam.def"
 File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen264
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen268
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen265
-\WF@size=\dimen266
-\c@WF@wrappedlines=\count124
+("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+\wrapoverhang=\dimen269
+\WF@size=\dimen270
+\c@WF@wrappedlines=\count125
 \WF@box=\box47
 \WF@everypar=\toks25
 Package: wrapfig 2003/01/31  v 3.6
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/base/makeidx.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\makeidx.sty"
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/textcomp.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -732,7 +722,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 266.
@@ -760,7 +750,6 @@ Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
 Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
 Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
 Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
-
 Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
 Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
 Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
@@ -797,61 +786,57 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/calc.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2015/05/11 v0.4x Insert pages of external PDF documents (AM)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count125
-\calc@Bcount=\count126
-\calc@Adimen=\dimen267
-\calc@Bdimen=\dimen268
-\calc@Askip=\skip68
-\calc@Bskip=\skip69
-LaTeX Info: Redefining \setlength on input line 75.
-LaTeX Info: Redefining \addtolength on input line 76.
-\calc@Ccount=\count127
-\calc@Cskip=\skip70
+\calc@Acount=\count126
+\calc@Bcount=\count127
+\calc@Adimen=\dimen271
+\calc@Bdimen=\dimen272
+\calc@Askip=\skip62
+\calc@Bskip=\skip63
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count128
+\calc@Cskip=\skip64
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2015/04/20 v2.0e eso-pic (RN)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
+\AM@pagewidth=\dimen273
+\AM@pageheight=\dimen274
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2015/05/11 v0.4x Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box48
 \AM@toc@title=\toks26
-\c@AM@survey=\count128
+\c@AM@survey=\count129
 \AM@templatesizebox=\box49
 )
 \@indexfile=\write3
-\openout3 = `DocumentBase.idx'.
-
 
 Writing index file DocumentBase.idx
-(/usr/local/texlive/2014/texmf-dist/tex/latex/enumitem/enumitem.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip71
-\enit@outerparindent=\dimen269
+\labelindent=\skip65
+\enit@outerparindent=\dimen275
 \enit@toks=\toks27
 \enit@inbox=\box50
-\enitdp@description=\count129
+\enitdp@description=\count130
 )
-\lyxlabelwidth=\skip72
-
-(./DocumentBase.aux (./Remerciements.aux) (./Resume.aux) (./Abstract.aux)
-(./Sommaire.aux) (./Introduction.aux) (./PresentationEntreprise.aux)
-(./TravailRealise.aux) (./AnalyseConception.aux) (./Developpement.aux)
-(./Conclusion.aux) (./Bilan.aux) (./Glossaire.aux) (./Annexes.aux)
-(./Bibliographie.aux))
-\openout1 = `DocumentBase.aux'.
-
+\lyxlabelwidth=\skip66
+ (D:\BERT\Latex\2015_rapport_mobigis\DocumentBase.aux
+(D:\BERT\Latex\2015_rapport_mobigis\Remerciements.aux) (D:\BERT\Latex\2015_rapport_mobigis\Resume.aux)
+(D:\BERT\Latex\2015_rapport_mobigis\Abstract.aux) (D:\BERT\Latex\2015_rapport_mobigis\Sommaire.aux)
+(D:\BERT\Latex\2015_rapport_mobigis\Introduction.aux) (D:\BERT\Latex\2015_rapport_mobigis\PresentationEntreprise.aux)
+(D:\BERT\Latex\2015_rapport_mobigis\TravailRealise.aux) (D:\BERT\Latex\2015_rapport_mobigis\AnalyseConception.aux)
+(D:\BERT\Latex\2015_rapport_mobigis\Developpement.aux) (D:\BERT\Latex\2015_rapport_mobigis\Conclusion.aux)
+(D:\BERT\Latex\2015_rapport_mobigis\Bilan.aux) (D:\BERT\Latex\2015_rapport_mobigis\Glossaire.aux)
+(D:\BERT\Latex\2015_rapport_mobigis\Annexes.aux) (D:\BERT\Latex\2015_rapport_mobigis\Bibliographie.aux))
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 97.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 97.
 
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omltxmi.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\omltxmi.fd"
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 97.
@@ -861,24 +846,19 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
 LaTeX Font Info:    ... okay on input line 97.
 LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 97.
 LaTeX Font Info:    Try loading font information for OMS+txsy on input line 97.
-
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omstxsy.fd
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\omstxsy.fd"
 File: omstxsy.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 97.
 LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 97.
 LaTeX Font Info:    Try loading font information for OMX+txex on input line 97.
-
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omxtxex.fd
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\omxtxex.fd"
 File: omxtxex.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 97.
 LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 97.
 LaTeX Font Info:    Try loading font information for U+txexa on input line 97.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxexa.fd
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxexa.fd"
 File: utxexa.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 97.
@@ -888,27 +868,19 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
 LaTeX Font Info:    ... okay on input line 97.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 97.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 97.
 LaTeX Font Info:    Try loading font information for T1+txr on input line 97.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/t1txr.fd
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\t1txr.fd"
 File: t1txr.fd 2000/12/15 v3.1
 )
 LaTeX Info: Redefining \degres on input line 97.
 LaTeX Info: Redefining \dots on input line 97.
-Package frenchb.ldf Info: Setting StandardItemizeEnv=true for
-(frenchb.ldf)             compatibility with enumitem package,
-(frenchb.ldf)              on input line 97.
-Package frenchb.ldf Info: Setting StandardEnumerateEnv=true for
-(frenchb.ldf)             compatibility with enumitem package,
-(frenchb.ldf)              on input line 97.
 LaTeX Info: Redefining \up on input line 97.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucsencs.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\ucsencs.def"
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 *geometry* driver: auto-detecting
@@ -949,101 +921,161 @@ Package geometry Warning: The marginal notes overrun the paper.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
-\scratchdimen=\dimen270
+\scratchcounter=\count131
+\scratchdimen=\dimen276
 \scratchbox=\box51
-\nofMPsegments=\count131
-\nofMParguments=\count132
+\nofMPsegments=\count132
+\nofMParguments=\count133
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count133
-\MPscratchDim=\dimen271
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen277
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
 \everyMPtoPDFconversion=\toks29
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 \AtBeginShipoutBox=\box52
 Package hyperref Info: Link coloring ON on input line 97.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count136
+\c@section@level=\count137
 )
 LaTeX Info: Redefining \ref on input line 97.
 LaTeX Info: Redefining \pageref on input line 97.
 LaTeX Info: Redefining \nameref on input line 97.
 
-(./DocumentBase.out) (./DocumentBase.out)
+(D:\BERT\Latex\2015_rapport_mobigis\DocumentBase.out) (D:\BERT\Latex\2015_rapport_mobigis\DocumentBase.out)
 \@outlinefile=\write4
-\openout4 = `DocumentBase.out'.
-
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-<page_garde.pdf, id=44, 597.23125pt x 845.1575pt>
-File: page_garde.pdf Graphic file (type pdf)
- <use page_garde.pdf>
-Package pdftex.def Info: page_garde.pdf used on input line 100.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: page_garde.pdf Graphic file (type pdf)
 
-<use page_garde.pdf>
-Package pdftex.def Info: page_garde.pdf used on input line 100.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- <page_garde.pdf, id=47, page=1, 597.23125pt x 845.1575pt>
-File: page_garde.pdf Graphic file (type pdf)
+! Package pdfpages Error: Cannot find file `page_garde.pdf'.
 
-<use page_garde.pdf, page 1>
-Package pdftex.def Info: page_garde.pdf, page1 used on input line 100.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: page_garde.pdf Graphic file (type pdf)
- <use page_garde.pdf, page 1>
-Package pdftex.def Info: page_garde.pdf, page1 used on input line 100.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-File: page_garde.pdf Graphic file (type pdf)
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 \includepdf{page_garde.pdf}
+                                 
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
 
-<use page_garde.pdf, page 1>
-Package pdftex.def Info: page_garde.pdf, page1 used on input line 100.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-File: page_garde.pdf Graphic file (type pdf)
- <use page_garde.pdf, page 1>
-Package pdftex.def Info: page_garde.pdf, page1 used on input line 100.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-File: page_garde.pdf Graphic file (type pdf)
+! Undefined control sequence.
+\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
+                                                \relax \ifthenelse {\boolean...
+l.100 \includepdf{page_garde.pdf}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-<use page_garde.pdf, page 1>
-Package pdftex.def Info: page_garde.pdf, page1 used on input line 100.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [1
+! Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.100 \includepdf{page_garde.pdf}
+                                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
- <./page_garde.pdf>]
-\openout2 = `Remerciements.aux'.
 
- (./Remerciements.tex
-(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+! Package pdfpages Error: page 1 of `\AM@currentdocname ' does not exist.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 \includepdf{page_garde.pdf}
+                                 
+You have set a wrong page number in the `pages' option. Document 
+`\AM@currentdocname ' does not have 1 pages.
+
+
+! Package pdftex.def Error: File `\AM@currentdocname .png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 \includepdf{page_garde.pdf}
+                                 
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 100.
+("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\t1txtt.fd"
+File: t1txtt.fd 2000/12/15 v3.1
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-0.def
+
+! Package pdftex.def Error: File `\AM@currentdocname .png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 \includepdf{page_garde.pdf}
+                                 
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package pdftex.def Error: File `\AM@currentdocname .png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 \includepdf{page_garde.pdf}
+                                 
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package pdftex.def Error: File `\AM@currentdocname .png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 \includepdf{page_garde.pdf}
+                                 
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package pdftex.def Error: File `\AM@currentdocname .png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 \includepdf{page_garde.pdf}
+                                 
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+] (D:\BERT\Latex\2015_rapport_mobigis\Remerciements.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
@@ -1061,22 +1093,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 12--105
+Underfull \hbox (badness 10000) in paragraph at lines 12--103
 
  []
 
 [1
 
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-\openout2 = `Resume.aux'.
-
-
-(./Resume.tex [2
-
-
-
-]
+] (D:\BERT\Latex\2015_rapport_mobigis\Resume.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -1086,29 +1110,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-! Misplaced alignment tab character &.
-l.7 ...©veloppement logiciel (de la conception (R&
-                                                  D), au dÃ©veloppement de c...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 )
-Underfull \hbox (badness 10000) in paragraph at lines 7--107
+Underfull \hbox (badness 10000) in paragraph at lines 7--104
 
  []
 
-[3]
-\openout2 = `Abstract.aux'.
-
- (./Abstract.tex [4
+[2
 
 
 
-]
+] (D:\BERT\Latex\2015_rapport_mobigis\Abstract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -1118,80 +1129,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-! Misplaced alignment tab character &.
-l.7 ...are development projects (from design ( R &
-                                                   D), development of busine...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 )
-Underfull \hbox (badness 10000) in paragraph at lines 7--108
+Underfull \hbox (badness 10000) in paragraph at lines 7--105
 
  []
 
-[5]
-\openout2 = `Sommaire.aux'.
-
- (./Sommaire.tex [6
+[3
 
 
 
-] (./DocumentBase.toc
-! Misplaced alignment tab character &.
-<argument> ...cdestname }{\numberline {4}Analyse &
-                                                   Conception}\hyper@linkend 
-l.6 ...line {4}Analyse & Conception}{7}{chapter.4}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-)
-\tf@toc=\write5
-\openout5 = `DocumentBase.toc'.
-
-) [7]
-\openout2 = `Introduction.aux'.
-
- (./Introduction.tex
-Chapitre 1.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 4.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/ot1txr.fd
+]
+No file Sommaire.tex.
+(D:\BERT\Latex\2015_rapport_mobigis\DocumentBase.lof
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 2.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\ot1txr.fd"
 File: ot1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 4.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 2.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxmia.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxmia.fd"
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 4.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsya.fd
+LaTeX Font Info:    Try loading font information for U+txsya on input line 2.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxsya.fd"
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 4.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 2.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyb.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxsyb.fd"
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 4.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyc.fd
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 2.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxsyc.fd"
 File: utxsyc.fd 2000/12/15 v3.1
-)
+))
+\tf@lof=\write5
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.114 \include{Introduction}
+                             [1
+
+
+
+
+] (D:\BERT\Latex\2015_rapport_mobigis\Introduction.tex
+Chapitre 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -1202,7 +1198,262 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Overfull \hbox (10.57565pt too wide) in paragraph at lines 15--16
+[]\T1/txr/m/n/12 Une troi-sième par-tie pré-sen-tera la mé-tho-do-lo-gie de mon tra-vail (concep-tion/développement)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+) [2
+
+
+] (D:\BERT\Latex\2015_rapport_mobigis\PresentationEntreprise.tex
+Chapitre 2.
+
+Package caption Warning: \label without proper \caption on input line 13.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig1' on page 3 undefined on input line 5.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Package caption Warning: \label without proper \caption on input line 19.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig2' on page 3 undefined on input line 11.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+<images/fig1_solutionsMobigis.JPG, id=118, 568.37344pt x 341.77687pt>
+File: images/fig1_solutionsMobigis.JPG Graphic file (type jpg)
+ <use images/fig1_solutionsMobigis.JPG>
+Package pdftex.def Info: images/fig1_solutionsMobigis.JPG used on input line 15.
+(pdftex.def)             Requested size: 341.43306pt x 205.31802pt.
+
+<images/fig2_referencesMobigis.JPG, id=119, 508.14844pt x 219.06844pt>
+File: images/fig2_referencesMobigis.JPG Graphic file (type jpg)
+ <use images/fig2_referencesMobigis.JPG>
+Package pdftex.def Info: images/fig2_referencesMobigis.JPG used on input line 21.
+(pdftex.def)             Requested size: 341.43306pt x 147.1996pt.
+
+Underfull \vbox (badness 1681) has occurred while \output is active []
+
+ [3
+
+
+
+] [4 <D:/BERT/Latex/2015_rapport_mobigis/images/fig1_solutionsMobigis.JPG> <D:/BERT/Latex/2015_rapport_mobigis/images/fi
+g2_referencesMobigis.JPG>]
+LaTeX Font Info:    Try loading font information for TS1+txr on input line 34.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\ts1txr.fd"
+File: ts1txr.fd 2000/12/15 v3.1
+)
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.117 ...€™entreprise sont notamment Java, C++, C#
+                                                  , Pythonâ€¦ ils permettent...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 119--116
+
+ []
+
+[7] (D:\BERT\Latex\2015_rapport_mobigis\TravailRealise.tex
+Chapitre 3.
+("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-1.def"
+File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
+)
+
+! LaTeX Error: Environment itemsize undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \begin{itemsize}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \item n
+            iveau technique
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 21
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \item n
+            iveau dÃ©veloppement
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 22
+[][]
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{itemsize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \end{itemsize}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) [8
+
+
+
+] (D:\BERT\Latex\2015_rapport_mobigis\AnalyseConception.tex
+Chapitre 4.
+) [9
+
+
+
+] (D:\BERT\Latex\2015_rapport_mobigis\Developpement.tex
+Chapitre 5.
+) [10
+
+
+
+] (D:\BERT\Latex\2015_rapport_mobigis\Conclusion.tex
+Chapitre 6.
+) [11
+
+
+
+] (D:\BERT\Latex\2015_rapport_mobigis\Bilan.tex
+Chapitre 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
 
  []
 
@@ -1212,167 +1463,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.19 
-      [1
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+)
+Underfull \hbox (badness 10000) in paragraph at lines 16--126
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-) [2]
-\openout2 = `PresentationEntreprise.aux'.
-
- (./PresentationEntreprise.tex
-Chapitre 2.
-) [3
+[12
 
 
 
-]
-\openout2 = `TravailRealise.aux'.
-
- (./TravailRealise.tex [4
-
-
-
-]
-Chapitre 3.
-) [5]
-\openout2 = `AnalyseConception.aux'.
-
- (./AnalyseConception.tex [6
-
-
-
-]
-Chapitre 4.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `alignment tab' on input line 1.
-
-! Misplaced alignment tab character &.
-<argument> Analyse &
-                     Conception
-l.1 \chapter{Analyse & Conception}
-                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-) [7]
-\openout2 = `Developpement.aux'.
-
- (./Developpement.tex
-! Misplaced alignment tab character &.
-<argument> ...ore@actives Chapitre\ 4. \ Analyse &
-                                                   Conception
-l.1 \chapter
-            {DÃ©veloppement}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[8
-
-
-
-]
-Chapitre 5.
-) [9]
-\openout2 = `Conclusion.aux'.
-
- (./Conclusion.tex [10
-
-
-
-]
-Chapitre 6.
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 4.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/t1txtt.fd
-File: t1txtt.fd 2000/12/15 v3.1
-)) [11]
-\openout2 = `Bilan.aux'.
-
-
-(./Bilan.tex [12
-
-
-
-]
-Chapitre 7.
-) [13]
-\openout2 = `Glossaire.aux'.
-
- (./Glossaire.tex [14
-
-
-
-]
+] (D:\BERT\Latex\2015_rapport_mobigis\Glossaire.tex
 Chapitre 8.
-) [15]
-\openout2 = `Annexes.aux'.
 
- (./Annexes.tex [16
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+[13
 
 
 
-]
+])
+Underfull \hbox (badness 10000) in paragraph at lines 19--128
+
+ []
+
+[14] (D:\BERT\Latex\2015_rapport_mobigis\Annexes.tex
 Chapitre 9.
-) [17]
-\openout2 = `Bibliographie.aux'.
-
- (./Bibliographie.tex [18
+) [15
 
 
 
-]
+] (D:\BERT\Latex\2015_rapport_mobigis\Bibliographie.tex
 
 ! LaTeX Error: Can be used only in preamble.
 
@@ -1440,8 +1581,7 @@ or  <return>  to continue without it.
 
 
 Overfull \hbox (37.4967pt too wide) in paragraph at lines 6--10
-[]\T1/txr/m/n/12 [utf8]inputenc [T1]fontenc [fran-cais]babel [top=2cm, bot-tom=
-2cm, left=2cm, right=2cm]geometry 
+[]\T1/txr/m/n/12 [utf8]inputenc [T1]fontenc [fran-cais]babel [top=2cm, bot-tom=2cm, left=2cm, right=2cm]geometry 
  []
 
 
@@ -1458,115 +1598,113 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Package natbib Warning: Citation `ref1' on page 19 undefined on input line 26.
+Package natbib Warning: Citation `ref1' on page 16 undefined on input line 26.
 
 
-Package natbib Warning: Citation `ref2' on page 19 undefined on input line 27.
+Package natbib Warning: Citation `ref2' on page 16 undefined on input line 27.
 
 
-Package natbib Warning: Citation `ref3' on page 19 undefined on input line 28.
+Package natbib Warning: Citation `ref3' on page 16 undefined on input line 28.
 
 
-Package natbib Warning: Citation `ref4' on page 19 undefined on input line 29.
+Package natbib Warning: Citation `ref4' on page 16 undefined on input line 29.
 
 
-Package natbib Warning: Citation `ref5' on page 19 undefined on input line 30.
+Package natbib Warning: Citation `ref5' on page 16 undefined on input line 30.
 
 
-Package natbib Warning: Citation `ref6' on page 19 undefined on input line 31.
+Package natbib Warning: Citation `ref6' on page 16 undefined on input line 31.
 
 
-Package natbib Warning: Citation `ref7' on page 19 undefined on input line 32.
+Package natbib Warning: Citation `ref7' on page 16 undefined on input line 32.
 
 
-Package natbib Warning: Citation `ref8' on page 19 undefined on input line 33.
+Package natbib Warning: Citation `ref8' on page 16 undefined on input line 33.
 
 
-Package natbib Warning: Citation `ref9' on page 19 undefined on input line 34.
+Package natbib Warning: Citation `ref9' on page 16 undefined on input line 34.
 
 
-Package natbib Warning: Citation `ref10' on page 19 undefined on input line 35.
+Package natbib Warning: Citation `ref10' on page 16 undefined on input line 35.
 
 
-
-Package natbib Warning: Citation `ref11' on page 19 undefined on input line 36.
-
+Package natbib Warning: Citation `ref11' on page 16 undefined on input line 36.
 
 
-Package natbib Warning: Citation `ref12' on page 19 undefined on input line 37.
+Package natbib Warning: Citation `ref12' on page 16 undefined on input line 37.
 
 
-
-Package natbib Warning: Citation `ref13' on page 19 undefined on input line 38.
-
+Package natbib Warning: Citation `ref13' on page 16 undefined on input line 38.
 
 
-Package natbib Warning: Citation `ref14' on page 19 undefined on input line 39.
+Package natbib Warning: Citation `ref14' on page 16 undefined on input line 39.
 
 
-
-Package natbib Warning: Citation `ref15' on page 19 undefined on input line 40.
-
+Package natbib Warning: Citation `ref15' on page 16 undefined on input line 40.
 
 
-Package natbib Warning: Citation `ref16' on page 19 undefined on input line 41.
+Package natbib Warning: Citation `ref16' on page 16 undefined on input line 41.
 
 
-
-Package natbib Warning: Citation `ref17' on page 19 undefined on input line 42.
-
+Package natbib Warning: Citation `ref17' on page 16 undefined on input line 42.
 
 
-Package natbib Warning: Citation `ref18' on page 19 undefined on input line 43.
+Package natbib Warning: Citation `ref18' on page 16 undefined on input line 43.
 
 
+Package natbib Warning: Citation `ref19' on page 16 undefined on input line 44.
 
-Package natbib Warning: Citation `ref19' on page 19 undefined on input line 44.
-
-
-No file DocumentBase.bbl.
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
-[19]
+[16
+
+
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
- (./DocumentBase.aux (./Remerciements.aux) (./Resume.aux) (./Abstract.aux)
-(./Sommaire.aux) (./Introduction.aux) (./PresentationEntreprise.aux)
-(./TravailRealise.aux) (./AnalyseConception.aux) (./Developpement.aux)
-(./Conclusion.aux) (./Bilan.aux) (./Glossaire.aux) (./Annexes.aux)
-(./Bibliographie.aux))
+ (D:\BERT\Latex\2015_rapport_mobigis\DocumentBase.aux (D:\BERT\Latex\2015_rapport_mobigis\Remerciements.aux)
+(D:\BERT\Latex\2015_rapport_mobigis\Resume.aux) (D:\BERT\Latex\2015_rapport_mobigis\Abstract.aux)
+(D:\BERT\Latex\2015_rapport_mobigis\Sommaire.aux) (D:\BERT\Latex\2015_rapport_mobigis\Introduction.aux)
+(D:\BERT\Latex\2015_rapport_mobigis\PresentationEntreprise.aux) (D:\BERT\Latex\2015_rapport_mobigis\TravailRealise.aux)
+(D:\BERT\Latex\2015_rapport_mobigis\AnalyseConception.aux) (D:\BERT\Latex\2015_rapport_mobigis\Developpement.aux)
+(D:\BERT\Latex\2015_rapport_mobigis\Conclusion.aux) (D:\BERT\Latex\2015_rapport_mobigis\Bilan.aux)
+(D:\BERT\Latex\2015_rapport_mobigis\Glossaire.aux) (D:\BERT\Latex\2015_rapport_mobigis\Annexes.aux)
+(D:\BERT\Latex\2015_rapport_mobigis\Bibliographie.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `DocumentBase.out' has not changed.
-(rerunfilecheck)             Checksum: 3B787B560D4DCEA899A0FE4F2E6D1EBC;1173.
+(rerunfilecheck)             Checksum: 7191C950D078C6659CB9D116F2AC8D94;3001.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 24 (\begingroup)
 ### bottom level
-(\end occurred when \iftrue on line 137 was incomplete)
-(\end occurred when \ifnum on line 137 was incomplete) 
+(\end occurred when \iftrue on line 132 was incomplete)
+(\end occurred when \ifnum on line 132 was incomplete) 
 Here is how much of TeX's memory you used:
- 17665 strings out of 493117
- 252792 string characters out of 6135433
- 370172 words of memory out of 5000000
- 20716 multiletter control sequences out of 15000+600000
- 49632 words of font info for 76 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 53i,18n,92p,1071b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/
-texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2014/texmf-dist/font
-s/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
-/public/txfonts/rtxsc.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publi
-c/txfonts/t1xtt.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/u
-tmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on DocumentBase.pdf (27 pages, 178600 bytes).
+ 17934 strings out of 493921
+ 255059 string characters out of 3147273
+ 359821 words of memory out of 3000000
+ 20808 multiletter control sequences out of 15000+200000
+ 65148 words of font info for 115 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 53i,17n,92p,1357b,566s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/txfonts/rtcxr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/rtx
+b.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/rtxr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/t
+xfonts/rtxsc.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/t1xtt.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/urw/times/utmr8a.pfb>
+Output written on DocumentBase.pdf (20 pages, 222327 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 229 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 

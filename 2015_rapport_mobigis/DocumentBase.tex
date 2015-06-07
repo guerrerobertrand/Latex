@@ -1,4 +1,4 @@
-\documentclass[12pt,twoside]{StyleBertrand}
+\documentclass[12pt,openany]{StyleBertrand}
 \author{Bertrand Guerrero}
 \usepackage{etex}
 \usepackage{lmodern}
@@ -98,21 +98,16 @@
 
 %\paragraph*{\pagenumbering{Roman}}
 \includepdf{page_garde.pdf}
-
-
-\pagenumbering{roman} \setcounter{page}{1} 
+\pagenumbering{roman} \setcounter{page}{1}
 
 \include{Remerciements}
-
 \include{Resume} 
 \include{Abstract} 
-
 \renewcommand{\contentsname}{Sommaire} %dans le corps du document, avant la commande \tableofcontents .
 
-
-
-
 \include{Sommaire}
+
+\listoffigures  % table des figures
 
 \pagenumbering{arabic} \setcounter{page}{1} 
 
