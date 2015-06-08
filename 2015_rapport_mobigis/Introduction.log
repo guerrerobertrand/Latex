@@ -1,15 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.26)  7 JUN 2015 23:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.14)  8 JUN 2015 22:46
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **Introduction.tex
-(D:\BERT\Latex\2015_rapport_mobigis\Introduction.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
-, bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
-ian, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, icelandic, indonesian, interlingua, irish, italian,
- kannada, kurmanji, latin, latvian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, ngerman
--x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, sloven
-ian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
-elsh, loaded.
+(./Introduction.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 ! Undefined control sequence.
 l.1 \chapter
             {Introduction}
@@ -56,7 +52,8 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.4 C
-     e stage s'inscrit dans le cadre de la formation "`Concepteur / Dévelop...
+     e stage s'inscrit dans le cadre de la formation "Concepteur / Développ...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -101,7 +98,6 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no " in font nullfont!
-Missing character: There is no ` in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -138,7 +134,6 @@ Missing character: There is no q in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no " in font nullfont!
-Missing character: There is no ' in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no � in font nullfont!
 Missing character: There is no � in font nullfont!
@@ -448,6 +443,7 @@ Type  H <return>  for immediate help.
                                                   
 l.6 D
      ans ce mémoire sera présenté le travail que j'ai réalisé, avec par...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1383,11 +1379,11 @@ Overfull \hbox (20.61237pt too wide) in paragraph at lines 21--22
 
  
 Here is how much of TeX's memory you used:
- 15 strings out of 493921
- 289 string characters out of 3147273
- 50031 words of memory out of 3000000
- 3407 multiletter control sequences out of 15000+200000
- 3948 words of font info for 15 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 24i,5n,14p,455b,102s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 13 strings out of 493117
+ 219 string characters out of 6135433
+ 53909 words of memory out of 5000000
+ 3575 multiletter control sequences out of 15000+600000
+ 3948 words of font info for 15 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 24i,5n,14p,453b,102s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
