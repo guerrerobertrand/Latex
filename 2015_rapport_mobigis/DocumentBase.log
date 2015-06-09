@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.14)  9 JUN 2015 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.14)  10 JUN 2015 00:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -999,7 +999,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-<page_garde.pdf, id=92, 597.23125pt x 845.1575pt>
+<page_garde.pdf, id=96, 597.23125pt x 845.1575pt>
 File: page_garde.pdf Graphic file (type pdf)
  <use page_garde.pdf>
 Package pdftex.def Info: page_garde.pdf used on input line 100.
@@ -1009,7 +1009,7 @@ File: page_garde.pdf Graphic file (type pdf)
 <use page_garde.pdf>
 Package pdftex.def Info: page_garde.pdf used on input line 100.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- <page_garde.pdf, id=95, page=1, 597.23125pt x 845.1575pt>
+ <page_garde.pdf, id=99, page=1, 597.23125pt x 845.1575pt>
 File: page_garde.pdf Graphic file (type pdf)
 
 <use page_garde.pdf, page 1>
@@ -1060,8 +1060,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
 )
-Underfull \hbox (badness 10000) in paragraph at lines 12--106
+Underfull \hbox (badness 10000) in paragraph at lines 14--106
 
  []
 
@@ -1254,7 +1259,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-<images/fig1_solutionsMobigis.JPG, id=195, 568.37344pt x 341.77687pt>
+<images/fig1_solutionsMobigis.JPG, id=202, 568.37344pt x 341.77687pt>
 File: images/fig1_solutionsMobigis.JPG Graphic file (type jpg)
 
 <use images/fig1_solutionsMobigis.JPG>
@@ -1278,7 +1283,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-<images/fig2_referencesMobigis.JPG, id=205, 508.14844pt x 219.06844pt>
+<images/fig2_referencesMobigis.JPG, id=212, 508.14844pt x 219.06844pt>
 File: images/fig2_referencesMobigis.JPG Graphic file (type jpg)
 
 <use images/fig2_referencesMobigis.JPG>
@@ -1363,7 +1368,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--122
  (./AnalyseConception.tex
 Chapitre 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
+Package caption Warning: \label without proper \caption on input line 33.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:Offre du produit MobiAnalyst' on page 8 undefined
+ on input line 31.
+
+<images/offre_MobiAnalyst.png, id=231, 962.59625pt x 606.265pt>
+File: images/offre_MobiAnalyst.png Graphic file (type png)
+
+<use images/offre_MobiAnalyst.png>
+Package pdftex.def Info: images/offre_MobiAnalyst.png used on input line 34.
+(pdftex.def)             Requested size: 341.43306pt x 215.03593pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
@@ -1371,7 +1394,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
 
 
-]) [9]
+]) [9 <./images/offre_MobiAnalyst.png>]
 \openout2 = `Developpement.aux'.
 
  (./Developpement.tex
@@ -1381,10 +1404,34 @@ Chapitre 4.
 
 
 ]
+\openout2 = `Bilan.aux'.
+
+ (./Bilan.tex
+Chapitre 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 14--128
+
+ []
+
+[11
+
+
+
+]
 \openout2 = `Conclusion.aux'.
 
  (./Conclusion.tex
-Chapitre 5.
+Chapitre 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
 
@@ -1431,31 +1478,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--24
 
  []
 
-) [11
-
-
-
-]
-\openout2 = `Bilan.aux'.
-
- (./Bilan.tex
-Chapitre 6.
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 14--130
-
- []
-
-[12
+) [12
 
 
 
@@ -1465,22 +1488,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--130
  (./Glossaire.tex
 Chapitre 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--13
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
+Underfull \hbox (badness 10000) in paragraph at lines 10--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
@@ -1493,12 +1516,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 21--132
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
 [14]
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+) [15]
 \openout2 = `Annexes.aux'.
 
  (./Annexes.tex
@@ -1534,7 +1577,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[15
+[16
 
 
 
@@ -1543,7 +1586,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-) [16]
+) [17]
 \openout2 = `Bibliographie.aux'.
 
  (./Bibliographie.tex
@@ -1632,70 +1675,70 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Package natbib Warning: Citation `ref1' on page 17 undefined on input line 26.
+Package natbib Warning: Citation `ref1' on page 18 undefined on input line 26.
 
 
-Package natbib Warning: Citation `ref2' on page 17 undefined on input line 27.
+Package natbib Warning: Citation `ref2' on page 18 undefined on input line 27.
 
 
-Package natbib Warning: Citation `ref3' on page 17 undefined on input line 28.
+Package natbib Warning: Citation `ref3' on page 18 undefined on input line 28.
 
 
-Package natbib Warning: Citation `ref4' on page 17 undefined on input line 29.
+Package natbib Warning: Citation `ref4' on page 18 undefined on input line 29.
 
 
-Package natbib Warning: Citation `ref5' on page 17 undefined on input line 30.
+Package natbib Warning: Citation `ref5' on page 18 undefined on input line 30.
 
 
-Package natbib Warning: Citation `ref6' on page 17 undefined on input line 31.
+Package natbib Warning: Citation `ref6' on page 18 undefined on input line 31.
 
 
-Package natbib Warning: Citation `ref7' on page 17 undefined on input line 32.
+Package natbib Warning: Citation `ref7' on page 18 undefined on input line 32.
 
 
-Package natbib Warning: Citation `ref8' on page 17 undefined on input line 33.
+Package natbib Warning: Citation `ref8' on page 18 undefined on input line 33.
 
 
-Package natbib Warning: Citation `ref9' on page 17 undefined on input line 34.
+Package natbib Warning: Citation `ref9' on page 18 undefined on input line 34.
 
 
-Package natbib Warning: Citation `ref10' on page 17 undefined on input line 35.
-
-
-
-Package natbib Warning: Citation `ref11' on page 17 undefined on input line 36.
+Package natbib Warning: Citation `ref10' on page 18 undefined on input line 35.
 
 
 
-Package natbib Warning: Citation `ref12' on page 17 undefined on input line 37.
+Package natbib Warning: Citation `ref11' on page 18 undefined on input line 36.
 
 
 
-Package natbib Warning: Citation `ref13' on page 17 undefined on input line 38.
+Package natbib Warning: Citation `ref12' on page 18 undefined on input line 37.
 
 
 
-Package natbib Warning: Citation `ref14' on page 17 undefined on input line 39.
+Package natbib Warning: Citation `ref13' on page 18 undefined on input line 38.
 
 
 
-Package natbib Warning: Citation `ref15' on page 17 undefined on input line 40.
+Package natbib Warning: Citation `ref14' on page 18 undefined on input line 39.
 
 
 
-Package natbib Warning: Citation `ref16' on page 17 undefined on input line 41.
+Package natbib Warning: Citation `ref15' on page 18 undefined on input line 40.
 
 
 
-Package natbib Warning: Citation `ref17' on page 17 undefined on input line 42.
+Package natbib Warning: Citation `ref16' on page 18 undefined on input line 41.
 
 
 
-Package natbib Warning: Citation `ref18' on page 17 undefined on input line 43.
+Package natbib Warning: Citation `ref17' on page 18 undefined on input line 42.
 
 
 
-Package natbib Warning: Citation `ref19' on page 17 undefined on input line 44.
+Package natbib Warning: Citation `ref18' on page 18 undefined on input line 43.
+
+
+
+Package natbib Warning: Citation `ref19' on page 18 undefined on input line 44.
 
 
 ! You can't use `macro parameter character #' in horizontal mode.
@@ -1777,7 +1820,7 @@ you left one out. Proceed, with fingers crossed.
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
-[17
+[18
 
 
 
@@ -1785,7 +1828,7 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
  (./DocumentBase.aux (./Remerciements.aux) (./Resume.aux) (./Abstract.aux)
 (./Sommaire.aux) (./Introduction.aux) (./PresentationEntreprise.aux)
-(./AnalyseConception.aux) (./Developpement.aux) (./Conclusion.aux) (./Bilan.aux
+(./AnalyseConception.aux) (./Developpement.aux) (./Bilan.aux) (./Conclusion.aux
 ) (./Glossaire.aux) (./Annexes.aux) (./Bibliographie.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
@@ -1796,8 +1839,8 @@ Package rerunfilecheck Warning: File `DocumentBase.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `DocumentBase.out':
-(rerunfilecheck)             Before: 9E3386E190DFC1FFEF7BEBD174712724;2788
-(rerunfilecheck)             After:  9124479EE9C2E0A7E57D39B5D5CFA713;2969.
+(rerunfilecheck)             Before: 9093AB1CC0B9975BCF8B79A2D2A8D1D4;2969
+(rerunfilecheck)             After:  1C8CB61473ABDB23F42BD444A4FE7F52;2969.
 
 LaTeX Warning: There were undefined references.
 
@@ -1813,19 +1856,19 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
 (\end occurred when \iftrue on line 136 was incomplete)
 (\end occurred when \ifnum on line 136 was incomplete) 
 Here is how much of TeX's memory you used:
- 17804 strings out of 493117
- 254809 string characters out of 6135433
- 371937 words of memory out of 5000000
- 20819 multiletter control sequences out of 15000+600000
+ 17817 strings out of 493117
+ 255059 string characters out of 6135433
+ 372035 words of memory out of 5000000
+ 20825 multiletter control sequences out of 15000+600000
  72282 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,18n,92p,1079b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,18n,92p,1169b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): na
-me{subsection.3.1.2} has been referenced but does not exist, replaced by a fixe
-d one
+me{section.6.2} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.3.1.1} has been referenced but does not 
-exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.6.1} has been referenced but does not exist
+, replaced by a fixed one
 
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2014/
@@ -1839,10 +1882,10 @@ s/t1xtt.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/txsy
 /local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/
 texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on DocumentBase.pdf (24 pages, 490999 bytes).
+Output written on DocumentBase.pdf (25 pages, 595510 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 283 compressed objects within 3 object streams
- 67 named destinations out of 1000 (max. 500000)
- 207 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 361 PDF objects out of 1000 (max. 8388607)
+ 304 compressed objects within 4 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 220 words of extra memory for PDF output out of 10000 (max. 10000000)
 
