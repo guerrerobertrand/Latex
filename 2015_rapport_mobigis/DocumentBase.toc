@@ -1,22 +1,32 @@
 \select@language {french}
-\contentsline {chapter}{Sommaire}{iv}{chapter*.4}
+\contentsline {chapter}{Sommaire}{vi}{chapter*.4}
 \contentsline {chapter}{Table des figures}{1}{chapter*.5}
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
 \contentsline {chapter}{\numberline {2}Pr\IeC {\'e}sentation de l'entreprise}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Les Syst\IeC {\`e}mes d\IeC {\textquoteright }Informations G\IeC {\'e}ographiques (SIG)}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}Pr\IeC {\'e}sentation de Mobigis}{4}{section.2.2}
-\contentsline {section}{\numberline {2.3}Une activit\IeC {\'e} centr\IeC {\'e}e sur les services SIG et l'\IeC {\'e}dition de logiciels}{4}{section.2.3}
-\contentsline {section}{\numberline {2.4}Mettre en avant la R\&D pour renforcer l'innovation}{5}{section.2.4}
-\contentsline {section}{\numberline {2.5}Historique de l'entreprise}{6}{section.2.5}
-\contentsline {section}{\numberline {2.6}Ressources de l'entreprise}{7}{section.2.6}
-\contentsline {chapter}{\numberline {3}Travail R\IeC {\'e}alis\IeC {\'e}}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}Outils de d\IeC {\'e}veloppement}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}Gestion de projet}{9}{section.3.2}
-\contentsline {chapter}{\numberline {4}Analyse \& Conception}{10}{chapter.4}
-\contentsline {chapter}{\numberline {5}D\IeC {\'e}veloppement}{11}{chapter.5}
-\contentsline {chapter}{\numberline {6}Conclusion}{12}{chapter.6}
-\contentsline {chapter}{\numberline {7}Bilan}{13}{chapter.7}
-\contentsline {section}{\numberline {7.1}Bilan professionnel}{13}{section.7.1}
-\contentsline {section}{\numberline {7.2}Bilan personnel}{13}{section.7.2}
-\contentsline {chapter}{\numberline {8}Glossaire et d\IeC {\'e}finitions}{14}{chapter.8}
-\contentsline {chapter}{\numberline {9}Annexes}{16}{chapter.9}
+\contentsline {section}{\numberline {2.3}Activit\IeC {\'e}s}{5}{section.2.3}
+\contentsline {section}{\numberline {2.4}Historique}{5}{section.2.4}
+\contentsline {section}{\numberline {2.5}Ressources}{7}{section.2.5}
+\contentsline {chapter}{\numberline {3}R\IeC {\'e}alisations}{8}{chapter.3}
+\contentsline {section}{\numberline {3.1}Environnement de travail}{8}{section.3.1}
+\contentsline {section}{\numberline {3.2}Les Projets}{8}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}MobiSaas}{8}{subsection.3.2.1}
+\contentsline {paragraph}{Pr\IeC {\'e}sentation}{8}{section*.8}
+\contentsline {paragraph}{Technologies}{8}{section*.9}
+\contentsline {paragraph}{R\IeC {\'e}alisations}{8}{section*.10}
+\contentsline {paragraph}{Perspectives}{8}{section*.11}
+\contentsline {subsection}{\numberline {3.2.2}DataWizard}{8}{subsection.3.2.2}
+\contentsline {paragraph}{Pr\IeC {\'e}sentation}{8}{section*.12}
+\contentsline {paragraph}{Technologies}{8}{section*.13}
+\contentsline {paragraph}{R\IeC {\'e}alisations}{9}{section*.14}
+\contentsline {paragraph}{Perspectives}{9}{section*.15}
+\contentsline {chapter}{\numberline {4}D\IeC {\'e}veloppement}{10}{chapter.4}
+\contentsline {chapter}{\numberline {5}Conclusion}{11}{chapter.5}
+\contentsline {chapter}{\numberline {6}Bilan}{12}{chapter.6}
+\contentsline {section}{\numberline {6.1}Bilan professionnel}{12}{section.6.1}
+\contentsline {section}{\numberline {6.2}Bilan personnel}{12}{section.6.2}
+\contentsline {chapter}{\numberline {7}Glossaire et d\IeC {\'e}finitions}{13}{chapter.7}
+\contentsline {chapter}{\numberline {8}Annexes}{15}{chapter.8}
+\contentsline {section}{\numberline {8.1}Apache Maven}{15}{section.8.1}
+\contentsline {section}{\numberline {8.2}DropWizard}{15}{section.8.2}
