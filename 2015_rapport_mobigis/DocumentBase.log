@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.14)  10 JUN 2015 00:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.14)  11 JUN 2015 00:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -842,7 +842,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 
 (./DocumentBase.aux (./Remerciements.aux) (./Resume.aux) (./Abstract.aux)
 (./Sommaire.aux) (./Introduction.aux) (./PresentationEntreprise.aux)
-(./AnalyseConception.aux) (./Developpement.aux) (./Conclusion.aux) (./Bilan.aux
+(./AnalyseConception.aux) (./Developpement.aux) (./Bilan.aux) (./Conclusion.aux
 ) (./Glossaire.aux) (./Annexes.aux) (./Bibliographie.aux))
 \openout1 = `DocumentBase.aux'.
 
@@ -999,7 +999,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-<page_garde.pdf, id=96, 597.23125pt x 845.1575pt>
+<page_garde.pdf, id=120, 597.23125pt x 845.1575pt>
 File: page_garde.pdf Graphic file (type pdf)
  <use page_garde.pdf>
 Package pdftex.def Info: page_garde.pdf used on input line 100.
@@ -1009,7 +1009,8 @@ File: page_garde.pdf Graphic file (type pdf)
 <use page_garde.pdf>
 Package pdftex.def Info: page_garde.pdf used on input line 100.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- <page_garde.pdf, id=99, page=1, 597.23125pt x 845.1575pt>
+
+<page_garde.pdf, id=123, page=1, 597.23125pt x 845.1575pt>
 File: page_garde.pdf Graphic file (type pdf)
 
 <use page_garde.pdf, page 1>
@@ -1088,8 +1089,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 7.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 7--110
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 7.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsya on input line 7.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 7.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 7.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 7.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 9--110
 
  []
 
@@ -1100,68 +1147,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--110
 \openout2 = `Abstract.aux'.
 
  (./Abstract.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 7--111
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-[5
+! Misplaced alignment tab character &.
+l.10 ...development lifecycle (from design ( R \ &
+                                                   D), development of busine...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+) [5
 
 
 
 ]
 \openout2 = `Sommaire.aux'.
 
- (./Sommaire.tex (./DocumentBase.toc
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 6.
+ (./Sommaire.tex (./DocumentBase.toc [6
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/ot1txr.fd
-File: ot1txr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 6.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxmia.fd
-File: utxmia.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Try loading font information for U+txsya on input line 6.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsya.fd
-File: utxsya.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 6.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyb.fd
-File: utxsyb.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 6.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyc.fd
-File: utxsyc.fd 2000/12/15 v3.1
-))
+])
 \tf@toc=\write5
 \openout5 = `DocumentBase.toc'.
 
-) [6
-
-
-
-]
-(./DocumentBase.lof)
+) [7] (./DocumentBase.lof)
 \tf@lof=\write6
 \openout6 = `DocumentBase.lof'.
 
@@ -1222,135 +1252,107 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 ) [2
 
 
+] [3
+
+
 ]
 \openout2 = `PresentationEntreprise.aux'.
 
  (./PresentationEntreprise.tex
 Chapitre 2.
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 22.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/t1txtt.fd
-File: t1txtt.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
+[4
 
 
-Package caption Warning: \label without proper \caption on input line 27.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:fig1' on page 3 undefined on input line 23.
-
-
+]
 Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
-[3
 
-
-
-]
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-<images/fig1_solutionsMobigis.JPG, id=202, 568.37344pt x 341.77687pt>
+<images/fig1_solutionsMobigis.JPG, id=248, 568.37344pt x 341.77687pt>
 File: images/fig1_solutionsMobigis.JPG Graphic file (type jpg)
 
 <use images/fig1_solutionsMobigis.JPG>
 Package pdftex.def Info: images/fig1_solutionsMobigis.JPG used on input line 29
 .
-(pdftex.def)             Requested size: 341.43306pt x 205.31802pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4 <./images/fig1_solutionsMobigis.JPG>]
-
-Package caption Warning: \label without proper \caption on input line 39.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:Exemples de clients' on page 5 undefined on input
- line 37.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+(pdftex.def)             Requested size: 398.33858pt x 239.53943pt.
+ [5 <./images/fig1_solutionsMobigis.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-<images/fig2_referencesMobigis.JPG, id=212, 508.14844pt x 219.06844pt>
+<images/fig2_referencesMobigis.JPG, id=257, 508.14844pt x 219.06844pt>
 File: images/fig2_referencesMobigis.JPG Graphic file (type jpg)
 
 <use images/fig2_referencesMobigis.JPG>
 Package pdftex.def Info: images/fig2_referencesMobigis.JPG used on input line 4
-1.
-(pdftex.def)             Requested size: 341.43306pt x 147.1996pt.
-LaTeX Font Info:    Try loading font information for TS1+txr on input line 49.
+3.
+(pdftex.def)             Requested size: 398.33858pt x 171.73509pt.
+LaTeX Font Info:    Try loading font information for TS1+txr on input line 52.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
 
-[5 <./images/fig2_referencesMobigis.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
+[6 <./images/fig2_referencesMobigis.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--85
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
+Underfull \hbox (badness 10000) in paragraph at lines 86--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--103
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.129 ... sont divers dont notamment Java, C++, C#
+l.132 ... sont divers dont notamment Java, C++, C#
                                                   , Python… Ils permettent...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1358,49 +1360,82 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 129--122
+Underfull \hbox (badness 10000) in paragraph at lines 132--124
 
  []
 
-[7]
+[8] [9
+
+
+]
 \openout2 = `AnalyseConception.aux'.
 
  (./AnalyseConception.tex
 Chapitre 3.
 
-Package caption Warning: \label without proper \caption on input line 33.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:Offre du produit MobiAnalyst' on page 8 undefined
- on input line 31.
-
-<images/offre_MobiAnalyst.png, id=231, 962.59625pt x 606.265pt>
-File: images/offre_MobiAnalyst.png Graphic file (type png)
-
-<use images/offre_MobiAnalyst.png>
-Package pdftex.def Info: images/offre_MobiAnalyst.png used on input line 34.
-(pdftex.def)             Requested size: 341.43306pt x 215.03593pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-[8
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
-]) [9 <./images/offre_MobiAnalyst.png>]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+[10
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+) [11] [12
+
+
+]
 \openout2 = `Developpement.aux'.
 
  (./Developpement.tex
 Chapitre 4.
-) [10
+<images/offre_MobiAnalyst.png, id=292, 962.59625pt x 606.265pt>
+File: images/offre_MobiAnalyst.png Graphic file (type png)
 
+<use images/offre_MobiAnalyst.png>
+Package pdftex.def Info: images/offre_MobiAnalyst.png used on input line 15.
+(pdftex.def)             Requested size: 398.33858pt x 250.87372pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+Underfull \vbox (badness 5460) has occurred while \output is active []
+
+ [13
+
+
+ <./images/offre_MobiAnalyst.png>]) [14] [15
 
 
 ]
@@ -1419,12 +1454,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 14--128
+Underfull \hbox (badness 10000) in paragraph at lines 14--136
 
  []
 
-[11
-
+[16
 
 
 ]
@@ -1478,7 +1512,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--24
 
  []
 
-) [12
+) [17
 
 
 
@@ -1507,7 +1541,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-[13
+[18
 
 
 
@@ -1531,7 +1565,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-[14]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
@@ -1541,7 +1575,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-) [15]
+) [20]
 \openout2 = `Annexes.aux'.
 
  (./Annexes.tex
@@ -1577,7 +1611,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[16
+[21
 
 
 
@@ -1586,7 +1620,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-) [17]
+) [22]
 \openout2 = `Bibliographie.aux'.
 
  (./Bibliographie.tex
@@ -1675,70 +1709,70 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Package natbib Warning: Citation `ref1' on page 18 undefined on input line 26.
+Package natbib Warning: Citation `ref1' on page 23 undefined on input line 26.
 
 
-Package natbib Warning: Citation `ref2' on page 18 undefined on input line 27.
+Package natbib Warning: Citation `ref2' on page 23 undefined on input line 27.
 
 
-Package natbib Warning: Citation `ref3' on page 18 undefined on input line 28.
+Package natbib Warning: Citation `ref3' on page 23 undefined on input line 28.
 
 
-Package natbib Warning: Citation `ref4' on page 18 undefined on input line 29.
+Package natbib Warning: Citation `ref4' on page 23 undefined on input line 29.
 
 
-Package natbib Warning: Citation `ref5' on page 18 undefined on input line 30.
+Package natbib Warning: Citation `ref5' on page 23 undefined on input line 30.
 
 
-Package natbib Warning: Citation `ref6' on page 18 undefined on input line 31.
+Package natbib Warning: Citation `ref6' on page 23 undefined on input line 31.
 
 
-Package natbib Warning: Citation `ref7' on page 18 undefined on input line 32.
+Package natbib Warning: Citation `ref7' on page 23 undefined on input line 32.
 
 
-Package natbib Warning: Citation `ref8' on page 18 undefined on input line 33.
+Package natbib Warning: Citation `ref8' on page 23 undefined on input line 33.
 
 
-Package natbib Warning: Citation `ref9' on page 18 undefined on input line 34.
+Package natbib Warning: Citation `ref9' on page 23 undefined on input line 34.
 
 
-Package natbib Warning: Citation `ref10' on page 18 undefined on input line 35.
-
-
-
-Package natbib Warning: Citation `ref11' on page 18 undefined on input line 36.
+Package natbib Warning: Citation `ref10' on page 23 undefined on input line 35.
 
 
 
-Package natbib Warning: Citation `ref12' on page 18 undefined on input line 37.
+Package natbib Warning: Citation `ref11' on page 23 undefined on input line 36.
 
 
 
-Package natbib Warning: Citation `ref13' on page 18 undefined on input line 38.
+Package natbib Warning: Citation `ref12' on page 23 undefined on input line 37.
 
 
 
-Package natbib Warning: Citation `ref14' on page 18 undefined on input line 39.
+Package natbib Warning: Citation `ref13' on page 23 undefined on input line 38.
 
 
 
-Package natbib Warning: Citation `ref15' on page 18 undefined on input line 40.
+Package natbib Warning: Citation `ref14' on page 23 undefined on input line 39.
 
 
 
-Package natbib Warning: Citation `ref16' on page 18 undefined on input line 41.
+Package natbib Warning: Citation `ref15' on page 23 undefined on input line 40.
 
 
 
-Package natbib Warning: Citation `ref17' on page 18 undefined on input line 42.
+Package natbib Warning: Citation `ref16' on page 23 undefined on input line 41.
 
 
 
-Package natbib Warning: Citation `ref18' on page 18 undefined on input line 43.
+Package natbib Warning: Citation `ref17' on page 23 undefined on input line 42.
 
 
 
-Package natbib Warning: Citation `ref19' on page 18 undefined on input line 44.
+Package natbib Warning: Citation `ref18' on page 23 undefined on input line 43.
+
+
+
+Package natbib Warning: Citation `ref19' on page 23 undefined on input line 44.
 
 
 ! You can't use `macro parameter character #' in horizontal mode.
@@ -1820,7 +1854,7 @@ you left one out. Proceed, with fingers crossed.
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
-[18
+[23
 
 
 
@@ -1832,17 +1866,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
 ) (./Glossaire.aux) (./Annexes.aux) (./Bibliographie.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
-
-
-Package rerunfilecheck Warning: File `DocumentBase.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `DocumentBase.out':
-(rerunfilecheck)             Before: 9093AB1CC0B9975BCF8B79A2D2A8D1D4;2969
-(rerunfilecheck)             After:  1C8CB61473ABDB23F42BD444A4FE7F52;2969.
-
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Info: File `DocumentBase.out' has not changed.
+(rerunfilecheck)             Checksum: AF3CD20D4EDA17B74DB102914D017D45;3493.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1853,39 +1878,37 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
 
 ### semi simple group (level 1) entered at line 24 (\begingroup)
 ### bottom level
-(\end occurred when \iftrue on line 136 was incomplete)
-(\end occurred when \ifnum on line 136 was incomplete) 
+(\end occurred when \iftrue on line 144 was incomplete)
+(\end occurred when \ifnum on line 144 was incomplete) 
 Here is how much of TeX's memory you used:
- 17817 strings out of 493117
- 255059 string characters out of 6135433
- 372035 words of memory out of 5000000
- 20825 multiletter control sequences out of 15000+600000
+ 17838 strings out of 493117
+ 255224 string characters out of 6135433
+ 370923 words of memory out of 5000000
+ 20831 multiletter control sequences out of 15000+600000
  72282 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,18n,92p,1169b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,18n,92p,1025b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): na
-me{section.6.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.6.1} has been referenced but does not exist
-, replaced by a fixed one
+me{figure.caption.8} has been referenced but does not exist, replaced by a fixe
+d one
 
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2014/
 texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2014/texmf-dist/
 fonts/type1/public/txfonts/rtcxr.pfb></usr/local/texlive/2014/texmf-dist/fonts/
-type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
-public/txfonts/rtxr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
-txfonts/rtxsc.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfont
-s/t1xtt.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/txsy
-.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on DocumentBase.pdf (25 pages, 595510 bytes).
+type1/public/txfonts/rtxb.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
+ublic/txfonts/rtxmi.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
+txfonts/rtxr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts
+/rtxsc.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/t1xtt
+.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-d
+ist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on DocumentBase.pdf (31 pages, 603675 bytes).
 PDF statistics:
- 361 PDF objects out of 1000 (max. 8388607)
- 304 compressed objects within 4 object streams
- 72 named destinations out of 1000 (max. 500000)
- 220 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 431 PDF objects out of 1000 (max. 8388607)
+ 367 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 268 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,53 +1,25 @@
-\chapter{Réalisations}
+\chapter{Contexte du stage}
 \label{AnalyseConception}
 
 \section{Environnement de travail}
-Environnement de travail =
-Windows 8.1 Profesionnal (machine hôte)
-Machine virtuelle de développement via VirtualBox (Windows Server 2012 R2 Standard)
 
-Outils/Projets =
-DataWizard (python) = génération de réseau de transports multi-modaux
-OneBusAway (java) = traitement de données de transport (standard GTFS)
+Durant le stage j'ai travaillé sur un pc de marque Dell, dont le système d'exploitation est Windows 8.1 Profesionnal (machine hôte). L'entreprise travaille avec de nombreuses machines virtuelles hébergées ou distantes afin de disposer d'environnement de tests, de développements, et de production. Pour cela, j'avais à ma disposition une machine virtuelle de développement via VirtualBox avec le système d'exploitation Windows Server 2012 R2 Standard. \\
 
-Gestion de projets =
-Redmine (gestion des tickets = bugtracker)
-eGroupware (intranet)
-SVN (gestion des codes sources)
+\section{Outils utilisés}
 
-IDE =
-    Liclipse (python)
-    Eclipse Mars (java)
+Quotidiennement j'ai utilisé 2 environnements de développement intégré (IDE) : Liclipse (pour développer en python) pour le projet DataWizard, \textbf{Eclipse} Mars (Java/Java EE) pour les projets Crislab, et MobiSaaS.\\
 
-SGBD = 
-Postgresql/Postgis
+J'ai manipulé plusieurs \textbf{SGBD} : MongoDB (MobiSaaS), Oracle (Crislab), mais j'ai principalement travaillé avec le couple \textbf{Postgresql}/\textbf{Postgis} afin de gérer les données géographiques.\\
 
-\section{Les Projets}
+Côté serveur, j'ai déployé l'application Crislab (Cartographie des RISques de LABoratoires) sur Apache Tomcat. C'est un conteneur de Servlet Java EE issu du projet Jakarta, Tomcat est désormais un projet principal de la fondation Apache. C’est un conteneur qui implémente la spécification des Servlets et des JSP de Sun Microsystems. Tomcat est en fait chargé de compiler les pages JSP avec Jasper pour en faire des Servlets (une servlet étant une application Java qui permet de générer dynamiquement des données au sein d’un serveur http). La particularité des applications web cartographiques est que ces serveurs sont souvent associés à des serveurs dédiés comme ArcGIS Server ou GeoServer, c'est le cas dans ce projet un serveur ArcGIS fournit les fonds de carte à l'application.
 
-\subsection{MobiSaaS}
+Pour le projet "MobiSaaS" le framework DropWizard fournit un serveur HTTP "Jetty", et l'implémentation de référence de la spécification JAX-RS (web services REST) Jersey à l'application. Là encore, cette application est couplée à un serveur cartographique.\\
 
-\paragraph{Présentation}
+\section{Gestion de projets}
 
-Le projet MobiSaaS s'inscrit dans la démarche d'entreprise de proposer des solutions en mode \textbf{SAAS}. Le projet consiste d'une manière générale à exposer les fonctionnalité de la solution desktop du produit "MobiAnalyst"(cf. Figure ~\ref{fig:Offre du produit MobiAnalyst}).
-\begin{figure}[!h]\label{fig:Offre du produit MobiAnalyst}
-\centering
-\includegraphics[width=12cm]{images/offre_MobiAnalyst.png}
-\caption{Offre du produit MobiAnalyst}
-\end{figure} 
+Dans les projets auxquels j'ai participé, l'entreprise utilise des outils de gestion : planning, suivi de bugs, outils de mutualisation, gestion de versions. Ainsi, j'ai utilisé l'outil Trello pour la gestion des tâches, Redmine pour la gestion des tickets, et SVN (gestion des codes sources). L'entreprise met à disposition des salariés un intranet avec de nombreux outils collaboratifs sous eGroupware (Feuille de temps, ...).\\
 
-\paragraph{Technologies}
+SVN ou Subversion est un système de gestion de version, conçu pour remplacer CVS. Concrètement, ce système permet aux membres d’une équipe de développeur de modifier le code du projet quasiment en même temps. Le projet est en effet enregistré sur un serveur SVN et à tout moment, le développeur peut mettre à jour une classe avant de faire des modifications pour bénéficier de la dernière version et a la possibilité de comparer deux versions d'un même fichier.\\
 
-\paragraph{Réalisations}
+Un point de suivi informel était effectué chaque semaine ou deux fois par semaine avec l'encadrant afin de présenter le travail effectué, les résultats intermédiaires, et le travail planifié pour la semaine suivante. De plus de nombreuses tâches de soutien aux équipes arrivaient au fil de l'eau.\\
 
-\paragraph{Perspectives}
-
-\subsection{DataWizard}
-
-\paragraph{Présentation}
-
-\paragraph{Technologies}
-
-\paragraph{Réalisations}
-Parmi les missions effectuées au cours du stage, il y en a eu une directement liée à ce contexte de développement d’applications. Il s’agissait de tests effectués sur le module Datawizard (Python / SQL), qui permet la création de réseaux MobiAnalyst.\\
-
-\paragraph{Perspectives}

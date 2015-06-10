@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.14)  9 JUN 2015 22:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.14)  10 JUN 2015 22:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2801,19 +2801,14 @@ Missing character: There is no q in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ( in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no . in font nullfont!
 Missing character: There is no F in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no g in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-<write> ... Reference `fig:fig1' on page \thepage 
+<write> ...rence `OffresMobigis' on page \thepage 
                                                   \space undefined\on@line .
-l.23 ... la logistique (cf. Figure ~\ref{fig:fig1}
+l.23 ...de la logistique (Fig. \ref{OffresMobigis}
                                                   ).\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2822,7 +2817,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:fig1' on page  undefined on input line 23.
+LaTeX Warning: Reference `OffresMobigis' on page  undefined on input line 23.
 
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -3229,25 +3224,29 @@ Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--26
  []
 
 
+Overfull \hbox (20.0pt too wide) in paragraph at lines 27--27
+[] 
+ []
+
+
 ! LaTeX Error: Environment figure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 \begin{figure}
-                   [!h]\label{fig:fig1}
+l.28 \begin{figure}
+                   [h] \centering
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.29 \includegraphics
-                     [width=12cm]{images/fig1_solutionsMobigis.JPG}
+                     [width=14cm]{images/fig1_solutionsMobigis.JPG}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3262,7 +3261,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 1 in font nullfont!
-Missing character: There is no 2 in font nullfont!
+Missing character: There is no 4 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no ] in font nullfont!
@@ -3280,19 +3279,56 @@ Missing character: There is no 1 in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.29 \includegraphics[width=12cm]{images/fig1_
-                                              solutionsMobigis.JPG}
+l.29 \includegraphics[width=14cm]{images/fig1_
+                                              solutionsMobigis.JPG}\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.29 ...th=12cm]{images/fig1_solutionsMobigis.JPG}
-                                                  
+l.29 ...th=14cm]{images/fig1_solutionsMobigis.JPG}
+                                                  \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...=14cm]{images/fig1_solutionsMobigis.JPG}\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.29 ...=14cm]{images/fig1_solutionsMobigis.JPG}\\
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.29 ...=14cm]{images/fig1_solutionsMobigis.JPG}\\
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (102.21304pt too wide) in paragraph at lines 28--29
+ []\OML/cmm/m/it/10 olutionsMobigis:JPG[]$ 
+ []
 
 
 ! LaTeX Error: \caption outside float.
@@ -3302,12 +3338,35 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.30 \caption
-             {Offres de services Mobigis}
+             {\label{OffresMobigis} Offres de services Mobigis}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+Missing character: There is no O in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
 
-! LaTeX Error: \begin{document} ended by \end{figure}.
+! LaTeX Error: \begin{center} on input line 27 ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -3318,38 +3377,6 @@ l.31 \end{figure}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.31 \end{figure}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.31 \end{figure}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 27--32
-[][]
- []
-
-
-Overfull \hbox (219.14973pt too wide) in paragraph at lines 27--32
-[]\OML/cmm/m/it/10 olutionsMobigis:JPG[]$ 
- []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3363,7 +3390,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 
+l.36 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3373,7 +3400,7 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <write> ...el{PresentationEntreprise}{{}{\thepage 
                                                   }}
-l.34 
+l.36 
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3385,7 +3412,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{sig}{{}{\thepage 
                                    }}
-l.34 
+l.36 
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3396,9 +3423,9 @@ and I'll forget about whatever was undefined.
 \newlabel{sig}{{}{}}
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 ! Undefined control sequence.
-<write> \newlabel{fig:fig1}{{}{\thepage 
-                                        }}
-l.34 
+<write> \newlabel{OffresMobigis}{{}{\thepage 
+                                             }}
+l.36 
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3406,10 +3433,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-\newlabel{fig:fig1}{{}{}}
+\newlabel{OffresMobigis}{{}{}}
 ]
 ! Undefined control sequence.
-l.35 \section
+l.37 \section
              {Activit√©s}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3428,7 +3455,7 @@ Missing character: There is no √ in font nullfont!
 Missing character: There is no © in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 35--36
+Overfull \hbox (20.0pt too wide) in paragraph at lines 37--38
 [] 
  []
 
@@ -3669,19 +3696,14 @@ Missing character: There is no I in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ( in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no . in font nullfont!
 Missing character: There is no F in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no g in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-<write> ...:Exemples de clients' on page \thepage 
+<write> ...ence `ClientsMobigis' on page \thepage 
                                                   \space undefined\on@line .
-l.37 ...(cf. Figure ~\ref{fig:Exemples de clients}
+l.39 ...rmatique (SSII) (Fig. \ref{ClientsMobigis}
                                                   ). L‚Äôentreprise d√©velop...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3690,8 +3712,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:Exemples de clients' on page  undefined on input 
-line 37.
+LaTeX Warning: Reference `ClientsMobigis' on page  undefined on input line 39.
 
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -4182,13 +4203,18 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 37--38
+Overfull \hbox (20.0pt too wide) in paragraph at lines 39--40
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 37--38
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 39--40
 []
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 41--41
+[] 
  []
 
 
@@ -4198,19 +4224,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 \begin{figure}
-                   [!h]\label{fig:Exemples de clients}
+l.42 \begin{figure}
+                   [h] \centering
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.41 \includegraphics
-                     [width=12cm]{images/fig2_referencesMobigis.JPG}
+l.43 \includegraphics
+                     [width=14cm]{images/fig2_referencesMobigis.JPG}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4225,7 +4250,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 1 in font nullfont!
-Missing character: There is no 2 in font nullfont!
+Missing character: There is no 4 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no ] in font nullfont!
@@ -4243,19 +4268,56 @@ Missing character: There is no 2 in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.41 \includegraphics[width=12cm]{images/fig2_
-                                              referencesMobigis.JPG}
+l.43 \includegraphics[width=14cm]{images/fig2_
+                                              referencesMobigis.JPG}\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.41 ...h=12cm]{images/fig2_referencesMobigis.JPG}
-                                                  
+l.43 ...h=14cm]{images/fig2_referencesMobigis.JPG}
+                                                  \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 ...14cm]{images/fig2_referencesMobigis.JPG}\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.43 ...14cm]{images/fig2_referencesMobigis.JPG}\\
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.43 ...14cm]{images/fig2_referencesMobigis.JPG}\\
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (110.42537pt too wide) in paragraph at lines 42--43
+ []\OML/cmm/m/it/10 eferencesMobigis:JPG[]$ 
+ []
 
 
 ! LaTeX Error: \caption outside float.
@@ -4264,58 +4326,50 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 \caption
-             {Exemples de clients Mobigis}
+l.44 \caption
+             {\label{ClientsMobigis} Exemples de clients Mobigis}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+Missing character: There is no E in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
 
-! LaTeX Error: \begin{document} ended by \end{figure}.
+! LaTeX Error: \begin{center} on input line 41 ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 \end{figure}
+l.45 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.43 \end{figure}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.43 \end{figure}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 39--44
-[][]
- []
-
-
-Overfull \hbox (231.49933pt too wide) in paragraph at lines 39--44
-[]\OML/cmm/m/it/10 eferencesMobigis:JPG[]$ 
- []
-
 ! Undefined control sequence.
-l.45 \section
+l.48 \section
              {Historique}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4334,7 +4388,7 @@ Missing character: There is no q in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 45--46
+Overfull \hbox (20.0pt too wide) in paragraph at lines 48--49
 [] 
  []
 
@@ -4345,22 +4399,22 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 \renewcommand{\labelitemi}
+l.50 \renewcommand{\labelitemi}
                                {\textbullet}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 48--48
+Overfull \hbox (20.0pt too wide) in paragraph at lines 51--51
 [] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 49.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 52.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 52.
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no 0 in font nullfont!
@@ -6225,7 +6279,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no 4 in font nullfont!
 
 ! Undefined control sequence.
-l.119 \section
+l.122 \section
               {Ressources}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6244,7 +6298,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 119--120
+Overfull \hbox (20.0pt too wide) in paragraph at lines 122--123
 [] 
  []
 
@@ -6599,17 +6653,17 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 121--122
+Overfull \hbox (20.0pt too wide) in paragraph at lines 124--125
 []
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 121--122
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 124--125
 \OT1/cmr/m/n/10 ^^[
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 121--122
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 124--125
 \OT1/cmr/m/n/10 ^^[
  []
 
@@ -6878,7 +6932,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 123--124
+Overfull \hbox (20.0pt too wide) in paragraph at lines 126--127
 []
  []
 
@@ -7299,7 +7353,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 125--126
+Overfull \hbox (20.0pt too wide) in paragraph at lines 128--129
 []
  []
 
@@ -7862,7 +7916,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.127 .../www.esrifrance.fr/ArcGIS_Online_1.aspx}}
+l.130 .../www.esrifrance.fr/ArcGIS_Online_1.aspx}}
                                                   . Les SIG libres sont √©ga...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7873,7 +7927,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.127 .../www.esrifrance.fr/ArcGIS_Online_1.aspx}}
+l.130 .../www.esrifrance.fr/ArcGIS_Online_1.aspx}}
                                                   . Les SIG libres sont √©ga...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7884,7 +7938,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \url 
                 {http://www.esrifrance.fr/ArcGIS_Online_1.aspx}
-l.127 .../www.esrifrance.fr/ArcGIS_Online_1.aspx}}
+l.130 .../www.esrifrance.fr/ArcGIS_Online_1.aspx}}
                                                   . Les SIG libres sont √©ga...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7895,7 +7949,7 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.127 .../www.esrifrance.fr/ArcGIS_Online_1.aspx}}
+l.130 .../www.esrifrance.fr/ArcGIS_Online_1.aspx}}
                                                   . Les SIG libres sont √©ga...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -7903,7 +7957,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ....esrifrance.fr/ArcGIS_Online_1.aspx}
                                                   
-l.127 .../www.esrifrance.fr/ArcGIS_Online_1.aspx}}
+l.130 .../www.esrifrance.fr/ArcGIS_Online_1.aspx}}
                                                   . Les SIG libres sont √©ga...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -7914,7 +7968,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> }
                  
-l.127 .../www.esrifrance.fr/ArcGIS_Online_1.aspx}}
+l.130 .../www.esrifrance.fr/ArcGIS_Online_1.aspx}}
                                                   . Les SIG libres sont √©ga...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -7925,7 +7979,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \@footnotetext ...rut \strutbox }\color@endgroup }
                                                   
-l.127 .../www.esrifrance.fr/ArcGIS_Online_1.aspx}}
+l.130 .../www.esrifrance.fr/ArcGIS_Online_1.aspx}}
                                                   . Les SIG libres sont √©ga...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -7936,7 +7990,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.128 
+l.131 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -7948,7 +8002,7 @@ Missing character: There is no ® in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no © in font cmr10!
 
-Overfull \hbox (786.35294pt too wide) in paragraph at lines 127--128
+Overfull \hbox (786.35294pt too wide) in paragraph at lines 130--131
 [][]\OT1/cmr/m/n/10 http://www.esrifrance.fr/ArcGIS$[]\OML/cmm/m/it/10 nline[]:
 aspx|:LesSIGlibressontgalementtrsprsentsdanslesprojetsdontnotammentleslogiciels
 QGIS; PostGIS; OpenLayers; ouencoreGeoServer:[] 
@@ -7966,7 +8020,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 ! You can't use `macro parameter character #' in horizontal mode.
-l.129 ... sont divers dont notamment Java, C++, C#
+l.132 ... sont divers dont notamment Java, C++, C#
                                                   , Python‚Ä¶ Ils permettent...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -8006,10 +8060,10 @@ Missing character: There is no † in font cmr10!
  
 Here is how much of TeX's memory you used:
  37 strings out of 493117
- 647 string characters out of 6135433
+ 643 string characters out of 6135433
  57909 words of memory out of 5000000
  3594 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 24i,5n,19p,931b,131s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 24i,5n,19p,906b,131s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
