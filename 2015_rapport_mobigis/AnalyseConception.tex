@@ -7,19 +7,23 @@ Durant le stage j'ai travaillé sur un pc de marque Dell, dont le système d'exp
 
 \section{Outils utilisés}
 
-Quotidiennement j'ai utilisé 2 environnements de développement intégré (IDE) : Liclipse (pour développer en python) pour le projet DataWizard, \textbf{Eclipse} Mars (Java/Java EE) pour les projets Crislab, et MobiSaaS.\\
+Quotidiennement j'ai utilisé 2 environnements de développement intégré (IDE) : Liclipse (pour développer en langage Python) dans le projet DataWizard, et \textbf{Eclipse} version Mars (pour développer en langage Java/Java EE) pour les projets MobiSaaS et Crislab.\\
 
-J'ai manipulé plusieurs \textbf{SGBD} : MongoDB (MobiSaaS), Oracle (Crislab), mais j'ai principalement travaillé avec le couple \textbf{Postgresql}/\textbf{Postgis} afin de gérer les données géographiques.\\
+J'ai manipulé plusieurs \textbf{SGBD} : MongoDB (MobiSaaS), Oracle (Crislab), mais j'ai principalement travaillé avec le couple \textbf{Postgresql}/\textbf{Postgis} afin de gérer les données géographiques dans les 2 projets "DataWizard" \& "MobiSaaS".\\
 
-Côté serveur, j'ai déployé l'application Crislab (Cartographie des RISques de LABoratoires) sur Apache Tomcat. C'est un conteneur de Servlet Java EE issu du projet Jakarta, Tomcat est désormais un projet principal de la fondation Apache. C’est un conteneur qui implémente la spécification des Servlets et des JSP de Sun Microsystems. Tomcat est en fait chargé de compiler les pages JSP avec Jasper pour en faire des Servlets (une servlet étant une application Java qui permet de générer dynamiquement des données au sein d’un serveur http). La particularité des applications web cartographiques est que ces serveurs sont souvent associés à des serveurs dédiés comme ArcGIS Server ou GeoServer, c'est le cas dans ce projet un serveur ArcGIS fournit les fonds de carte à l'application.
+Afin de tester les web services REST développés, j'ai utilisé fréquemment l'outil \textbf{SoapUI} (Fig. \ref{SoapUIGet}). Il permet de mettre en place une suite de tests qui peuvent être lancé d'une traite du côté client, permet de tester les services web en mode bouchon mais aussi d'effectuer des tests de charge. Il permet entre autre de fournir une hiérarchie des services web, de lister les différentes méthodes disponible, les paramètres attendus, de réaliser des requêtes et de récupérer les réponses … C'est l'un des meilleurs outils de test unitaires concernant les services web.
 
-Pour le projet "MobiSaaS" le framework DropWizard fournit un serveur HTTP "Jetty", et l'implémentation de référence de la spécification JAX-RS (web services REST) Jersey à l'application. Là encore, cette application est couplée à un serveur cartographique.\\
+\begin{center}
+\begin{figure}[h] \centering
+\includegraphics[width=16cm]{images/soapUI_getById_sansResponse_small.png}\\
+\caption{\label{SoapUIGet} Interface et exemple de requête "GET" SoapUI}
+\end{figure}
+\end{center}
+
 
 \section{Gestion de projets}
 
-Dans les projets auxquels j'ai participé, l'entreprise utilise des outils de gestion : planning, suivi de bugs, outils de mutualisation, gestion de versions. Ainsi, j'ai utilisé l'outil Trello pour la gestion des tâches, Redmine pour la gestion des tickets, et SVN (gestion des codes sources). L'entreprise met à disposition des salariés un intranet avec de nombreux outils collaboratifs sous eGroupware (Feuille de temps, ...).\\
-
-SVN ou Subversion est un système de gestion de version, conçu pour remplacer CVS. Concrètement, ce système permet aux membres d’une équipe de développeur de modifier le code du projet quasiment en même temps. Le projet est en effet enregistré sur un serveur SVN et à tout moment, le développeur peut mettre à jour une classe avant de faire des modifications pour bénéficier de la dernière version et a la possibilité de comparer deux versions d'un même fichier.\\
+Dans les projets auxquels j'ai participé, l'entreprise utilise des outils de gestion : planning, suivi de bugs, outils de mutualisation, gestion de versions. Ainsi, j'ai utilisé l'outil Trello pour la gestion des tâches, Redmine pour la gestion des tickets, et \textbf{SVN} pour la gestion des codes sources. L'entreprise met à disposition de ses salariés un intranet avec de nombreux outils collaboratifs sous la plateforme eGroupware (Feuille de temps, ...).\\
 
 Un point de suivi informel était effectué chaque semaine ou deux fois par semaine avec l'encadrant afin de présenter le travail effectué, les résultats intermédiaires, et le travail planifié pour la semaine suivante. De plus de nombreuses tâches de soutien aux équipes arrivaient au fil de l'eau.\\
 

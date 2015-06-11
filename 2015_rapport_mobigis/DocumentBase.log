@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.14)  11 JUN 2015 00:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.14)  11 JUN 2015 23:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -840,72 +840,102 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 )
 \lyxlabelwidth=\skip72
 
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count130
+\lst@gtempboxa=\box51
+\lst@token=\toks28
+\lst@length=\count131
+\lst@currlwidth=\dimen270
+\lst@column=\count132
+\lst@pos=\count133
+\lst@lostspace=\dimen271
+\lst@width=\dimen272
+\lst@newlines=\count134
+\lst@lineno=\count135
+\lst@maxwidth=\dimen273
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+\c@lstnumber=\count136
+\lst@skipnumbers=\count137
+\lst@framebox=\box52
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/03/04 1.5c listings configuration
+))
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
 (./DocumentBase.aux (./Remerciements.aux) (./Resume.aux) (./Abstract.aux)
 (./Sommaire.aux) (./Introduction.aux) (./PresentationEntreprise.aux)
 (./AnalyseConception.aux) (./Developpement.aux) (./Bilan.aux) (./Conclusion.aux
 ) (./Glossaire.aux) (./Annexes.aux) (./Bibliographie.aux))
 \openout1 = `DocumentBase.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 97.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 97.
-
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 116.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 116
+.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 97.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 97.
-
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 116.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 116
+.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 97.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 97.
-
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 116.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 116
+.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 97.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 97.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 116.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 116.
+
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 97.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 116.
+
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Try loading font information for T1+txr on input line 97.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Try loading font information for T1+txr on input line 116.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
 )
-LaTeX Info: Redefining \degres on input line 97.
-LaTeX Info: Redefining \dots on input line 97.
+LaTeX Info: Redefining \degres on input line 116.
+LaTeX Info: Redefining \dots on input line 116.
 Package frenchb.ldf Info: Setting StandardItemizeEnv=true for
 (frenchb.ldf)             compatibility with enumitem package,
-(frenchb.ldf)              on input line 97.
+(frenchb.ldf)              on input line 116.
 Package frenchb.ldf Info: Setting StandardEnumerateEnv=true for
 (frenchb.ldf)             compatibility with enumitem package,
-(frenchb.ldf)              on input line 97.
-LaTeX Info: Redefining \up on input line 97.
+(frenchb.ldf)              on input line 116.
+LaTeX Info: Redefining \up on input line 116.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -950,17 +980,17 @@ Package geometry Warning: The marginal notes overrun the paper.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
-\scratchdimen=\dimen270
-\scratchbox=\box51
-\nofMPsegments=\count131
-\nofMParguments=\count132
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count133
-\MPscratchDim=\dimen271
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count138
+\scratchdimen=\dimen274
+\scratchbox=\box53
+\nofMPsegments=\count139
+\nofMParguments=\count140
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count141
+\MPscratchDim=\dimen275
+\MPnumerator=\count142
+\makeMPintoPDFobject=\count143
+\everyMPtoPDFconversion=\toks30
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -976,8 +1006,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring ON on input line 97.
+\AtBeginShipoutBox=\box54
+Package hyperref Info: Link coloring ON on input line 116.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -985,54 +1015,56 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count136
+\c@section@level=\count144
 )
-LaTeX Info: Redefining \ref on input line 97.
-LaTeX Info: Redefining \pageref on input line 97.
-LaTeX Info: Redefining \nameref on input line 97.
+LaTeX Info: Redefining \ref on input line 116.
+LaTeX Info: Redefining \pageref on input line 116.
+LaTeX Info: Redefining \nameref on input line 116.
 
 (./DocumentBase.out) (./DocumentBase.out)
 \@outlinefile=\write4
 \openout4 = `DocumentBase.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count145
 
-<page_garde.pdf, id=120, 597.23125pt x 845.1575pt>
+<page_garde.pdf, id=108, 597.23125pt x 845.1575pt>
 File: page_garde.pdf Graphic file (type pdf)
  <use page_garde.pdf>
-Package pdftex.def Info: page_garde.pdf used on input line 100.
+Package pdftex.def Info: page_garde.pdf used on input line 119.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: page_garde.pdf Graphic file (type pdf)
 
 <use page_garde.pdf>
-Package pdftex.def Info: page_garde.pdf used on input line 100.
+Package pdftex.def Info: page_garde.pdf used on input line 119.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<page_garde.pdf, id=123, page=1, 597.23125pt x 845.1575pt>
+<page_garde.pdf, id=111, page=1, 597.23125pt x 845.1575pt>
 File: page_garde.pdf Graphic file (type pdf)
 
 <use page_garde.pdf, page 1>
-Package pdftex.def Info: page_garde.pdf, page1 used on input line 100.
+Package pdftex.def Info: page_garde.pdf, page1 used on input line 119.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: page_garde.pdf Graphic file (type pdf)
  <use page_garde.pdf, page 1>
-Package pdftex.def Info: page_garde.pdf, page1 used on input line 100.
+Package pdftex.def Info: page_garde.pdf, page1 used on input line 119.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: page_garde.pdf Graphic file (type pdf)
 
 <use page_garde.pdf, page 1>
-Package pdftex.def Info: page_garde.pdf, page1 used on input line 100.
+Package pdftex.def Info: page_garde.pdf, page1 used on input line 119.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: page_garde.pdf Graphic file (type pdf)
  <use page_garde.pdf, page 1>
-Package pdftex.def Info: page_garde.pdf, page1 used on input line 100.
+Package pdftex.def Info: page_garde.pdf, page1 used on input line 119.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: page_garde.pdf Graphic file (type pdf)
 
 <use page_garde.pdf, page 1>
-Package pdftex.def Info: page_garde.pdf, page1 used on input line 100.
+Package pdftex.def Info: page_garde.pdf, page1 used on input line 119.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [1
 
@@ -1067,7 +1099,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 14--106
+Underfull \hbox (badness 10000) in paragraph at lines 14--125
 
  []
 
@@ -1136,7 +1168,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 9--110
+Underfull \hbox (badness 10000) in paragraph at lines 9--129
 
  []
 
@@ -1162,8 +1194,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
  []
 
 ! Misplaced alignment tab character &.
-l.10 ...development lifecycle (from design ( R \ &
-                                                   D), development of busine...
+l.10 ...opment lifecycle : from the design ( R \ &
+                                                   D), to development of bus...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1183,15 +1215,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 ]
 \openout2 = `Sommaire.aux'.
 
- (./Sommaire.tex (./DocumentBase.toc [6
-
-
-
-])
+ (./Sommaire.tex (./DocumentBase.toc)
 \tf@toc=\write5
 \openout5 = `DocumentBase.toc'.
 
-) [7] (./DocumentBase.lof)
+) [6
+
+
+
+] (./DocumentBase.lof)
 \tf@lof=\write6
 \openout6 = `DocumentBase.lof'.
 
@@ -1199,7 +1231,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.120 \include{Introduction}
+l.139 \include{Introduction}
                              [1
 
 
@@ -1234,12 +1266,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
  []
 
 
-Overfull \hbox (10.45059pt too wide) in paragraph at lines 15--16
-[]\T1/txr/m/n/12 Une troi-sième par-tie pré-sen-tera la mé-tho-do-lo-gie de mon
- tra-vail (concep-tion/développement)
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
@@ -1260,20 +1286,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  (./PresentationEntreprise.tex
 Chapitre 2.
-[4
 
-
-]
 Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
+[4
 
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-<images/fig1_solutionsMobigis.JPG, id=248, 568.37344pt x 341.77687pt>
+<images/fig1_solutionsMobigis.JPG, id=233, 568.37344pt x 341.77687pt>
 File: images/fig1_solutionsMobigis.JPG Graphic file (type jpg)
 
 <use images/fig1_solutionsMobigis.JPG>
@@ -1285,7 +1311,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-<images/fig2_referencesMobigis.JPG, id=257, 508.14844pt x 219.06844pt>
+<images/fig2_referencesMobigis.JPG, id=242, 508.14844pt x 219.06844pt>
 File: images/fig2_referencesMobigis.JPG Graphic file (type jpg)
 
 <use images/fig2_referencesMobigis.JPG>
@@ -1360,7 +1386,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 132--124
+Underfull \hbox (badness 10000) in paragraph at lines 132--143
 
  []
 
@@ -1388,7 +1414,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+<images/soapUI_getById_sansResponse_small.png, id=266, 1628.0825pt x 1045.9075p
+t>
+File: images/soapUI_getById_sansResponse_small.png Graphic file (type png)
+ <use images/soapUI_getById_sansResponse_small.png>
+Package pdftex.def Info: images/soapUI_getById_sansResponse_small.png used on i
+nput line 18.
+(pdftex.def)             Requested size: 455.24408pt x 292.45313pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
@@ -1396,46 +1434,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-) [11] [12
+) [11 <./images/soapUI_getById_sansResponse_small.png>] [12
 
 
 ]
 \openout2 = `Developpement.aux'.
 
- (./Developpement.tex
+
+(./Developpement.tex
 Chapitre 4.
-<images/offre_MobiAnalyst.png, id=292, 962.59625pt x 606.265pt>
+<images/offre_MobiAnalyst.png, id=284, 962.59625pt x 606.265pt>
 File: images/offre_MobiAnalyst.png Graphic file (type png)
 
 <use images/offre_MobiAnalyst.png>
 Package pdftex.def Info: images/offre_MobiAnalyst.png used on input line 15.
 (pdftex.def)             Requested size: 398.33858pt x 250.87372pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+[13
+
+
+ <./images/offre_MobiAnalyst.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
 
-Underfull \vbox (badness 5460) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
- [13
+ []
 
 
- <./images/offre_MobiAnalyst.png>]) [14] [15
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+
+ []
+
+<images/tablePostgres_mobiupload_small.png, id=301, 894.34125pt x 353.32pt>
+File: images/tablePostgres_mobiupload_small.png Graphic file (type png)
+
+<use images/tablePostgres_mobiupload_small.png>
+Package pdftex.def Info: images/tablePostgres_mobiupload_small.png used on inpu
+t line 42.
+(pdftex.def)             Requested size: 398.33858pt x 157.36977pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+) [15 <./images/tablePostgres_mobiupload_small.png>] [16
 
 
 ]
@@ -1454,11 +1516,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 14--136
+Underfull \hbox (badness 10000) in paragraph at lines 14--155
 
  []
 
-[16
+[17
 
 
 ]
@@ -1512,7 +1574,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--24
 
  []
 
-) [17
+) [18
 
 
 
@@ -1541,7 +1603,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-[18
+[19
 
 
 
@@ -1565,17 +1627,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-[19]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
-) [20]
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+) [21]
 \openout2 = `Annexes.aux'.
 
  (./Annexes.tex
@@ -1599,316 +1671,226 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--10
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22
+
+
+
+]
+
 ! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 
+l.14 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[21
 
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-) [22]
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+[24]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+[26]) [27]
 \openout2 = `Bibliographie.aux'.
 
  (./Bibliographie.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \documentclass
-                  [a4paper,12pt]{report}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \usepackage
-               [utf8]{inputenc}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \usepackage
-               [T1]{fontenc}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \usepackage
-               [francais]{babel}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \usepackage
-               [top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (37.4967pt too wide) in paragraph at lines 6--10
-[]\T1/txr/m/n/12 [utf8]inputenc [T1]fontenc [fran-cais]babel [top=2cm, bot-tom=
-2cm, left=2cm, right=2cm]geometry 
  []
 
 
-! LaTeX Error: Can be used only in preamble.
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 \begin{document}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Package natbib Warning: Citation `ref1' on page 23 undefined on input line 26.
-
-
-Package natbib Warning: Citation `ref2' on page 23 undefined on input line 27.
-
-
-Package natbib Warning: Citation `ref3' on page 23 undefined on input line 28.
-
-
-Package natbib Warning: Citation `ref4' on page 23 undefined on input line 29.
-
-
-Package natbib Warning: Citation `ref5' on page 23 undefined on input line 30.
-
-
-Package natbib Warning: Citation `ref6' on page 23 undefined on input line 31.
-
-
-Package natbib Warning: Citation `ref7' on page 23 undefined on input line 32.
-
-
-Package natbib Warning: Citation `ref8' on page 23 undefined on input line 33.
-
-
-Package natbib Warning: Citation `ref9' on page 23 undefined on input line 34.
-
-
-Package natbib Warning: Citation `ref10' on page 23 undefined on input line 35.
-
-
-
-Package natbib Warning: Citation `ref11' on page 23 undefined on input line 36.
-
-
-
-Package natbib Warning: Citation `ref12' on page 23 undefined on input line 37.
-
-
-
-Package natbib Warning: Citation `ref13' on page 23 undefined on input line 38.
-
-
-
-Package natbib Warning: Citation `ref14' on page 23 undefined on input line 39.
-
-
-
-Package natbib Warning: Citation `ref15' on page 23 undefined on input line 40.
-
-
-
-Package natbib Warning: Citation `ref16' on page 23 undefined on input line 41.
-
-
-
-Package natbib Warning: Citation `ref17' on page 23 undefined on input line 42.
-
-
-
-Package natbib Warning: Citation `ref18' on page 23 undefined on input line 43.
-
-
-
-Package natbib Warning: Citation `ref19' on page 23 undefined on input line 44.
-
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.50 ...elopers.google.com/transit/gtfs/reference#
-                                                  stop_times_fields
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.50 ...rs.google.com/transit/gtfs/reference#stop_
-                                                  times_fields
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.55 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (143.8583pt too wide) in paragraph at lines 50--55
-[]\T1/txr/m/n/12 https ://developers.google.com/transit/gtfs/referencestop$[]\O
-ML/txmi/m/it/12 imes[]ieldshttps \OT1/txr/m/n/12 : \OML/txmi/m/it/12 ==develope
-rs:google:com=transit=gtfs=style \OMS/txsy/m/n/12 ^^@
  []
 
 
-Overfull \hbox (53.01547pt too wide) in paragraph at lines 50--55
-\OML/txmi/m/it/12 guidehttps \OT1/txr/m/n/12 : \OML/txmi/m/it/12 ==github:com=g
-oogle=transitfeed=wiki=FeedValidatorhttp \OT1/txr/m/n/12 : \OML/txmi/m/it/12 ==
-onebusaway:org=developer \OMS/txsy/m/n/12 ^^@
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
  []
 
 
-Overfull \hbox (9.04747pt too wide) in paragraph at lines 50--55
-\OML/txmi/m/it/12 information=https \OT1/txr/m/n/12 : \OML/txmi/m/it/12 ==githu
-b:com=OneBusAway=onebusaway=wiki=Importing \OMS/txsy/m/n/12 ^^@ \OML/txmi/m/it/
-12 source \OMS/txsy/m/n/12 ^^@ \OML/txmi/m/it/12 code \OMS/txsy/m/n/12 ^^@
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
  []
 
 
-Overfull \hbox (36.76456pt too wide) in paragraph at lines 57--60
-[]\T1/txr/m/n/12 http ://ma-ven.apache.org/ http ://mvn-re-po-si-tory.com/ http
- ://www.objis.com/formation-java/tutoriel-
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
  []
 
-! You can't use `macro parameter character #' in horizontal mode.
-l.62 ...elopers.google.com/transit/gtfs/reference#
-                                                  stop_times_fields
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.62 ...rs.google.com/transit/gtfs/reference#stop_
-                                                  times_fields
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.63 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Overfull \hbox (68.37973pt too wide) in paragraph at lines 16--17
+[][][]$\T1/txtt/m/n/12 https : / / github . com / OneBusAway / onebusaway / wik
+i / Importing-[]source-[]code-[]into-[]Eclipse$[][] 
+ []
 
 
-Package natbib Warning: There were undefined citations.
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
-[23
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+) [28
 
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
- (./DocumentBase.aux (./Remerciements.aux) (./Resume.aux) (./Abstract.aux)
-(./Sommaire.aux) (./Introduction.aux) (./PresentationEntreprise.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
+ (./DocumentBase.aux (./Remerciements.aux) (./Resume.aux) (./Abstract.aux) (./S
+ommaire.aux) (./Introduction.aux) (./PresentationEntreprise.aux)
 (./AnalyseConception.aux) (./Developpement.aux) (./Bilan.aux) (./Conclusion.aux
 ) (./Glossaire.aux) (./Annexes.aux) (./Bibliographie.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
 Package rerunfilecheck Info: File `DocumentBase.out' has not changed.
-(rerunfilecheck)             Checksum: AF3CD20D4EDA17B74DB102914D017D45;3493.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
- ) )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 24 (\begingroup)
-### bottom level
-(\end occurred when \iftrue on line 144 was incomplete)
-(\end occurred when \ifnum on line 144 was incomplete) 
+(rerunfilecheck)             Checksum: 634F85B7134D695B28D925C0A8E5ED97;3357.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
+ ) 
 Here is how much of TeX's memory you used:
- 17838 strings out of 493117
- 255224 string characters out of 6135433
- 370923 words of memory out of 5000000
- 20831 multiletter control sequences out of 15000+600000
- 72282 words of font info for 122 fonts, out of 8000000 for 9000
+ 19747 strings out of 493117
+ 280803 string characters out of 6135433
+ 491945 words of memory out of 5000000
+ 22603 multiletter control sequences out of 15000+600000
+ 69852 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,18n,92p,1025b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): na
-me{figure.caption.8} has been referenced but does not exist, replaced by a fixe
-d one
-
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2014/texmf-dist/
-fonts/type1/public/txfonts/rtcxr.pfb></usr/local/texlive/2014/texmf-dist/fonts/
-type1/public/txfonts/rtxb.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
-ublic/txfonts/rtxmi.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
-txfonts/rtxr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts
-/rtxsc.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/t1xtt
-.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-d
-ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on DocumentBase.pdf (31 pages, 603675 bytes).
+ 53i,18n,92p,1025b,1855s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2014/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2014/texmf-dis
+t/fonts/type1/public/txfonts/rtcxr.pfb></usr/local/texlive/2014/texmf-dist/font
+s/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
+/public/txfonts/rtxr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
+/txfonts/rtxsc.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfon
+ts/t1xtt.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/txs
+y.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on DocumentBase.pdf (35 pages, 687562 bytes).
 PDF statistics:
- 431 PDF objects out of 1000 (max. 8388607)
- 367 compressed objects within 4 object streams
- 87 named destinations out of 1000 (max. 500000)
- 268 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 597 PDF objects out of 1000 (max. 8388607)
+ 525 compressed objects within 6 object streams
+ 210 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 

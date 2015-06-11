@@ -8,6 +8,7 @@ Il est semblable à l'outil Ant, mais fournit des moyens de configuration plus s
 Maven utilise un paradigme connu sous le nom de Project Object Model (POM) afin de décrire un projet logiciel, ses dépendances avec des modules externes et l'ordre à suivre pour sa production. Il est livré avec un grand nombre de tâches pré-définies, comme la compilation de code Java ou encore sa modularisation.\\
 Un élément clé et relativement spécifique de Maven est son aptitude à fonctionner en réseau. Une des motivations historiques de cet outil est de fournir un moyen de synchroniser des projets indépendants : publication standardisée d'information, distribution automatique de modules « jar ». Ainsi en version de base, Maven peut dynamiquement télécharger du matériel sur des dépôts logiciels connus. Il propose ainsi la synchronisation transparente de modules nécessaires.\\
 
+\pagebreak
 
 \section{DropWizard}\label{Annexe B}\\
 
@@ -24,4 +25,139 @@ Cela dit, au delà du framework, c’est surtout un assemblage habile de composa
 \end{itemize}
 On peut considérer ce projet comme une alternative crédible aux serveurs d’applications Java EE perçus comme lourds, compliqués et gourmands en ressources. Le champ des applications couvert par Dropwizard est en réalité plus vaste que celui des microservices (il est tout a fait possible de développer une IHM web) mais l’aisance avec laquelle on développe et déploie un service REST en fait une solution très adaptée à ce type d’usage (à l’instar de Spring Boot de Pivotal ou Spark avec lesquels il est en compétition).
 Packagée sous la forme d’un jar autonome contenant toutes ses dépendances, l’unité de déploiement n’a pas besoin de serveur d’application pour être exécutée (le conteneur Jetty est embarqué dans le jar). Avec ses 10 Mo tout au plus (dépendances comprises) l’empreinte mémoire d’une application Dropwizard est donc incomparablement plus faible qu’un Web Service SOAP déployé dans un serveur d’application Java EE (jusqu’à plusieurs centaines de Mo).
-En conséquences, le temps de démarrage d’une application Dropwizard est de quelques secondes quand il faut parfois plusieurs minutes pour un serveur d’application.
+En conséquences, le temps de démarrage d’une application Dropwizard est de quelques secondes quand il faut parfois plusieurs minutes pour un serveur d’application.\\
+
+\pagebreak
+
+\section{Extraits de codes}\label{Annexe C}\\
+
+\textbf{Instanciation d'un objet upload}\\
+\begin{lstlisting}
+	// Instanciation
+	Upload up = new Upload();
+	up.setId(CreateUUID.randomUUID().toString());
+	up.setOrganization(user.getOrganization());
+	up.setName(fileDetails.getFileName());
+\end{lstlisting} \\
+
+\textbf{La classe Upload.java associée}\\
+
+\begin{lstlisting}
+	// Empty constructor
+	public Upload (){
+	}
+
+    // Constructor
+    public Upload(String id, String name, String uploadStatus, String organization, String uploadPath){
+        super();
+        this.id=id;
+        this.name = name;
+        this.uploadStatus = uploadStatus;
+        this.organization = organization;
+        this.uploadPath = uploadPath;
+    }
+    
+    // Getters & Setters
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+    
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getUploadStatus() {
+        return uploadStatus;
+    }
+
+    public void setUploadStatus(String uploadStatus) {
+        this.uploadStatus = uploadStatus;
+    }
+
+    public String getOrganization() {
+        return organization;
+    }
+
+    public void setOrganization(String organization) {
+        this.organization = organization;
+    }
+
+    public String getUploadPath() {
+        return uploadPath;
+    }
+
+    public void setUploadPath(String uploadPath) {
+        this.uploadPath = uploadPath;
+    }
+	// suite des Getters & Setters
+\end{lstlisting} \\
+
+\textbf{Classe UploadDAO.java}\\
+
+\begin{lstlisting}
+	// Create 
+    public String create(Upload up)
+    {
+        System.out.println("Upload instance created : "+up.getId()+" | "+up.getName()+" | "+up.getUploadStatus()+" | "+up.getOrganization()+" | "+up.getUploadPath());
+        return persist(up).getId();
+    }
+
+    // Read one
+    public Upload findByID(String id)
+    {
+        //return get(id);
+        Query query = namedQuery("com.mobigis.dao.Upload.findByID");
+        query.setParameter("id", id);
+        List<Upload> res = list(query);
+        if(res != null && res.size()>0)
+        {
+            return res.get(0);
+        }
+        return null;
+    }
+\end{lstlisting} \\
+
+
+\textbf{Extrait du log Eclipse}\\
+
+\begin{lstlisting}
+INFO  [2015-06-11 15:31:52,883] com.mobigis.thread.AbstractUploadManagerThread: GTFS validation JSON report done !
+file unzip : agency.txt
+file unzip : calendar.txt
+file unzip : calendar_dates.txt
+file unzip : fare_attributes.txt
+file unzip : fare_rules.txt
+file unzip : frequencies.txt
+file unzip : routes.txt
+file unzip : shapes.txt
+file unzip : stop_times.txt
+file unzip : stops.txt
+file unzip : trips.txt
+Extract Done
+Clean directory Done
+upload status = UPLOADED
+INFO  [2015-06-11 15:31:52,920] com.mobigis.thread.AbstractUploadManagerThread: Process upload to Location = C:\mobianalystserver\download\tisseo\gtfs\215b8557-f7c9-4b06-aced-f79bde953c65
+INFO  [2015-06-11 15:31:52,920] com.mobigis.thread.AbstractUploadManagerThread: Upload file done ! Id = 215b8557-f7c9-4b06-aced-f79bde953c65 | Status = UPLOADED
+C:\mobianalystserver\download\tisseo\gtfs\215b8557-f7c9-4b06-aced-f79bde953c65
+INFO  [2015-06-11 15:31:52,965] org.hibernate.engine.internal.StatisticalLoggingSessionEventListener: Session Metrics {
+    36877 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    358836 nanoseconds spent preparing 4 JDBC statements;
+    6286839 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    24185654 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    42650 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+127.0.0.1 - - [11/Jun/2015:15:31:50 +0000] "POST /upload/gtfs HTTP/1.1" 200 61 "-" "Apache-HttpClient/4.1.1 (java 1.5)" 2254
+\end{lstlisting} 
