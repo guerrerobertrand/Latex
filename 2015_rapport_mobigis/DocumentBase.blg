@@ -5,33 +5,14 @@ A level-1 auxiliary file: Abstract.aux
 A level-1 auxiliary file: Sommaire.aux
 A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: PresentationEntreprise.aux
-A level-1 auxiliary file: TravailRealise.aux
 A level-1 auxiliary file: AnalyseConception.aux
 A level-1 auxiliary file: Developpement.aux
-A level-1 auxiliary file: Conclusion.aux
 A level-1 auxiliary file: Bilan.aux
+A level-1 auxiliary file: Conclusion.aux
 A level-1 auxiliary file: Glossaire.aux
 A level-1 auxiliary file: Annexes.aux
 A level-1 auxiliary file: Bibliographie.aux
-The style file: unsrt.bst
+I found no \citation commands---while reading file DocumentBase.aux
 I found no \bibdata command---while reading file DocumentBase.aux
-Warning--I didn't find a database entry for "ref1"
-Warning--I didn't find a database entry for "ref2"
-Warning--I didn't find a database entry for "ref3"
-Warning--I didn't find a database entry for "ref4"
-Warning--I didn't find a database entry for "ref5"
-Warning--I didn't find a database entry for "ref6"
-Warning--I didn't find a database entry for "ref7"
-Warning--I didn't find a database entry for "ref8"
-Warning--I didn't find a database entry for "ref9"
-Warning--I didn't find a database entry for "ref10"
-Warning--I didn't find a database entry for "ref11"
-Warning--I didn't find a database entry for "ref12"
-Warning--I didn't find a database entry for "ref13"
-Warning--I didn't find a database entry for "ref14"
-Warning--I didn't find a database entry for "ref15"
-Warning--I didn't find a database entry for "ref16"
-Warning--I didn't find a database entry for "ref17"
-Warning--I didn't find a database entry for "ref18"
-Warning--I didn't find a database entry for "ref19"
-(There was 1 error message)
+I found no \bibstyle command---while reading file DocumentBase.aux
+(There were 3 error messages)
