@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.14)  15 JUN 2015 22:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.14)  21 JUN 2015 22:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1031,7 +1031,7 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count145
 
-<page_garde.pdf, id=148, 597.23125pt x 845.1575pt>
+<page_garde.pdf, id=156, 597.23125pt x 845.1575pt>
 File: page_garde.pdf Graphic file (type pdf)
  <use page_garde.pdf>
 Package pdftex.def Info: page_garde.pdf used on input line 119.
@@ -1042,7 +1042,7 @@ File: page_garde.pdf Graphic file (type pdf)
 Package pdftex.def Info: page_garde.pdf used on input line 119.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<page_garde.pdf, id=151, page=1, 597.23125pt x 845.1575pt>
+<page_garde.pdf, id=159, page=1, 597.23125pt x 845.1575pt>
 File: page_garde.pdf Graphic file (type pdf)
 
 <use page_garde.pdf, page 1>
@@ -1121,54 +1121,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 7.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/ot1txr.fd
-File: ot1txr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 7.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxmia.fd
-File: utxmia.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Try loading font information for U+txsya on input line 7.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsya.fd
-File: utxsya.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 7.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyb.fd
-File: utxsyb.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 7.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyc.fd
-File: utxsyc.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 7.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/t1txtt.fd
-File: t1txtt.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 9.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 9--129
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 9.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsya on input line 9.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 9.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 9.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 9.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 11--129
 
  []
 
@@ -1179,32 +1184,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--129
 \openout2 = `Abstract.aux'.
 
  (./Abstract.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-! Misplaced alignment tab character &.
-l.10 ...opment lifecycle : from the design ( R \ &
-                                                   D), to development of bus...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
@@ -1275,6 +1275,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
 ) [2
 
 
@@ -1299,7 +1304,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-<images/fig1_solutionsMobigis.JPG, id=294, 568.37344pt x 341.77687pt>
+<images/fig1_solutionsMobigis.JPG, id=310, 568.37344pt x 341.77687pt>
 File: images/fig1_solutionsMobigis.JPG Graphic file (type jpg)
 
 <use images/fig1_solutionsMobigis.JPG>
@@ -1311,7 +1316,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-<images/fig2_referencesMobigis.JPG, id=303, 508.14844pt x 219.06844pt>
+<images/fig2_referencesMobigis.JPG, id=319, 508.14844pt x 219.06844pt>
 File: images/fig2_referencesMobigis.JPG Graphic file (type jpg)
 
 <use images/fig2_referencesMobigis.JPG>
@@ -1358,27 +1363,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--111
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.132 ... sont divers dont notamment Java, C++, C#
+l.129 ... sont divers dont notamment Java, C++, C#
                                                   , Python… Ils permettent...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1386,7 +1381,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 132--143
+Underfull \hbox (badness 10000) in paragraph at lines 129--143
 
  []
 
@@ -1414,7 +1409,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
  []
 
 
-<images/soapUI_getById_sansResponse_small.png, id=327, 1628.0825pt x 1045.9075p
+<images/soapUI_getById_sansResponse_small.png, id=343, 1628.0825pt x 1045.9075p
 t>
 File: images/soapUI_getById_sansResponse_small.png Graphic file (type png)
  <use images/soapUI_getById_sansResponse_small.png>
@@ -1438,35 +1433,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-) [11 <./images/soapUI_getById_sansResponse_small.png>] [12
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+[11 <./images/soapUI_getById_sansResponse_small.png>])
+Underfull \hbox (badness 10000) in paragraph at lines 35--147
+
+ []
+
+[12] [13
 
 
 ]
 \openout2 = `Developpement.aux'.
 
-
-(./Developpement.tex
+ (./Developpement.tex
 Chapitre 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-<images/offre_MobiAnalyst.png, id=346, 962.59625pt x 606.265pt>
+<images/offre_MobiAnalyst.png, id=367, 962.59625pt x 606.265pt>
 File: images/offre_MobiAnalyst.png Graphic file (type png)
 
 <use images/offre_MobiAnalyst.png>
 Package pdftex.def Info: images/offre_MobiAnalyst.png used on input line 12.
 (pdftex.def)             Requested size: 398.33858pt x 250.87372pt.
- [13
+ [14
 
 
  <./images/offre_MobiAnalyst.png>]
-<images/architecture.png, id=354, 744.381pt x 390.258pt>
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \begin
+           {figure}[h]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/architecture.png, id=375, 744.381pt x 390.258pt>
 File: images/architecture.png Graphic file (type png)
 
 <use images/architecture.png>
-Package pdftex.def Info: images/architecture.png used on input line 34.
+Package pdftex.def Info: images/architecture.png used on input line 32.
 (pdftex.def)             Requested size: 364.19667pt x 190.9363pt.
 
 
@@ -1476,141 +1493,191 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 
+l.36 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
  []
 
+[15 <./images/architecture.png>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
-
- []
-
-[14 <./images/architecture.png>]
-
-! LaTeX Error: \begin{itemize} on input line 49 ended by \end{itemsize}.
+! LaTeX Error: \begin{itemize} on input line 44 ended by \end{itemsize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 \end{itemsize}
+l.52 \end{itemsize}
                    \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--61
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--68
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
 
-Underfull \vbox (badness 2285) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
- [15]
-<images/tablePostgres_mobiupload_small.png, id=372, 894.34125pt x 353.32pt>
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
+
+ []
+
+[16]
+
+! Package xkeyval Error: `heigth' undefined in families `Gin'.
+
+See the xkeyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...heigth=6cm]{images/Dropwizard_Project.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<images/Dropwizard_Project.png, id=389, 452.69125pt x 252.945pt>
+File: images/Dropwizard_Project.png Graphic file (type png)
+
+<use images/Dropwizard_Project.png>
+Package pdftex.def Info: images/Dropwizard_Project.png used on input line 74.
+(pdftex.def)             Requested size: 170.71652pt x 95.38676pt.
+
+
+! Package xkeyval Error: `heigth' undefined in families `Gin'.
+
+See the xkeyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...heigth=6cm]{images/Dropwizard_Project.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: images/Dropwizard_Project.png Graphic file (type png)
+<use images/Dropwizard_Project.png>
+Package pdftex.def Info: images/Dropwizard_Project.png used on input line 82.
+(pdftex.def)             Requested size: 170.71652pt x 95.38676pt.
+ [17 <./images/Dropwizard_Project.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 90--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+
+ []
+
+[18]
+<images/tablePostgres_mobiupload_small.png, id=414, 894.34125pt x 353.32pt>
 File: images/tablePostgres_mobiupload_small.png Graphic file (type png)
 
 <use images/tablePostgres_mobiupload_small.png>
 Package pdftex.def Info: images/tablePostgres_mobiupload_small.png used on inpu
-t line 72.
+t line 122.
 (pdftex.def)             Requested size: 398.33858pt x 157.36977pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
-[16 <./images/tablePostgres_mobiupload_small.png>]
-<images/Diagrammedeclasses_heritage_full.png, id=383, 901.3675pt x 586.19pt>
+<images/Diagrammedeclasses_heritage_full.png, id=417, 901.3675pt x 586.19pt>
 File: images/Diagrammedeclasses_heritage_full.png Graphic file (type png)
 
 <use images/Diagrammedeclasses_heritage_full.png>
 Package pdftex.def Info: images/Diagrammedeclasses_heritage_full.png used on in
-put line 86.
+put line 137.
 (pdftex.def)             Requested size: 398.33858pt x 259.0514pt.
+ [19 <./images/tablePostgres_mobiupload_small.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-
- []
-
-[17 <./images/Diagrammedeclasses_heritage_full.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+ [20 <./images/Diagrammedeclasses_heritage_full.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-<images/DW_specMetadata.JPG, id=392, 616.55344pt x 462.97969pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+<images/DW_specMetadata.JPG, id=432, 616.55344pt x 462.97969pt>
 File: images/DW_specMetadata.JPG Graphic file (type jpg)
 
 <use images/DW_specMetadata.JPG>
-Package pdftex.def Info: images/DW_specMetadata.JPG used on input line 120.
+Package pdftex.def Info: images/DW_specMetadata.JPG used on input line 171.
 (pdftex.def)             Requested size: 398.33858pt x 299.12471pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+[22 <./images/DW_specMetadata.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-
- []
-
-[19 <./images/DW_specMetadata.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--148
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
-) [20] [21
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--199
+
+ []
+
+) [23] [24
 
 
 ]
@@ -1619,21 +1686,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--148
  (./Bilan.tex
 Chapitre 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--9
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 14--155
+Underfull \hbox (badness 10000) in paragraph at lines 15--155
 
  []
 
-[22
+[25
 
 
 ]
@@ -1647,7 +1719,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--12
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
@@ -1658,14 +1730,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14 \begin
+l.12 \begin
            {itemize}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--17
+Underfull \hbox (badness 10000) in paragraph at lines 13--18
 
  []
 
@@ -1676,18 +1748,48 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 \begin
+l.20 \begin
            {itemize}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--24
+Underfull \hbox (badness 10000) in paragraph at lines 21--28
 
  []
 
-) [23
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 N
+      'ont pas été couvertes les 4 compétences suivantes :
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \end{itemize}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--36
+
+ []
+
+) [26
 
 
 
@@ -1707,16 +1809,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--16
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 12--18
 
  []
 
-[24
+[27
 
 
 
@@ -1726,32 +1828,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
@@ -1760,7 +1862,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-) [26]
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+[29]) [30]
 \openout2 = `Annexes.aux'.
 
  (./Annexes.tex
@@ -1786,7 +1893,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--10
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27
+ [31
 
 
 
@@ -1810,14 +1917,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
+ [32]
 Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
@@ -1848,7 +1955,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.42 \item P
-            rise en charge de plusieurs projets ;
+            rise en charge de plusieurs projets
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1865,7 +1972,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.43 \item C
-            ontrôle d’accès avec un modèle flexible de rôles ;
+            ontrôle d’accès avec un modèle flexible de rôles
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1882,7 +1989,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.44 \item G
-            estion avancée des tickets ;
+            estion avancée des tickets
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1899,7 +2006,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.45 \item D
-            iagramme de Gantt et calendrier ;
+            iagramme de Gantt et calendrier
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1916,7 +2023,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.46 \item P
-            ublication de news, documents et gestionnaire de fichiers ;
+            ublication de news, documents et gestionnaire de fichiers
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1933,7 +2040,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.47 \item N
-            otifications par emails et flux ATOM ;
+            otifications par emails et flux ATOM
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1950,7 +2057,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.48 \item W
-            iki et forums par projet ;
+            iki et forums par projet
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1967,7 +2074,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.49 \item O
-            util de suivi du temps ;
+            util de suivi du temps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -2029,14 +2136,18 @@ Underfull \hbox (badness 10000) detected at line 52
 [][]
  []
 
-! Undefined control sequence.
-l.53 \eend
-          {itemsize}\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+! LaTeX Error: \begin{document} ended by \end{itemsize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 \end{itemsize}
+                   \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 52--54
@@ -2052,7 +2163,7 @@ Overfull \hbox (3.7283pt too wide) in paragraph at lines 55--56
 
 Underfull \vbox (badness 1028) has occurred while \output is active []
 
- [29]
+ [33]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2089,7 +2200,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-[30]
+[34]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2111,7 +2222,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
+ [35]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2130,10 +2241,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-[32]) [33]
+[36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.196 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/WebAppArchitecture.png, id=641, 823.075pt x 640.3925pt>
+File: images/WebAppArchitecture.png Graphic file (type png)
+
+<use images/WebAppArchitecture.png>
+Package pdftex.def Info: images/WebAppArchitecture.png used on input line 200.
+(pdftex.def)             Requested size: 455.24411pt x 354.20059pt.
+) [38 <./images/WebAppArchitecture.png>]
 \openout2 = `Bibliographie.aux'.
 
- (./Bibliographie.tex
+
+(./Bibliographie.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -2199,7 +2334,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-) [34
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+) [39
 
 
 
@@ -2213,36 +2353,32 @@ ommaire.aux) (./Introduction.aux) (./PresentationEntreprise.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
 Package rerunfilecheck Info: File `DocumentBase.out' has not changed.
-(rerunfilecheck)             Checksum: A71416EDD003EE66C483D3B40E16AFD5;5391.
+(rerunfilecheck)             Checksum: CF57E3F0080F6B8C912389CEB3BB8CD0;5945.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 41 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 19795 strings out of 493117
- 281758 string characters out of 6135433
+ 19824 strings out of 493117
+ 282320 string characters out of 6135433
  491945 words of memory out of 5000000
- 22636 multiletter control sequences out of 15000+600000
+ 22650 multiletter control sequences out of 15000+600000
  69852 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,18n,92p,1025b,1911s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc
-}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2014/texmf-di
-st/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2014/texmf-dist/font
-s/type1/public/txfonts/rtxsc.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
-1/public/txfonts/t1xtt.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
-ic/txfonts/txsy.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/u
-tmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on DocumentBase.pdf (42 pages, 791768 bytes).
+ 53i,18n,92p,1025b,1855s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2014/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2014/texmf-dis
+t/fonts/type1/public/txfonts/rtcxr.pfb></usr/local/texlive/2014/texmf-dist/font
+s/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
+/public/txfonts/rtxr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
+/txfonts/rtxsc.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfon
+ts/t1xtt.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/txs
+y.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on DocumentBase.pdf (47 pages, 946594 bytes).
 PDF statistics:
- 696 PDF objects out of 1000 (max. 8388607)
- 612 compressed objects within 7 object streams
- 222 named destinations out of 1000 (max. 500000)
- 349 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 751 PDF objects out of 1000 (max. 8388607)
+ 658 compressed objects within 7 object streams
+ 235 named destinations out of 1000 (max. 500000)
+ 375 words of extra memory for PDF output out of 10000 (max. 10000000)
 

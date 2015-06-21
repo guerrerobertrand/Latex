@@ -23,7 +23,7 @@ Cela dit, au delà du framework, c’est surtout un assemblage habile de composa
 \item \textbf{Metrics} pour le monitoring 
 \item \textbf{jDBI} pour l’interfaçage rapide à une base de données relationnelle. Cette librairie est de bien plus bas niveau que JPA ou Hibernate et présente peu d’abstraction ce qui rend sa prise en main aisée \\
 \end{itemize}
-On peut considérer ce projet comme une alternative crédible aux serveurs d’applications Java EE perçus comme lourds, compliqués et gourmands en ressources. Le champ des applications couvert par Dropwizard est en réalité plus vaste que celui des microservices (il est tout a fait possible de développer une IHM web) mais l’aisance avec laquelle on développe et déploie un service REST en fait une solution très adaptée à ce type d’usage (à l’instar de Spring Boot de Pivotal ou Spark avec lesquels il est en compétition).
+
 Packagée sous la forme d’un jar autonome contenant toutes ses dépendances, l’unité de déploiement n’a pas besoin de serveur d’application pour être exécutée (le conteneur Jetty est embarqué dans le jar). Avec ses 10 Mo tout au plus (dépendances comprises) l’empreinte mémoire d’une application Dropwizard est donc incomparablement plus faible qu’un Web Service SOAP déployé dans un serveur d’application Java EE (jusqu’à plusieurs centaines de Mo).
 En conséquences, le temps de démarrage d’une application Dropwizard est de quelques secondes quand il faut parfois plusieurs minutes pour un serveur d’application.\\
 
@@ -39,18 +39,18 @@ Redmine est une forge logicielle sous licence GPL. Ses principaux concurrents se
 Redmine offre un ensemble de fonctionnalités comme par exemples :
 
 \begin{itemsize}
-\item Prise en charge de plusieurs projets ;
-\item Contrôle d’accès avec un modèle flexible de rôles ;
-\item Gestion avancée des tickets ;
-\item Diagramme de Gantt et calendrier ;
-\item Publication de news, documents et gestionnaire de fichiers ;
-\item Notifications par emails et flux ATOM ;
-\item Wiki et forums par projet ;
-\item Outil de suivi du temps ;
-\item Champs personnalisables pour les tickets, suivi de temps, projets et utilisateurs ;
-\item Intégration avec plusieurs SCM : SVN, CVS, Git, Mercurial, Bazaar et Darcs ;
+\item Prise en charge de plusieurs projets
+\item Contrôle d’accès avec un modèle flexible de rôles
+\item Gestion avancée des tickets
+\item Diagramme de Gantt et calendrier
+\item Publication de news, documents et gestionnaire de fichiers
+\item Notifications par emails et flux ATOM
+\item Wiki et forums par projet
+\item Outil de suivi du temps
+\item Champs personnalisables pour les tickets, suivi de temps, projets et utilisateurs
+\item Intégration avec plusieurs SCM : SVN, CVS, Git, Mercurial, Bazaar et Darcs
 \item Une communauté active et un ensemble d’outils connexes
-\eend{itemsize}\\
+\end{itemsize}\\
 
 Plus de détails est disponible sur le wiki du projet : \url{http://www.redmine.org/projects/redmine/wiki}.
 
@@ -188,3 +188,16 @@ INFO  [2015-06-11 15:31:52,965] org.hibernate.engine.internal.StatisticalLogging
 }
 127.0.0.1 - - [11/Jun/2015:15:31:50 +0000] "POST /upload/gtfs HTTP/1.1" 200 61 "-" "Apache-HttpClient/4.1.1 (java 1.5)" 2254
 \end{lstlisting} 
+
+
+\pagebreak
+
+\section{Structure d'une application Web}\label{Annexe E}\\
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\textwidth]{images/WebAppArchitecture.png}
+\caption{\label{WebAppArchitecture}Structure d'une application Web}
+\end{figure} 
+
