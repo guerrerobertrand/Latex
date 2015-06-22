@@ -1,36 +1,7 @@
 \chapter{Annexes}
 \label{Annexes}
 
-\section{Apache Maven}\label{Annexe A}\\
-
-\textbf{Apache Maven} est un outil pour la gestion et l'automatisation de production des projets logiciels Java en général et Java EE en particulier. L'objectif recherché est comparable au système Make sous Unix : produire un logiciel à partir de ses sources, en optimisant les tâches réalisées à cette fin et en garantissant le bon ordre de fabrication.\\
-Il est semblable à l'outil Ant, mais fournit des moyens de configuration plus simples, eux aussi basés sur le format XML. Maven est géré par l'organisation Apache Software Foundation. Précédemment Maven était une branche de l'organisation Jakarta Project.\\
-Maven utilise un paradigme connu sous le nom de Project Object Model (POM) afin de décrire un projet logiciel, ses dépendances avec des modules externes et l'ordre à suivre pour sa production. Il est livré avec un grand nombre de tâches pré-définies, comme la compilation de code Java ou encore sa modularisation.\\
-Un élément clé et relativement spécifique de Maven est son aptitude à fonctionner en réseau. Une des motivations historiques de cet outil est de fournir un moyen de synchroniser des projets indépendants : publication standardisée d'information, distribution automatique de modules « jar ». Ainsi en version de base, Maven peut dynamiquement télécharger du matériel sur des dépôts logiciels connus. Il propose ainsi la synchronisation transparente de modules nécessaires.\\
-
-\pagebreak
-
-\section{DropWizard}\label{Annexe B}\\
-
-\textbf{Dropwizard} est un framework Java léger adapté au développement rapide de microservices REST et ne nécessitant pas de serveur d’application comme environnement d’exécution. \\
-Cela dit, au delà du framework, c’est surtout un assemblage habile de composants spécialisés parmi les meilleurs de l’écosystème Java :
-\begin{itemize}
-\item \textbf{Jetty}, un serveur HTTP et un moteur de servlet compacts et très performants 
-\item \textbf{Jersey}, l’implémentation de référence de la spécification JAX-RS (web services REST) 
-\item \textbf{Jackson}, une librairie de sérialisation/dé-sérialisation JSON 
-\item \textbf{Hibernate Validator}, l’implémentation de référence de l’API Bean Validation (JSR 303) 
-\item \textbf{SLF4J} et \textbf{Logback} pour la gestion des traces 
-\item \textbf{Metrics} pour le monitoring 
-\item \textbf{jDBI} pour l’interfaçage rapide à une base de données relationnelle. Cette librairie est de bien plus bas niveau que JPA ou Hibernate et présente peu d’abstraction ce qui rend sa prise en main aisée \\
-\end{itemize}
-
-Packagée sous la forme d’un jar autonome contenant toutes ses dépendances, l’unité de déploiement n’a pas besoin de serveur d’application pour être exécutée (le conteneur Jetty est embarqué dans le jar). Avec ses 10 Mo tout au plus (dépendances comprises) l’empreinte mémoire d’une application Dropwizard est donc incomparablement plus faible qu’un Web Service SOAP déployé dans un serveur d’application Java EE (jusqu’à plusieurs centaines de Mo).
-En conséquences, le temps de démarrage d’une application Dropwizard est de quelques secondes quand il faut parfois plusieurs minutes pour un serveur d’application.\\
-
-\pagebreak
-
-
-\section{Redmine}\label{Annexe C}
+\section{Redmine}\label{Annexe A}
 
 Redmine est considéré comme l’un des outils de gestion de projets collaboratifs Open Source parmi les plus aboutis. Il recouvre un ensemble de fonctionnalités dont un aperçu est donné ci-dessous, comme la gestion multi-projets, la gestion des demandes d’évolution et des bugs, la gestion et l’indexation des documentations techniques, mais aussi la gestion des droits et des profils des différents intervenants. Il propose aussi une console de suivi de l’état d’avancement des projets, des tâches, des recettes… sous forme de diagramme de Gantt.\\
 
@@ -56,7 +27,7 @@ Plus de détails est disponible sur le wiki du projet : \url{http://www.redmine.
 
 \pagebreak
 
-\section{Extraits de codes}\label{Annexe D}\\
+\section{Extraits de codes}\label{Annexe B}\\
 
 \textbf{Instanciation d'un objet upload}\\
 \begin{lstlisting}
@@ -192,7 +163,7 @@ INFO  [2015-06-11 15:31:52,965] org.hibernate.engine.internal.StatisticalLogging
 
 \pagebreak
 
-\section{Structure d'une application Web}\label{Annexe E}\\
+\section{Structure d'une application Web}\label{Annexe C}\\
 
 
 \begin{figure}[!h]
