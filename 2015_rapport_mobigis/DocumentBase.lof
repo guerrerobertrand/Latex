@@ -3,7 +3,7 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Exemples de clients Mobigis\relax }}{6}{figure.caption.7}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Interface et exemple de requ\IeC {\^e}te "GET" SoapUI\relax }}{11}{figure.caption.8}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Offres du produit MobiAnalyst\relax }}{14}{figure.caption.9}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Architecture globale\relax }}{15}{figure.caption.11}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Architecture globale de "MobiAdmin"\relax }}{15}{figure.caption.11}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Extrait du fichier POM, versions des d\IeC {\'e}pendances utilis\IeC {\'e}es\relax }}{18}{figure.caption.14}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Organisation conseill\IeC {\'e}e d'un projet Dropwizard\relax }}{19}{figure.caption.16}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Organisation du module mobi-admin\relax }}{20}{figure.caption.17}
@@ -13,4 +13,4 @@
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Exemple d'abstraction et d'h\IeC {\'e}ritage de m\IeC {\'e}thode\relax }}{25}{figure.caption.25}
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Sch\IeC {\'e}ma des tables de m\IeC {\'e}tadonn\IeC {\'e}es\relax }}{26}{figure.caption.26}
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Exemple de fonction Python pour exporter des m\IeC {\'e}tadonn\IeC {\'e}es\relax }}{28}{figure.caption.27}
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Structure d'une application Web\relax }}{43}{figure.caption.28}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Structure typique d'une application Web\relax }}{42}{figure.caption.28}

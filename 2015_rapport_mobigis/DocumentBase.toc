@@ -38,5 +38,5 @@
 \contentsline {chapter}{\numberline {7}Glossaire et d\IeC {\'e}finitions}{33}{chapter.7}
 \contentsline {chapter}{\numberline {8}Annexes}{37}{chapter.8}
 \contentsline {section}{\numberline {8.1}Redmine}{37}{section.8.1}
-\contentsline {section}{\numberline {8.2}Extraits de codes}{39}{section.8.2}
-\contentsline {section}{\numberline {8.3}Structure d'une application Web}{43}{section.8.3}
+\contentsline {section}{\numberline {8.2}Extraits de codes}{38}{section.8.2}
+\contentsline {section}{\numberline {8.3}Structure d'une application Web}{42}{section.8.3}

@@ -3,15 +3,15 @@
 
 \section{Redmine}\label{Annexe A}
 
-Redmine est considéré comme l’un des outils de gestion de projets collaboratifs Open Source parmi les plus aboutis. Il recouvre un ensemble de fonctionnalités dont un aperçu est donné ci-dessous, comme la gestion multi-projets, la gestion des demandes d’évolution et des bugs, la gestion et l’indexation des documentations techniques, mais aussi la gestion des droits et des profils des différents intervenants. Il propose aussi une console de suivi de l’état d’avancement des projets, des tâches, des recettes… sous forme de diagramme de Gantt.\\
+Redmine est considéré comme l'un des outils de gestion de projets collaboratifs Open Source parmi les plus aboutis. Il recouvre un ensemble de fonctionnalités dont un aperçu est donné ci-dessous, comme la gestion multi-projets, la gestion des demandes d'évolution et des bugs, la gestion et l'indexation des documentations techniques, mais aussi la gestion des droits et des profils des différents intervenants. Il propose aussi une console de suivi de l'état d'avancement des projets, des tâches, des recettes… sous forme de diagramme de Gantt.\\
 
-Redmine est une forge logicielle sous licence GPL. Ses principaux concurrents se nomment Trac, Retrospectiva, Django Projector ou encore InDefero. Notons que Jira ne trouve pas sa place ici, bien qu’il soit le concurrent le plus sérieux de Redmine, parce que Jira est sous Dual licence (l’utilisation commerciale nécessite une licence payante non-Open Source).\\
+Redmine est une forge logicielle sous licence GPL. Ses principaux concurrents se nomment Trac, Retrospectiva, Django Projector ou encore InDefero. Notons que Jira ne trouve pas sa place ici, bien qu'il soit le concurrent le plus sérieux de Redmine, parce que Jira est sous Dual licence (l'utilisation commerciale nécessite une licence payante non-Open Source).\\
 
 Redmine offre un ensemble de fonctionnalités comme par exemples :
 
-\begin{itemsize}
+\begin{itemize}
 \item Prise en charge de plusieurs projets
-\item Contrôle d’accès avec un modèle flexible de rôles
+\item Contrôle d'accès avec un modèle flexible de rôles
 \item Gestion avancée des tickets
 \item Diagramme de Gantt et calendrier
 \item Publication de news, documents et gestionnaire de fichiers
@@ -20,8 +20,9 @@ Redmine offre un ensemble de fonctionnalités comme par exemples :
 \item Outil de suivi du temps
 \item Champs personnalisables pour les tickets, suivi de temps, projets et utilisateurs
 \item Intégration avec plusieurs SCM : SVN, CVS, Git, Mercurial, Bazaar et Darcs
-\item Une communauté active et un ensemble d’outils connexes
-\end{itemsize}\\
+\item Une communauté active et un ensemble d'outils connexes
+\end{itemize}
+\\
 
 Plus de détails est disponible sur le wiki du projet : \url{http://www.redmine.org/projects/redmine/wiki}.
 
@@ -127,6 +128,7 @@ Plus de détails est disponible sur le wiki du projet : \url{http://www.redmine.
 \textbf{Extrait du log Eclipse}\\
 
 \begin{lstlisting}
+
 INFO  [2015-06-11 15:31:52,883] com.mobigis.thread.AbstractUploadManagerThread: GTFS validation JSON report done !
 file unzip : agency.txt
 file unzip : calendar.txt
@@ -160,15 +162,13 @@ INFO  [2015-06-11 15:31:52,965] org.hibernate.engine.internal.StatisticalLogging
 127.0.0.1 - - [11/Jun/2015:15:31:50 +0000] "POST /upload/gtfs HTTP/1.1" 200 61 "-" "Apache-HttpClient/4.1.1 (java 1.5)" 2254
 \end{lstlisting} 
 
-
 \pagebreak
 
 \section{Structure d'une application Web}\label{Annexe C}\\
 
-
 \begin{figure}[!h]
 \centering
 \includegraphics[width=\textwidth]{images/WebAppArchitecture.png}
-\caption{\label{WebAppArchitecture}Structure d'une application Web}
+\caption{\label{WebAppArchitecture}Structure typique d'une application Web}
 \end{figure} 
 
