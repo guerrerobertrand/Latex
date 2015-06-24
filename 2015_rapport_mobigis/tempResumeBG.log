@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.14)  24 JUN 2015 23:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.14)  24 JUN 2015 23:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**DocumentBase.tex
-(./DocumentBase.tex
+**tempResumeBG.tex
+(./tempResumeBG.tex
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (./StyleBertrand.cls
@@ -826,10 +826,10 @@ File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 \AM@templatesizebox=\box49
 )
 \@indexfile=\write3
-\openout3 = `DocumentBase.idx'.
+\openout3 = `tempResumeBG.idx'.
 
 
-Writing index file DocumentBase.idx
+Writing index file tempResumeBG.idx
 (/usr/local/texlive/2014/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip71
@@ -868,78 +868,71 @@ Package: listings 2014/03/04 1.5c (Carsten Heinz)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
-(./DocumentBase.aux (./Remerciements.aux) (./Resume.aux) (./Abstract.aux)
-(./Sommaire.aux) (./Introduction.aux) (./PresentationEntreprise.aux)
-(./AnalyseConception.aux) (./Developpement.aux
+(./tempResumeBG.aux)
+\openout1 = `tempResumeBG.aux'.
 
-LaTeX Warning: Label `fig:architecture' multiply defined.
-
-) (./Bilan.aux) (./Conclusion.aux) (./Glossaire.aux) (./Annexes.aux)
-(./Bibliographie.aux))
-\openout1 = `DocumentBase.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 116.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 116
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 113.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 113
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 116.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 116
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 113.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 113
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 116.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 116
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 113.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 113
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 116.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 116.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 113.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 113.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 116.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 113.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Try loading font information for T1+txr on input line 116.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Try loading font information for T1+txr on input line 113.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
 )
-LaTeX Info: Redefining \degres on input line 116.
-LaTeX Info: Redefining \dots on input line 116.
+LaTeX Info: Redefining \degres on input line 113.
+LaTeX Info: Redefining \dots on input line 113.
 Package frenchb.ldf Info: Setting StandardItemizeEnv=true for
 (frenchb.ldf)             compatibility with enumitem package,
-(frenchb.ldf)              on input line 116.
+(frenchb.ldf)              on input line 113.
 Package frenchb.ldf Info: Setting StandardEnumerateEnv=true for
 (frenchb.ldf)             compatibility with enumitem package,
-(frenchb.ldf)              on input line 116.
-LaTeX Info: Redefining \up on input line 116.
+(frenchb.ldf)              on input line 113.
+LaTeX Info: Redefining \up on input line 113.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -1011,7 +1004,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring ON on input line 116.
+Package hyperref Info: Link coloring ON on input line 113.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1021,13 +1014,13 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count144
 )
-LaTeX Info: Redefining \ref on input line 116.
-LaTeX Info: Redefining \pageref on input line 116.
-LaTeX Info: Redefining \nameref on input line 116.
+LaTeX Info: Redefining \ref on input line 113.
+LaTeX Info: Redefining \pageref on input line 113.
+LaTeX Info: Redefining \nameref on input line 113.
 
-(./DocumentBase.out) (./DocumentBase.out)
+(./tempResumeBG.out) (./tempResumeBG.out)
 \@outlinefile=\write4
-\openout4 = `DocumentBase.out'.
+\openout4 = `tempResumeBG.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
@@ -1035,1326 +1028,113 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count145
 
-<page_garde.pdf, id=160, 597.23125pt x 845.1575pt>
-File: page_garde.pdf Graphic file (type pdf)
- <use page_garde.pdf>
-Package pdftex.def Info: page_garde.pdf used on input line 119.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: page_garde.pdf Graphic file (type pdf)
-
-<use page_garde.pdf>
-Package pdftex.def Info: page_garde.pdf used on input line 119.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-
-<page_garde.pdf, id=163, page=1, 597.23125pt x 845.1575pt>
-File: page_garde.pdf Graphic file (type pdf)
-
-<use page_garde.pdf, page 1>
-Package pdftex.def Info: page_garde.pdf, page1 used on input line 119.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: page_garde.pdf Graphic file (type pdf)
- <use page_garde.pdf, page 1>
-Package pdftex.def Info: page_garde.pdf, page1 used on input line 119.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-File: page_garde.pdf Graphic file (type pdf)
-
-<use page_garde.pdf, page 1>
-Package pdftex.def Info: page_garde.pdf, page1 used on input line 119.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-File: page_garde.pdf Graphic file (type pdf)
- <use page_garde.pdf, page 1>
-Package pdftex.def Info: page_garde.pdf, page1 used on input line 119.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-File: page_garde.pdf Graphic file (type pdf)
-
-<use page_garde.pdf, page 1>
-Package pdftex.def Info: page_garde.pdf, page1 used on input line 119.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [1
-
- <./page_garde.pdf{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pd
-ftex.map}>] [1]
-\openout2 = `Remerciements.aux'.
-
- (./Remerciements.tex
-(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-Underfull \hbox (badness 10000) in paragraph at lines 5--7
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 117.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 14--125
-
- []
-
-[2
-
-
-] [3
-
-]
-\openout2 = `Resume.aux'.
-
- (./Resume.tex
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 3.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 117.
+
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 3.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 117.
+
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 3.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 117.
+
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 3.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 117.
+
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 3.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 117.
+
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 11--129
 
- []
-
-[4
-
-
-]
-\openout2 = `Abstract.aux'.
-
- (./Abstract.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 11--130
-
- []
-
-[5
-
-
-
-]
-\openout2 = `Sommaire.aux'.
-
- (./Sommaire.tex (./DocumentBase.toc [6
-
-
-
-])
-\tf@toc=\write5
-\openout5 = `DocumentBase.toc'.
-
-) [7] (./DocumentBase.lof)
-\tf@lof=\write6
-\openout6 = `DocumentBase.lof'.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.139 \include{Introduction}
-                             [1
-
-
-]
-\openout2 = `Introduction.aux'.
-
- (./Introduction.tex
-Chapitre 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-) [2
-
-
-] [3
-
-
-]
-\openout2 = `PresentationEntreprise.aux'.
-
- (./PresentationEntreprise.tex
-Chapitre 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--24
-
- []
-
-[4
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
-<images/fig1_solutionsMobigis.JPG, id=325, 568.37344pt x 341.77687pt>
-File: images/fig1_solutionsMobigis.JPG Graphic file (type jpg)
-
-<use images/fig1_solutionsMobigis.JPG>
-Package pdftex.def Info: images/fig1_solutionsMobigis.JPG used on input line 29
-.
-(pdftex.def)             Requested size: 398.33858pt x 239.53943pt.
- [5 <./images/fig1_solutionsMobigis.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-
- []
-
-<images/fig2_referencesMobigis.JPG, id=335, 508.14844pt x 219.06844pt>
-File: images/fig2_referencesMobigis.JPG Graphic file (type jpg)
-
-<use images/fig2_referencesMobigis.JPG>
-Package pdftex.def Info: images/fig2_referencesMobigis.JPG used on input line 4
-3.
-(pdftex.def)             Requested size: 398.33858pt x 171.73509pt.
-LaTeX Font Info:    Try loading font information for TS1+txr on input line 52.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/ts1txr.fd
-File: ts1txr.fd 2000/12/15 v3.1
-)
-Underfull \hbox (badness 10000) in paragraph at lines 59--61
-
- []
-
-[6 <./images/fig2_referencesMobigis.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--111
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--126
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 129--143
-
- []
-
-[8] [9
-
-
-]
-\openout2 = `AnalyseConception.aux'.
-
- (./AnalyseConception.tex
-Chapitre 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-
-<images/soapUI_getById_sansResponse_small.png, id=358, 1628.0825pt x 1045.9075p
-t>
-File: images/soapUI_getById_sansResponse_small.png Graphic file (type png)
- <use images/soapUI_getById_sansResponse_small.png>
-Package pdftex.def Info: images/soapUI_getById_sansResponse_small.png used on i
-nput line 18.
-(pdftex.def)             Requested size: 455.24408pt x 292.45313pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-[10
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
-[11 <./images/soapUI_getById_sansResponse_small.png>])
-Underfull \hbox (badness 10000) in paragraph at lines 35--147
-
- []
-
-[12] [13
-
-
-]
-\openout2 = `Developpement.aux'.
-
- (./Developpement.tex
-Chapitre 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-<images/offre_MobiAnalyst.png, id=382, 962.59625pt x 606.265pt>
-File: images/offre_MobiAnalyst.png Graphic file (type png)
-
-<use images/offre_MobiAnalyst.png>
-Package pdftex.def Info: images/offre_MobiAnalyst.png used on input line 12.
-(pdftex.def)             Requested size: 398.33858pt x 250.87372pt.
- [14
-
-
- <./images/offre_MobiAnalyst.png>]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 
-     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<images/architecture.png, id=390, 744.381pt x 390.258pt>
-File: images/architecture.png Graphic file (type png)
-
-<use images/architecture.png>
-Package pdftex.def Info: images/architecture.png used on input line 32.
-(pdftex.def)             Requested size: 364.19667pt x 190.9363pt.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 
-     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--41
-
- []
-
-[15 <./images/architecture.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-
- []
-
-
-! LaTeX Error: \begin{itemize} on input line 45 ended by \end{itemsize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 \end{itemsize}
-                   \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
-
- []
-
-<images/apacheMaven.jpg, id=405, 301.125pt x 104.39pt>
-File: images/apacheMaven.jpg Graphic file (type jpg)
-
-<use images/apacheMaven.jpg>
-Package pdftex.def Info: images/apacheMaven.jpg used on input line 72.
-(pdftex.def)             Requested size: 85.35826pt x 29.59056pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--78
-
- []
-
-
-<images/Maven_POM_properties_Mobi-Admin-util.PNG, id=407, 493.845pt x 196.48407
-pt>
-File: images/Maven_POM_properties_Mobi-Admin-util.PNG Graphic file (type png)
- <use images/Maven_POM_properties_Mobi-Admin-util.PNG>
-Package pdftex.def Info: images/Maven_POM_properties_Mobi-Admin-util.PNG used o
-n input line 83.
-(pdftex.def)             Requested size: 364.19667pt x 144.90123pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--86
-
- []
-
-[17 <./images/apacheMaven.jpg>]
-<images/dropwizard.png, id=415, 276.03125pt x 279.0425pt>
-File: images/dropwizard.png Graphic file (type png)
-
-<use images/dropwizard.png>
-Package pdftex.def Info: images/dropwizard.png used on input line 92.
-(pdftex.def)             Requested size: 85.35826pt x 86.28938pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--97
-
- []
-
-
-Overfull \hbox (2.88713pt too wide) in paragraph at lines 98--99
-[]\T1/txr/bx/n/12 Jersey\T1/txr/m/n/12 , l'im-plé-men-ta-tion de ré-fé-rence de
- la spé-ci-fi-ca-tion JAX-RS (web
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
-
- []
-
-[18 <./images/Maven_POM_properties_Mobi-Admin-util.PNG> <./images/dropwizard.pn
-g>]
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-
- []
-
-
-! Package xkeyval Error: `heigth' undefined in families `Gin'.
-
-See the xkeyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.115 ...eigth=6cm]{images/Dropwizard_Project.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<images/Dropwizard_Project.png, id=423, 452.69125pt x 252.945pt>
-File: images/Dropwizard_Project.png Graphic file (type png)
-
-<use images/Dropwizard_Project.png>
-Package pdftex.def Info: images/Dropwizard_Project.png used on input line 115.
-(pdftex.def)             Requested size: 170.71652pt x 95.38676pt.
-
-
-! Package xkeyval Error: `heigth' undefined in families `Gin'.
-
-See the xkeyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.124 ...cm]{images/Package_explorer_MobiSAAS.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<images/Package_explorer_MobiSAAS.PNG, id=425, 212.29312pt x 352.31625pt>
-File: images/Package_explorer_MobiSAAS.PNG Graphic file (type png)
-
-<use images/Package_explorer_MobiSAAS.PNG>
-Package pdftex.def Info: images/Package_explorer_MobiSAAS.PNG used on input lin
-e 124.
-(pdftex.def)             Requested size: 170.71652pt x 283.33174pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.132 \pagebreak
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \vbox (badness 2460) has occurred while \output is active []
-
- [19 <./images/Dropwizard_Project.png>]
-<images/hibernate.png, id=434, 428.60126pt x 118.4425pt>
-File: images/hibernate.png Graphic file (type png)
-
-<use images/hibernate.png>
-Package pdftex.def Info: images/hibernate.png used on input line 138.
-(pdftex.def)             Requested size: 85.35826pt x 23.58867pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--146
-
- []
-
-
-Underfull \vbox (badness 4621) has occurred while \output is active []
-
- [20 <./images/Package_explorer_MobiSAAS.PNG> <./images/hibernate.png>]
-<images/fxml_logo_Jackson.png, id=442, 72.27pt x 75.28125pt>
-File: images/fxml_logo_Jackson.png Graphic file (type png)
-
-<use images/fxml_logo_Jackson.png>
-Package pdftex.def Info: images/fxml_logo_Jackson.png used on input line 152.
-(pdftex.def)             Requested size: 85.35826pt x 88.91953pt.
-
-<images/JsonFormatter_serialization.PNG, id=446, 742.27313pt x 344.03531pt>
-File: images/JsonFormatter_serialization.PNG Graphic file (type png)
-
-<use images/JsonFormatter_serialization.PNG>
-Package pdftex.def Info: images/JsonFormatter_serialization.PNG used on input l
-ine 166.
-(pdftex.def)             Requested size: 364.19667pt x 168.8045pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--170
-
- []
-
-
-<images/JsonFormatter_serialization_Validation.PNG, id=448, 730.22812pt x 563.8
-5657pt>
-File: images/JsonFormatter_serialization_Validation.PNG Graphic file (type png)
-
- <use images/JsonFormatter_serialization_Validation.PNG>
-Package pdftex.def Info: images/JsonFormatter_serialization_Validation.PNG used
- on input line 175.
-(pdftex.def)             Requested size: 364.19667pt x 281.22208pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--179
-
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[21 <./images/fxml_logo_Jackson.png> <./images/JsonFormatter_serialization.PNG>
-] <images/slf4j-logo.jpg, id=458, 306.14375pt x 130.4875pt>
-File: images/slf4j-logo.jpg Graphic file (type jpg)
-
-<use images/slf4j-logo.jpg>
-Package pdftex.def Info: images/slf4j-logo.jpg used on input line 185.
-(pdftex.def)             Requested size: 85.35826pt x 36.38094pt.
- <images/lblogo.jpg, id=459, 260.975pt x 140.525pt>
-File: images/lblogo.jpg Graphic file (type jpg)
-
-<use images/lblogo.jpg>
-Package pdftex.def Info: images/lblogo.jpg used on input line 186.
-(pdftex.def)             Requested size: 85.35826pt x 45.96169pt.
- <images/junit-logo.png, id=461, 128.48pt x 51.392pt>
-File: images/junit-logo.png Graphic file (type png)
-
-<use images/junit-logo.png>
-Package pdftex.def Info: images/junit-logo.png used on input line 196.
-(pdftex.def)             Requested size: 85.35826pt x 34.14386pt.
-
-Underfull \vbox (badness 2875) has occurred while \output is active []
-
- [22 <./images/JsonFormatter_serialization_Validation.PNG> <./images/slf4j-logo
-.jpg> <./images/lblogo.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 203--206
-
- []
-
-<images/tablePostgres_mobiupload_small.png, id=473, 894.34125pt x 353.32pt>
-File: images/tablePostgres_mobiupload_small.png Graphic file (type png)
-
-<use images/tablePostgres_mobiupload_small.png>
-Package pdftex.def Info: images/tablePostgres_mobiupload_small.png used on inpu
-t line 210.
-(pdftex.def)             Requested size: 398.33858pt x 157.36977pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--216
-
- []
-
-[23 <./images/junit-logo.png> <./images/tablePostgres_mobiupload_small.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
-
- []
-
-
-Overfull \hbox (18.69264pt too wide) in paragraph at lines 225--228
-[]\T1/txr/m/n/12 exemple : com-po-si-te-Key exemple : Ma-ny-ToOne exemple : com
-.mobigis.gtfs.model.Agency.java 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
-
- []
-
-
-LaTeX Warning: File `images/DiagrammeThread.png.png' not found on input line 24
-9.
-
-
-! LaTeX Error: Unknown graphics extension: .png.png.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.249 ...dth=14cm]{images/DiagrammeThread.png.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
-
- []
-
-<images/DW_specMetadata.JPG, id=492, 616.55344pt x 462.97969pt>
-File: images/DW_specMetadata.JPG Graphic file (type jpg)
-
-<use images/DW_specMetadata.JPG>
-Package pdftex.def Info: images/DW_specMetadata.JPG used on input line 283.
-(pdftex.def)             Requested size: 398.33858pt x 299.12471pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-
- []
-
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
-
- []
-
-[26 <./images/DW_specMetadata.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
-
- []
-
-<images/DW_Fonction_Python.PNG, id=504, 670.75594pt x 566.86781pt>
-File: images/DW_Fonction_Python.PNG Graphic file (type png)
-
-<use images/DW_Fonction_Python.PNG>
-Package pdftex.def Info: images/DW_Fonction_Python.PNG used on input line 308.
-(pdftex.def)             Requested size: 364.19667pt x 307.79074pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--312
-
- []
-
-[27 <./images/DW_Fonction_Python.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 327--329
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
-
- []
-
-[28] <images/Architecture_Crislab.PNG, id=516, 487.06969pt x 246.9225pt>
-File: images/Architecture_Crislab.PNG Graphic file (type png)
-
-<use images/Architecture_Crislab.PNG>
-Package pdftex.def Info: images/Architecture_Crislab.PNG used on input line 341
-.
-(pdftex.def)             Requested size: 364.19667pt x 184.63pt.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.345 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 351--151
-
- []
-
-[29 <./images/Architecture_Crislab.PNG>] [30
-
-
-]
-\openout2 = `Bilan.aux'.
-
- (./Bilan.tex
-Chapitre 5.
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 15--155
-
- []
-
-[31
-
-
-]
-\openout2 = `Conclusion.aux'.
-
- (./Conclusion.tex
-Chapitre 6.
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 \begin
-           {itemize}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--18
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 \begin
-           {itemize}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--28
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 N
-      'ont pas Ã©tÃ© couvertes les 4 compÃ©tences suivantes :
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \end{itemize}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--36
-
- []
-
-) [32
-
-
-
-]
-\openout2 = `Glossaire.aux'.
-
- (./Glossaire.tex
-Chapitre 7.
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--18
-
- []
-
-[33
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-
- []
-
-[35]) [36]
-\openout2 = `Annexes.aux'.
-
- (./Annexes.tex
-Chapitre 8.
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 
-     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (3.7283pt too wide) in paragraph at lines 27--28
-[]\T1/txr/m/n/12 Plus de dé-tails est dis-po-nible sur le wiki du pro-jet : [][
-]$\T1/txtt/m/n/12 http : / / www . redmine . org / projects /
- []
-
-[37
-
-
-
-]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 
-     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 
-     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-
- []
-
-[38]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.101 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [39]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.126 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-
- []
-
-[40]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<images/WebAppArchitecture.png, id=707, 823.075pt x 640.3925pt>
-File: images/WebAppArchitecture.png Graphic file (type png)
-
-<use images/WebAppArchitecture.png>
-Package pdftex.def Info: images/WebAppArchitecture.png used on input line 171.
-(pdftex.def)             Requested size: 455.24411pt x 354.20059pt.
-) [42 <./images/WebAppArchitecture.png>]
-\openout2 = `Bibliographie.aux'.
-
-
-(./Bibliographie.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-
-Overfull \hbox (68.37973pt too wide) in paragraph at lines 16--17
-[][][]$\T1/txtt/m/n/12 https : / / github . com / OneBusAway / onebusaway / wik
-i / Importing-[]source-[]code-[]into-[]Eclipse$[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
  []
-
-) [43
-
-
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
- (./DocumentBase.aux (./Remerciements.aux) (./Resume.aux) (./Abstract.aux) (./S
-ommaire.aux) (./Introduction.aux) (./PresentationEntreprise.aux)
-(./AnalyseConception.aux) (./Developpement.aux) (./Bilan.aux) (./Conclusion.aux
-) (./Glossaire.aux) (./Annexes.aux) (./Bibliographie.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
-Package rerunfilecheck Info: File `DocumentBase.out' has not changed.
-(rerunfilecheck)             Checksum: 140B27DB5AD72B9D4B58E4EBAE5DA293;6062.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
+[1
 
 
-LaTeX Warning: There were multiply-defined labels.
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
+(./tempResumeBG.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
+Package rerunfilecheck Info: File `tempResumeBG.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
  ) 
 Here is how much of TeX's memory you used:
- 19914 strings out of 493117
- 284574 string characters out of 6135433
- 494945 words of memory out of 5000000
- 22707 multiletter control sequences out of 15000+600000
- 69852 words of font info for 119 fonts, out of 8000000 for 9000
+ 18591 strings out of 493117
+ 267152 string characters out of 6135433
+ 403945 words of memory out of 5000000
+ 21780 multiletter control sequences out of 15000+600000
+ 43253 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,18n,92p,1025b,1855s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,6n,92p,789b,594s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2014/texmf-dis
-t/fonts/type1/public/txfonts/rtcxr.pfb></usr/local/texlive/2014/texmf-dist/font
-s/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
-/public/txfonts/rtxr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
-/txfonts/rtxsc.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfon
-ts/t1xtt.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/txs
-y.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on DocumentBase.pdf (51 pages, 1210993 bytes).
+exlive/2014/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/
+fonts/type1/urw/times/utmr8a.pfb>
+Output written on tempResumeBG.pdf (1 page, 33391 bytes).
 PDF statistics:
- 821 PDF objects out of 1000 (max. 8388607)
- 703 compressed objects within 8 object streams
- 252 named destinations out of 1000 (max. 500000)
- 443 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 37 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

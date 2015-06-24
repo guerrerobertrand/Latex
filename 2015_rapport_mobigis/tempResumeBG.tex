@@ -1,0 +1,127 @@
+\documentclass[12pt,openany]{StyleBertrand}
+\author{Bertrand Guerrero}
+\usepackage{etex}
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage[francais]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=3.5cm,bmargin=3cm,lmargin=3cm,rmargin=2cm,headsep=1.75cm}
+%\setcounter{secnumdepth}{4}
+%\setcounter{tocdepth}{4}
+\addto\extrasfrench{%
+   \providecommand{\og}{\leavevmode\flqq~}%
+   \providecommand{\fg}{\ifdim\lastskip>\z@\unskip\fi~\frqq}%
+}
+\usepackage[thinlines]{easymat}
+\usepackage{lscape}
+\usepackage{pslatex}
+\usepackage{txfonts}
+\usepackage{footnote}
+%\usepackage{mathptmx}
+\usepackage{setspace}
+%\usepackage{natbib}
+\onehalfspacing
+\usepackage[unicode=true,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=true,pdfborder={0 0 0},backref=false,colorlinks=true, citecolor=Gray, linkcolor=blue, urlcolor=blue]
+ {hyperref}
+%\usepackage{numprint}
+\usepackage{breakurl}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{here}
+\usepackage{float}
+\usepackage[french, ruled, vlined]{algorithm2e}
+\graphicspath{{Images/}}
+\usepackage{caption}
+\usepackage{subcaption}
+\captionsetup{figurewithin=none}  
+\captionsetup{tablewithin=none}
+\usepackage{lettrine}
+\renewcommand{\LettrineFontHook}{\color[gray]{0.5}}
+\usepackage[svgnames]{xcolor}
+\xdefinecolor{DarkOliveGreen}{named}{DarkOliveGreen}
+\usepackage{multirow}
+\usepackage{float}
+%\everymath{\color{DarkOliveGreen}}
+\usepackage{wrapfig}
+\usepackage[]{tocbibind}
+\usepackage{makeidx}
+\usepackage{textcomp}
+\usepackage[final]{pdfpages} 
+
+
+
+
+
+\makeatletter
+
+
+
+\makeindex
+\newenvironment{changemargin}[2]{\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{0pt}%
+\setlength{\rightmargin}{0pt}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{0pt plus 1pt}%
+\addtolength{\leftmargin}{#1}%
+\addtolength{\rightmargin}{#2}%
+}\item }{\end{list}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\usepackage{enumitem}		% customizable list environments
+\newlength{\lyxlabelwidth}      % auxiliary length 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\renewcommand{\thefigure}{\ifnum \c@chapter>\z@ \thechapter.\fi
+ \@arabic\c@figure}
+\@addtoreset{figure}{chapter}
+
+\renewcommand{\thetable}{\ifnum \c@chapter>\z@ \thechapter.\fi
+ \@arabic\c@table}
+\@addtoreset{table}{chapter}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Insertion de code Java
+\usepackage{listings}
+\lstset{
+language=Java,
+basicstyle=\normalsize, % ou ça==> basicstyle=\scriptsize,
+upquote=true,
+aboveskip={1.5\baselineskip},
+columns=fullflexible,
+showstringspaces=false,
+extendedchars=true,
+breaklines=true,
+showtabs=false,
+showspaces=false,
+showstringspaces=false,
+identifierstyle=\ttfamily,
+keywordstyle=\color[rgb]{0,0,1},
+commentstyle=\color[rgb]{0.133,0.545,0.133},
+stringstyle=\color[rgb]{0.627,0.126,0.941},
+}
+
+\begin{document}
+
+\chapter*{Résumé}\label{Resume}
+
+Au sein de MobiGIS\footnote{\url{http://www.mobigis.fr/}}, société éditrice de logiciel SIG-Transport et société de service en géomatique, j'intègre le projet de Recherche \& Développement "MobiSAAS".\\
+
+Mon sujet de stage porte sur le développement de web services permettant d'exposer des fonctionnalités d'import de données voirie et transport en commun, pour la constitution automatique de réseaux de transport multi-modaux. \\
+
+L'objectif de mon travail est d'exposer des fonctionnalités codées initialement en langage SQL et/ou Python via une API REST en langage Java (JAX-RS). J'ai donc dans un premier temps pris en main les chaînes de traitements (Python) et appris à manipuler les données (Postgis/SQL) via le projet "DataWizard". En parallèle, afin d'implémenter ces web services j'ai intégré le projet « MobiSAAS » et ainsi appris à développer avec le framework "Dropwizard". \\
+
+L'application développée dans ce projet présente en mode SAAS\footnote{\url{https://en.wikipedia.org/wiki/Software_as_a_service}} les principales fonctionnalités du logiciel Desktop MobiAnalyst développé par l'entreprise. C'est dans le cadre de l'interface d'administration de l'application (backend) que je développe des fonctionnalités d'upload de données de transport sur le serveur. Les perspectives de ce stage seront de généraliser les classes et méthodes utilitaires que j'ai développées, afin que l'application supporte plusieurs autres formats de données de transport (données vectorielles « Shapefile » par exemple). Ce projet devra à plus long terme exposer les fonctionnalités du logiciel DataWizard en mode SAAS.\\
+
+A l'occasion de ce stage j'ai pu travailler sur plusieurs projets : MobiSAAS, DataWizard,  Crislab, etc... J'ai donc participé à différentes phases du cycle de vie d'un projet de développement logiciel : depuis la conception (R\&D), au développement de code métier, jusqu'à la livraison au client.\\
+
+\end{document}

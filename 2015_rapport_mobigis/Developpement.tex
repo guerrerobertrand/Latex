@@ -13,6 +13,14 @@ Le projet "MobiSAAS" : MobiAnalyst as a Service, s'inscrit dans la démarche d'e
 \caption{\label{OffreMobiAnalyst}Offres du produit MobiAnalyst}
 \end{figure} 
 
+Les serveurs MobiAnalyst propose une API de services web de type REST avec des fonctions bas niveau :
+\begin{itemize}
+\item Calcul d’un itinéraire multimodal 
+\item Calcul d’un isochrone multimodal
+\item Calcul d’une MOD
+\item Géotraitements d’analyse réseaux 
+\end{itemize}
+
 \subsubsection{Architecture actuelle}
 
 La figure \ref{fig:architecture} détaille l'ensemble des briques logicielles nécessaires au fonctionnement de la plate-forme MobiSAAS :
@@ -92,7 +100,7 @@ Dans le projet MobiSAAS, Maven est très utilisé car c'est un projet multi-modu
 \includegraphics[width=3cm]{images/dropwizard.png}
 \end{wrapfigure}
 \noindent C'est un framework Java léger adapté au développement rapide de microservices REST et ne nécessitant pas de serveur d'application comme environnement d'exécution.
-Cela dit, au delà du framework, c'est surtout un assemblage habile de composants spécialisés parmi les meilleurs de l'écosystème Java :
+Cela dit, au delà du framework, c'est surtout un assemblage habile de composants spécialisés parmi les meilleurs de l'écosystème Java :\\
 \begin{itemize}
 \item \textbf{Jetty}, un serveur HTTP et un moteur de servlet compacts et très performants 
 \item \textbf{Jersey}, l'implémentation de référence de la spécification JAX-RS (web services REST) 
@@ -202,7 +210,7 @@ Pour la gestion des traces (logs), j'ai donc pour chaque partie du code document
 
 J'ai tout d'abord commencé par découvrir Maven (cf. \ref{Maven}), les projets, les modules, le désormais célèbre fichier \textbf{POM}, etc...
 Ensuite, je me suis documenté sur le code métier existant, et chercher des outils ou librairies de professionnels du domaine (cf. Outils métiers \ref{OBA}).
-Enfin, après le "Getting Started" de Dropwizard\footnote{\url{https://dropwizard.github.io/dropwizard/getting-started.html}}, une fois tout cela bien maîtrisé, j'ai pu  commencé la conception et le développement de services web REST.\\
+Enfin, après le "Getting Started" de Dropwizard\footnote{\url{https://dropwizard.github.io/dropwizard/getting-started.html}}, une fois tout cela bien maîtrisé, j'ai pu commencé la conception et le développement de services web REST.\\
 
 J'ai choisit de stocker les informations concernant ma partie de l'application dans une table PostgreSQL (Fig \ref{TablePostgres})\\
 \begin{figure}[!h]
@@ -212,8 +220,9 @@ J'ai choisit de stocker les informations concernant ma partie de l'application d
 \end{figure} 
 
 A chaque requête POST du client, je créé une instance d'objet Upload, les informations sont saisies dans la table de suivi, et je stocke les données envoyées sur le serveur. Pour chaque client ou utilisateur, pour chaque type de données, il y a un répertoire personnalisé, chaque upload est "taggé" d'un identifiant unique "UUID".
-Le code métier qui a été implémenté est pour le moment le test sur le type de données envoyées, la validation des données et la production d'un rapport d'un validation (JSON), enfin l'extraction (récursive) des données contenues dans l'archive(cf. Annexe \ref{Annexe D}).\\
+Le code métier qui a été implémenté est pour le moment le test sur le type de données envoyées, la validation des données et la production d'un rapport d'un validation (JSON), enfin l'extraction (récursive) des données contenues dans l'archive (cf. Annexe \ref{Annexe B}).\\
 
+A partir de ce service spécifique, dédié aux données GTFS, j'ai généralisé cette resource (FileResource.java) afin de permettre d'upload n'importe quel fichier sur le serveur, en réutilisant les mêmes méthodes, notamment celle de UploadDAO.java et la méthode "métier" manageUpload().\\
 
 Exemples de codes DAO :
 
@@ -240,12 +249,12 @@ exemple : GtfsResourceTest.java
 
 \subsection{Perspectives}
 
-L'idéal d'un programme développé dans un langage orienté objet, est la généricité, et la réutilisation d'un maximum de composants. Dans ce travail, l'objectif est clairement de produire un maximum de composant abstrait (classes et interfaces) et de méthodes réutilisables. Les perspectives du projet "MobiSAAS" sont nombreuses : gérer une architecture distribuée, augmenter les fonctionnalités SAAS notamment les principales fonctionnalités du projet "DataWizard".\\
+L'idéal d'un programme développé dans un langage orienté objet, est la généricité, et la réutilisation d'un maximum de composants. Dans ce travail, l'objectif est clairement de produire un maximum de composant abstrait (classes et interfaces) et de méthodes réutilisables. Les perspectives du projet "MobiSAAS" sont nombreuses : gérer une architecture distribuée, augmenter les fonctionnalités SAAS notamment les fonctionnalités de "MobiAnalyst", étendre le projet "DataWizard" lui aussi mode SAAS.\\
 
-J'ai donc "maquetter l'application" et débuté le développement de ces composants abstraits (ex: Les ressources au sens DropWizard (Fig. \ref{UML1}). Grâce à cela on pourra donc "uploader" plusieurs types de données et réutiliser la méthode manageUpload(). Egalement, sur ce même principe j'ai développé une classe abstaite afin de faire proposer la gestion des threads et tous mes services en hérite, cela limite la duplication de codes dans l'application.\\
+J'ai donc "maquetter l'application" et débuté le développement de ces composants abstraits (ex: Les ressources au sens DropWizard (Fig. \ref{UML1}). Grâce à cela on pourra donc "uploader" plusieurs types de données et réutiliser la méthode manageUpload(). Egalement, sur ce même principe j'ai développé une classe abstraite afin de faire proposer la gestion des threads et tous mes services en hérite, cela limite la duplication de codes dans l'application.\\
 \begin{figure}[!h]
 \centering
-\includegraphics[width=14cm]{images/Diagrammedeclasses_heritage_full.png}
+\includegraphics[width=14cm]{images/DiagrammeThread.png.png}
 \caption{\label{UML1}Exemple d'abstraction et d'héritage de méthode}
 \end{figure} 
 
@@ -304,7 +313,7 @@ Exemple de code pour produire une table de métadonnées (Fig. \ref{CodeMetadata
 \\
 \begin{figure}[h]
 	\centering
-		\includegraphics[width=0.8\textwidth]{images/DW_exempleFonctionMetadata.PNG}
+		\includegraphics[width=0.8\textwidth]{images/DW_Fonction_Python.PNG}
 	\caption{Exemple de fonction Python pour exporter des métadonnées}
 	\label{CodeMetadata}
 \end{figure}\\
@@ -323,13 +332,28 @@ exemple requête PostGIS
 
 \subsection{Perspectives}
 
-La liste des évolutions est longue, il y a en effet énormément de perspectives pour le projet... Tout d'abord permettre l'import de plusieurs formats de données, comme l'import de données Shapefile, mais aussi de données de transports en commun "Trident"...
-Mais aussi d'une manière générale optimiser les étapes, et développer des routines de simplification de données (afin de ne retenir que les données nécessaires),...\\
+La liste des évolutions sur le projet Redmine est longue, il y a en effet énormément de perspectives pour le projet... Tout d'abord permettre l'import de plusieurs formats de données, comme l'import de données "Shapefile" qui n'est pas encore terminé, mais aussi de données de transports en commun "Trident"... Augmenter encore la capacité de l'outil à rendre ses étapes indépendantes, nettoyer les fonctions obsolètes, revoir l'algorithme de certaines méthodes,...
+Les tests que j'ai pu faire démontre que c'est une application gourmande en RAM, et que les accès disques (lecture/écriture) sont vite à saturation. D'une manière générale les besoins pour l'application sont d'optimiser les étapes, et développer des routines de simplification de données afin par exemple de ne retenir que les données nécessaires au traitement au lieu de charger toutes les données en amont,... \\
 
 
-\section{Les autres projets}\label{Divers}
+\section{Crislab}\label{Divers}
 
-\subsection{Crislab}
+\subsection{Présentation} 
 
-\subsection{CartoOD}
+Ce projet est dédié à la Cartographie des RISques de LABoratoire. Il consiste en une application web, proposant une interface cartographique des bâtiments afin de permettre la gestion des marqueurs et relevés de zones à risques. La vocation de l'application est un site intranet. Durant mon stage, j'ai eu de nombreux échanges avec le client afin de résoudre des bugs de l'application. J'ai donc participé au débugage et à la production de nouveaux livrables (.war).\\
 
+Le projet est très complet, et présente une architecture assez typique d'une application web (cf. Annexe \ref{Annexe C}). Ainsi, l'interface Homme-Machine (IHM) est codée en Javascript, il y a de nombreux formulaires d'affichage ou de saisie dans des fichiers JSP  (Java Server Pages), la partie cartographique est encore une fois produite par un serveur ArcGIS dédié. Le serveur d'applications est un serveur Tomcat 6, adossé sur un SGBD Oracle 10g. Toute la persistance est gérée via le framework Hibernate.\\
+
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=0.8\textwidth]{images/Architecture_Crislab.PNG}
+	\caption{Architecture globale de l'application Crislab}
+	\label{fig:architecture}
+\end{figure}\\
+
+
+\subsection{Réalisations}
+
+J'ai donc "administré" le projet sous Eclipse avec Maven, j'ai lancé l'application sur un serveur Tomcat, créer différents profils de configuration (développement, tests, production) avec des propriétés de connexion différentes à chaque profil). J'ai testé l'application avec le navigateur "client" Internet Explorer 11. Ce projet m'a permis de mettre en application mes connaissances client-serveur, sur toute la partie présentation d'une application web depuis l'affichage des JSP jusqu'aux actions déclenchées (couche service) interceptées par les contrôleur.\\
+
+Le debug a surtout consisté à reproduire les bugs de l'application en production. Du coup, j'ai du importer le schéma de la base de données (Oracle) des clients, tester les requêtes de mon service sur leurs données. J'ai essentiellement passé mon temps à refaire les requêtes, et notamment traduire le HQL (langage de requête Hibernate) en SQL (langage de requête "standard"). Par exemple, le premier bug était du à une mauvaise initialisation d'une variable (fixée à 1 au lieu de 2)... Un deuxième bug venait lui d'une mauvaise manipulation de l'opérateur qui avait provoquer la création d'un doublon dans la base... (chose impossible à réaliser via l'interface cliente (IHM)).\\

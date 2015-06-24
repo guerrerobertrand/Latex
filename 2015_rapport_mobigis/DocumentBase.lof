@@ -10,7 +10,8 @@
 \contentsline {figure}{\numberline {4.6}{\ignorespaces R\IeC {\'e}ponse Json renvoy\IeC {\'e}e\relax }}{21}{figure.caption.20}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Rapport Json de validation des donn\IeC {\'e}es GTFS\relax }}{22}{figure.caption.21}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Table des uploads sur le SGBD PostgreSQL\relax }}{23}{figure.caption.24}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Exemple d'abstraction et d'h\IeC {\'e}ritage de m\IeC {\'e}thode\relax }}{25}{figure.caption.25}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Exemple d'abstraction et d'h\IeC {\'e}ritage de m\IeC {\'e}thode\relax }}{24}{figure.caption.25}
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Sch\IeC {\'e}ma des tables de m\IeC {\'e}tadonn\IeC {\'e}es\relax }}{26}{figure.caption.26}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Exemple de fonction Python pour exporter des m\IeC {\'e}tadonn\IeC {\'e}es\relax }}{28}{figure.caption.27}
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Structure typique d'une application Web\relax }}{42}{figure.caption.28}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Exemple de fonction Python pour exporter des m\IeC {\'e}tadonn\IeC {\'e}es\relax }}{27}{figure.caption.27}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Architecture globale de l'application Crislab\relax }}{29}{figure.caption.28}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Structure typique d'une application Web\relax }}{42}{figure.caption.29}

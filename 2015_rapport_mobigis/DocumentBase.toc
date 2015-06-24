@@ -25,12 +25,12 @@
 \contentsline {section}{\numberline {4.2}DataWizard}{25}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Cahier des charges, pr\IeC {\'e}sentation de l'application}{25}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}El\IeC {\'e}ments de sp\IeC {\'e}cifications fonctionnelles}{25}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}El\IeC {\'e}ments de sp\IeC {\'e}cifications techniques}{27}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}El\IeC {\'e}ments de sp\IeC {\'e}cifications techniques}{26}{subsection.4.2.3}
 \contentsline {subsection}{\numberline {4.2.4}R\IeC {\'e}alisations}{27}{subsection.4.2.4}
 \contentsline {subsection}{\numberline {4.2.5}Perspectives}{28}{subsection.4.2.5}
-\contentsline {section}{\numberline {4.3}Les autres projets}{29}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Crislab}{29}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}CartoOD}{29}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.3}Crislab}{28}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Pr\IeC {\'e}sentation}{28}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}R\IeC {\'e}alisations}{29}{subsection.4.3.2}
 \contentsline {chapter}{\numberline {5}Bilan}{31}{chapter.5}
 \contentsline {section}{\numberline {5.1}Bilan professionnel}{31}{section.5.1}
 \contentsline {section}{\numberline {5.2}Bilan personnel}{31}{section.5.2}
