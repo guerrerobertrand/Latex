@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.14)  24 JUN 2015 23:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.14)  26 JUN 2015 02:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -870,12 +870,8 @@ File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
 (./DocumentBase.aux (./Remerciements.aux) (./Resume.aux) (./Abstract.aux)
 (./Sommaire.aux) (./Introduction.aux) (./PresentationEntreprise.aux)
-(./AnalyseConception.aux) (./Developpement.aux
-
-LaTeX Warning: Label `fig:architecture' multiply defined.
-
-) (./Bilan.aux) (./Conclusion.aux) (./Glossaire.aux) (./Annexes.aux)
-(./Bibliographie.aux))
+(./AnalyseConception.aux) (./Developpement.aux) (./Bilan.aux) (./Conclusion.aux
+) (./Glossaire.aux) (./Annexes.aux) (./Bibliographie.aux))
 \openout1 = `DocumentBase.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 116.
@@ -1310,25 +1306,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-<images/fig1_solutionsMobigis.JPG, id=325, 568.37344pt x 341.77687pt>
+<images/fig1_solutionsMobigis.JPG, id=342, 568.37344pt x 341.77687pt>
 File: images/fig1_solutionsMobigis.JPG Graphic file (type jpg)
 
 <use images/fig1_solutionsMobigis.JPG>
 Package pdftex.def Info: images/fig1_solutionsMobigis.JPG used on input line 29
 .
-(pdftex.def)             Requested size: 398.33858pt x 239.53943pt.
+(pdftex.def)             Requested size: 455.24408pt x 273.76083pt.
  [5 <./images/fig1_solutionsMobigis.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-<images/fig2_referencesMobigis.JPG, id=335, 508.14844pt x 219.06844pt>
+<images/fig2_referencesMobigis.JPG, id=351, 508.14844pt x 219.06844pt>
 File: images/fig2_referencesMobigis.JPG Graphic file (type jpg)
 
 <use images/fig2_referencesMobigis.JPG>
 Package pdftex.def Info: images/fig2_referencesMobigis.JPG used on input line 4
 3.
-(pdftex.def)             Requested size: 398.33858pt x 171.73509pt.
+(pdftex.def)             Requested size: 455.24408pt x 196.26724pt.
 LaTeX Font Info:    Try loading font information for TS1+txr on input line 52.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/ts1txr.fd
@@ -1368,12 +1364,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
 
-
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 124--126
 
  []
 
-[7]
+
 Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
@@ -1392,34 +1388,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--143
  (./AnalyseConception.tex
 Chapitre 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
 
-<images/soapUI_getById_sansResponse_small.png, id=358, 1628.0825pt x 1045.9075p
-t>
-File: images/soapUI_getById_sansResponse_small.png Graphic file (type png)
- <use images/soapUI_getById_sansResponse_small.png>
-Package pdftex.def Info: images/soapUI_getById_sansResponse_small.png used on i
-nput line 18.
-(pdftex.def)             Requested size: 455.24408pt x 292.45313pt.
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
@@ -1427,21 +1416,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-[11 <./images/soapUI_getById_sansResponse_small.png>])
-Underfull \hbox (badness 10000) in paragraph at lines 35--147
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-[12] [13
+)
+Underfull \hbox (badness 10000) in paragraph at lines 31--147
+
+ []
+
+[11] [12
 
 
 ]
@@ -1454,16 +1448,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-<images/offre_MobiAnalyst.png, id=382, 962.59625pt x 606.265pt>
-File: images/offre_MobiAnalyst.png Graphic file (type png)
+<images/MobiSAAS_IHM.png, id=393, 1521.685pt x 977.6525pt>
+File: images/MobiSAAS_IHM.png Graphic file (type png)
 
-<use images/offre_MobiAnalyst.png>
-Package pdftex.def Info: images/offre_MobiAnalyst.png used on input line 12.
-(pdftex.def)             Requested size: 398.33858pt x 250.87372pt.
- [14
+<use images/MobiSAAS_IHM.png>
+Package pdftex.def Info: images/MobiSAAS_IHM.png used on input line 12.
+(pdftex.def)             Requested size: 455.24408pt x 292.47754pt.
 
-
- <./images/offre_MobiAnalyst.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1471,17 +1462,173 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 
+l.16 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<images/architecture.png, id=390, 744.381pt x 390.258pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+[13
+
+
+ <./images/MobiSAAS_IHM.png>]
+<images/offre_MobiAnalyst.png, id=402, 962.59625pt x 606.265pt>
+File: images/offre_MobiAnalyst.png Graphic file (type png)
+
+<use images/offre_MobiAnalyst.png>
+Package pdftex.def Info: images/offre_MobiAnalyst.png used on input line 22.
+(pdftex.def)             Requested size: 455.24408pt x 286.72075pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+[14 <./images/offre_MobiAnalyst.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 \item R
+            EST est un style d'architecture orientÃ© ressource (ROA).
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 45
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 \item L
+            'abstraction clÃ© de l'information en REST est une Â« Ressource ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 46
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \item L
+            'API doit donc proposer des web services sur ces ressources qui ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 47
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 \item L
+            e concept de reprÃ©sentation (XML/JSON) est important. Nous avon...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 48
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \item U
+            ne dernier concept fondamental sont les rÃ©ponses de ces service...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 49
+[][]
+ []
+
+[15]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/architecture.png, id=421, 744.381pt x 390.258pt>
 File: images/architecture.png Graphic file (type png)
 
 <use images/architecture.png>
-Package pdftex.def Info: images/architecture.png used on input line 32.
+Package pdftex.def Info: images/architecture.png used on input line 68.
 (pdftex.def)             Requested size: 364.19667pt x 190.9363pt.
 
 
@@ -1491,100 +1638,66 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 
+l.72 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--41
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
 
  []
 
-[15 <./images/architecture.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+<images/GTFS_8fichiers.png, id=425, 777.90625pt x 277.035pt>
+File: images/GTFS_8fichiers.png Graphic file (type png)
+
+<use images/GTFS_8fichiers.png>
+Package pdftex.def Info: images/GTFS_8fichiers.png used on input line 82.
+(pdftex.def)             Requested size: 364.19667pt x 129.70341pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--86
 
  []
 
 
-! LaTeX Error: \begin{itemize} on input line 45 ended by \end{itemsize}.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+[16 <./images/architecture.png>]
+
+! LaTeX Error: \begin{itemize} on input line 91 ended by \end{itemsize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \end{itemsize}
+l.99 \end{itemsize}
                    \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--54
+! LaTeX Error: There's no line here to end.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
-
- []
-
-<images/apacheMaven.jpg, id=405, 301.125pt x 104.39pt>
-File: images/apacheMaven.jpg Graphic file (type jpg)
-
-<use images/apacheMaven.jpg>
-Package pdftex.def Info: images/apacheMaven.jpg used on input line 72.
-(pdftex.def)             Requested size: 85.35826pt x 29.59056pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--78
-
- []
-
-
-<images/Maven_POM_properties_Mobi-Admin-util.PNG, id=407, 493.845pt x 196.48407
-pt>
-File: images/Maven_POM_properties_Mobi-Admin-util.PNG Graphic file (type png)
- <use images/Maven_POM_properties_Mobi-Admin-util.PNG>
-Package pdftex.def Info: images/Maven_POM_properties_Mobi-Admin-util.PNG used o
-n input line 83.
-(pdftex.def)             Requested size: 364.19667pt x 144.90123pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--86
-
- []
-
-[17 <./images/apacheMaven.jpg>]
-<images/dropwizard.png, id=415, 276.03125pt x 279.0425pt>
-File: images/dropwizard.png Graphic file (type png)
-
-<use images/dropwizard.png>
-Package pdftex.def Info: images/dropwizard.png used on input line 92.
-(pdftex.def)             Requested size: 85.35826pt x 86.28938pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--97
-
- []
-
-
-Overfull \hbox (2.88713pt too wide) in paragraph at lines 98--99
-[]\T1/txr/bx/n/12 Jersey\T1/txr/m/n/12 , l'im-plé-men-ta-tion de ré-fé-rence de
- la spé-ci-fi-ca-tion JAX-RS (web
  []
 
 
@@ -1593,13 +1706,83 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-[18 <./images/Maven_POM_properties_Mobi-Admin-util.PNG> <./images/dropwizard.pn
+[17 <./images/GTFS_8fichiers.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
+
+ []
+
+<images/apacheMaven.jpg, id=440, 301.125pt x 104.39pt>
+File: images/apacheMaven.jpg Graphic file (type jpg)
+
+<use images/apacheMaven.jpg>
+Package pdftex.def Info: images/apacheMaven.jpg used on input line 118.
+(pdftex.def)             Requested size: 85.35826pt x 29.59056pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--124
+
+ []
+
+[18 <./images/apacheMaven.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+
+<images/Maven_POM_properties_Mobi-Admin-util.PNG, id=448, 493.845pt x 196.48407
+pt>
+File: images/Maven_POM_properties_Mobi-Admin-util.PNG Graphic file (type png)
+ <use images/Maven_POM_properties_Mobi-Admin-util.PNG>
+Package pdftex.def Info: images/Maven_POM_properties_Mobi-Admin-util.PNG used o
+n input line 129.
+(pdftex.def)             Requested size: 364.19667pt x 144.90123pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/dropwizard.png, id=449, 276.03125pt x 279.0425pt>
+File: images/dropwizard.png Graphic file (type png)
+
+<use images/dropwizard.png>
+Package pdftex.def Info: images/dropwizard.png used on input line 138.
+(pdftex.def)             Requested size: 85.35826pt x 86.28938pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--143
+
+ []
+
+
+Overfull \hbox (2.88713pt too wide) in paragraph at lines 144--145
+[]\T1/txr/bx/n/12 Jersey\T1/txr/m/n/12 , l'im-plé-men-ta-tion de ré-fé-rence de
+ la spé-ci-fi-ca-tion JAX-RS (web
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
+
+ []
+
+[19 <./images/Maven_POM_properties_Mobi-Admin-util.PNG> <./images/dropwizard.pn
 g>]
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
@@ -1610,16 +1793,16 @@ See the xkeyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.115 ...eigth=6cm]{images/Dropwizard_Project.png}
+l.161 ...eigth=6cm]{images/Dropwizard_Project.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<images/Dropwizard_Project.png, id=423, 452.69125pt x 252.945pt>
+<images/Dropwizard_Project.png, id=457, 452.69125pt x 252.945pt>
 File: images/Dropwizard_Project.png Graphic file (type png)
 
 <use images/Dropwizard_Project.png>
-Package pdftex.def Info: images/Dropwizard_Project.png used on input line 115.
+Package pdftex.def Info: images/Dropwizard_Project.png used on input line 161.
 (pdftex.def)             Requested size: 170.71652pt x 95.38676pt.
 
 
@@ -1629,17 +1812,17 @@ See the xkeyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.124 ...cm]{images/Package_explorer_MobiSAAS.PNG}
+l.170 ...cm]{images/Package_explorer_MobiSAAS.PNG}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<images/Package_explorer_MobiSAAS.PNG, id=425, 212.29312pt x 352.31625pt>
+<images/Package_explorer_MobiSAAS.PNG, id=459, 212.29312pt x 352.31625pt>
 File: images/Package_explorer_MobiSAAS.PNG Graphic file (type png)
 
 <use images/Package_explorer_MobiSAAS.PNG>
 Package pdftex.def Info: images/Package_explorer_MobiSAAS.PNG used on input lin
-e 124.
+e 170.
 (pdftex.def)             Requested size: 170.71652pt x 283.33174pt.
 
 
@@ -1652,233 +1835,235 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.132 \pagebreak
-                
+l.175 
+      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-Underfull \vbox (badness 2460) has occurred while \output is active []
-
- [19 <./images/Dropwizard_Project.png>]
-<images/hibernate.png, id=434, 428.60126pt x 118.4425pt>
+<images/hibernate.png, id=460, 428.60126pt x 118.4425pt>
 File: images/hibernate.png Graphic file (type png)
 
 <use images/hibernate.png>
-Package pdftex.def Info: images/hibernate.png used on input line 138.
+Package pdftex.def Info: images/hibernate.png used on input line 180.
 (pdftex.def)             Requested size: 85.35826pt x 23.58867pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--146
+[20 <./images/Dropwizard_Project.png> <./images/hibernate.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 184--188
 
  []
 
-
-Underfull \vbox (badness 4621) has occurred while \output is active []
-
- [20 <./images/Package_explorer_MobiSAAS.PNG> <./images/hibernate.png>]
-<images/fxml_logo_Jackson.png, id=442, 72.27pt x 75.28125pt>
+<images/fxml_logo_Jackson.png, id=468, 72.27pt x 75.28125pt>
 File: images/fxml_logo_Jackson.png Graphic file (type png)
 
 <use images/fxml_logo_Jackson.png>
-Package pdftex.def Info: images/fxml_logo_Jackson.png used on input line 152.
+Package pdftex.def Info: images/fxml_logo_Jackson.png used on input line 194.
 (pdftex.def)             Requested size: 85.35826pt x 88.91953pt.
+ [21 <./images/Package_explorer_MobiSAAS.PNG> <./images/fxml_logo_Jackson.png>]
 
-<images/JsonFormatter_serialization.PNG, id=446, 742.27313pt x 344.03531pt>
+<images/JsonFormatter_serialization.PNG, id=479, 742.27313pt x 344.03531pt>
 File: images/JsonFormatter_serialization.PNG Graphic file (type png)
 
 <use images/JsonFormatter_serialization.PNG>
 Package pdftex.def Info: images/JsonFormatter_serialization.PNG used on input l
-ine 166.
+ine 208.
 (pdftex.def)             Requested size: 364.19667pt x 168.8045pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--170
+Underfull \hbox (badness 10000) in paragraph at lines 204--212
 
  []
 
 
-<images/JsonFormatter_serialization_Validation.PNG, id=448, 730.22812pt x 563.8
+<images/JsonFormatter_serialization_Validation.PNG, id=481, 730.22812pt x 563.8
 5657pt>
 File: images/JsonFormatter_serialization_Validation.PNG Graphic file (type png)
 
  <use images/JsonFormatter_serialization_Validation.PNG>
 Package pdftex.def Info: images/JsonFormatter_serialization_Validation.PNG used
- on input line 175.
+ on input line 217.
 (pdftex.def)             Requested size: 364.19667pt x 281.22208pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--179
+Underfull \hbox (badness 10000) in paragraph at lines 213--221
 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21 <./images/fxml_logo_Jackson.png> <./images/JsonFormatter_serialization.PNG>
-] <images/slf4j-logo.jpg, id=458, 306.14375pt x 130.4875pt>
+<images/slf4j-logo.jpg, id=482, 306.14375pt x 130.4875pt>
 File: images/slf4j-logo.jpg Graphic file (type jpg)
 
 <use images/slf4j-logo.jpg>
-Package pdftex.def Info: images/slf4j-logo.jpg used on input line 185.
+Package pdftex.def Info: images/slf4j-logo.jpg used on input line 227.
 (pdftex.def)             Requested size: 85.35826pt x 36.38094pt.
- <images/lblogo.jpg, id=459, 260.975pt x 140.525pt>
+ <images/lblogo.jpg, id=483, 260.975pt x 140.525pt>
 File: images/lblogo.jpg Graphic file (type jpg)
 
 <use images/lblogo.jpg>
-Package pdftex.def Info: images/lblogo.jpg used on input line 186.
+Package pdftex.def Info: images/lblogo.jpg used on input line 228.
 (pdftex.def)             Requested size: 85.35826pt x 45.96169pt.
- <images/junit-logo.png, id=461, 128.48pt x 51.392pt>
+ [22 <./images/JsonFormatter_serialization.PNG> <./images/slf4j-logo.jpg> <./im
+ages/lblogo.jpg>]
+<images/junit-logo.png, id=492, 128.48pt x 51.392pt>
 File: images/junit-logo.png Graphic file (type png)
 
 <use images/junit-logo.png>
-Package pdftex.def Info: images/junit-logo.png used on input line 196.
+Package pdftex.def Info: images/junit-logo.png used on input line 238.
 (pdftex.def)             Requested size: 85.35826pt x 34.14386pt.
 
-Underfull \vbox (badness 2875) has occurred while \output is active []
-
- [22 <./images/JsonFormatter_serialization_Validation.PNG> <./images/slf4j-logo
-.jpg> <./images/lblogo.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 203--206
+Underfull \hbox (badness 10000) in paragraph at lines 245--248
 
  []
 
-<images/tablePostgres_mobiupload_small.png, id=473, 894.34125pt x 353.32pt>
+
+Underfull \vbox (badness 6978) has occurred while \output is active []
+
+ [23 <./images/JsonFormatter_serialization_Validation.PNG> <./images/junit-logo
+.png>]
+<images/tablePostgres_mobiupload_small.png, id=506, 894.34125pt x 353.32pt>
 File: images/tablePostgres_mobiupload_small.png Graphic file (type png)
 
 <use images/tablePostgres_mobiupload_small.png>
 Package pdftex.def Info: images/tablePostgres_mobiupload_small.png used on inpu
-t line 210.
+t line 252.
 (pdftex.def)             Requested size: 398.33858pt x 157.36977pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--216
-
- []
-
-[23 <./images/junit-logo.png> <./images/tablePostgres_mobiupload_small.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+Underfull \hbox (badness 10000) in paragraph at lines 256--258
 
  []
 
 
-Overfull \hbox (18.69264pt too wide) in paragraph at lines 225--228
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+
+ []
+
+[24 <./images/tablePostgres_mobiupload_small.png>]
+Overfull \hbox (18.69264pt too wide) in paragraph at lines 267--270
 []\T1/txr/m/n/12 exemple : com-po-si-te-Key exemple : Ma-ny-ToOne exemple : com
 .mobigis.gtfs.model.Agency.java 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
 
-LaTeX Warning: File `images/DiagrammeThread.png.png' not found on input line 24
-9.
+<images/soapUI_getById_sansResponse_small.png, id=516, 1628.0825pt x 1045.9075p
+t>
+File: images/soapUI_getById_sansResponse_small.png Graphic file (type png)
+ <use images/soapUI_getById_sansResponse_small.png>
+Package pdftex.def Info: images/soapUI_getById_sansResponse_small.png used on i
+nput line 290.
+(pdftex.def)             Requested size: 455.24408pt x 292.45313pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 
-! LaTeX Error: Unknown graphics extension: .png.png.
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.249 ...dth=14cm]{images/DiagrammeThread.png.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[25 <./images/soapUI_getById_sansResponse_small.png>]
+<images/DiagrammeThread.png, id=524, 1042.89626pt x 898.35625pt>
+File: images/DiagrammeThread.png Graphic file (type png)
 
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+<use images/DiagrammeThread.png>
+Package pdftex.def Info: images/DiagrammeThread.png used on input line 303.
+(pdftex.def)             Requested size: 398.33858pt x 343.13351pt.
+ [26 <./images/DiagrammeThread.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
 
  []
 
-<images/DW_specMetadata.JPG, id=492, 616.55344pt x 462.97969pt>
+<images/DW_specMetadata.JPG, id=539, 616.55344pt x 462.97969pt>
 File: images/DW_specMetadata.JPG Graphic file (type jpg)
 
 <use images/DW_specMetadata.JPG>
-Package pdftex.def Info: images/DW_specMetadata.JPG used on input line 283.
-(pdftex.def)             Requested size: 398.33858pt x 299.12471pt.
+Package pdftex.def Info: images/DW_specMetadata.JPG used on input line 343.
+(pdftex.def)             Requested size: 341.43306pt x 256.3916pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
 
  []
 
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
-
- []
-
-[26 <./images/DW_specMetadata.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
 
  []
 
-<images/DW_Fonction_Python.PNG, id=504, 670.75594pt x 566.86781pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
+
+ []
+
+[29 <./images/DW_specMetadata.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+
+ []
+
+<images/DW_Fonction_Python.PNG, id=552, 670.75594pt x 566.86781pt>
 File: images/DW_Fonction_Python.PNG Graphic file (type png)
 
 <use images/DW_Fonction_Python.PNG>
-Package pdftex.def Info: images/DW_Fonction_Python.PNG used on input line 308.
+Package pdftex.def Info: images/DW_Fonction_Python.PNG used on input line 368.
 (pdftex.def)             Requested size: 364.19667pt x 307.79074pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--312
-
- []
-
-[27 <./images/DW_Fonction_Python.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
+Underfull \hbox (badness 10000) in paragraph at lines 364--372
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--329
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
+
+ []
+
+[30 <./images/DW_Fonction_Python.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 387--389
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 
  []
 
-[28] <images/Architecture_Crislab.PNG, id=516, 487.06969pt x 246.9225pt>
+<images/Architecture_Crislab.PNG, id=560, 487.06969pt x 246.9225pt>
 File: images/Architecture_Crislab.PNG Graphic file (type png)
 
 <use images/Architecture_Crislab.PNG>
-Package pdftex.def Info: images/Architecture_Crislab.PNG used on input line 341
+Package pdftex.def Info: images/Architecture_Crislab.PNG used on input line 401
 .
 (pdftex.def)             Requested size: 364.19667pt x 184.63pt.
-
+ [31]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1886,23 +2071,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.345 
+l.405 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 351--151
+Underfull \hbox (badness 10000) in paragraph at lines 411--151
 
  []
 
-[29 <./images/Architecture_Crislab.PNG>] [30
+[32 <./images/Architecture_Crislab.PNG>] [33
 
 
 ]
@@ -1930,7 +2115,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--155
 
  []
 
-[31
+[34
 
 
 ]
@@ -1944,7 +2129,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  []
 
@@ -1955,14 +2140,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 \begin
+l.13 \begin
            {itemize}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--18
+Underfull \hbox (badness 10000) in paragraph at lines 14--19
 
  []
 
@@ -1973,14 +2158,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 \begin
+l.21 \begin
            {itemize}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--28
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
 
  []
 
@@ -1991,8 +2176,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 N
-      'ont pas Ã©tÃ© couvertes les 4 compÃ©tences suivantes :
+l.31 N
+      'ont pas Ã©tÃ© couvertes les 3 compÃ©tences suivantes :
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -2010,11 +2195,11 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--36
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
 
  []
 
-) [32
+) [35
 
 
 
@@ -2043,7 +2228,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--18
 
  []
 
-[33
+[36
 
 
 
@@ -2067,7 +2252,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-[34]
+[37]
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
@@ -2092,7 +2277,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
-[35]) [36]
+[38]) [39]
 \openout2 = `Annexes.aux'.
 
  (./Annexes.tex
@@ -2126,7 +2311,7 @@ Overfull \hbox (3.7283pt too wide) in paragraph at lines 27--28
 ]$\T1/txtt/m/n/12 http : / / www . redmine . org / projects /
  []
 
-[37
+[40
 
 
 
@@ -2167,7 +2352,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-[38]
+[41]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2189,7 +2374,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
+ [42]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2208,10 +2393,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
-[40]
+[43]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
+ [44]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2225,13 +2410,13 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<images/WebAppArchitecture.png, id=707, 823.075pt x 640.3925pt>
+<images/WebAppArchitecture.png, id=754, 823.075pt x 640.3925pt>
 File: images/WebAppArchitecture.png Graphic file (type png)
 
 <use images/WebAppArchitecture.png>
 Package pdftex.def Info: images/WebAppArchitecture.png used on input line 171.
 (pdftex.def)             Requested size: 455.24411pt x 354.20059pt.
-) [42 <./images/WebAppArchitecture.png>]
+) [45 <./images/WebAppArchitecture.png>]
 \openout2 = `Bibliographie.aux'.
 
 
@@ -2311,7 +2496,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-) [43
+) [46
 
 
 
@@ -2328,15 +2513,15 @@ Package rerunfilecheck Info: File `DocumentBase.out' has not changed.
 (rerunfilecheck)             Checksum: 140B27DB5AD72B9D4B58E4EBAE5DA293;6062.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  ) 
 Here is how much of TeX's memory you used:
- 19914 strings out of 493117
- 284574 string characters out of 6135433
+ 19943 strings out of 493117
+ 285160 string characters out of 6135433
  494945 words of memory out of 5000000
- 22707 multiletter control sequences out of 15000+600000
+ 22722 multiletter control sequences out of 15000+600000
  69852 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,18n,92p,1025b,1855s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2351,10 +2536,10 @@ ts/t1xtt.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/txs
 y.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
 r/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on DocumentBase.pdf (51 pages, 1210993 bytes).
+Output written on DocumentBase.pdf (54 pages, 3414908 bytes).
 PDF statistics:
- 821 PDF objects out of 1000 (max. 8388607)
- 703 compressed objects within 8 object streams
- 252 named destinations out of 1000 (max. 500000)
- 443 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 872 PDF objects out of 1000 (max. 8388607)
+ 745 compressed objects within 8 object streams
+ 265 named destinations out of 1000 (max. 500000)
+ 458 words of extra memory for PDF output out of 10000 (max. 10000000)
 

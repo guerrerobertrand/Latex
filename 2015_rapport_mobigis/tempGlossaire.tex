@@ -1,0 +1,159 @@
+\documentclass[12pt,openany]{StyleBertrand}
+\author{Bertrand Guerrero}
+\usepackage{etex}
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage[francais]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=3.5cm,bmargin=3cm,lmargin=3cm,rmargin=2cm,headsep=1.75cm}
+%\setcounter{secnumdepth}{4}
+%\setcounter{tocdepth}{4}
+\addto\extrasfrench{%
+   \providecommand{\og}{\leavevmode\flqq~}%
+   \providecommand{\fg}{\ifdim\lastskip>\z@\unskip\fi~\frqq}%
+}
+\usepackage[thinlines]{easymat}
+\usepackage{lscape}
+\usepackage{pslatex}
+\usepackage{txfonts}
+\usepackage{footnote}
+%\usepackage{mathptmx}
+\usepackage{setspace}
+%\usepackage{natbib}
+\onehalfspacing
+\usepackage[unicode=true,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=true,pdfborder={0 0 0},backref=false,colorlinks=true, citecolor=Gray, linkcolor=blue, urlcolor=blue]
+ {hyperref}
+%\usepackage{numprint}
+\usepackage{breakurl}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{here}
+\usepackage{float}
+\usepackage[french, ruled, vlined]{algorithm2e}
+\graphicspath{{Images/}}
+\usepackage{caption}
+\usepackage{subcaption}
+\captionsetup{figurewithin=none}  
+\captionsetup{tablewithin=none}
+\usepackage{lettrine}
+\renewcommand{\LettrineFontHook}{\color[gray]{0.5}}
+\usepackage[svgnames]{xcolor}
+\xdefinecolor{DarkOliveGreen}{named}{DarkOliveGreen}
+\usepackage{multirow}
+\usepackage{float}
+%\everymath{\color{DarkOliveGreen}}
+\usepackage{wrapfig}
+\usepackage[]{tocbibind}
+\usepackage{makeidx}
+\usepackage{textcomp}
+\usepackage[final]{pdfpages} 
+
+
+
+
+
+\makeatletter
+
+
+
+\makeindex
+\newenvironment{changemargin}[2]{\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{0pt}%
+\setlength{\rightmargin}{0pt}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{0pt plus 1pt}%
+\addtolength{\leftmargin}{#1}%
+\addtolength{\rightmargin}{#2}%
+}\item }{\end{list}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\usepackage{enumitem}		% customizable list environments
+\newlength{\lyxlabelwidth}      % auxiliary length 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\renewcommand{\thefigure}{\ifnum \c@chapter>\z@ \thechapter.\fi
+ \@arabic\c@figure}
+\@addtoreset{figure}{chapter}
+
+\renewcommand{\thetable}{\ifnum \c@chapter>\z@ \thechapter.\fi
+ \@arabic\c@table}
+\@addtoreset{table}{chapter}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Insertion de code Java
+\usepackage{listings}
+\lstset{
+language=Java,
+basicstyle=\normalsize, % ou ça==> basicstyle=\scriptsize,
+upquote=true,
+aboveskip={1.5\baselineskip},
+columns=fullflexible,
+showstringspaces=false,
+extendedchars=true,
+breaklines=true,
+showtabs=false,
+showspaces=false,
+showstringspaces=false,
+identifierstyle=\ttfamily,
+keywordstyle=\color[rgb]{0,0,1},
+commentstyle=\color[rgb]{0.133,0.545,0.133},
+stringstyle=\color[rgb]{0.627,0.126,0.941},
+}
+
+\begin{document}
+
+\chapter{Glossaire et définitions}
+\label{Glossaire}
+
+\textbf{API} : En informatique, une interface de programmation (souvent désignée par le terme API pour Application Programming Interface) est un ensemble normalisé de classes, de méthodes ou de fonctions qui sert de façade par laquelle un logiciel offre des services à d'autres logiciels. Elle est offerte par une bibliothèque logicielle ou un service web, le plus souvent accompagnée d'une description qui spécifie comment des programmes consommateurs peuvent se servir des fonctionnalités du programme fournisseur.
+
+Des logiciels tels que les systèmes d'exploitation, les systèmes de gestion de base de données, les langages de programmation, ou les serveurs d'applications comportent une interface de programmation\footnote{\url{http://fr.wikipedia.org/wiki/Interface_de_programmation}}.\\
+
+\textbf{Eclipse} :  Eclipse est un environnement de programmation (IDE) pour le langage Java de la fondation Eclipse. Ce logiciel simplifie la programmation grâce à un certain nombre de raccourcis et notamment grâce à la possibilité d'intégrer de nombreuses extensions. Au fur et à mesure de l'avancement du code, Eclipse compile automatiquement le code et signale les problèmes qu'il détecte.\\
+
+\textbf{Framework} : Appelé en français cadre d'applications, c'est un ensemble de classes d'objets, utilisables pour créer des applications informatiques. Le framework fournit au développeur des objets d'interface (bouton, menu, fenêtres, boîtes de dialogue), des objets de service (collections, conteneurs) et des objets de persistance (accès aux fichiers et aux bases de données) prêts à l'emploi. Le développeur peut donc s'appuyer sur ces classes et se concentrer sur les aspects métier de son application.\\
+
+\textbf{Géomatique} : La géomatique est la combinaison syntaxique de deux mots : Géographie et Informatique.
+Le mot géomatique a été déterminé pour regrouper de façon cohérente l'ensemble des connaissances et technologies nécessaires à la production et au traitement des données numériques décrivant le territoire, ses ressources ou tout autre objet ou phénomène ayant une position géographique.
+La géomatique est un domaine qui fait appel aux sciences, aux technologies de mesure de la terre ainsi qu'aux technologies de l'information pour faciliter l'acquisition, le traitement et la diffusion des données sur le territoire (aussi appelées \og données spatiales \fg ou \og données géographiques \fg).
+La géomatique est étroitement liée à l'information géographique qui est la représentation d'un objet ou d'un phénomène localisé dans l'espace.
+Ainsi, la géomatique regroupe l'ensemble des outils et méthodes permettant de représenter, d'analyser et d'intégrer des données géographiques
+\footnote{\url{http://www.sig-geomatique.fr/sig-geomatique.html}}.\\
+
+\textbf{POM} : Chaque projet ou sous-projet est configuré par un POM "Project Object Model" qui contient les informations nécessaires à Maven pour traiter le projet (nom du projet, numéro de version, dépendances vers d'autres projets, bibliothèques nécessaires à la compilation, noms des contributeurs etc.). Ce POM se matérialise par un fichier pom.xml à la racine du projet. Cette approche permet l'héritage des propriétés du projet parent. Si une propriété est redéfinie dans le POM du projet, elle recouvre celle qui est définie dans le projet parent. Ceci introduit le concept de réutilisation de configuration. Le fichier pom du projet principal est nommé pom parent. Il contient une description détaillée de votre projet, avec en particulier des informations concernant le versionnage et la gestion des configurations, les dépendances, les ressources de l'application, les tests, les membres de l'équipe, la structure et bien plus.\\
+
+\textbf{PostgreSQL} : PostgreSQL est un système de gestion de bases de données relationnelles objet (Manuel PostgreSQL). PostgreSQL est un outil Open Source et disponible gratuitement, compatible avec les systèmes d'opérations les plus connus (Linux, Unix (Mac OSX, Solaris etc.) et Windows). PostgreSQL propose des interfaces de programmations pour des langages de programmation comme Java, C++, Python etc.
+Le développement de PostgreSQL a débuté en 1986 (appelé à l'époque Postgres). En 1995, les développeurs ajoutent un interpréteur de langage SQL à l'outil. A partir de 1996, l'outil s'appelle PostgreSQL afin de souligner le lien entre Postgres et le langage SQL. PostgreSQL peut être facilement étendu par l'utilisateur en ajoutant de nouvelles fonctions, de nouveaux opérateurs ou même de nouveaux langages de procédure.\\
+
+\textbf{PostGIS}\label{Postgis} : PostGIS est une extension du système de gestion de base de données PostgreSQL qui permet de stocker des données (objets) géographiques dans la base de données. Cette extension permet d'utiliser une base de données PostgreSQL comme une base de données dans n'importe quel projet SIG. PostGIS est compatible avec de nombreux autres outils SIG comme par exemple QGIS, Mapserver, etc...\\
+
+\textbf{REST} : REST "Representational State Transfer" (REST) ​​est un style d'architecture logicielle comprenant des lignes directrices et des meilleures pratiques pour la création de services Web évolutifs. REST est un ensemble coordonné de contraintes appliqué à la conception de composants dans un système hypermédia distribué qui peut conduire à une architecture plus performante et maintenable.
+
+REST a gagné sa réputation à travers le web comme une alternative plus simple à SOAP et des services basés sur un WSDL. Les systèmes "RESTful" peuvent généralement, mais pas toujours, communiquer avec les verbes du protocole HTTP (GET, POST, PUT, DELETE, etc.) utilisés par les navigateurs Web pour récupérer des pages Web et envoyer des données à des serveurs distants.\\
+
+
+\textbf{SAAS} : SAAS "Software as a Service" Le logiciel en tant que service est un modèle d'exploitation commerciale des logiciels dans lequel ceux-ci sont installés sur des serveurs distants plutôt que sur la machine de l'utilisateur. Les clients ne paient pas de licence d'utilisation pour une version, mais utilisent généralement gratuitement le service en ligne ou payent un abonnement récurrent\footnote{\url{http://fr.wikipedia.org/wiki/Logiciel_en_tant_que_service}}.\\
+
+\textbf{SGBD} : Système de gestion de base de données - Un ensemble de programmes qui permettent l'accès à une base de données \footnote{\url{http://www.futura-sciences.com/fr/definition/t/informatique-3/d/sgbd_2525/}}.\\
+
+
+\textbf{SoapUI} : SoapUI est outil graphique qui permet de tester des services web basés sur diverses technologies. Il est disponible en deux versions : une version gratuite et open source et seconde version payante. Il est également disponible sous forme de plugin pour les IDE Netbeans, IntelliJ IDEA et Eclipse. SoapUI est développé entièrement en Java et utilise Java Swing pour son GUI, il fonctionne donc sur la plupart des systèmes d'exploitation et en plus il est disponible sous licence GNU.
+L'outil gère respectivement les services web basés sur les technologies telles que le HTTP (S), HTML, SOAP (WSDL), REST, AMF, JDBC et JMS.\\
+
+\textbf{SVN} : SVN ou Subversion est un système de gestion de version, conçu pour remplacer CVS. Concrètement, ce système permet aux membres d’une équipe de développeur de modifier le code du projet quasiment en même temps. Le projet est en effet enregistré sur un serveur SVN et à tout moment, le développeur peut mettre à jour une classe avant de faire des modifications pour bénéficier de la dernière version et a la possibilité de comparer deux versions d'un même fichier.\\
+
+\textbf{WS} : Acronyme de "Web Service" ou Service Web. Un WS est un programme informatique de la famille des technologies web permettant la communication et l'échange de données entre applications et systèmes hétérogènes dans des environnements distribués. Il s'agit donc d'un ensemble de fonctionnalités exposées sur internet ou sur un intranet, par et pour des applications ou machines, sans intervention humaine, de manière synchrone ou asynchrone. Actuellement, le protocole de transport est essentiellement HTTP(S)\footnote{\url{http://fr.wikipedia.org/wiki/Service_web}}. \\
+
+
+
+\end{document}

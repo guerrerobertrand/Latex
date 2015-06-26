@@ -12,31 +12,33 @@
 \contentsline {section}{\numberline {3.1}Environnement de travail}{10}{section.3.1}
 \contentsline {section}{\numberline {3.2}Outils utilis\IeC {\'e}s}{10}{section.3.2}
 \contentsline {section}{\numberline {3.3}Gestion de projets}{11}{section.3.3}
-\contentsline {section}{\numberline {3.4}Difficult\IeC {\'e}s rencontr\IeC {\'e}es}{12}{section.3.4}
-\contentsline {chapter}{\numberline {4}Les Projets}{14}{chapter.4}
-\contentsline {section}{\numberline {4.1}MobiSAAS}{14}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Cahier des charges, pr\IeC {\'e}sentation de l'application}{14}{subsection.4.1.1}
-\contentsline {subsubsection}{Architecture actuelle}{14}{section*.10}
-\contentsline {subsection}{\numberline {4.1.2}El\IeC {\'e}ments de sp\IeC {\'e}cifications fonctionnelles}{15}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}El\IeC {\'e}ments de sp\IeC {\'e}cifications techniques}{16}{subsection.4.1.3}
-\contentsline {subsubsection}{Technologies utilis\IeC {\'e}es}{17}{section*.12}
-\contentsline {subsection}{\numberline {4.1.4}R\IeC {\'e}alisations}{23}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}Perspectives}{24}{subsection.4.1.5}
-\contentsline {section}{\numberline {4.2}DataWizard}{25}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Cahier des charges, pr\IeC {\'e}sentation de l'application}{25}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}El\IeC {\'e}ments de sp\IeC {\'e}cifications fonctionnelles}{25}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}El\IeC {\'e}ments de sp\IeC {\'e}cifications techniques}{26}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}R\IeC {\'e}alisations}{27}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Perspectives}{28}{subsection.4.2.5}
-\contentsline {section}{\numberline {4.3}Crislab}{28}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Pr\IeC {\'e}sentation}{28}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}R\IeC {\'e}alisations}{29}{subsection.4.3.2}
-\contentsline {chapter}{\numberline {5}Bilan}{31}{chapter.5}
-\contentsline {section}{\numberline {5.1}Bilan professionnel}{31}{section.5.1}
-\contentsline {section}{\numberline {5.2}Bilan personnel}{31}{section.5.2}
-\contentsline {chapter}{\numberline {6}Conclusion}{32}{chapter.6}
-\contentsline {chapter}{\numberline {7}Glossaire et d\IeC {\'e}finitions}{33}{chapter.7}
-\contentsline {chapter}{\numberline {8}Annexes}{37}{chapter.8}
-\contentsline {section}{\numberline {8.1}Redmine}{37}{section.8.1}
-\contentsline {section}{\numberline {8.2}Extraits de codes}{38}{section.8.2}
-\contentsline {section}{\numberline {8.3}Structure d'une application Web}{42}{section.8.3}
+\contentsline {section}{\numberline {3.4}Difficult\IeC {\'e}s rencontr\IeC {\'e}es}{11}{section.3.4}
+\contentsline {chapter}{\numberline {4}Les Projets}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}MobiSAAS}{13}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Cahier des charges, pr\IeC {\'e}sentation de l'application}{13}{subsection.4.1.1}
+\contentsline {paragraph}{Une API REST ?}{15}{section*.10}
+\contentsline {subsubsection}{Architecture actuelle}{15}{section*.11}
+\contentsline {subsection}{\numberline {4.1.2}El\IeC {\'e}ments de sp\IeC {\'e}cifications fonctionnelles}{16}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}El\IeC {\'e}ments de sp\IeC {\'e}cifications techniques}{18}{subsection.4.1.3}
+\contentsline {subsubsection}{Technologies utilis\IeC {\'e}es}{18}{section*.14}
+\contentsline {subsection}{\numberline {4.1.4}R\IeC {\'e}alisations}{24}{subsection.4.1.4}
+\contentsline {paragraph}{Tests}{25}{section*.27}
+\contentsline {subsection}{\numberline {4.1.5}Perspectives}{26}{subsection.4.1.5}
+\contentsline {section}{\numberline {4.2}DataWizard}{28}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Cahier des charges, pr\IeC {\'e}sentation de l'application}{28}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}El\IeC {\'e}ments de sp\IeC {\'e}cifications fonctionnelles}{28}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}El\IeC {\'e}ments de sp\IeC {\'e}cifications techniques}{29}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}R\IeC {\'e}alisations}{30}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Perspectives}{31}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}Crislab}{31}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Pr\IeC {\'e}sentation}{31}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}R\IeC {\'e}alisations}{32}{subsection.4.3.2}
+\contentsline {chapter}{\numberline {5}Bilan}{34}{chapter.5}
+\contentsline {section}{\numberline {5.1}Bilan professionnel}{34}{section.5.1}
+\contentsline {section}{\numberline {5.2}Bilan personnel}{34}{section.5.2}
+\contentsline {chapter}{\numberline {6}Conclusion}{35}{chapter.6}
+\contentsline {chapter}{\numberline {7}Glossaire et d\IeC {\'e}finitions}{36}{chapter.7}
+\contentsline {chapter}{\numberline {8}Annexes}{40}{chapter.8}
+\contentsline {section}{\numberline {8.1}Redmine}{40}{section.8.1}
+\contentsline {section}{\numberline {8.2}Extraits de codes}{41}{section.8.2}
+\contentsline {section}{\numberline {8.3}Structure d'une application Web}{45}{section.8.3}
