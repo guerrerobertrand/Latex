@@ -3,7 +3,9 @@
 
 \section{MobiSAAS}
 
-\subsection{Cahier des charges, présentation de l'application}
+\subsection{Cahier des charges}
+
+\subsubsection{Présentation des besoins}
 
 Le projet \og MobiSAAS \fg : MobiAnalyst as a Service, s'inscrit dans la démarche d'entreprise de proposer des solutions en mode \textbf{SAAS}. Le projet consiste d'une manière générale à exposer les fonctionnalités de la solution Desktop du produit \og MobiAnalyst\footnote{\url{http://www.mobianalyst.fr/}} \fg. C'est pour ce projet que j'ai effectué mon travail de stage. \\
 
@@ -38,16 +40,18 @@ L'objectif de mon travail a été d'exposer des fonctionnalités (en vert sur Fi
 
 J'ai donc dans un premier temps pris en main les chaînes de traitements (Python) et appris à manipuler les données (Postgis/SQL) via le projet \og DataWizard \fg. En parallèle, afin d'implémenter ces web services j'ai intégré le projet « MobiSAAS » et ainsi appris à développer avec le framework \og Dropwizard \fg. \\
 
-\paragraph{Une API REST ?}\\
+\subsubsection{Une API REST ?}
 
-Pour commencer ce travail, j'ai déjà découvert ce qu'est une API REST et surtout comment la designer (maquetter). Je me suis inspiré du très bon article suivant \url{http://blog.octo.com/designer-une-api-rest/ } dont voici les grands principes à retenir :
+J'ai tout d'abord découvert ce qu'est une API REST et surtout comment la designer (maquetter). Je me suis inspiré du très bon article suivant :\\
+\url{http://blog.octo.com/designer-une-api-rest/ } dont voici les grands principes à retenir :
 
+\begin{itemize}
 \item REST est un style d'architecture orienté ressource (ROA).
 \item L'abstraction clé de l'information en REST est une « Ressource ». N'importe quelle information qui peut être nommée est une ressource : une image, un document, un service temporel (la météo d'aujourd'hui à Toulouse), une collection d'autres ressources, un objet physique (une personne) etc. En d'autres termes, n'importe quel concept qui peut être la cible d'une référence d'un lien hypertexte doit s'adapter dans la notion de ressource.
-\item L'API doit donc proposer des web services sur ces ressources qui répondent aux requêtes du protocole HTTP. (cf. Tableau).
+\item L'API doit donc proposer des web services sur ces ressources qui répondent aux requêtes du protocole HTTP (GET, POST, PUT, DELETE).
 \item Le concept de représentation (XML/JSON) est important. Nous avons choisi de ne représenter les résultats de requêtes (Response) que via le format d'échange de données JSON (JavaScript Object Notation).
-\item Une dernier concept fondamental sont les réponses de ces services. Le WS peut renvoyer soit des données (JSON), et des codes HTTP (cf. Tableau). Il est préconisé d'utiliser les codes de retour HTTP (500, 404, 200), de manière appropriée, sachant qu'il existe un code pour chaque cas d'utilisation courant. Ces codes sont connus de tous. Pour les besoins de l'API nous avons spécifié des codes propres à l'application et au contexte (601, 602, 603) (cf. Tableau).
-
+\item Une dernier concept fondamental sont les réponses de ces services. Le WS peut renvoyer des données (JSON), et des codes HTTP (\url{https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP}). Il est préconisé d'utiliser les codes de retour HTTP (500, 404, 200), de manière appropriée, sachant qu'il existe un code pour chaque cas d'utilisation courant. Ces codes sont connus de tous. 
+\end{itemize}
 
 \subsubsection{Architecture actuelle}
 
@@ -85,7 +89,7 @@ Les données GTFS se présente le plus souvent dans une archive contenant au min
 \end{figure}\\
 
 
-L'objectif de ce service d'import de données GTFS est de à plus termes pouvoir manipuler ces données (fichier au format zip), pouvoir récupérer des métadonnées sur les jeux de données exemple : l'extension géographique des données, le nom de l'agence, le nombre de lignes, le mode de transport, et enfin produire un réseau de transport via un service en ligne. Actuellement, ces fonctionnalités sont réalisées en amont du logiciel MobiAnalyst via le logiciel Desktop DataWizard (cf. \ref{DataWizard} DataWizard).\\
+L'objectif de ce service d'import de données GTFS est de pouvoir manipuler ces données (fichier au format zip), pouvoir récupérer des métadonnées sur les jeux de données exemple : l'extension géographique des données, le nom de l'agence, le nombre de lignes, le mode de transport, et enfin produire un réseau de transport via un service en ligne. Actuellement, ces fonctionnalités sont réalisées en amont du logiciel MobiAnalyst via le logiciel Desktop DataWizard (cf. \ref{DataWizard} DataWizard).\\
 
 Une archive ou  \og Upload \fg de données GTFS peut contenir un seul ou plusieurs jeu de données (ensemble de fichiers .txt). Il faut donc récupérer et renseigner les métadonnées de chaque Upload sur le serveur :
 \begin{itemize}
@@ -97,10 +101,14 @@ Une archive ou  \og Upload \fg de données GTFS peut contenir un seul ou plusieu
 \item Chemin vers la données
 
 \end{itemsize}\\
-
+~\\
 Les résultats attendus sont le stockage sur le serveur (système de fichier) des données envoyées par le client, stocker la trace de l'opération dans un SGBD, et enfin la production de réponses HTTP (format JSON) pour chaque requête sur le service.\\
 
+Pour les besoins de cette API nous avons spécifié des codes d'erreurs propres à l'application et au contexte : 601, 602, 603, respectivement Upload Failed, Validation Failed, Loading Failed.\\
+
 Ce service dédié aux données GTFS est très spécifique. Une attention particulière sera faite afin de développer de manière à abstraire et rendre au maximum générique la plupart des composants afin de proposer d'autres format de données à l'importation sur le serveur REST \og MobiAdmin \fg (utilisation d'interfaces et de classes abstraites).\\
+
+
 
 \subsection{Eléments de spécifications techniques}
 
@@ -138,7 +146,9 @@ Dans le projet MobiSAAS, Maven est très utilisé car c'est un projet multi-modu
 \includegraphics[width=3cm]{images/dropwizard.png}
 \end{wrapfigure}
 \noindent C'est un framework Java léger adapté au développement rapide de microservices REST et ne nécessitant pas de serveur d'application comme environnement d'exécution.
-Cela dit, au delà du framework, c'est surtout un assemblage habile de composants spécialisés parmi les meilleurs de l'écosystème Java :\\
+Cela dit, au delà du framework, c'est surtout un assemblage habile de composants spécialisés parmi les meilleurs de l'écosystème Java :
+~~\\
+~~\\
 \begin{itemize}
 \item \textbf{Jetty}, un serveur HTTP et un moteur de servlet
 \item \textbf{Jersey}, l'implémentation de référence de la spécification JAX-RS (web services REST) 
@@ -258,28 +268,38 @@ Le code métier qui a été implémenté est pour le moment le test sur le type 
 
 A partir de ce service spécifique, dédié aux données GTFS, j'ai généralisé cette resource (FileResource.java) afin de permettre d'upload n'importe quel fichier sur le serveur, en réutilisant les mêmes méthodes, notamment celle de UploadDAO.java et la méthode \og métier \fg manageUpload().\\
 
-Exemples de codes DAO :
+\paragraph{Application multi-couches :}
+~\\
+~\\
+\textbf{Domaine métier}\\
 
-exemple : UploadDAO
+Les classes du domaine métier sont des POJOs (Plain Old Java Object) et sont persistés par les objets d'accès aux données (DAO : Data Access Object). L'acronyme POJO est principalement utilisé pour faire référence à la simplicité d'utilisation d'un objet Java en comparaison avec la lourdeur d'utilisation d'un composant EJB. Ainsi, un POJO n'implémente pas d'interface spécifique à un framework comme c'est le cas par exemple pour un composant EJB.\\
 
-Exemples de codes Persistance /schéma de base de données : 
+Voici l'exemple d'un objet (Upload.java) persisté par Hibernate :\\ Upload\\
 
-exemple : compositeKey
-exemple : ManyToOne
-exemple : com.mobigis.gtfs.model.Agency.java
+Les annotations ne sont pas obligatoires et dépendent du framework de persistence utilisé.
+Dropwizard n'apporte pas de restriction sur le choix de la librairie utilisée et apporte par défaut JDBI (module dropwizard-jdbi) et Hibernate (module dropwizard-hibernate).\\
+
+\textbf{DAO}\\
+
+La DAO UploadDAO étend la classe abstraite \textit{AbstractDAO} de Dropwizard pour avoir accès à Hibernate au travers de ces méthodes.\\
+
+Voici l'exemple d'une classe DAO :\\ UploadDAO\\
+
+\textbf{Service REST}\\
+
+La classe du service REST est autonome: il n'y a pas d'adhérence à Dropwizard. Elle utilise directement les annotations de Jersey: @Path, @Produces, @GET et quelques annotations de Dropwizard : @UnitOfWork, @LongParam... \\
+
+Voici l'exemple d'une classe DAO :\\ GtfsResource\\
+
+La DAO UploadDAO est injectée via le constructeur. Cela a été effectuée dans la méthode run de la classe principale MobiSAASApplication de l'application Mobi-Admin via la ligne :
+\item environment.jersey().register(new GtfsResource(dao));
+\\
 
 
-Exemple de codes métiers :
-
-exemple : GetBoundingBoxGtfs.java (geotools)
-
-exemple : Jackson (ObjectMapper)
-
-
-Exemple de test unitaires :
-
-exemple : readWriteGTFS.java, completeTestGTFS.java
-exemple : GtfsResourceTest.java
+\paragraph{Programmation concurrente}
+~\\
+~\\
 
 \paragraph{Tests}
 
@@ -314,9 +334,12 @@ J'ai commencé et non terminé un autre traitement de données spécifique au fo
 
 \section{DataWizard}\label{DataWizard}
 
-\subsection{Cahier des charges, présentation de l'application}
+\subsection{Cahier des charges}
+
+\subsubsection{Présentation des besoins}
 
 Le projet \og DataWizard \fg, ensemble de scripts Python et SQL est une application dont le but est d'ingérer des données de transports, et de voirie dans une base de données spatiales (\textbf{PostGIS}\ref{Postgis}) afin de produire en sortie un réseau de transport (Network Dataset ou NDS).\\
+Sur ce projet, les besoins correspondent à des corrections de bugs ainsi que des développements d'évolutions de fonctionnalités décrites sur le projet Redmine. Ainsi, j'ai réalisé de la production (nombreux réseaux), et j'ai fait évolué l'outil notamment afin de lui permettre de produire des métadonnées.
 
 
 \subsection{Eléments de spécifications fonctionnelles}
