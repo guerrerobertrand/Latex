@@ -28,18 +28,7 @@ Plus de détails est disponible sur le wiki du projet : \url{http://www.redmine.
 
 \pagebreak
 
-\section{Extraits de codes}\label{Annexe B}\\
-
-\textbf{Instanciation d'un objet upload}\\
-\begin{lstlisting}
-	// Instanciation
-	Upload up = new Upload();
-	up.setId(CreateUUID.randomUUID().toString());
-	up.setOrganization(user.getOrganization());
-	up.setName(fileDetails.getFileName());
-\end{lstlisting} \\
-
-\textbf{La classe Upload.java associée}\\
+\section{Classe Upload.java}\label{Annexe B}\\
 
 \begin{lstlisting}
 	// Empty constructor
@@ -99,7 +88,9 @@ Plus de détails est disponible sur le wiki du projet : \url{http://www.redmine.
 	// suite des Getters & Setters
 \end{lstlisting} \\
 
-\textbf{Classe UploadDAO.java}\\
+\pagebreak
+
+\section{Classe UploadDAO.java}\label{Annexe C}\\
 
 \begin{lstlisting}
 	// Create 
@@ -124,8 +115,9 @@ Plus de détails est disponible sur le wiki du projet : \url{http://www.redmine.
     }
 \end{lstlisting} \\
 
+\pagebreak
 
-\textbf{Extrait du log Eclipse}\\
+\section{Extrait du log dans Eclipse}\label{Annexe D}\\
 
 \begin{lstlisting}
 
@@ -164,11 +156,33 @@ INFO  [2015-06-11 15:31:52,965] org.hibernate.engine.internal.StatisticalLogging
 
 \pagebreak
 
-\section{Structure d'une application Web}\label{Annexe C}\\
+\section{Structure d'une application Web}\label{Annexe E}\\
 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=\textwidth]{images/WebAppArchitecture.png}
-\caption{\label{WebAppArchitecture}Structure typique d'une application Web}
+\caption{\label{WebAppArchitecture}Structure typique d'une application Web (Laure Bouquety \copyright)}
 \end{figure} 
 
+\pagebreak
+
+\section{Requête/Réponse}\label{Annexe F}\\
+
+\textbf{Exemple de requête \og GET BY ID \fg}\\
+
+\url{https://localhost:9876/upload/gtfs/status/a74f467e-4e77-4aad-9254-c3c3dad64b31}\\
+ 
+\textbf{Exemple de Réponse JSON}\\
+
+\begin{lstlisting}
+{
+   "id": "a74f467e-4e77-4aad-9254-c3c3dad64b31",
+   "name": "st_gtfs_good.zip",
+   "uploadStatus": "UPLOADED",
+   "organization": "tisseo",
+   "uploadPath": "C:\\mobianalystserver\\download\\tisseo\\gtfs\\a74f467e-4e77-4aad-9254-c3c3dad64b31",
+   "publishedDate": 1435591474335,
+   "reportPath": "C:\\mobianalystserver\\download\\tisseo\\gtfs\\a74f467e-4e77-4aad-9254-c3c3dad64b31\\st_gtfs_good\\validation_st_gtfs_good.json",
+   "persisted": false
+}
+\end{lstlisting}

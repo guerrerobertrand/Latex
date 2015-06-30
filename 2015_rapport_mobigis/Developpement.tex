@@ -91,7 +91,7 @@ Les données GTFS se présente le plus souvent dans une archive contenant au min
 
 L'objectif de ce service d'import de données GTFS est de pouvoir manipuler ces données (fichier au format zip), pouvoir récupérer des métadonnées sur les jeux de données exemple : l'extension géographique des données, le nom de l'agence, le nombre de lignes, le mode de transport, et enfin produire un réseau de transport via un service en ligne. Actuellement, ces fonctionnalités sont réalisées en amont du logiciel MobiAnalyst via le logiciel Desktop DataWizard (cf. \ref{DataWizard} DataWizard).\\
 
-Une archive ou  \og Upload \fg de données GTFS peut contenir un seul ou plusieurs jeu de données (ensemble de fichiers .txt). Il faut donc récupérer et renseigner les métadonnées de chaque Upload sur le serveur :
+Une archive ou  \og Upload \fg de données GTFS peut contenir un seul ou plusieurs jeu(x) de données (ensemble de fichiers .txt). Il faut donc récupérer et renseigner les métadonnées de chaque Upload sur le serveur :
 \begin{itemize}
 \item Nom - UUID (identifiant unique)
 \item Date d'upload
@@ -106,7 +106,7 @@ Les résultats attendus sont le stockage sur le serveur (système de fichier) de
 
 Pour les besoins de cette API nous avons spécifié des codes d'erreurs propres à l'application et au contexte : 601, 602, 603, respectivement Upload Failed, Validation Failed, Loading Failed.\\
 
-Ce service dédié aux données GTFS est très spécifique. Une attention particulière sera faite afin de développer de manière à abstraire et rendre au maximum générique la plupart des composants afin de proposer d'autres format de données à l'importation sur le serveur REST \og MobiAdmin \fg (utilisation d'interfaces et de classes abstraites).\\
+Ce service dédié aux données GTFS est très spécifique. Une attention particulière a été faite afin de développer de manière à abstraire et rendre au maximum générique la plupart des composants afin de proposer d'autres format de données à l'importation sur le serveur REST \og MobiAdmin \fg (utilisation d'interfaces et de classes abstraites).\\
 
 
 
@@ -115,7 +115,7 @@ Ce service dédié aux données GTFS est très spécifique. Une attention partic
 Pour le composant \og MobiAdmin \fg (serveur REST) qui va héberger les services, le choix technologique majeur est d'utiliser le framework DropWizard (cf. \ref{Dropwizard}). Ce framework orienté microservices nous permet de fournir notamment un serveur embarqué HTTP \og Jetty \fg. Et le framework open source Jersey pour la partie webservice REST qui est l'implémentation de référence de la spécification JAX-RS. Ou encore la librairie Jackson \og King of JSON \fg pour la sérialisation/désérialisation du JSON.\\
 
 L'environnement de développement est donc un projet Java EE Maven (cf. \ref{Maven}) composé des éléments de Dropwizard. 
-Les \textbf{WS} exposés sont à priori \og lourds \fg, sachant qu'un jeu de données peut faire jusqu'à plusieurs centaines de Mo, les opérations de téléchargement, validation, traitement, stockage dans en base,... vont être long à renvoyer une réponse au client après chaque requête. Les WS à développer sont donc asynchrones. De plus, une contrainte supplémentaire est que le service doit supporter plusieurs requêtes simultanées, il faudra donc s'orienter vers un développement en mode \og programmation concurrente \fg.\\
+Les \textbf{WS} exposés sont à priori \og lourds \fg, sachant qu'un jeu de données peut faire jusqu'à plusieurs centaines de Mo, les opérations de téléchargement, validation, traitement, stockage dans en base,... vont être long à renvoyer une réponse au client après chaque requête. Les WS à développer sont donc asynchrones. Chaque requête renvoie une réponse \og immédiatement \fg pendant que le processus (thread) continu de s'effectuer afin de produire un résultat. Le client peut par exemple effectuer des requêtes simultanément (GET) afin de demander le status de son upload. De plus, une contrainte supplémentaire est que le service doit supporter plusieurs requêtes simultanées, il faudra donc s'orienter vers un développement en mode \og programmation concurrente \fg.\\
 
 \subsubsection{Technologies utilisées}\label{MobiSAASTechno}
 
@@ -127,7 +127,7 @@ Les \textbf{WS} exposés sont à priori \og lourds \fg, sachant qu'un jeu de don
 \end{wrapfigure}
 \noindent C'est un outil pour la gestion et l'automatisation de production des projets logiciels Java en général et Java EE en particulier. L'objectif recherché est comparable au système Make sous Unix : produire un logiciel à partir de ses sources, en optimisant les tâches réalisées à cette fin et en garantissant le bon ordre de fabrication.\\
 Il est semblable à l'outil Ant, mais fournit des moyens de configuration plus simples, eux aussi basés sur le format XML. Maven est géré par l'organisation Apache Software Foundation. Précédemment Maven était une branche de l'organisation Jakarta Project.\\
-Maven utilise un paradigme connu sous le nom de Project Object Model (POM) afin de décrire un projet logiciel, ses dépendances avec des modules externes et l'ordre à suivre pour sa production. Il est livré avec un grand nombre de tâches pré-définies, comme la compilation de code Java ou encore sa modularisation.\\
+Maven utilise un paradigme connu sous le nom de Project Object Model (\textbf{POM}) afin de décrire un projet logiciel, ses dépendances avec des modules externes et l'ordre à suivre pour sa production. Il est livré avec un grand nombre de tâches pré-définies, comme la compilation de code Java ou encore sa modularisation.\\
 Un élément clé et relativement spécifique de Maven est son aptitude à fonctionner en réseau. Une des motivations historiques de cet outil est de fournir un moyen de synchroniser des projets indépendants : publication standardisée d'information, distribution automatique de modules « jar ». Ainsi en version de base, Maven peut dynamiquement télécharger du matériel sur des dépôts logiciels connus. Il propose ainsi la synchronisation transparente de modules nécessaires.\\
 
 Dans le projet MobiSAAS, Maven est très utilisé car c'est un projet multi-modules avec un module parent. Maven me permet donc de télécharger et de gérer les dépendances du projet. Par exemple, voici une extrait du fichier \textbf{POM} du module utilitaire \og mobi-admin-util \fg que j'ai développé (Fig. \ref{fig:MavenPOM}).\\
@@ -268,6 +268,20 @@ Le code métier qui a été implémenté est pour le moment le test sur le type 
 
 A partir de ce service spécifique, dédié aux données GTFS, j'ai généralisé cette resource (FileResource.java) afin de permettre d'upload n'importe quel fichier sur le serveur, en réutilisant les mêmes méthodes, notamment celle de UploadDAO.java et la méthode \og métier \fg manageUpload().\\
 
+Dans un deuxième temps, j'ai entamé le \og chantier \fg de permettre la persistance des données GTFS au sein de la base de données Postgres. A partir des classes du modèle (package gtfs) (Fig \ref{packageGTFS}), et du schéma relationnel, j'ai produit à l'aide des annotations JPA le code nécessaire à la génération du schéma gtfs dans la base et le chargement des données (txt) (Fig \ref{RelationalGTFS}).\\
+\begin{figure}[!h]
+\centering
+\includegraphics[width=6cm]{images/model_GTFS.PNG}
+\caption{\label{packageGTFS}Classes des objets GTFS (couche modèle)}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=14cm]{images/GTFS_Schema.png}
+\caption{\label{RelationalGTFS}Modèle relationnel des données GTFS (couche modèle)}
+\end{figure}
+
+
 \paragraph{Application multi-couches :}
 ~\\
 ~\\
@@ -297,9 +311,31 @@ La DAO UploadDAO est injectée via le constructeur. Cela a été effectuée dans
 \\
 
 
-\paragraph{Programmation concurrente}
+\paragraph{Programmation concurrente}\\ \textsl{A REVOIR}
+
+
+Un processus représente l'environnement d'exécution d'un programme. Il référence d'une part un espace mémoire permettant de stocker les données propres à l'application, et d'autre part un ensemble de threads permettant l'exécution du code qui manipulera ces données.\\
+
+En Java, au démarrage de l'application, un thread initial est créé : le thread \og main \fg. Son rôle est de localiser le point d'entrée de l'application (la méthode public static void main(String... args)) puis d'exécuter son code.
+Ce thread, comme tous les threads, exécute la séquence d'instructions qui lui est confiée de manière purement séquentielle. Si une instruction prend du temps à compléter (par exemple, en attente de connexion à un serveur), toute l'application est paralysée.\\
+
+Pour éviter cela, il est souhaitable de confier l'exécution de ces portions bloquantes à des threads annexes, laissant ainsi le thread principal libre de continuer l'exécution de l'application.\\
+
+\textbf{Le framework \og Executor \fg}
 ~\\
-~\\
+Disponible dans le package java.util.concurrent, il fournit un pool de threads robuste et hautement configurable, ainsi que les classes Callable et Future qui étendent les fonctionnalités des Runnables (approche plus classique?). Sa mise en œuvre doit systématiquement être préférée à la création manuelle de threads. Ce framework répond aux problématiques suivantes :
+1> d'une part, chaque thread supplémentaire augmente la mémoire consommée, la complexité globale de l'application, et le risque de contention ;
+2> d'autre part, pour de petites tâches, le coût de création d'un nouveau thread peut se révéler supérieur au coût d'exécution du traitement associé.
+
+Afin de renvoyer un résultat et de savoir si le traitement lève une exception, le framework \og Executor \fg propose l'interface Callable<V>, qui est une sorte de Runnable amélioré. Le type paramétré <V> définit le type du résultat produit par la méthode call(). Ainsi, un Callable<String> produira un String.(Fig. \ref{UML1})\\
+
+Une fois soumis à un pool de threads, un Callable est généralement[1] exécuté de manière asynchrone ; le résultat produit ne sera sans doute pas disponible avant un certain temps.
+Du point de vue de l'appelant (celui qui soumet le traitement au pool), cela n'aurait aucun sens d'attendre ce résultat de manière synchrone : il perdrait tout le bénéfice du système ! Mais il lui faut tout de même un moyen de récupérer le résultat lorsqu'il aura été calculé.\\
+
+Le framework \og Executor \fg fournit la classe Future<V>, qui représente un résultat de type V dont la valeur est pour l'instant inconnue (puisque le traitement n'a pas encore été exécuté), mais qui sera disponible dans le futur. 
+La méthode get() permet de récupérer le résultat immédiatement s'il est disponible (c'est-à-dire si le traitement a bien été exécuté par le pool de threads). Mais attention : si son calcul n'est pas terminé, la méthode est bloquante ! C'est donc une bonne pratique de vérifier la réelle disponibilité du résultat avec isDone() avant de le récupérer. \\
+
+Exemple : (while != future.isDone()) do something...\\
 
 \paragraph{Tests}
 
@@ -315,16 +351,18 @@ Afin de tester les web services REST développés, j'ai utilisé fréquemment l'
 
 \subsection{Perspectives}
 
-L'idéal d'un programme développé dans un langage orienté objet, est la généricité, et la réutilisation d'un maximum de composants. Dans ce travail, l'objectif est clairement de produire un maximum de composant abstrait (classes et interfaces) et de méthodes réutilisables. Les perspectives du projet \og MobiSAAS \fg sont nombreuses : gérer une architecture distribuée, augmenter les fonctionnalités SAAS notamment les fonctionnalités de \og MobiAnalyst \fg, étendre le projet \og DataWizard \fg lui aussi mode SAAS.\\
+L'idéal d'un programme développé dans un langage orienté objet, est la généricité, et la réutilisation d'un maximum de composants. Dans ce travail, l'objectif est clairement de produire un maximum de composant abstrait (classes et interfaces) et de méthodes réutilisables. 
+Les perspectives du projet \og MobiSAAS \fg sont nombreuses : gérer une architecture distribuée, augmenter les fonctionnalités SAAS notamment les fonctionnalités de \og MobiAnalyst \fg, étendre le projet \og DataWizard \fg lui aussi en mode SAAS.\\
 
 J'ai donc \og maquetter l'application \fg et débuté le développement de ces composants abstraits (ex: Les ressources au sens DropWizard (Fig. \ref{UML1}). Grâce à cela on pourra donc \og uploader \fg plusieurs types de données et réutiliser la méthode manageUpload(). Egalement, sur ce même principe j'ai développé une classe abstraite afin de faire proposer la gestion des threads et tous mes services en hérite, cela limite la duplication de codes dans l'application.\\
+
 \begin{figure}[!h]
 \centering
 \includegraphics[width=14cm]{images/DiagrammeThread.png}
 \caption{\label{UML1}Exemple d'abstraction et d'héritage de méthode}
 \end{figure} 
 
-J'ai commencé et non terminé un autre traitement de données spécifique au format GTFS. Une méthode de chargement des données dans la base de données Postgresql (méthode loadData()). J'utilise pour cela une librairie appelée OneBusAway\footnote{\url{http://onebusaway.org/developer-information/}} (OBA) spécialisée dans le transport. Ce traitement réalise une désérialization (lecture de fichiers csv) et une persistance des données via le framework Hibernate dans Postgresql. Ce qu'il reste à faire est de passer la méthode en resource.
+J'ai commencé et non terminé un autre traitement de données spécifique au format GTFS. Une méthode de chargement des données dans la base de données Postgresql (méthode loadData()). J'utilise pour cela une librairie appelée OneBusAway\footnote{\url{http://onebusaway.org/developer-information/}} (OBA) spécialisée dans le transport. Ce traitement réalise une désérialization (lecture de fichiers csv) et une persistance des données via le framework Hibernate dans Postgresql. Ce qu'il reste à faire est de passer la méthode en resource.\\
 
 
 
@@ -339,12 +377,12 @@ J'ai commencé et non terminé un autre traitement de données spécifique au fo
 \subsubsection{Présentation des besoins}
 
 Le projet \og DataWizard \fg, ensemble de scripts Python et SQL est une application dont le but est d'ingérer des données de transports, et de voirie dans une base de données spatiales (\textbf{PostGIS}\ref{Postgis}) afin de produire en sortie un réseau de transport (Network Dataset ou NDS).\\
-Sur ce projet, les besoins correspondent à des corrections de bugs ainsi que des développements d'évolutions de fonctionnalités décrites sur le projet Redmine. Ainsi, j'ai réalisé de la production (nombreux réseaux), et j'ai fait évolué l'outil notamment afin de lui permettre de produire des métadonnées.
+Sur ce projet, les besoins correspondent à des corrections de bugs ainsi que des développements d'évolutions de fonctionnalités décrites sur le projet Redmine. Ainsi, j'ai réalisé de la production (nombreux réseaux), et j'ai fait évolué l'outil notamment afin de lui permettre de produire des métadonnées.\\
 
 
 \subsection{Eléments de spécifications fonctionnelles}
 
-Le DataWizard permet de se lancer par étapes. Il y a 10 étapes successives, dont une étape préliminaire appelée étape 0, et une indépendante : l'étape 10.
+Le DataWizard permet de se lancer par étapes. Il y a 10 étapes successives, dont une étape préliminaire appelée étape 0, et une indépendante : l'étape 10.\\
 \begin{itemize}
 \item STEP 0 : Nettoyage et préparation de la base de données
 \item STEP 1 : Import des données transport en commun et conversion vers le schéma mobianalyst
@@ -369,7 +407,7 @@ Afin de fournir, un réseau conforme aux attentes du logiciel MobiAnalyst \og ve
 
 \subsection{Eléments de spécifications techniques}
 
-J'intègre tout d'abord le projet en tant qu'utilisateur, j'exploite des données et produits des réseaux de transport en commun (TC) (Bordeaux, Champagne-Ardennes, Montreal, Melbourne,etc...) Ensuite, petit à petit je suis le plan de charge issu du projet Redmine et corrige des bugs, et anomalies.\\
+J'intègre tout d'abord le projet en tant qu'utilisateur, j'exploite des données et produits des réseaux de transport en commun (TC) (Bordeaux, Champagne-Ardennes, Montreal, Melbourne,etc.) Ensuite, petit à petit je suis le plan de charge issu du projet Redmine et corrige des bugs, et des anomalies.\\
 
 Mon premier travail a été de développer l'étape 10 (STEP 10 : Export Metadata Tables) de l'exécution du DataWizard. Pour cela j'ai du extraire le nombre de mode de transports en commun (variable selon chaque projet), leur code (variable selon chaque projet) et enfin extraire des listes de constantes pour documenter le réseau produit par le DataWizard.\\
 
@@ -380,9 +418,9 @@ Un autre travail réalisé est le développement qui permet la gestion du systè
 
 \subsection{Réalisations}
 
-Les principales difficultés concernent les données. Ces données sont complexes, les données GTFS ou les données de voirie (données Here (anciennement Navteq) ou OpenStreetMap\footnote{\url{http://openstreetmap.fr/}}). La base de données \og DataWizard \fg possède ainsi de nombreux schémas, et les requêtes SQL sont parfois très complexes mêlant fonctions, et requêtes géographiques.\\
+Les principales difficultés concernent les données. Ces données sont complexes, les données GTFS ou les données de voirie (données Here\footnote{\url{https://company.here.com/here/}} (anciennement Navteq) ou OpenStreetMap\footnote{\url{http://openstreetmap.fr/}}). La base de données \og DataWizard \fg possède ainsi de nombreux schémas, et les requêtes SQL sont parfois très complexes mêlant fonctions, et requêtes géographiques.\\
 
-Les résultats obtenus sont la production de nombreux réseaux en version 3.0 (avec les métadonnées) pour nos analystes, et pour les projets nécessitant des réseaux récents (Moveazy, Mobilyse, etc...). Et une version de l'application qui je l'espère est plus stable.\\
+Les résultats obtenus sont la production de nombreux réseaux en version 3.0 (avec des métadonnées) pour nos analystes, et pour les projets nécessitant des réseaux récents (Moveazy, Mobilyse, etc...). Et une version de l'application qui je l'espère est plus stable.\\
 
 Exemple de code pour produire une table de métadonnées (Fig. \ref{CodeMetadata}) :
 \\
@@ -397,18 +435,13 @@ Dans ce projet, j'ai également développé des fonctions utilitaires : BOMConve
 
 
 
-
-Exemples langages de bases de données :
-
-exemple requête PostGIS
-
-
-
-
 \subsection{Perspectives}
 
-La liste des évolutions sur le projet Redmine est longue, il y a en effet énormément de perspectives pour le projet... Tout d'abord permettre l'import de plusieurs formats de données, comme l'import de données \og Shapefile \fg qui n'est pas encore terminé, mais aussi de données de transports en commun \og Trident \fg... Augmenter encore la capacité de l'outil à rendre ses étapes indépendantes, nettoyer les fonctions obsolètes, revoir l'algorithme de certaines méthodes,...
-Les tests que j'ai pu faire démontre que c'est une application gourmande en RAM, et que les accès disques (lecture/écriture) sont vite à saturation. D'une manière générale les besoins pour l'application sont d'optimiser les étapes, et développer des routines de simplification de données afin par exemple de ne retenir que les données nécessaires au traitement au lieu de charger toutes les données en amont,... \\
+La liste des évolutions sur le projet Redmine est longue, il y a en effet énormément de perspectives pour le projet... Tout d'abord permettre l'import de plusieurs formats de données, comme l'import de données \og Shapefile \fg qui n'est pas encore terminé, mais aussi de données de transports en commun \og Trident \fg... 
+Augmenter encore la capacité de l'outil à rendre ses étapes indépendantes, nettoyer les fonctions obsolètes, revoir l'algorithme de certaines méthodes,...
+D'une manière générale les besoins pour l'application sont d'optimiser les étapes, et de développer des routines de simplification de données (SQL) afin par exemple de ne retenir que les données nécessaires au traitement au lieu de charger toutes les données en amont,... \\
+
+A long terme, l'idée est de proposer toutes les fonctionnalités du DataWizard via une application en mode SAAS.\\
 
 
 \section{Crislab}\label{Divers}
@@ -429,6 +462,6 @@ Le projet est très complet, et présente une architecture assez typique d'une a
 
 \subsection{Réalisations}
 
-J'ai donc \og administré \fg le projet sous Eclipse avec Maven, j'ai lancé l'application sur un serveur Tomcat, créer différents profils de configuration (développement, tests, production) avec des propriétés de connexion différentes à chaque profil). J'ai testé l'application avec le navigateur \og client \fg Internet Explorer 11. Ce projet m'a permis de mettre en application mes connaissances client-serveur, sur toute la partie présentation d'une application web depuis l'affichage des JSP jusqu'aux actions déclenchées (couche service) interceptées par les contrôleur.\\
+J'ai donc \og administré \fg le projet sous Eclipse avec Maven, j'ai lancé l'application sur un serveur Tomcat, créer différents profils de configuration (développement, tests, production) avec des propriétés de connexion différentes à chaque profil). J'ai testé l'application avec le navigateur \og client \fg Internet Explorer 11. Ce projet m'a permis de mettre en application mes connaissances client-serveur, sur toute la partie présentation d'une application web depuis l'affichage des JSP jusqu'aux actions déclenchées (couche service) interceptées par les contrôleurs.\\
 
 Le debug a surtout consisté à reproduire les bugs de l'application en production. Du coup, j'ai du importer le schéma de la base de données (Oracle) des clients, tester les requêtes de mon service sur leurs données. J'ai essentiellement passé mon temps à refaire les requêtes, et notamment traduire le HQL (langage de requête Hibernate) en SQL (langage de requête \og standard \fg). Par exemple, le premier bug était du à une mauvaise initialisation d'une variable (fixée à 1 au lieu de 2)... Un deuxième bug venait lui d'une mauvaise manipulation de l'opérateur qui avait provoquer la création d'un doublon dans la base... (chose impossible à réaliser via l'interface cliente (IHM)).\\

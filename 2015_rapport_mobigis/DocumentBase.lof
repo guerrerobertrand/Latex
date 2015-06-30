@@ -6,14 +6,16 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Architecture globale de \FB@og MobiAdmin \FB@fg \relax }}{16}{figure.caption.13}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Contenu des donn\IeC {\'e}es GTFS\relax }}{17}{figure.caption.14}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Extrait du fichier POM, versions des d\IeC {\'e}pendances utilis\IeC {\'e}es\relax }}{19}{figure.caption.17}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Organisation conseill\IeC {\'e}e d'un projet Dropwizard\relax }}{20}{figure.caption.19}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Organisation conseill\IeC {\'e}e d'un projet Dropwizard\relax }}{21}{figure.caption.19}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Organisation du module mobi-admin\relax }}{21}{figure.caption.20}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces R\IeC {\'e}ponse Json renvoy\IeC {\'e}e\relax }}{22}{figure.caption.23}
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Rapport Json de validation des donn\IeC {\'e}es GTFS\relax }}{23}{figure.caption.24}
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Table des uploads sur le SGBD PostgreSQL\relax }}{24}{figure.caption.27}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Interface et exemple de requ\IeC {\^e}te \FB@og GET \FB@fg SoapUI\relax }}{27}{figure.caption.31}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Exemple d'abstraction et d'h\IeC {\'e}ritage de m\IeC {\'e}thode\relax }}{28}{figure.caption.32}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces M\IeC {\'e}tadonn\IeC {\'e}es de r\IeC {\'e}seau de transports v3.0\relax }}{30}{figure.caption.34}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Fonction Python pour exporter des m\IeC {\'e}tadonn\IeC {\'e}es\relax }}{31}{figure.caption.35}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Architecture globale de l'application Crislab\relax }}{33}{figure.caption.36}
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Structure typique d'une application Web\relax }}{46}{figure.caption.37}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Classes des objets GTFS (couche mod\IeC {\`e}le)\relax }}{25}{figure.caption.28}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Mod\IeC {\`e}le relationnel des donn\IeC {\'e}es GTFS (couche mod\IeC {\`e}le)\relax }}{26}{figure.caption.29}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Interface et exemple de requ\IeC {\^e}te \FB@og GET \FB@fg SoapUI\relax }}{29}{figure.caption.33}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Exemple d'abstraction et d'h\IeC {\'e}ritage de m\IeC {\'e}thode\relax }}{30}{figure.caption.34}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces M\IeC {\'e}tadonn\IeC {\'e}es de r\IeC {\'e}seau de transports v3.0\relax }}{32}{figure.caption.36}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Fonction Python pour exporter des m\IeC {\'e}tadonn\IeC {\'e}es\relax }}{34}{figure.caption.37}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Architecture globale de l'application Crislab\relax }}{35}{figure.caption.38}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Structure typique d'une application Web (Laure Bouquety \copyright )\relax }}{50}{figure.caption.39}
