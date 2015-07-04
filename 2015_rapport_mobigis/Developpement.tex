@@ -102,12 +102,13 @@ Une archive ou  \og Upload \fg de données GTFS peut contenir un seul ou plusieu
 
 \end{itemsize}\\
 ~\\
-Les résultats attendus sont le stockage sur le serveur (système de fichier) des données envoyées par le client, la trace de l'opération dans un SGBD, et enfin la production de réponses HTTP (format JSON) pour chaque requête sur le service.\\
+Les résultats attendus sont le stockage sur le serveur (système de fichier) des données envoyées par le client, la trace de l'opération dans un SGBD, et enfin la production de réponses HTTP (format JSON) pour chaque requête sur le service. 
+
+Les étapes successives du traitement seront donc : le téléchargement de l'archive sur le serveur, la validation des données, et enfin le chargement en base.\\
 
 Pour les besoins de cette API nous avons spécifié des codes d'erreurs propres à l'application et au contexte : 601, 602, 603, respectivement Upload Failed, Validation Failed, Loading Failed.\\
 
 Ce service dédié aux données GTFS est très spécifique. Une attention particulière a été faite afin de développer de manière à abstraire et rendre au maximum générique la plupart des composants afin de proposer d'autres format de données à l'importation sur le serveur REST \og MobiAdmin \fg (utilisation d'interfaces et de classes abstraites pour la mise en place de l'héritage).\\
-
 
 
 \subsection{Eléments de spécifications techniques}
@@ -320,25 +321,26 @@ La DAO UploadDAO est injectée via le constructeur. Cela a été effectuée dans
 Un processus représente l'environnement d'exécution d'un programme. Il référence d'une part un espace mémoire permettant de stocker les données propres à l'application, et d'autre part un ensemble de threads permettant l'exécution du code qui manipulera ces données.\\
 
 En Java, au démarrage de l'application, un thread initial est créé : le thread \og main \fg. Son rôle est de localiser le point d'entrée de l'application (la méthode public static void main(String... args)) puis d'exécuter son code.
-Ce thread, comme tous les threads, exécute la séquence d'instructions qui lui est confiée de manière purement séquentielle. Si une instruction prend du temps à compléter (par exemple, en attente de connexion à un serveur), toute l'application est paralysée.\\
-
+Ce thread, comme tous les threads, exécute la séquence d'instructions qui lui est confiée de manière purement séquentielle. Si une instruction prend du temps à compléter (par exemple, en attente de connexion à un serveur), toute l'application est paralysée.
 Pour éviter cela, il est souhaitable de confier l'exécution de ces portions bloquantes à des threads annexes, laissant ainsi le thread principal libre de continuer l'exécution de l'application.\\
 
-\textbf{Le framework \og Executor \fg}
+\textbf{Le framework \og Executor \fg}\\
 ~\\
 Disponible dans le package java.util.concurrent, il fournit un pool de threads robuste et hautement configurable, ainsi que les classes Callable et Future qui étendent les fonctionnalités des Runnables (approche plus classique?). Sa mise en œuvre doit systématiquement être préférée à la création manuelle de threads. Ce framework répond aux problématiques suivantes :
 1> d'une part, chaque thread supplémentaire augmente la mémoire consommée, la complexité globale de l'application, et le risque de contention ;
-2> d'autre part, pour de petites tâches, le coût de création d'un nouveau thread peut se révéler supérieur au coût d'exécution du traitement associé.
+2> d'autre part, pour de petites tâches, le coût de création d'un nouveau thread peut se révéler supérieur au coût d'exécution du traitement associé.\\
+
+La méthode newFixedThreadPool() du service Executor permet de précharger en cache une réserve (pool) de threads et limite à un nombre fixe le nombre de requête simultanée (pour notre service le maximum est mis à 10). Ainsi, jusqu'à 10 requêtes, le service répondra et les traitements seront exécutés en parallèle, au-delà, la requête sera mise dans la file d'attente.\\
 
 Afin de renvoyer un résultat et de savoir si le traitement lève une exception, le framework \og Executor \fg propose l'interface Callable<V>, qui est une sorte de Runnable amélioré. Le type paramétré <V> définit le type du résultat produit par la méthode call(). Ainsi, un Callable<String> produira un String.(Fig. \ref{UML1})\\
 
-Une fois soumis à un pool de threads, un Callable est généralement[1] exécuté de manière asynchrone ; le résultat produit ne sera sans doute pas disponible avant un certain temps.
-Du point de vue de l'appelant (celui qui soumet le traitement au pool), cela n'aurait aucun sens d'attendre ce résultat de manière synchrone : il perdrait tout le bénéfice du système ! Mais il lui faut tout de même un moyen de récupérer le résultat lorsqu'il aura été calculé.\\
+Une fois soumis à un pool de threads, un Callable est généralement exécuté de manière asynchrone ; le résultat produit ne sera sans doute pas disponible avant un certain temps.
+Du point de vue de l'appelant (celui qui soumet le traitement au pool), cela n'aurait aucun sens d'attendre ce résultat de manière synchrone : il perdrait tout le bénéfice du système ! Mais il lui faut tout de même un moyen de récupérer le résultat lorsqu'il aura été calculé.
 
-Le framework \og Executor \fg fournit la classe Future<V>, qui représente un résultat de type V dont la valeur est pour l'instant inconnue (puisque le traitement n'a pas encore été exécuté), mais qui sera disponible dans le futur. 
+Le framework \og Executor \fg fournit donc la classe Future<V>, qui représente un résultat de type V dont la valeur est pour l'instant inconnue (puisque le traitement n'a pas encore été exécuté), mais qui sera disponible dans le futur. 
 La méthode get() permet de récupérer le résultat immédiatement s'il est disponible (c'est-à-dire si le traitement a bien été exécuté par le pool de threads). Mais attention : si son calcul n'est pas terminé, la méthode est bloquante ! C'est donc une bonne pratique de vérifier la réelle disponibilité du résultat avec isDone() avant de le récupérer. \\
 
-Exemple : (while != future.isDone()) do something...\\
+
 
 \paragraph{Tests}
 
@@ -438,9 +440,9 @@ Dans ce projet, j'ai également développé des fonctions utilitaires : BOMConve
 
 \subsection{Perspectives}
 
-La liste des évolutions sur le projet Redmine est longue, il y a en effet énormément de perspectives pour le projet... Tout d'abord permettre l'import de plusieurs formats de données, comme l'import de données \og Shapefile \fg qui n'est pas encore terminé, mais aussi de données de transports en commun \og Trident \fg... 
+La liste des évolutions sur le projet Redmine est longue, il y a en effet énormément de perspectives pour le projet... Tout d'abord permettre l'import de plusieurs formats de données, comme l'import de données \og Shapefile \fg qui n'est pas encore terminé, mais aussi de données de transports en commun \og Trident \fg, de données de traffic, etc. 
 Augmenter encore la capacité de l'outil à rendre ses étapes indépendantes, nettoyer les fonctions obsolètes, revoir l'algorithme de certaines méthodes,...
-D'une manière générale les besoins pour l'application sont d'optimiser les étapes, et de développer des routines de simplification de données (SQL) afin par exemple de ne retenir que les données nécessaires au traitement au lieu de charger toutes les données en amont,... \\
+D'une manière générale les besoins pour l'application sont d'optimiser les étapes longues, et de développer des routines de simplification de données (SQL) afin par exemple de ne retenir que les données nécessaires au traitement au lieu de charger toutes les données en amont, réalisé des tests de qualité sur les données d'entrée... \\
 
 A long terme, l'idée est de proposer toutes les fonctionnalités du DataWizard via une application en mode SAAS.\\
 
