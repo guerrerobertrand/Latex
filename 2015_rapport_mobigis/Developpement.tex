@@ -42,7 +42,7 @@ J'ai donc dans un premier temps pris en main les chaînes de traitements (Python
 
 \subsubsection{Une API REST ?}
 
-J'ai tout d'abord découvert ce qu'est une API REST et surtout comment la designer (maquetter). Je me suis inspiré du très bon article suivant :\\
+J'ai tout d'abord découvert ce qu'est une API REST et surtout comment la concevoir (maquetter). Je me suis inspiré de l'article suivant :\\
 \url{http://blog.octo.com/designer-une-api-rest/ } dont voici les grands principes à retenir :
 
 \begin{itemize}
@@ -79,7 +79,7 @@ L'authentification qui est faite dans les requêtes utilise les comptes d'AGS cr
 Mon stage et les développements demandés concernent le composant d'administration de l'infrastructure : \og MobiAdmin \fg (cf. Fig. \ref{fig:architectureMobiAdmin}). Dans l'objectif de gérer les données du client, je dois proposer un web service pour la gestion des données de transport dans l'espace privatif du client.
 La fonctionnalité principale à développer est donc un web service d'upload de données et plus particulièrement l'upload de données de transport public au format GTFS\footnote{\url{https://developers.google.com/transit/gtfs/reference}}.\\ 
 
-Les données GTFS se présente le plus souvent dans une archive contenant au minimum les 8 fichiers .txt suivants :
+Les données GTFS se présentent le plus souvent dans une archive contenant au minimum les 8 fichiers .txt suivants :
 \\
 \begin{figure}[h]
 	\centering
@@ -89,7 +89,7 @@ Les données GTFS se présente le plus souvent dans une archive contenant au min
 \end{figure}\\
 
 
-L'objectif de ce service d'import de données GTFS est de pouvoir manipuler ces données (fichier au format zip), pouvoir récupérer des métadonnées sur les jeux de données exemple : l'extension géographique des données, le nom de l'agence, le nombre de lignes, le mode de transport, et enfin produire un réseau de transport via un service en ligne. Actuellement, ces fonctionnalités sont réalisées en amont du logiciel MobiAnalyst via le logiciel Desktop DataWizard (cf. \ref{DataWizard} DataWizard).\\
+L'objectif de ce service d'import de données GTFS est de pouvoir manipuler ces données (fichier au format zip), et de récupérer des métadonnées. Par exemple : l'extension géographique des données, le nom de l'agence, le nombre de lignes, le mode de transport, etc. L'objectif final est de publier un réseau de transport en commun via un service en ligne. Actuellement, ces fonctionnalités sont réalisées en amont du logiciel MobiAnalyst via le logiciel Desktop DataWizard (cf. \ref{DataWizard} DataWizard).\\
 
 Une archive ou  \og Upload \fg de données GTFS peut contenir un seul ou plusieurs jeu(x) de données (ensemble de fichiers .txt). Il faut donc récupérer et renseigner les métadonnées de chaque Upload sur le serveur :
 \begin{itemize}
@@ -102,11 +102,11 @@ Une archive ou  \og Upload \fg de données GTFS peut contenir un seul ou plusieu
 
 \end{itemsize}\\
 ~\\
-Les résultats attendus sont le stockage sur le serveur (système de fichier) des données envoyées par le client, stocker la trace de l'opération dans un SGBD, et enfin la production de réponses HTTP (format JSON) pour chaque requête sur le service.\\
+Les résultats attendus sont le stockage sur le serveur (système de fichier) des données envoyées par le client, la trace de l'opération dans un SGBD, et enfin la production de réponses HTTP (format JSON) pour chaque requête sur le service.\\
 
 Pour les besoins de cette API nous avons spécifié des codes d'erreurs propres à l'application et au contexte : 601, 602, 603, respectivement Upload Failed, Validation Failed, Loading Failed.\\
 
-Ce service dédié aux données GTFS est très spécifique. Une attention particulière a été faite afin de développer de manière à abstraire et rendre au maximum générique la plupart des composants afin de proposer d'autres format de données à l'importation sur le serveur REST \og MobiAdmin \fg (utilisation d'interfaces et de classes abstraites).\\
+Ce service dédié aux données GTFS est très spécifique. Une attention particulière a été faite afin de développer de manière à abstraire et rendre au maximum générique la plupart des composants afin de proposer d'autres format de données à l'importation sur le serveur REST \og MobiAdmin \fg (utilisation d'interfaces et de classes abstraites pour la mise en place de l'héritage).\\
 
 
 
@@ -115,7 +115,10 @@ Ce service dédié aux données GTFS est très spécifique. Une attention partic
 Pour le composant \og MobiAdmin \fg (serveur REST) qui va héberger les services, le choix technologique majeur est d'utiliser le framework DropWizard (cf. \ref{Dropwizard}). Ce framework orienté microservices nous permet de fournir notamment un serveur embarqué HTTP \og Jetty \fg. Et le framework open source Jersey pour la partie webservice REST qui est l'implémentation de référence de la spécification JAX-RS. Ou encore la librairie Jackson \og King of JSON \fg pour la sérialisation/désérialisation du JSON.\\
 
 L'environnement de développement est donc un projet Java EE Maven (cf. \ref{Maven}) composé des éléments de Dropwizard. 
-Les \textbf{WS} exposés sont à priori \og lourds \fg, sachant qu'un jeu de données peut faire jusqu'à plusieurs centaines de Mo, les opérations de téléchargement, validation, traitement, stockage dans en base,... vont être long à renvoyer une réponse au client après chaque requête. Les WS à développer sont donc asynchrones. Chaque requête renvoie une réponse \og immédiatement \fg pendant que le processus (thread) continu de s'effectuer afin de produire un résultat. Le client peut par exemple effectuer des requêtes simultanément (GET) afin de demander le status de son upload. De plus, une contrainte supplémentaire est que le service doit supporter plusieurs requêtes simultanées, il faudra donc s'orienter vers un développement en mode \og programmation concurrente \fg.\\
+Les \textbf{WS} exposés sont à priori \og lourds \fg, sachant qu'un jeu de données peut faire jusqu'à plusieurs centaines de Mo, les opérations de téléchargement, validation, traitement, stockage peuvent être long à répondre au client après chaque requête. Les WS à développer sont donc asynchrones. 
+Chaque requête renvoie une réponse \og immédiatement \fg pendant que le processus (thread) continu de s'effectuer afin de produire un résultat. A l'aide d'une Map (UploadMap), chaque requête GET (by ID) renvoie le status de l'opération : \og en cours \fg, ou \og ok \fg. Si l'opération ne se déroule pas complètement une exception est levée et renvoie un des 3 codes d'erreurs. Le client peut par exemple effectuer des requêtes simultanément (GET) afin de demander le status de son upload. De plus, une contrainte supplémentaire est que le service doit supporter plusieurs requêtes simultanées, il faudra donc s'orienter vers un développement en mode \og programmation concurrente \fg. Pour cela, on utilise le framework \og executor \fg avec notamment l'interface \og Callable \fg et un objet \og newFixedThreadPool \fg (cf. \ref{Threads}). \\
+
+\pagebreak
 
 \subsubsection{Technologies utilisées}\label{MobiSAASTechno}
 
@@ -138,7 +141,7 @@ Dans le projet MobiSAAS, Maven est très utilisé car c'est un projet multi-modu
 	\caption{\label{fig:MavenPOM}Extrait du fichier POM, versions des dépendances utilisées}
 \end{figure}
 \\
-
+~\\
 \textbf{Dropwizard :}\label{Dropwizard}
 
 \begin{wrapfigure}{l}{3cm}
@@ -311,8 +314,8 @@ La DAO UploadDAO est injectée via le constructeur. Cela a été effectuée dans
 \\
 
 
-\paragraph{Programmation concurrente}\\ \textsl{A REVOIR}
-
+\paragraph{Programmation concurrente}\\ \label{Threads}
+~\\
 
 Un processus représente l'environnement d'exécution d'un programme. Il référence d'une part un espace mémoire permettant de stocker les données propres à l'application, et d'autre part un ensemble de threads permettant l'exécution du code qui manipulera ces données.\\
 
@@ -351,10 +354,10 @@ Afin de tester les web services REST développés, j'ai utilisé fréquemment l'
 
 \subsection{Perspectives}
 
-L'idéal d'un programme développé dans un langage orienté objet, est la généricité, et la réutilisation d'un maximum de composants. Dans ce travail, l'objectif est clairement de produire un maximum de composant abstrait (classes et interfaces) et de méthodes réutilisables. 
+L'idéal d'un programme développé dans un langage orienté objet est la généricité et la réutilisation d'un maximum de composants. Dans ce travail, l'objectif est clairement de produire un maximum de composants abstraits (classes et interfaces) et de méthodes réutilisables. 
 Les perspectives du projet \og MobiSAAS \fg sont nombreuses : gérer une architecture distribuée, augmenter les fonctionnalités SAAS notamment les fonctionnalités de \og MobiAnalyst \fg, étendre le projet \og DataWizard \fg lui aussi en mode SAAS.\\
 
-J'ai donc \og maquetter l'application \fg et débuté le développement de ces composants abstraits (ex: Les ressources au sens DropWizard (Fig. \ref{UML1}). Grâce à cela on pourra donc \og uploader \fg plusieurs types de données et réutiliser la méthode manageUpload(). Egalement, sur ce même principe j'ai développé une classe abstraite afin de faire proposer la gestion des threads et tous mes services en hérite, cela limite la duplication de codes dans l'application.\\
+J'ai donc \og maquetté l'application \fg et débuté le développement de ces composants abstraits (ex: Les ressources au sens DropWizard (Fig. \ref{UML1}). Grâce à cela on pourra donc \og uploader \fg plusieurs types de données et réutiliser la méthode manageUpload(). Egalement, sur ce même principe j'ai développé une classe abstraite afin de faire proposer la gestion de l'asynchronisme utilisée dans tous les services que j'ai implémentés, limitant ainsi la duplication de codes dans l'application.\\
 
 \begin{figure}[!h]
 \centering
@@ -362,7 +365,7 @@ J'ai donc \og maquetter l'application \fg et débuté le développement de ces c
 \caption{\label{UML1}Exemple d'abstraction et d'héritage de méthode}
 \end{figure} 
 
-J'ai commencé et non terminé un autre traitement de données spécifique au format GTFS. Une méthode de chargement des données dans la base de données Postgresql (méthode loadData()). J'utilise pour cela une librairie appelée OneBusAway\footnote{\url{http://onebusaway.org/developer-information/}} (OBA) spécialisée dans le transport. Ce traitement réalise une désérialization (lecture de fichiers csv) et une persistance des données via le framework Hibernate dans Postgresql. Ce qu'il reste à faire est de passer la méthode en resource.\\
+J'ai commencé un autre traitement de données spécifique au format GTFS. Une méthode de chargement des données dans la base de données Postgresql (méthode loadData()). J'utilise pour cela une librairie appelée OneBusAway\footnote{\url{http://onebusaway.org/developer-information/}} (OBA) spécialisée dans le transport en commun. Ce traitement réalise une désérialisation (lecture de fichiers csv) et une persistance des données via le framework Hibernate dans Postgresql. Ce qu'il reste à faire est de passer la méthode en service REST.\\
 
 
 
@@ -407,20 +410,18 @@ Afin de fournir, un réseau conforme aux attentes du logiciel MobiAnalyst \og ve
 
 \subsection{Eléments de spécifications techniques}
 
-J'intègre tout d'abord le projet en tant qu'utilisateur, j'exploite des données et produits des réseaux de transport en commun (TC) (Bordeaux, Champagne-Ardennes, Montreal, Melbourne,etc.) Ensuite, petit à petit je suis le plan de charge issu du projet Redmine et corrige des bugs, et des anomalies.\\
+J'intègre tout d'abord le projet en tant qu'utilisateur, j'exploite des données et produits des réseaux de transport en commun (TC) (Bordeaux, Champagne-Ardennes, Montreal, Melbourne,etc.). Ensuite, petit à petit je suis le plan de charge issu du projet Redmine et corrige des bugs et des anomalies.\\
 
-Mon premier travail a été de développer l'étape 10 (STEP 10 : Export Metadata Tables) de l'exécution du DataWizard. Pour cela j'ai du extraire le nombre de mode de transports en commun (variable selon chaque projet), leur code (variable selon chaque projet) et enfin extraire des listes de constantes pour documenter le réseau produit par le DataWizard.\\
-
-Exemple ?\\
+Mon premier travail a été de développer l'étape 10 (STEP 10 : Export Metadata Tables) de l'exécution du DataWizard. Pour cela j'ai du extraire le nombre de modes de transport en commun (variable selon chaque projet), leurs codes (variable selon chaque projet) et enfin extraire des listes de constantes pour documenter le réseau produit par le DataWizard.\\
 
 Un autre travail réalisé est le développement qui permet la gestion du système de projection des données géographiques pour les calculs du DataWizard. Cette modification impacte quasiment la totalité des requêtes SQL dites spatiales de l'application, et permet des résultats (calculs de distances) plus réalistes (par exemple pour Melbourne, Australie située dans l'hémisphère Sud).\\
 
 
 \subsection{Réalisations}
 
-Les principales difficultés concernent les données. Ces données sont complexes, les données GTFS ou les données de voirie (données Here\footnote{\url{https://company.here.com/here/}} (anciennement Navteq) ou OpenStreetMap\footnote{\url{http://openstreetmap.fr/}}). La base de données \og DataWizard \fg possède ainsi de nombreux schémas, et les requêtes SQL sont parfois très complexes mêlant fonctions, et requêtes géographiques.\\
+Les principales difficultés concernent les données. Ces données GTFS ou voirie (données Here\footnote{\url{https://company.here.com/here/}} (anciennement Navteq) ou OpenStreetMap\footnote{\url{http://openstreetmap.fr/}}) sont complexes. La base de données \og DataWizard \fg possède ainsi de nombreux schémas, et les requêtes SQL sont parfois très complexes mêlant fonctions, et requêtes géographiques.\\
 
-Les résultats obtenus sont la production de nombreux réseaux en version 3.0 (avec des métadonnées) pour nos analystes, et pour les projets nécessitant des réseaux récents (Moveazy, Mobilyse, etc...). Et une version de l'application qui je l'espère est plus stable.\\
+Les résultats obtenus sont la production de nombreux réseaux avec leurs métadonnées pour nos analystes, et pour les projets de R\&D nécessitant des réseaux récents (Moveazy, Mobilyse, etc...). J'ai ainsi amélioré la stabilité de l'application.\\
 
 Exemple de code pour produire une table de métadonnées (Fig. \ref{CodeMetadata}) :
 \\
@@ -464,4 +465,4 @@ Le projet est très complet, et présente une architecture assez typique d'une a
 
 J'ai donc \og administré \fg le projet sous Eclipse avec Maven, j'ai lancé l'application sur un serveur Tomcat, créer différents profils de configuration (développement, tests, production) avec des propriétés de connexion différentes à chaque profil). J'ai testé l'application avec le navigateur \og client \fg Internet Explorer 11. Ce projet m'a permis de mettre en application mes connaissances client-serveur, sur toute la partie présentation d'une application web depuis l'affichage des JSP jusqu'aux actions déclenchées (couche service) interceptées par les contrôleurs.\\
 
-Le debug a surtout consisté à reproduire les bugs de l'application en production. Du coup, j'ai du importer le schéma de la base de données (Oracle) des clients, tester les requêtes de mon service sur leurs données. J'ai essentiellement passé mon temps à refaire les requêtes, et notamment traduire le HQL (langage de requête Hibernate) en SQL (langage de requête \og standard \fg). Par exemple, le premier bug était du à une mauvaise initialisation d'une variable (fixée à 1 au lieu de 2)... Un deuxième bug venait lui d'une mauvaise manipulation de l'opérateur qui avait provoquer la création d'un doublon dans la base... (chose impossible à réaliser via l'interface cliente (IHM)).\\
+Le debug a surtout consisté à reproduire les bugs de l'application en production. Du coup, j'ai du importer le schéma de la base de données (Oracle) des clients, tester les requêtes de mon service sur leurs données. J'ai essentiellement passé mon temps à refaire les requêtes, et notamment traduire le HQL (langage de requête Hibernate) en SQL (langage de requête \og standard \fg). Par exemple, le premier bug était du à une mauvaise initialisation d'une variable. Un deuxième bug venait  d'une mauvaise manipulation de l'opérateur qui avait provoqué la création d'un doublon dans la base (chose impossible à réaliser via l'interface cliente (IHM)).\\
