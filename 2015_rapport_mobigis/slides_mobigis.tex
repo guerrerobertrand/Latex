@@ -4,26 +4,26 @@
 
 \usepackage[francais]{babel}
 
-\newcommand{\slidesubject}{Présentation en \LaTeX}
+%\newcommand{\slidesubject}{Présentation en \LaTeX}
 
-\title{Exemple}
+\title{Développement de services Web JAX-RS pour l’import de données voirie et transport en commun}
 \subtitle{\slidesubject}
-\subject{\slidesubject}
-\author{Bruno \textsc{Voisin}}
+	\subject{\slidesubject}
+\author{Bertrand \textsc{Guerrero}}
 \institute{
-    Université de \LaTeX\\
-    Entreprise\\
+    Formation professionnelle Concepteur / Développeur \\
+    MobiGIS\\
     \vspace{0.8em}
     \emph{- Responsables -} \\
-    M.~Maitre \textsc{Destage}\\
-    M.~En \textsc{Cadran}
+    M.~Christophe \textsc{Lapierre}\\
+    M.~Julien \textsc{Lesbegueries}
 }
-\date{01 juillet 2012}
+\date{17 Juillet 2015}
 
 %% Définition du répertoire contenant les images
 \graphicspath{{images/}}
 
-\logo{\includegraphics[height=1cm]{LaTeX-logo.png}}
+\logo{\includegraphics[height=1cm]{logos_mobigis.jpg}}
 
 %% Numérotation des slides :
 %% http://texblog.net/latex-archive/plaintex/beamer-footline-frame-number/
@@ -37,9 +37,8 @@
 
 %% Solution 2
 \expandafter\def\expandafter\insertshorttitle\expandafter{%
-  \insertshorttitle\hfill%
+  %\insertshorttitle\hfill%
   \insertframenumber}
-
 
 \begin{document}
 
@@ -47,7 +46,7 @@
 \titlepage
 \end{frame}
 
-\logo{\includegraphics[height=1cm]{LaTeX-logo-transp25.png}}
+\logo{\includegraphics[height=1cm]{logos_mobigis.jpg}}
 
 
 \section{Introduction}
@@ -59,7 +58,7 @@
 \begin{block}{Où trouver les sources ?}
     Les sources sont disponibles sur mon blog \url{http://blog.hikoweb.net/}.
 \end{block}
-\begin{block}{Je peux m'en inspiré pour ma propre présentation ?}
+\begin{block}{Je peux m'en inspirer pour ma propre présentation ?}
     Oui, vous êtes libre d'utiliser les sources comme bon vous semble.
 \end{block}
 \end{frame}
@@ -93,7 +92,7 @@ Quae feminas feminas poterat pedibus ter quocumque nixus usque usque oculos expr
      C'est un joli bloc bleu.
 \end{block}
 \begin{exampleblock}{Bloc exemple}
-     Le vert signifi que c'est un exemple.
+     Le vert signifie que c'est un exemple.
 \end{exampleblock}
 \begin{alertblock}{Bloc alerte}
      Attention c'est rouge !
@@ -151,21 +150,6 @@ Quae feminas feminas poterat pedibus ter quocumque nixus usque usque oculos expr
 \end{block}
 \end{frame}
 
-%% Ne pas oublié le "[containsverbatim]"
-\begin{frame}[containsverbatim]{Code colorisé avec Minted}
-\begin{exampleblock}{Hello World en Python}
-\begin{minted}[fontsize=\scriptsize]{python}
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
-def helloworld():
-    print "Hello World"
-
-if __name__ == '__main__':
-    helloworld()
-\end{minted}
-\end{exampleblock}
-\end{frame}
 
 \section{Conclusion}
 
