@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.14)  4 JUL 2015 18:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.14)  9 JUL 2015 23:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1912,29 +1912,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 309--310
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
-
- []
-
-
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.314 \item e
+l.312 \item e
              nvironment.jersey().register(new GtfsResource(dao));
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 314
+Underfull \hbox (badness 10000) detected at line 312
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--316
+Underfull \hbox (badness 10000) in paragraph at lines 312--314
 
  []
 
@@ -1945,11 +1940,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.318 ...graph{Programmation concurrente}\\ \label
+l.316 ...graph{Programmation concurrente}\\ \label
                                                   {Threads}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
+
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 319--320
@@ -1957,24 +1957,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 319--320
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 321--324
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 323--326
-
- []
-
-[27] (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-1.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-1.def
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 )
-Underfull \hbox (badness 10000) in paragraph at lines 327--332
+Underfull \hbox (badness 10000) in paragraph at lines 325--330
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--332
+Underfull \hbox (badness 10000) in paragraph at lines 325--330
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
 
  []
 
@@ -1984,47 +1984,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 333--334
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
+Underfull \hbox (badness 10000) in paragraph at lines 338--340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--342
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
 [28]
-<images/soapUI_getById_sansResponse_small.png, id=567, 1628.0825pt x 1045.9075p
+<images/soapUI_getById_sansResponse_small.png, id=570, 1628.0825pt x 1045.9075p
 t>
 File: images/soapUI_getById_sansResponse_small.png Graphic file (type png)
  <use images/soapUI_getById_sansResponse_small.png>
 Package pdftex.def Info: images/soapUI_getById_sansResponse_small.png used on i
-nput line 351.
+nput line 349.
 (pdftex.def)             Requested size: 455.24408pt x 292.45313pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--361
+Underfull \hbox (badness 10000) in paragraph at lines 357--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
 
  []
 
 [29 <./images/soapUI_getById_sansResponse_small.png>]
-<images/DiagrammeThread.png, id=576, 506.89375pt x 351.3125pt>
+<images/DiagrammeThread.png, id=578, 506.89375pt x 351.3125pt>
 File: images/DiagrammeThread.png Graphic file (type png)
 
 <use images/DiagrammeThread.png>
-Package pdftex.def Info: images/DiagrammeThread.png used on input line 366.
+Package pdftex.def Info: images/DiagrammeThread.png used on input line 364.
 (pdftex.def)             Requested size: 398.33858pt x 276.0811pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--371
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
 
  []
 
@@ -2032,26 +2027,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 370--371
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30 <./images/DiagrammeThread.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 384--386
+Underfull \hbox (badness 10000) in paragraph at lines 382--384
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--392
+Underfull \hbox (badness 10000) in paragraph at lines 388--390
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
 
  []
 
-[31] <images/DW_specMetadata.JPG, id=593, 616.55344pt x 462.97969pt>
+[31] <images/DW_specMetadata.JPG, id=595, 616.55344pt x 462.97969pt>
 File: images/DW_specMetadata.JPG Graphic file (type jpg)
 
 <use images/DW_specMetadata.JPG>
-Package pdftex.def Info: images/DW_specMetadata.JPG used on input line 409.
+Package pdftex.def Info: images/DW_specMetadata.JPG used on input line 407.
 (pdftex.def)             Requested size: 341.43306pt x 256.3916pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 415--416
 
@@ -2062,29 +2062,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 417--418
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 419--420
+[32 <./images/DW_specMetadata.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
 
  []
 
-[32 <./images/DW_specMetadata.JPG>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 424--425
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 426--427
-
- []
-
-<images/DW_Fonction_Python.PNG, id=603, 670.75594pt x 566.86781pt>
+<images/DW_Fonction_Python.PNG, id=605, 670.75594pt x 566.86781pt>
 File: images/DW_Fonction_Python.PNG Graphic file (type png)
 
 <use images/DW_Fonction_Python.PNG>
-Package pdftex.def Info: images/DW_Fonction_Python.PNG used on input line 432.
+Package pdftex.def Info: images/DW_Fonction_Python.PNG used on input line 430.
 (pdftex.def)             Requested size: 364.19667pt x 307.79074pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--436
+Underfull \hbox (badness 10000) in paragraph at lines 426--434
 
  []
 
@@ -2092,17 +2087,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 428--436
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--438
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 443--446
+Underfull \hbox (badness 10000) in paragraph at lines 441--444
 
  []
 
 [33]
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
 
  []
 
@@ -2111,17 +2111,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 454--455
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
-
- []
-
 [34 <./images/DW_Fonction_Python.PNG>]
-<images/Architecture_Crislab.PNG, id=616, 487.06969pt x 246.9225pt>
+<images/Architecture_Crislab.PNG, id=618, 487.06969pt x 246.9225pt>
 File: images/Architecture_Crislab.PNG Graphic file (type png)
 
 <use images/Architecture_Crislab.PNG>
-Package pdftex.def Info: images/Architecture_Crislab.PNG used on input line 460
+Package pdftex.def Info: images/Architecture_Crislab.PNG used on input line 458
 .
 (pdftex.def)             Requested size: 364.19667pt x 184.63pt.
 
@@ -2132,19 +2127,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.464 
+l.462 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--469
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 470--151
+Underfull \hbox (badness 10000) in paragraph at lines 468--151
 
  []
 
@@ -2167,12 +2162,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 15--155
+Underfull \hbox (badness 10000) in paragraph at lines 17--155
 
  []
 
@@ -2483,7 +2483,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<images/WebAppArchitecture.png, id=808, 823.075pt x 640.3925pt>
+<images/WebAppArchitecture.png, id=810, 823.075pt x 640.3925pt>
 File: images/WebAppArchitecture.png Graphic file (type png)
 
 <use images/WebAppArchitecture.png>
@@ -2665,10 +2665,10 @@ y.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
 r/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on DocumentBase.pdf (60 pages, 3804892 bytes).
+Output written on DocumentBase.pdf (60 pages, 3806292 bytes).
 PDF statistics:
- 956 PDF objects out of 1000 (max. 8388607)
- 817 compressed objects within 9 object streams
+ 958 PDF objects out of 1000 (max. 8388607)
+ 819 compressed objects within 9 object streams
  288 named destinations out of 1000 (max. 500000)
  492 words of extra memory for PDF output out of 10000 (max. 10000000)
 
