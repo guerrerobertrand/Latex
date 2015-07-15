@@ -6,6 +6,8 @@
 \usepackage[francais]{babel}
 \usepackage{multicol}
 
+\usepackage{textcomp}
+
 %\newcommand{\slidesubject}{Présentation en \LaTeX}
 
 \title{Développement de services Web JAX-RS pour l’import de données voirie et transport en commun}
@@ -69,16 +71,31 @@
   \end{frame}
 }
 \section{Présentation de l’entreprise}
-\subsection{MobiGIS}
-\begin{frame}{MobiGIS}
-\begin{block}{Activités}
+\subsection{Entreprise MobiGIS}
+\begin{frame}{Entreprise MobiGIS}
+\begin{block}{Présentation}
 Société de services en géomatique, et NTIC.\\	
 L’activité de MobiGIS est centrée sur les services SIG et l’édition de logiciels. \\
+\end{block}
+\end{frame}
+\begin{frame}{Services MobiGIS}
+\begin{figure}[h]
+    \center
+    \includegraphics[width=\textwidth]{images/fig1_solutionsMobigis.JPG}
+\end{figure}
+\end{frame}
+\begin{frame}{Activités de MobiGIS}
+\begin{block}{Activités}
 Les clients de MobiGIS sont par exemples des industries, la grande distribution, les collectivités locales, et
 les intégrateurs et société de services en ingénierie informatique (SSII). \\
-Les logiciels développés permettent de faire des analyses multiples : territoire, pollutions, démographie, etc., d’élaborer des plans de déplacement
-urbain et entreprise, d’étudier et de préparer la réorganisation des réseaux multimodaux et la création de nouvelles infrastructures de transport.
+Les logiciels développés permettent de faire des analyses multiples : territoire, pollutions, démographie, etc., d'élaborer des plans de déplacement urbain et entreprise, d'étudier et de préparer la réorganisation des réseaux multimodaux et la création de nouvelles infrastructures de transport.
 \end{block}
+\end{frame}
+\begin{frame}{Clients MobiGIS}
+\begin{figure}[h]
+    \center
+    \includegraphics[width=\textwidth]{images/fig2_referencesMobigis.JPG}
+\end{figure}
 \end{frame}
 \subsection{Domaine d'application}
 \begin{frame}{Domaine d'application}
@@ -93,16 +110,18 @@ pour gérer et analyser certaines informations essentielles :\\
 — Localisation et suivi automatiques des véhicules\\
 \end{block}
 \end{frame}
-\subsection{Références}
-\begin{frame}{Références}
-\begin{block}{C'est quoi ce document ?}
-    Ce document est un exemple de présentation (sous forme de diapositives) faite en LaTeX.
-\end{block}
-\begin{block}{Où trouver les sources ?}
-    Les sources sont disponibles sur mon blog \url{http://blog.hikoweb.net/}.
-\end{block}
-\begin{block}{Je peux m'en inspirer pour ma propre présentation ?}
-    Oui, vous êtes libre d'utiliser les sources comme bon vous semble.
+\subsection{Technologies}
+\begin{frame}{Technologies}
+\begin{block}{Compétences des équipes}
+TECHNOLOGIES
+\begin{itemize}
+\item \textbf{Applications Web :} HTML5, CSS, Php, JavaScript, JQuery, Leaflet, Angular, API JavaScript, FLEX, OpenLayers
+\item \textbf{Applications Mobiles :} Apache Cordova, PhoneGap, Android, iOS, Windows Phone
+\item \textbf{Développement :} Java EE, C/C++, C\#, Python
+\item \textbf{SIG :} ESRI (ArcObjects, ArcGIS, ArcGIS Server, Arcpy) GeoServer, PostGIS, QGIS, OpenLayers, Mapinfo, Google Maps
+\item \textbf{Bases de données :} Oracle, SQL Server, PostgreSQL/PostGIS, MySQL, ArcSDE, SQLite
+\item \textbf{Systèmes d’exploitation :} Windows Server – Linux – UNIX – iOS – Android
+\end{itemize}
 \end{block}
 \end{frame}
 
@@ -118,50 +137,65 @@ pour gérer et analyser certaines informations essentielles :\\
 \section{Contexte du projet}
 \subsection{Projet MobiSAAS}
 \begin{frame}{Projet MobiSAAS}
-\begin{block}{C'est quoi ce document ?}
-    Ce document est un exemple de présentation (sous forme de diapositives) faite en LaTeX.
-\end{block}
-\begin{block}{Où trouver les sources ?}
-    Les sources sont disponibles sur mon blog \url{http://blog.hikoweb.net/}.
-\end{block}
-\begin{block}{Je peux m'en inspirer pour ma propre présentation ?}
-    Oui, vous êtes libre d'utiliser les sources comme bon vous semble.
+\begin{block}{Présentation}
+Le projet \og MobiSAAS \fg : MobiAnalyst as a Service, s'inscrit dans la démarche d'entreprise de proposer des solutions en mode SAAS. Le projet consiste d'une manière générale à exposer les fonctionnalités de la solution Desktop du produit \og MobiAnalyst \fg
 \end{block}
 \end{frame}
+\begin{frame}{Projet MobiSAAS}
+\begin{block}{Interface (IHM) MobiSAAS}
+\begin{figure}[h]
+    \center
+    \includegraphics[width=\textwidth]{images/MobiSAAS_IHM.png}
+\end{figure}
+\end{block}
+\end{frame}
+\begin{frame}{Projet MobiSAAS}
+\begin{block}{Objectifs du stage}
+L'objectif du stage est le développement de web services permettant d'exposer des fonctionnalités d'importation de données voirie et transport en commun, pour la construction automatique de réseaux de transports multi-modaux
+\end{block}
+\begin{block}{API REST ?}
+REST est un style d'architecture qui repose sur le protocole HTTP : On accède à une ressource (par son URI unique) pour procéder à diverses opérations (GET lecture / POST écriture / PUT modification / DELETE suppression), opérations supportées nativement par HTTP.
+\end{block}
+\end{frame}
+
 \subsection{Cahier des charges}
-\begin{frame}{Cahier des charges}
-\begin{block}{C'est quoi ce document ?}
-    Ce document est un exemple de présentation (sous forme de diapositives) faite en LaTeX.
-\end{block}
-\begin{block}{Où trouver les sources ?}
-    Les sources sont disponibles sur mon blog \url{http://blog.hikoweb.net/}.
-\end{block}
-\begin{block}{Je peux m'en inspirer pour ma propre présentation ?}
-    Oui, vous êtes libre d'utiliser les sources comme bon vous semble.
+\begin{frame}{Cahier des charges : Architecture}
+\begin{block}{Architecture globale du module \og MobiAdmin \fg{} }
+\begin{figure}[h]
+    \center
+    \includegraphics[width=\textwidth]{images/architecture.png}
+\end{figure}
 \end{block}
 \end{frame}
-\subsection{Contraintes}
-\begin{frame}{Contraintes}
-\begin{block}{C'est quoi ce document ?}
+\begin{frame}{Cahier des charges : Spécifications fonctionnelles}
+\begin{block}{Les besoins}
+Mon stage et les développements demandés concernent le composant d'administration de l'infrastructure : \og MobiAdmin \fg. \\
+
+Dans l'objectif de gérer les données du client, je dois proposer un web service pour la gestion des données de transport dans l'espace privatif du client. La fonctionnalité principale à développer est donc un web service d'upload de données et plus particulièrement l'upload de données de transport public au format GTFS.
+\end{block}
+\end{frame}
+\begin{frame}{Cahier des charges : Spécifications fonctionnelles}
+\begin{block}{Composant \og MobiAdmin \fg{} }
+\begin{figure}[h]
+    \center
+    \includegraphics[width=\textwidth]{images/archi_module_admin.png}
+\end{figure}
+\end{block}
+\end{frame}
+\begin{frame}{Cahier des charges : Spécifications techniques}
+\begin{block}{Spécifications techniques}
     Ce document est un exemple de présentation (sous forme de diapositives) faite en LaTeX.
 \end{block}
-\begin{block}{Où trouver les sources ?}
-    Les sources sont disponibles sur mon blog \url{http://blog.hikoweb.net/}.
-\end{block}
-\begin{block}{Je peux m'en inspirer pour ma propre présentation ?}
-    Oui, vous êtes libre d'utiliser les sources comme bon vous semble.
+\end{frame}
+\begin{frame}{Cahier des charges : Application multi-couches}
+\begin{block}{Application multi-couches}
+    Ce document est un exemple de présentation (sous forme de diapositives) faite en LaTeX.
 \end{block}
 \end{frame}
 \subsection{Livrables attendus}
 \begin{frame}{Livrables attendus}
-\begin{block}{C'est quoi ce document ?}
+\begin{block}{Livrables attendus}
     Ce document est un exemple de présentation (sous forme de diapositives) faite en LaTeX.
-\end{block}
-\begin{block}{Où trouver les sources ?}
-    Les sources sont disponibles sur mon blog \url{http://blog.hikoweb.net/}.
-\end{block}
-\begin{block}{Je peux m'en inspirer pour ma propre présentation ?}
-    Oui, vous êtes libre d'utiliser les sources comme bon vous semble.
 \end{block}
 \end{frame}
 
@@ -175,40 +209,46 @@ pour gérer et analyser certaines informations essentielles :\\
 }
 
 \section{Gestion de projet}
-\subsection{Planning et suivi}
-\begin{frame}{Planning et suivi}
-\begin{block}{C'est quoi ce document ?}
-    Ce document est un exemple de présentation (sous forme de diapositives) faite en LaTeX.
+\subsection{Planning et suivi }
+\begin{frame}{Planning et suivi / Environnement humain }
+\begin{block}{Planning et suivi}
+Un point de suivi informel plusieurs fois par semaine :\\
+	- présentation du travail effectué, \\
+	- des résultats intermédiaires,\\ 
+	- planifier la semaine à venir\\
+	
+Un bilan à la mi-stage a été effectué afin de réajuster les priorités
 \end{block}
-\begin{block}{Où trouver les sources ?}
-    Les sources sont disponibles sur mon blog \url{http://blog.hikoweb.net/}.
-\end{block}
-\begin{block}{Je peux m'en inspirer pour ma propre présentation ?}
-    Oui, vous êtes libre d'utiliser les sources comme bon vous semble.
+\begin{block}{Environnement humain}
+	Travail dans un \og Open space \fg, avec une dizaine de collaborateurs, à côté du chef de projet \og MobiSAAS \fg{} 
 \end{block}
 \end{frame}
-\subsection{Environnement humain et technique}
-\begin{frame}{Environnement humain et technique}
-\begin{block}{C'est quoi ce document ?}
-    Ce document est un exemple de présentation (sous forme de diapositives) faite en LaTeX.
+\subsection{Environnement technique}
+\begin{frame}{Environnement technique}
+\begin{block}{Environnement technique}
+	Environnement MS Windows (lié aux technologies ESRI),
+	SGDB Postgresql, lié à l'utilisation dans quasi tous les projets de l'extension spatiale Postgis.\\
+	2 IDE de travail pour les projets : Liclipse (Python) et Eclipse (Java)\\
+	
 \end{block}
-\begin{block}{Où trouver les sources ?}
-    Les sources sont disponibles sur mon blog \url{http://blog.hikoweb.net/}.
-\end{block}
-\begin{block}{Je peux m'en inspirer pour ma propre présentation ?}
-    Oui, vous êtes libre d'utiliser les sources comme bon vous semble.
+\begin{block}{Technologies Java remarquables }
+\begin{itemize}
+\item Apache Maven
+\item Framework \og Dropwizard \fg
+\item Hibernate
+\item Jackson
+\end{itemize} 
 \end{block}
 \end{frame}
 \subsection{Objectifs de qualité}
 \begin{frame}{Objectifs de qualité}
-\begin{block}{C'est quoi ce document ?}
-    Ce document est un exemple de présentation (sous forme de diapositives) faite en LaTeX.
-\end{block}
-\begin{block}{Où trouver les sources ?}
-    Les sources sont disponibles sur mon blog \url{http://blog.hikoweb.net/}.
-\end{block}
-\begin{block}{Je peux m'en inspirer pour ma propre présentation ?}
-    Oui, vous êtes libre d'utiliser les sources comme bon vous semble.
+\begin{block}{Objectifs de qualité}
+\begin{itemize}
+\item Adaptabilité = abstraction
+\item Testabilité = nombreux tests et jeux de données pour tester
+\item Fiabilité = outil fonctionnel
+\item Sécurité = intégrité des données, accès aux services avec authentification
+\end{itemize}
 \end{block}
 \end{frame}
 
@@ -301,104 +341,44 @@ pour gérer et analyser certaines informations essentielles :\\
 \section{Synthèse et conclusion}
 \subsection{Bilan professionnel}
 \begin{frame}{Bilan professionnel}
-\begin{block}{C'est quoi ce document ?}
-    Ce document est un exemple de présentation (sous forme de diapositives) faite en LaTeX.
-\end{block}
-\begin{block}{Où trouver les sources ?}
-    Les sources sont disponibles sur mon blog \url{http://blog.hikoweb.net/}.
-\end{block}
-\begin{block}{Je peux m'en inspirer pour ma propre présentation ?}
-    Oui, vous êtes libre d'utiliser les sources comme bon vous semble.
+\begin{block}{Bilan professionnel}
+J'ai pu intégrer un projet innovant me permettant de découvrir énormément de choses : REST, Dropwizard, JSON, etc.\\
+
+Cette expérience est pour moi très valorisante tant d'un point de vue humain que technique, elle répond parfaitement à mes attentes.\\
+
+~\\
+De plus, la mise en pratique de mes connaissances théoriques en Java se sont parfaitement concrétisées au domaine d'application des Systèmes d'Information Géographique (SIG) dans lequel j'exerçais auparavant en tant que Géomaticien.
 \end{block}
 \end{frame}
 \subsection{Bilan personnel}
 \begin{frame}{Bilan personnel}
-\begin{block}{C'est quoi ce document ?}
-    Ce document est un exemple de présentation (sous forme de diapositives) faite en LaTeX.
-\end{block}
-\begin{block}{Où trouver les sources ?}
-    Les sources sont disponibles sur mon blog \url{http://blog.hikoweb.net/}.
-\end{block}
-\begin{block}{Je peux m'en inspirer pour ma propre présentation ?}
-    Oui, vous êtes libre d'utiliser les sources comme bon vous semble.
+\begin{block}{Bilan personnel}
+J'ai découvert un nouveau domaine en plein développement et propice à l'innovation, celui des \og Transports\fg \\
+~\\
+
+Ce stage a été pour moi l'occasion de pratiquer des langages tels que Python ou Java, langages largement répandus dans le monde industriel.\\
+~\\
+
+J'ai aussi réalisé mon mémoire et cette présentation avec le langage  \LaTeX{}.
 \end{block}
 \end{frame}
 
 
-%\begin{frame}{La page la plus simple}
-%C'est simple, il n'y a que du texte.
-%
-%Quae feminas feminas poterat pedibus ter quocumque nixus usque usque oculos exprimunt nixus quocumque tergentes iactari nixus taedium simulacra tergentes.
-%\end{frame}
-%
-%\begin{frame}[containsverbatim]{Les blocs}
-%\begin{block}{Bloc normal}
-     %C'est un joli bloc bleu.
-%\end{block}
-%\begin{exampleblock}{Bloc exemple}
-     %Le vert signifie que c'est un exemple.
-%\end{exampleblock}
-%\begin{alertblock}{Bloc alerte}
-     %Attention c'est rouge !
-%\end{alertblock}
-%\end{frame}
-%
-%\subsection{Une autre sous-section}
-%
-%\begin{frame}{Juste une image}
-%\begin{figure}[h]
-    %\center
-    %\includegraphics[width=\textwidth]{bloghiko.png}
-%\end{figure}
-%\end{frame}
-%
-%
-%\section{Deuxième section}
-%
-%\subsection{C'est pas fini}
-%
-%\begin{frame}{Liste}
-%\begin{itemize}
-    %\item Une simple liste,
-    %\item avec deux éléments.
-%\end{itemize}
-%\begin{block}{Implication}
-    %\begin{itemize}
-    %\item cause
-    %\item[$\Rightarrow$] conséquence
-    %\end{itemize}
-%\end{block}
-%\end{frame}
-%
-%\begin{frame}{Plus compliqué}
-%\begin{columns}
-%\begin{column}{0.7\textwidth}
-    %Cette page est constituée de\dots
-    %\begin{itemize}
-    %\item deux colonnes ;
-    %\item un liste dans la première colonne ;
-    %\item une image dans la deuxième colonne ;
-    %\item un bloc.
-    %\end{itemize}
-%\end{column}
-%\begin{column}{0.3\textwidth}
-    %\begin{figure}[h]
-        %\includegraphics[width=3cm]{bloghiko-reflet3d.png}
-    %\end{figure}
-%\end{column}
-%\end{columns}
-%\vspace{1em}
-%\begin{block}{Le bloc}
-    %Ut eum praeceptum possemus fuit diligendo aliquando diligentiam ut 
-    %fuit hoc quam inimicitiarum possemus praeceptum.
-%\end{block}
-%\end{frame}
-%
-%
-\section{Conclusion}
-
+% Dernière slide de Conclusion
+\subsection{Conclusion}
 \begin{frame}{Conclusion}
-    Vous pouvez faire des diapositives très professionnelles en toute simplicité.
+\begin{block}{Conclusion}
+Mon intégration à l'équipe technique, et aux projets ? 
+~\\
+\textrightarrow  	CDD de 6 mois
+
+~\\
+~\\
+
+Cette expérience d'un point de vue académique ?
+~\\
+\textrightarrow 	12 compétences sur les 15 nécessaires à l'obtention du titre ont été abordées. 
+\end{block}
 \end{frame}
 
 \end{document}
