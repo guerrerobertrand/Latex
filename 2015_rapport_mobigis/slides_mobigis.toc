@@ -1,9 +1,27 @@
-\beamer@endinputifotherversion {3.33pt}
+\beamer@endinputifotherversion {3.36pt}
 \select@language {french}
-\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
-\beamer@sectionintoc {2}{Premi\IeC {\`e}re section}{4}{0}{2}
-\beamer@subsectionintoc {2}{1}{Une sous-section}{5}{0}{2}
-\beamer@subsectionintoc {2}{2}{Une autre sous-section}{7}{0}{2}
-\beamer@sectionintoc {3}{Deuxi\IeC {\`e}me section}{8}{0}{3}
-\beamer@subsectionintoc {3}{1}{C'est pas fini}{9}{0}{3}
-\beamer@sectionintoc {4}{Conclusion}{11}{0}{4}
+\beamer@sectionintoc {1}{Plan}{2}{0}{1}
+\beamer@sectionintoc {2}{Pr\IeC {\'e}sentation de l\IeC {\textquoteright }entreprise}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{MobiGIS}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{Domaine d'application}{5}{0}{2}
+\beamer@subsectionintoc {2}{3}{R\IeC {\'e}f\IeC {\'e}rences}{6}{0}{2}
+\beamer@sectionintoc {3}{Contexte du projet}{7}{0}{3}
+\beamer@subsectionintoc {3}{1}{Projet MobiSAAS}{8}{0}{3}
+\beamer@subsectionintoc {3}{2}{Cahier des charges}{9}{0}{3}
+\beamer@subsectionintoc {3}{3}{Contraintes}{10}{0}{3}
+\beamer@subsectionintoc {3}{4}{Livrables attendus}{11}{0}{3}
+\beamer@sectionintoc {4}{Gestion de projet}{12}{0}{4}
+\beamer@subsectionintoc {4}{1}{Planning et suivi}{13}{0}{4}
+\beamer@subsectionintoc {4}{2}{Environnement humain et technique}{14}{0}{4}
+\beamer@subsectionintoc {4}{3}{Objectifs de qualit\IeC {\'e}}{15}{0}{4}
+\beamer@sectionintoc {5}{Analyse}{16}{0}{5}
+\beamer@subsectionintoc {5}{1}{Analyse}{17}{0}{5}
+\beamer@sectionintoc {6}{Conception et codage}{18}{0}{6}
+\beamer@subsectionintoc {6}{1}{Conception}{19}{0}{6}
+\beamer@subsectionintoc {6}{2}{Codage}{20}{0}{6}
+\beamer@sectionintoc {7}{Pr\IeC {\'e}sentation des \IeC {\'e}l\IeC {\'e}ments les plus significatifs de l\IeC {\textquoteright }interface de l\IeC {\textquoteright }application}{21}{0}{7}
+\beamer@subsectionintoc {7}{1}{R\IeC {\'e}sultats}{22}{0}{7}
+\beamer@sectionintoc {8}{Synth\IeC {\`e}se et conclusion}{23}{0}{8}
+\beamer@subsectionintoc {8}{1}{Bilan professionnel}{24}{0}{8}
+\beamer@subsectionintoc {8}{2}{Bilan personnel}{25}{0}{8}
+\beamer@sectionintoc {9}{Conclusion}{26}{0}{9}
