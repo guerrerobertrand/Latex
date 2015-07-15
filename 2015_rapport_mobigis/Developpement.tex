@@ -197,7 +197,7 @@ Plusieurs packages spécifiques ou de configuration supplémentaires apparaissen
 
 Afin de développer les classes pour la gestion des données clients (Uploads) du module «mobi-admin». J'ai mis en place une table « mobiuploads » sur le SGBD PostgreSQL (classes Upload.java, UploadDAO.java).
 Grâce au framework Dropwizard, nous avons utilisé Hibernate comme ORM (Object Relationnal Mapping). J'ai pu ainsi manipuler mes objets (opérations CRUD) pour la création, la lecture, la mise à jour et la suppression des objets dans la base. 
-Egalement, j'ai développé le chargement de ces données métiers (GTFS) dans le SGBD, j'ai mis en place le modèle de données et développer les classes avec les annotations Hibernate (@Entity, @Table, @JoinColumns,...). Ainsi, si le schéma n'existe pas il se génère automatiquement grâce à Hibernate. 
+Egalement, j'ai développé le chargement de ces données métiers (GTFS) dans le SGBD, j'ai mis en place le modèle de données et développé les classes avec les annotations Hibernate (@Entity, @Table, @JoinColumns,...). Ainsi, si le schéma n'existe pas il se génère automatiquement grâce à Hibernate. 
 Toutes les requêtes sont écrites dans les classes java en HQL, langage propre à Hibernate grâce aux annotations @NamedQueries. \\
 
 
@@ -215,7 +215,7 @@ Toutes les requêtes sont écrites dans les classes java en HQL, langage propre 
 \item Avec le minimum possible de dépendances.
 \end{itemize}
 
-Afin que le service puisse renvoyer des réponses convenables et standards nous avons utilisé Jackson via Dropwizard \footnote{\url{http://www.mkyong.com/java/how-to-convert-java-object-to-from-json-jackson/}}. Grâce à la librairie Jackson nous pouvons transformer les \og beans \fg et convertir les propriétés java des objets en éléments Json, ainsi on renvoie par exemple le nom de l'upload, la date d'upload et surtout son status si l'opération c'est bien déroulée ou non (Fig. \ref{fig:Json1}).
+Afin que le service puisse renvoyer des réponses convenables et standards nous avons utilisé Jackson via Dropwizard \footnote{\url{http://www.mkyong.com/java/how-to-convert-java-object-to-from-json-jackson/}}. Grâce à la librairie Jackson nous pouvons transformer les \og beans \fg et convertir les propriétés java des objets en éléments Json, ainsi on renvoie par exemple le nom de l'upload, la date d'upload et surtout son status si l'opération s'est bien déroulée ou non (Fig. \ref{fig:Json1}).
 \\
 \begin{figure}[h]
 	\centering
@@ -243,7 +243,7 @@ De la même manière, chaque donnée GTFS, passe par un traitement métier de va
 \end{wrapfigure}
 \noindent SLF4J est une couche d'abstraction pour les API de journalisation Java. Le principe est à peu près similaire à celui de Jakarta Commons Logging. Les avantages de l'utilisation d'une telle couche d'abstraction permettent de s'abstraire de l'implémentation utilisée. Ainsi, il est possible de changer facilement d'implémentation de journalisation sans avoir à toucher la base de code. Au plus, la configuration de l'implémentation de journalisation doit être modifiée. Et enfin, dans le cas de la conception d'une librairie, cela permet de laisser à l'utilisateur de cette librairie le choix du système de journalisation.\\
 Logback est un framework de logging. Logback est l'implémentation native de SLF4J, alors que son implémentation pour Log4J (ancêtre de Logback) est « wrappée ». De ce fait, il offre des fonctionnalités supplémentaires à Log4J.\\
-Pour la gestion des traces (logs), j'ai donc pour chaque partie du code documenter et produit une trace intelligible à plusieurs niveaux d'informations : INFO, DEBUG, ERROR, etc... Encore une nouvelle fois , via Dropwizard l'utilisation d'un logger est facilité (cf. Extrait du log dans Annexe \ref{Annexe B}).
+Pour la gestion des traces (logs), j'ai donc pour chaque partie du code documenté et produit une trace intelligible à plusieurs niveaux d'informations : INFO, DEBUG, ERROR, etc... Encore une nouvelle fois , via Dropwizard l'utilisation d'un logger est facilité (cf. Extrait du log dans Annexe \ref{Annexe B}).
 
 \textbf{JUnit :} 
 
@@ -257,10 +257,10 @@ Pour la gestion des traces (logs), j'ai donc pour chaque partie du code document
 \subsection{Réalisations}
 
 J'ai tout d'abord commencé par découvrir Maven (cf. \ref{Maven}), les projets, les modules, le désormais célèbre fichier \textbf{POM}, etc...
-Ensuite, je me suis documenté sur le code métier existant, et chercher des outils ou librairies de professionnels du domaine (cf. Outils métiers \ref{OBA}).
+Ensuite, je me suis documenté sur le code métier existant, et cherché des outils ou librairies de professionnels du domaine (cf. Outils métiers \ref{OBA}).
 Enfin, après le \og Getting Started \fg de Dropwizard\footnote{\url{https://dropwizard.github.io/dropwizard/getting-started.html}}, une fois tout cela bien maîtrisé, j'ai pu commencé la conception et le développement de services web REST.\\
 
-J'ai choisit de stocker les informations concernant ma partie de l'application dans une table PostgreSQL (Fig \ref{TablePostgres})\\
+J'ai choisi de stocker les informations concernant ma partie de l'application dans une table PostgreSQL (Fig \ref{TablePostgres})\\
 \begin{figure}[!h]
 \centering
 \includegraphics[width=14cm]{images/tablePostgres_mobiupload_small.png}
@@ -268,11 +268,11 @@ J'ai choisit de stocker les informations concernant ma partie de l'application d
 \end{figure} 
 
 A chaque requête POST du client, je créé une instance d'objet Upload, les informations sont saisies dans la table de suivi, et je stocke les données envoyées sur le serveur. Pour chaque client ou utilisateur, pour chaque type de données, il y a un répertoire personnalisé, chaque upload est \og taggé \fg d'un identifiant unique \og UUID \fg.
-Le code métier qui a été implémenté est pour le moment le test sur le type de données envoyées, la validation des données et la production d'un rapport d'un validation (JSON), enfin l'extraction (récursive) des données contenues dans l'archive (cf. Annexe \ref{Annexe B}).\\
+Le code métier qui a été implémenté est pour le moment le test sur le type de données envoyées, la validation des données et la production d'un rapport d'un validation (JSON), enfin l'extraction (récursive) des données contenues dans l'archive (cf. Annexe \ref{Annexe D}).\\
 
 A partir de ce service spécifique, dédié aux données GTFS, j'ai généralisé cette resource (FileResource.java) afin de permettre d'upload n'importe quel fichier sur le serveur, en réutilisant les mêmes méthodes, notamment celle de UploadDAO.java et la méthode \og métier \fg manageUpload().\\
 
-Dans un deuxième temps, j'ai entamé le \og chantier \fg de permettre la persistance des données GTFS au sein de la base de données Postgres. A partir des classes du modèle (package gtfs) (Fig \ref{packageGTFS}), et du schéma relationnel, j'ai produit à l'aide des annotations JPA le code nécessaire à la génération du schéma gtfs dans la base et le chargement des données (txt) (Fig \ref{RelationalGTFS}).\\
+Dans un deuxième temps, j'ai entamé la fonctionnalité de chargement en base et permettre la persistance des données GTFS au sein de la base de données Postgres. A partir des classes du modèle (package gtfs) (Fig \ref{packageGTFS}), et du schéma relationnel  (Fig \ref{RelationalGTFS}), j'ai produit à l'aide des annotations JPA le code nécessaire à la génération du schéma gtfs dans la base et le chargement des données (txt).\\
 \begin{figure}[!h]
 \centering
 \includegraphics[width=6cm]{images/model_GTFS.PNG}
@@ -293,7 +293,7 @@ Dans un deuxième temps, j'ai entamé le \og chantier \fg de permettre la persis
 
 Les classes du domaine métier sont des POJOs (Plain Old Java Object) et sont persistés par les objets d'accès aux données (DAO : Data Access Object). L'acronyme POJO est principalement utilisé pour faire référence à la simplicité d'utilisation d'un objet Java en comparaison avec la lourdeur d'utilisation d'un composant EJB. Ainsi, un POJO n'implémente pas d'interface spécifique à un framework comme c'est le cas par exemple pour un composant EJB.\\
 
-Voici l'exemple d'un objet (Upload.java) persisté par Hibernate :\\ Upload\\
+Voici l'exemple d'un objet (Upload.java) persisté par Hibernate : (cf. Annexe \ref{Annexe B})\\
 
 Les annotations ne sont pas obligatoires et dépendent du framework de persistence utilisé.
 Dropwizard n'apporte pas de restriction sur le choix de la librairie utilisée et apporte par défaut JDBI (module dropwizard-jdbi) et Hibernate (module dropwizard-hibernate).\\
@@ -302,13 +302,11 @@ Dropwizard n'apporte pas de restriction sur le choix de la librairie utilisée e
 
 La DAO UploadDAO étend la classe abstraite \textit{AbstractDAO} de Dropwizard pour avoir accès à Hibernate au travers de ces méthodes.\\
 
-Voici l'exemple d'une classe DAO :\\ UploadDAO\\
+Voici l'exemple d'une classe DAO (UploadDAO.java) : (cf. Annexe \ref{Annexe C})\\
 
 \textbf{Service REST}\\
 
 La classe du service REST est autonome: il n'y a pas d'adhérence à Dropwizard. Elle utilise directement les annotations de Jersey: @Path, @Produces, @GET et quelques annotations de Dropwizard : @UnitOfWork, @LongParam... \\
-
-Voici l'exemple d'une classe DAO :\\ GtfsResource\\
 
 La DAO UploadDAO est injectée via le constructeur. Cela a été effectuée dans la méthode run de la classe principale MobiSAASApplication de l'application Mobi-Admin via la ligne :
 \item environment.jersey().register(new GtfsResource(dao));
@@ -344,7 +342,7 @@ La méthode get() permet de récupérer le résultat immédiatement s'il est dis
 
 \paragraph{Tests}
 
-Afin de tester les web services REST développés, j'ai utilisé fréquemment l'outil \textbf{SoapUI} (Fig. \ref{SoapUIGet}). Il permet de mettre en place une suite de tests qui peuvent être lancé d'une traite du côté client, permet de tester les services web en mode bouchon mais aussi d'effectuer des tests de charge. Il permet entre autre de fournir une hiérarchie des services web, de lister les différentes méthodes disponible, les paramètres attendus, de réaliser des requêtes et de récupérer les réponses … C'est l'un des meilleurs outils de test unitaires concernant les services web.\\
+Afin de tester les web services REST développés, j'ai utilisé fréquemment l'outil \textbf{SoapUI} (Fig. \ref{SoapUIGet}). Il permet de mettre en place une suite de tests qui peuvent être lancés d'une traite du côté client, permet de tester les services web en mode bouchon mais aussi d'effectuer des tests de charge. Il permet entre autre de fournir une hiérarchie des services web, de lister les différentes méthodes disponible, les paramètres attendus, de réaliser des requêtes et de récupérer les réponses … C'est l'un des meilleurs outils de test unitaires concernant les services web.\\
 
 \begin{center}
 \begin{figure}[h] \centering
@@ -382,7 +380,7 @@ J'ai commencé un autre traitement de données spécifique au format GTFS. Une m
 \subsubsection{Présentation des besoins}
 
 Le projet \og DataWizard \fg, ensemble de scripts Python et SQL est une application dont le but est d'ingérer des données de transports, et de voirie dans une base de données spatiales (\textbf{PostGIS}\ref{Postgis}) afin de produire en sortie un réseau de transport (Network Dataset ou NDS).\\
-Sur ce projet, les besoins correspondent à des corrections de bugs ainsi que des développements d'évolutions de fonctionnalités décrites sur le projet Redmine. Ainsi, j'ai réalisé de la production (nombreux réseaux), et j'ai fait évolué l'outil notamment afin de lui permettre de produire des métadonnées.\\
+Sur ce projet, les besoins correspondent à des corrections de bugs ainsi que des développements d'évolutions de fonctionnalités décrites sur le projet Redmine. Ainsi, j'ai réalisé de la production (nombreux réseaux), et j'ai fait évoluer l'outil notamment afin de lui permettre de produire des métadonnées.\\
 
 
 \subsection{Eléments de spécifications fonctionnelles}
@@ -465,6 +463,6 @@ Le projet est très complet, et présente une architecture assez typique d'une a
 
 \subsection{Réalisations}
 
-J'ai donc \og administré \fg le projet sous Eclipse avec Maven, j'ai lancé l'application sur un serveur Tomcat, créer différents profils de configuration (développement, tests, production) avec des propriétés de connexion différentes à chaque profil). J'ai testé l'application avec le navigateur \og client \fg Internet Explorer 11. Ce projet m'a permis de mettre en application mes connaissances client-serveur, sur toute la partie présentation d'une application web depuis l'affichage des JSP jusqu'aux actions déclenchées (couche service) interceptées par les contrôleurs.\\
+J'ai donc \og administré \fg le projet sous Eclipse avec Maven, j'ai lancé l'application sur un serveur Tomcat, créé différents profils de configuration (développement, tests, production) avec des propriétés de connexion différentes à chaque profil). J'ai testé l'application avec le navigateur \og client \fg Internet Explorer 11. Ce projet m'a permis de mettre en application mes connaissances client-serveur, sur toute la partie présentation d'une application web depuis l'affichage des JSP jusqu'aux actions déclenchées (couche service) interceptées par les contrôleurs.\\
 
 Le debug a surtout consisté à reproduire les bugs de l'application en production. Du coup, j'ai du importer le schéma de la base de données (Oracle) des clients, tester les requêtes de mon service sur leurs données. J'ai essentiellement passé mon temps à refaire les requêtes, et notamment traduire le HQL (langage de requête Hibernate) en SQL (langage de requête \og standard \fg). Par exemple, le premier bug était du à une mauvaise initialisation d'une variable. Un deuxième bug venait  d'une mauvaise manipulation de l'opérateur qui avait provoqué la création d'un doublon dans la base (chose impossible à réaliser via l'interface cliente (IHM)).\\
