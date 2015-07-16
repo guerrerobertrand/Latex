@@ -4,18 +4,21 @@
 \usecolortheme{whale}
 
 \usepackage[francais]{babel}
+%tableofcontent with 2 cols
 \usepackage{multicol}
-
+%
 \usepackage{textcomp}
+%hide the warsaw default menu bar
+\setbeamertemplate{headline}{}
 
 %\newcommand{\slidesubject}{Présentation en \LaTeX}
 
-\title{Développement de services Web JAX-RS pour l’import de données voirie et transport en commun}
-\subtitle{\slidesubject}
-	\subject{\slidesubject}
+\title{Développement de services Web JAX-RS pour l'import de données voirie et transport en commun}
+\subtitle{\slidesubject{}}
+%	\subject{\slidesubject{}}
 \author{Bertrand \textsc{Guerrero}}
 \institute{
-    Formation professionnelle Concepteur / Développeur \\
+    Formation professionnelle Concepteur / Développeur \\
     MobiGIS\\
     \vspace{0.8em}
     \emph{- Responsables -} \\
@@ -134,7 +137,7 @@ TECHNOLOGIES
   \end{frame}
 }
 
-\section{Contexte du projet}
+\section{Contexte du stage}
 \subsection{Projet MobiSAAS}
 \begin{frame}{Projet MobiSAAS}
 \begin{block}{Présentation}
@@ -182,20 +185,57 @@ Dans l'objectif de gérer les données du client, je dois proposer un web servic
 \end{figure}
 \end{block}
 \end{frame}
+\begin{frame}{Cahier des charges : Spécifications fonctionnelles}
+\begin{block}{Les données clients}
+Chaque upload est identifié par un UUID dans un répertoire client (ex: Tisseo)
+Chaque upload est daté, et possède une \og trace \fg  dans la base postgres : \\
+\item chemin vers la données, \\
+\item statut de l'opération,\\
+\item etc.
+\end{block}
+\end{frame}
+\begin{frame}{Cahier des charges : Spécifications fonctionnelles}
+\begin{block}{Les données GTFS}
+Les données GTFS sont dans un archive (fichier au format .zip), qu'il faut extraire.
+Un ou plusieurs jeu de données peuvent y être inclus.
+Un jeu de données est composé d'au moins 8 fichiers (au format .txt).
+\end{block}
+\begin{block}{Un Web Service dédié GTFS}
+L'objectif de ce web service est de stocker ces données, de récupérer des métadonnées. 
+Par exemple : l'extension géographique des données, le nom de l'agence, le nombre de lignes, le mode de transport, etc.\\
+Le service valide les jeux de données uploadés et produit un rapport de validation.\\
+L'étape suivante consistera à charger ces données (.txt) dans la base postgres.
+\end{block}
+\end{frame}
 \begin{frame}{Cahier des charges : Spécifications techniques}
 \begin{block}{Spécifications techniques}
-    Ce document est un exemple de présentation (sous forme de diapositives) faite en LaTeX.
+Pour le composant \og MobiAdmin \fg  (serveur REST) qui va héberger les services : utilisation du framework \textbf{Dropwizard} :\\
+\begin{itemize}
+\item orienté micro-services 
+\item serveur HTTP « Jetty »
+\item framework open source Jersey (spécification JAX-RS)
+\item librairie Jackson 
+\item etc.
+\end{itemize}
 \end{block}
 \end{frame}
 \begin{frame}{Cahier des charges : Application multi-couches}
 \begin{block}{Application multi-couches}
-    Ce document est un exemple de présentation (sous forme de diapositives) faite en LaTeX.
+\begin{figure}[h]
+    \center
+    \includegraphics[scale=0.3]{images/WebAppArchitecture2.png}
+\end{figure}
 \end{block}
 \end{frame}
 \subsection{Livrables attendus}
 \begin{frame}{Livrables attendus}
-\begin{block}{Livrables attendus}
-    Ce document est un exemple de présentation (sous forme de diapositives) faite en LaTeX.
+\begin{block}{Livrables}
+\begin{itemize}
+\item Un module maven s'intégrant au projet parent
+\item Un web service en mode asynchrone
+\item Un service dédié GTFS fonctionnel
+\item Des classes abstraites pour la généricité du service
+\end{itemize}
 \end{block}
 \end{frame}
 
@@ -226,9 +266,11 @@ Un bilan à la mi-stage a été effectué afin de réajuster les priorités
 \subsection{Environnement technique}
 \begin{frame}{Environnement technique}
 \begin{block}{Environnement technique}
-	Environnement MS Windows (lié aux technologies ESRI),
+	Environnement MS Windows (lié aux technologies ESRI),\\
+	
 	SGDB Postgresql, lié à l'utilisation dans quasi tous les projets de l'extension spatiale Postgis.\\
-	2 IDE de travail pour les projets : Liclipse (Python) et Eclipse (Java)\\
+	
+	2 IDE : Liclipse (Python) et Eclipse (Java)\\
 	
 \end{block}
 \begin{block}{Technologies Java remarquables }
@@ -261,17 +303,51 @@ Un bilan à la mi-stage a été effectué afin de réajuster les priorités
 	\end{frame}
 }
 
-\section{Analyse}
+\section{Analyse / Conception}
 \subsection{Analyse}
 \begin{frame}{Analyse}
-\begin{block}{C'est quoi ce document ?}
-    Ce document est un exemple de présentation (sous forme de diapositives) faite en LaTeX.
+\begin{block}{Organisation du projet}
+\begin{figure}[h]
+    \center
+    \includegraphics[scale=0.6]{images/Package_explorer_MobiSAAS.PNG}
+\end{figure}
 \end{block}
-\begin{block}{Où trouver les sources ?}
-    Les sources sont disponibles sur mon blog \url{http://blog.hikoweb.net/}.
+\end{frame}
+\begin{frame}{Analyse}
+\begin{block}{Organisation du module \og mobi-admin-gtfs \fg}
+
+\begin{figure}[h]
+\begin{columns}[c]
+    \column{.005\textwidth}
+       \begin{flushleft}
+	   \includegraphics[scale=0.5]{images/Package_explorer_MobiSAAS_Resource.PNG}
+		\end{flushleft}
+    \column{.005\texwidth}
+       \begin{flushleft}    
+    	\includegraphics[scale=0.5]{images/Package_explorer_MobiSAAS_Thread.PNG}
+       \end{flushleft}
+\end{columns}
+\end{figure}
 \end{block}
-\begin{block}{Je peux m'en inspirer pour ma propre présentation ?}
-    Oui, vous êtes libre d'utiliser les sources comme bon vous semble.
+\end{frame}
+\begin{frame}{Analyse}
+\begin{block}{Approche générique}
+\begin{figure}[h]
+    \center
+    \includegraphics[scale=0.5]{images/DiagrammeThread.png}
+\end{figure}
+\end{block}
+\end{frame}
+\subsection{Conception}
+\begin{frame}{Conception}
+\begin{block}{Réalisations}
+\begin{itemize}
+\item Documentation de l'API
+\item Schéma de conception UML
+\item Modèle de base de données
+\item Jeux de données tests / suite de tests (SOAP UI)
+\item Plan de charge (cf. perspectives)
+\end{itemize}
 \end{block}
 \end{frame}
 \AtBeginSection[]
@@ -283,51 +359,62 @@ Un bilan à la mi-stage a été effectué afin de réajuster les priorités
 	\end{frame}
 }
 
-\section{Conception et codage}
-\subsection{Conception}
-\begin{frame}{Conception}
-\begin{block}{C'est quoi ce document ?}
-    Ce document est un exemple de présentation (sous forme de diapositives) faite en LaTeX.
-\end{block}
-\begin{block}{Où trouver les sources ?}
-    Les sources sont disponibles sur mon blog \url{http://blog.hikoweb.net/}.
-\end{block}
-\begin{block}{Je peux m'en inspirer pour ma propre présentation ?}
-    Oui, vous êtes libre d'utiliser les sources comme bon vous semble.
+\section{Codage}
+\subsection{Bonnes pratiques}
+\begin{frame}{Bonnes pratiques}
+\begin{block}{Exemples}
+	Javadoc\\
+	Commentaires\\
+	Logging\\
+	Discussions quotidiennes\\
+	Approche RESTFul (verbe, pluriels,...)\\
+	Tests\\
 \end{block}
 \end{frame}
 \subsection{Codage}
 \begin{frame}{Codage}
-\begin{block}{C'est quoi ce document ?}
-    Ce document est un exemple de présentation (sous forme de diapositives) faite en LaTeX.
-\end{block}
-\begin{block}{Où trouver les sources ?}
-    Les sources sont disponibles sur mon blog \url{http://blog.hikoweb.net/}.
-\end{block}
-\begin{block}{Je peux m'en inspirer pour ma propre présentation ?}
-    Oui, vous êtes libre d'utiliser les sources comme bon vous semble.
+\begin{block}{Eléments remarquables du code}
+Domaine métier : \\
+\item POJO 
+\item DAO
+\item Service\\
+
+Programmation concurrente :\\
+ \textrightarrow  	framework Executor (Callable)
 \end{block}
 \end{frame}
+
 \AtBeginSection[]
 {
   \begin{frame}<beamer>
   \begin{multicols}{2}
-     \tableofcontents[currentsection,hideothersubsection]
+     \tableofcontents[currentsection, hideothersubsection]
    \end{multicols}
   \end{frame}
 }
 
-\section{Présentation des éléments les plus significatifs de l’interface de l’application}
+\section{Présentation des éléments les plus significatifs de l'interface de l'application}
 \subsection{Résultats}
 \begin{frame}{Résultats}
-\begin{block}{C'est quoi ce document ?}
-    Ce document est un exemple de présentation (sous forme de diapositives) faite en LaTeX.
+\begin{block}{Résultats terminés}
+GtfsResource() : GET (1), GET (ALL), POST, DELETE\\
+
+FileResource() : GET (1), GET (ALL), POST, DELETE\\
+
+AbstractUploadManagerThread() : Généricité, mode asynchrone, programmation concurrente
 \end{block}
-\begin{block}{Où trouver les sources ?}
-    Les sources sont disponibles sur mon blog \url{http://blog.hikoweb.net/}.
+\begin{block}{Résultats en cours}
+\begin{itemize}
+\item LoadData() : csv to postgresql = à finaliser, à mettre en resource (Web Service)
+\end{itemize}
 \end{block}
-\begin{block}{Je peux m'en inspirer pour ma propre présentation ?}
-    Oui, vous êtes libre d'utiliser les sources comme bon vous semble.
+\begin{block}{Perspectives}
+Exploiter la librairie OneBusAway :
+\begin{itemize}
+\item MergeData() : fusionner 2 sources
+\item RetainData() : permettre sélection : routes, dates,…
+\end{itemize}
+Continuer la prise en main de Dropwizard et des données
 \end{block}
 \end{frame}
 \AtBeginSection[]
@@ -380,6 +467,13 @@ Cette expérience d'un point de vue académique ?
 \textrightarrow 	12 compétences sur les 15 nécessaires à l'obtention du titre ont été abordées. 
 \end{block}
 \end{frame}
+
+\begin{frame}{Fin}
+\centering
+\textbf{Merci de votre attention}
+
+\end{frame}
+
 
 \end{document}
 

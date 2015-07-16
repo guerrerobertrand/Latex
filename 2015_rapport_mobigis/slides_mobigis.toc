@@ -5,22 +5,23 @@
 \beamer@subsectionintoc {2}{1}{Entreprise MobiGIS}{4}{0}{2}
 \beamer@subsectionintoc {2}{2}{Domaine d'application}{8}{0}{2}
 \beamer@subsectionintoc {2}{3}{Technologies}{9}{0}{2}
-\beamer@sectionintoc {3}{Contexte du projet}{10}{0}{3}
+\beamer@sectionintoc {3}{Contexte du stage}{10}{0}{3}
 \beamer@subsectionintoc {3}{1}{Projet MobiSAAS}{11}{0}{3}
 \beamer@subsectionintoc {3}{2}{Cahier des charges}{14}{0}{3}
-\beamer@subsectionintoc {3}{3}{Livrables attendus}{19}{0}{3}
-\beamer@sectionintoc {4}{Gestion de projet}{20}{0}{4}
-\beamer@subsectionintoc {4}{1}{Planning et suivi }{21}{0}{4}
-\beamer@subsectionintoc {4}{2}{Environnement technique}{22}{0}{4}
-\beamer@subsectionintoc {4}{3}{Objectifs de qualit\IeC {\'e}}{23}{0}{4}
-\beamer@sectionintoc {5}{Analyse}{24}{0}{5}
-\beamer@subsectionintoc {5}{1}{Analyse}{25}{0}{5}
-\beamer@sectionintoc {6}{Conception et codage}{26}{0}{6}
-\beamer@subsectionintoc {6}{1}{Conception}{27}{0}{6}
-\beamer@subsectionintoc {6}{2}{Codage}{28}{0}{6}
-\beamer@sectionintoc {7}{Pr\IeC {\'e}sentation des \IeC {\'e}l\IeC {\'e}ments les plus significatifs de l\IeC {\textquoteright }interface de l\IeC {\textquoteright }application}{29}{0}{7}
-\beamer@subsectionintoc {7}{1}{R\IeC {\'e}sultats}{30}{0}{7}
-\beamer@sectionintoc {8}{Synth\IeC {\`e}se et conclusion}{31}{0}{8}
-\beamer@subsectionintoc {8}{1}{Bilan professionnel}{32}{0}{8}
-\beamer@subsectionintoc {8}{2}{Bilan personnel}{33}{0}{8}
-\beamer@subsectionintoc {8}{3}{Conclusion}{34}{0}{8}
+\beamer@subsectionintoc {3}{3}{Livrables attendus}{21}{0}{3}
+\beamer@sectionintoc {4}{Gestion de projet}{22}{0}{4}
+\beamer@subsectionintoc {4}{1}{Planning et suivi }{23}{0}{4}
+\beamer@subsectionintoc {4}{2}{Environnement technique}{24}{0}{4}
+\beamer@subsectionintoc {4}{3}{Objectifs de qualit\IeC {\'e}}{25}{0}{4}
+\beamer@sectionintoc {5}{Analyse / Conception}{26}{0}{5}
+\beamer@subsectionintoc {5}{1}{Analyse}{27}{0}{5}
+\beamer@subsectionintoc {5}{2}{Conception}{30}{0}{5}
+\beamer@sectionintoc {6}{Codage}{31}{0}{6}
+\beamer@subsectionintoc {6}{1}{Bonnes pratiques}{32}{0}{6}
+\beamer@subsectionintoc {6}{2}{Codage}{33}{0}{6}
+\beamer@sectionintoc {7}{Pr\IeC {\'e}sentation des \IeC {\'e}l\IeC {\'e}ments les plus significatifs de l'interface de l'application}{34}{0}{7}
+\beamer@subsectionintoc {7}{1}{R\IeC {\'e}sultats}{35}{0}{7}
+\beamer@sectionintoc {8}{Synth\IeC {\`e}se et conclusion}{36}{0}{8}
+\beamer@subsectionintoc {8}{1}{Bilan professionnel}{37}{0}{8}
+\beamer@subsectionintoc {8}{2}{Bilan personnel}{38}{0}{8}
+\beamer@subsectionintoc {8}{3}{Conclusion}{39}{0}{8}
